@@ -4,6 +4,8 @@ var program = require('commander');
 
 program
   .version(require('../package.json').version)
+  .command('new', 'new a restack-mobile project')
   .command('run', 'run integrated restack application')
-  .command('build', 'builds a restack application')
+  .command('build', 'builds a restack-mobile application')
+  .command('prod', 'run a production mode application, you need to build your project first')
   .parse(process.argv)

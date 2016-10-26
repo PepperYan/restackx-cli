@@ -1,24 +1,24 @@
 #!/usr/bin/env node
 
 //remove dir and files
-var program = require('./program');
-var fs = require('fs');
-const distDir = program.cwd+"/dist"
-var deleteFolderRecursive = function(path) {
-  if( fs.existsSync(path) ) {
-    fs.readdirSync(path).forEach(function(file,index){
-      var curPath = path + "/" + file;
-      if(fs.lstatSync(curPath).isDirectory()) { // recurse
-        deleteFolderRecursive(curPath);
-      } else { // delete file
-        fs.unlinkSync(curPath);
-      }
-    });
-    fs.rmdirSync(path);
-  }
-};
-
-deleteFolderRecursive(distDir)
+// var program = require('./program');
+// var fs = require('fs');
+// const distDir = program.cwd+"/dist"
+// var deleteFolderRecursive = function(path) {
+//   if( fs.existsSync(path) ) {
+//     fs.readdirSync(path).forEach(function(file,index){
+//       var curPath = path + "/" + file;
+//       if(fs.lstatSync(curPath).isDirectory()) { // recurse
+//         deleteFolderRecursive(curPath);
+//       } else { // delete file
+//         fs.unlinkSync(curPath);
+//       }
+//     });
+//     fs.rmdirSync(path);
+//   }
+// };
+//
+// deleteFolderRecursive(distDir)
 
 //build production files
 var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
