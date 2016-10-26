@@ -1,33 +1,33 @@
 #!/usr/bin/env node
 
 //remove dir and files
-// var program = require('./program');
-// var fs = require('fs');
-// const distDir = program.cwd+"/dist"
-// var deleteFolderRecursive = function(path) {
-//   if( fs.existsSync(path) ) {
-//     fs.readdirSync(path).forEach(function(file,index){
-//       var curPath = path + "/" + file;
-//       if(fs.lstatSync(curPath).isDirectory()) { // recurse
-//         deleteFolderRecursive(curPath);
-//       } else { // delete file
-//         fs.unlinkSync(curPath);
-//       }
-//     });
-//     fs.rmdirSync(path);
-//   }
-// };
-//
-// deleteFolderRecursive(distDir)
+var program = require('./program');
+var fs = require('fs');
+const distDir = program.cwd+"/dist"
+var deleteFolderRecursive = function(path) {
+  if( fs.existsSync(path) ) {
+    fs.readdirSync(path).forEach(function(file,index){
+      var curPath = path + "/" + file;
+      if(fs.lstatSync(curPath).isDirectory()) { // recurse
+        deleteFolderRecursive(curPath);
+      } else { // delete file
+        fs.unlinkSync(curPath);
+      }
+    });
+    fs.rmdirSync(path);
+  }
+};
+
+deleteFolderRecursive(distDir)
 
 //build production files
-var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
-var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
-var exec = require('child_process').exec;
-var cmd = 'node '+webpack+' --config '+config;
-
-exec(cmd, function(error, stdout, stderr) {
-  // command output is in stdout
-  console.log(stdout)
-  console.error(stderr)
-});
+// var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
+// var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
+// var exec = require('child_process').exec;
+// var cmd = 'node '+webpack+' --config '+config;
+//
+// exec(cmd, function(error, stdout, stderr) {
+//   // command output is in stdout
+//   console.log(stdout)
+//   console.error(stderr)
+// });

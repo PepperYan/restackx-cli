@@ -1,9 +1,12 @@
 {
   "name": "restack-mobile-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "cli tool for restack mobile",
   "bin": {
-    "restack-mobile": "./bin/restack-mobile"
+    "restack-mobile": "./bin/restack-mobile",
+    "restack-mobile-build": "./bin/restack-mobile-build",
+    "restack-mobile-prod": "./bin/restack-mobile-prod",
+    "restack-mobile-new": "./bin/restack-mobile-new",
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
