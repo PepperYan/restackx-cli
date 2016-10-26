@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+
+program
+  .version(require('../package.json').version)
+  .command('run', 'run integrated restack application')
+  .command('build', 'builds a restack application')
+  .parse(process.argv)
