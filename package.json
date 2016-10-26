@@ -1,6 +1,6 @@
 {
   "name": "restack-mobile-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli tool for restack mobile",
   "bin": {
     "restack-mobile": "./bin/restack-mobile",
@@ -83,7 +83,8 @@
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.7.1"
+    "webpack-hot-middleware": "^2.7.1",
+    "webpack-visualizer-plugin": "^0.1.5"
   },
   "devDependencies": {}
 }
