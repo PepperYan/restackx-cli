@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "description": "cli tool for restack mobile",
   "bin": {
-    "restack-mobile": "./bin/restack-mobile",
+    "restack-mobile": "./bin/restack-mobile"
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
