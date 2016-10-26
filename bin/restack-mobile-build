@@ -21,13 +21,13 @@ var deleteFolderRecursive = function(path) {
 deleteFolderRecursive(distDir)
 
 //build production files
-// var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
-// var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
-// var exec = require('child_process').exec;
-// var cmd = 'node '+webpack+' --config '+config;
-//
-// exec(cmd, function(error, stdout, stderr) {
-//   // command output is in stdout
-//   console.log(stdout)
-//   console.error(stderr)
-// });
+var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
+var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
+var exec = require('child_process').exec;
+var cmd = 'node '+webpack+' --config '+config;
+
+exec(cmd, function(error, stdout, stderr) {
+  // command output is in stdout
+  console.log(stdout)
+  console.error(stderr)
+});
