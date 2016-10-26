@@ -6,7 +6,7 @@
     "restack-mobile": "./bin/restack-mobile",
     "restack-mobile-build": "./bin/restack-mobile-build",
     "restack-mobile-prod": "./bin/restack-mobile-prod",
-    "restack-mobile-new": "./bin/restack-mobile-new",
+    "restack-mobile-new": "./bin/restack-mobile-new"
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
