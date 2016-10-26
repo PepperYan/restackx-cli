@@ -20,7 +20,10 @@
     "babel-loader": "^6.2.4",
     "babel-plugin-react-transform": "^1.1.1",
     "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-plugin-transform-decorators": "^6.13.0",
     "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
     "babel-plugin-transform-regenerator": "^6.6.5",
     "babel-plugin-transform-runtime": "^6.6.0",
     "babel-polyfill": "^6.7.4",
@@ -83,8 +86,7 @@
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.7.1",
-    "webpack-visualizer-plugin": "^0.1.5"
+    "webpack-hot-middleware": "^2.7.1"
   },
   "devDependencies": {}
 }
