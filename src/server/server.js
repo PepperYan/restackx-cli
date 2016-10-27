@@ -20,9 +20,13 @@ console.log(`[RAS]: Project directory: ${cwd}, mode: ${env}`);
 app.use(cookieParser());
 
 // serve web resources
-if (process.env.NODE_ENV == 'production' || env == 'production') {
+if (process.env.NODE_ENV == 'production' || env == 'prod') {
   // run in production mode
-  app.use('/', express.static(`${cwd}/../static-dist`));
+  console.log("start production mode");
+  app.use('/', express.static(`${cwd}/dist`));
+  app.get("/", function(req, res) {
+    res.sendFile(`${cwd}/dist/index.html`);
+  })
 } else {
   // run in dev mode with webpack
   var webpack = require('webpack');
@@ -45,7 +49,9 @@ if (process.env.NODE_ENV == 'production' || env == 'production') {
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
-require('./app')(app,cwd,env)
+if (process.env.NODE_ENV !== 'production' || env !== 'production') {
+  require('./app')(app,cwd,env)
+}
 
 // default port 3000
 var port = process.env.PORT || 3000;

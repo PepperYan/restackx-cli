@@ -6,7 +6,6 @@
     "restack-mobile": "./bin/restack-mobile",
     "restack-mobile-run": "./bin/restack-mobile-run",
     "restack-mobile-build": "./bin/restack-mobile-build",
-    "restack-mobile-prod": "./bin/restack-mobile-prod",
     "restack-mobile-new": "./bin/restack-mobile-new"
   },
   "scripts": {
