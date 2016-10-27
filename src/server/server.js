@@ -38,6 +38,7 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
   console.log(config)
   var compiler = webpack(config);
   app.use(webpackDevMiddleware(compiler, {
+    noInfo: true,
     publicPath: "/",
     stats: { colors: true }
   }));
