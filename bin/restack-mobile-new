@@ -5,9 +5,11 @@ var program = require('./program');
 var fs = require('fs');
 var ncp = require('ncp').ncp;
 var path = require('path');
+var unzip = require('unzip');
 
 ncp.limit = 16;
-var source = path.resolve(__dirname,"../prototype")
+var path2Zip = path.resolve(__dirname,"../node_modules.zip");
+var source = path.resolve(__dirname,"../prototype");
 
 if( !fs.existsSync(path) ) {
   var path = program.cwd + '/restack-mobile-prototype'
@@ -19,6 +21,8 @@ if( !fs.existsSync(path) ) {
      if (err) {
        return console.error(err);
      }
+     fs.createReadStream(path2Zip)
+     .pipe(unzip.Extract({ path: source }));
      console.log('done!');
     });
   })
