@@ -7,23 +7,39 @@ var ncp = require('ncp').ncp;
 var path = require('path');
 var unzip = require('unzip');
 
+var destName = "restack-mobile-prototype"
+
 ncp.limit = 16;
 var path2Zip = path.resolve(__dirname,"../node_modules.zip");
 var source = path.resolve(__dirname,"../prototype");
+var nodeModules = path.resolve(__dirname,"../modules");
 
-if( !fs.existsSync(path) ) {
-  var path = program.cwd + '/restack-mobile-prototype'
-  fs.mkdir(path, function(error){
+var prototypePath = program.cwd + '/restack-mobile-prototype'
+console.log("creating working dir...")
+if( !fs.existsSync(prototypePath) ) {
+  fs.mkdir(prototypePath, function(error){
     if(error){
       return console.error(error);
     }
-    ncp(source, path, function (err) {
+    ncp(source, prototypePath, function (err) {
      if (err) {
        return console.error(err);
      }
-     fs.createReadStream(path2Zip)
-     .pipe(unzip.Extract({ path: source }));
-     console.log('done!');
+
+     var nodeModuleDest = program.cwd + `/restack-mobile-prototype/node_modules`
+     if( !fs.existsSync(nodeModuleDest) ) {
+       console.log("installing dependencies...");
+       fs.mkdir(nodeModuleDest,function(moduleErr){
+         if(moduleErr){
+           return console.error(moduleErr);
+         }
+         ncp(nodeModules, nodeModuleDest, function(copyModuleErr){
+           if(copyModuleErr) return console.error(copyModuleErr);
+           console.log('done!');
+         })
+       })
+     }
+
     });
   })
 }
