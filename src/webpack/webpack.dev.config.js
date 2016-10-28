@@ -14,8 +14,8 @@ module.exports = function(cwd, project) {
   })
 
   var entries = _.mapValues(project.entries, function(v, k){
-    const path = (project.staticUrl&&project.staticUrl !== '') ? `path=${project.staticUrl}/__webpack_hmr` : ""
-    return [v, `webpack-hot-middleware/client?${path}`, 'webpack/hot/only-dev-server'] //['webpack-dev-server/client?http://localhost:3000/']
+    const path = (project.staticUrl&&project.staticUrl !== '') ? `?path=${project.staticUrl}/__webpack_hmr` : ""
+    return [v, `webpack-hot-middleware/client${path}`, 'webpack/hot/only-dev-server'] //['webpack-dev-server/client?http://localhost:3000/']
   })
 
   return makeConfig({

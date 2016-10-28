@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+
+var program = require('./program');
+var fs = require('fs');
+var ncp = require('ncp').ncp;
+
+ncp.limit = 16;
+var source = __dirname + "../prototype"
+
+ncp(source, program.cwd, function (err) {
+ if (err) {
+   return console.error(err);
+ }
+ console.log('done!');
+});
