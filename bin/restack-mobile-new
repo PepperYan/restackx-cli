@@ -4,13 +4,22 @@
 var program = require('./program');
 var fs = require('fs');
 var ncp = require('ncp').ncp;
+var path = require('path');
 
 ncp.limit = 16;
-var source = __dirname + "../prototype"
+var source = path.resolve(__dirname,"../prototype")
 
-ncp(source, program.cwd, function (err) {
- if (err) {
-   return console.error(err);
- }
- console.log('done!');
-});
+if( !fs.existsSync(path) ) {
+  var path = program.cwd + '/restack-mobile-prototype'
+  fs.mkdir(path, function(error){
+    if(error){
+      return console.error(error);
+    }
+    ncp(source, path, function (err) {
+     if (err) {
+       return console.error(err);
+     }
+     console.log('done!');
+    });
+  })
+}
