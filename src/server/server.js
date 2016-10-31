@@ -35,7 +35,6 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
   var webpackHotMiddleware = require('webpack-hot-middleware');
   var projectConfig = require(`${cwd}/config/${env}`)
   var config = require(`../webpack/webpack.${env}.config`)(cwd, projectConfig);
-  console.log(config)
   var compiler = webpack(config);
   app.use(webpackDevMiddleware(compiler, {
     noInfo: true,

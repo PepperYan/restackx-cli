@@ -26,7 +26,7 @@ class Index extends Component {
 	          maxWidth={90}                         // More info about maxWidth: https://docs.mobiscroll.com/3-0-0_beta6/react/datetime#!opt-maxWidth
 	          placeholder="Please Select..."
 	      />
-				<div onClick={this.onClick.bind(this)}>我是index{this.props.increment }</div>
+			<div className="css-sample" onClick={this.onClick.bind(this)}>点我计数:{this.props.increment }</div>
 
 			</div>
 		);
