@@ -14,7 +14,7 @@
     "transform-object-assign"
   ],
   "env": {
-    "development": {
+    "development/client": {
       "presets": ["react-hmre"]
     }
   }
