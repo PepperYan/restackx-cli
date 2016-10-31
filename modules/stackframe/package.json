@@ -10,12 +10,14 @@
         "spec": ">=0.3.1 <0.4.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/error-stack-parser"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/error-stack-parser"
     ]
   ],
+  "_cnpm_publish_time": 1439521395596,
   "_from": "stackframe@>=0.3.1 <0.4.0",
   "_id": "stackframe@0.3.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/stackframe",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/error-stack-parser"
   ],
-  "_resolved": "https://registry.npmjs.org/stackframe/-/stackframe-0.3.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/stackframe/download/stackframe-0.3.1.tgz",
   "_shasum": "33aa84f1177a5548c8935533cbfeb3420975f5a4",
   "_shrinkwrap": null,
   "_spec": "stackframe@^0.3.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/error-stack-parser",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/error-stack-parser",
   "bugs": {
     "url": "https://github.com/stacktracejs/stackframe/issues"
   },
@@ -71,7 +73,9 @@
   "directories": {},
   "dist": {
     "shasum": "33aa84f1177a5548c8935533cbfeb3420975f5a4",
-    "tarball": "https://registry.npmjs.org/stackframe/-/stackframe-0.3.1.tgz"
+    "size": 7752,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/stackframe/download/stackframe-0.3.1.tgz"
   },
   "gitHead": "8886fa805e7252bf8854647e06b7f6a2d50339b1",
   "homepage": "http://www.stacktracejs.com",
@@ -87,10 +91,15 @@
     {
       "name": "eriwen",
       "email": "me@eriwen.com"
+    },
+    {
+      "name": "oliversalzburg",
+      "email": "oliver.salzburg@gmail.com"
     }
   ],
   "name": "stackframe",
   "optionalDependencies": {},
+  "publish_time": 1439521395596,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=0.4.13 <0.5.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/encoding"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/encoding"
     ]
   ],
+  "_cnpm_publish_time": 1443759055543,
   "_from": "iconv-lite@>=0.4.13 <0.5.0",
   "_id": "iconv-lite@0.4.13",
   "_inCache": true,
+  "_installable": true,
   "_location": "/iconv-lite",
   "_nodeVersion": "4.1.1",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/encoding"
   ],
-  "_resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz",
+  "_resolved": "http://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.13.tgz",
   "_shasum": "1f88aba4ab0b1508e8312acc39345f36e992e2f2",
   "_shrinkwrap": null,
   "_spec": "iconv-lite@~0.4.13",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/encoding",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/encoding",
   "author": {
     "name": "Alexander Shtuchkin",
     "email": "ashtuchkin@gmail.com"
@@ -116,7 +118,9 @@
   "directories": {},
   "dist": {
     "shasum": "1f88aba4ab0b1508e8312acc39345f36e992e2f2",
-    "tarball": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz"
+    "size": 185209,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/iconv-lite/download/iconv-lite-0.4.13.tgz"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -139,6 +143,7 @@
   ],
   "name": "iconv-lite",
   "optionalDependencies": {},
+  "publish_time": 1443759055543,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

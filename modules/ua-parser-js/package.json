@@ -10,12 +10,14 @@
         "spec": ">=0.7.9 <0.8.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/fbjs"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fbjs"
     ]
   ],
+  "_cnpm_publish_time": 1449922349429,
   "_from": "ua-parser-js@>=0.7.9 <0.8.0",
   "_id": "ua-parser-js@0.7.10",
   "_inCache": true,
+  "_installable": true,
   "_location": "/ua-parser-js",
   "_nodeVersion": "5.1.0",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/fbjs"
   ],
-  "_resolved": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.10.tgz",
+  "_resolved": "http://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz",
   "_shasum": "917559ddcce07cbc09ece7d80495e4c268f4ef9f",
   "_shrinkwrap": null,
   "_spec": "ua-parser-js@^0.7.9",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/fbjs",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fbjs",
   "author": {
     "name": "Faisal Salman",
     "email": "fyzlman@gmail.com",
@@ -162,7 +164,9 @@
   },
   "dist": {
     "shasum": "917559ddcce07cbc09ece7d80495e4c268f4ef9f",
-    "tarball": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.10.tgz"
+    "size": 32221,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz"
   },
   "engines": {
     "node": "*"
@@ -197,6 +201,7 @@
   ],
   "name": "ua-parser-js",
   "optionalDependencies": {},
+  "publish_time": 1449922349429,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

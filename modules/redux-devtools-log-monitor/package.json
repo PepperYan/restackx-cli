@@ -10,12 +10,14 @@
         "spec": ">=1.0.11 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core"
     ]
   ],
+  "_cnpm_publish_time": 1477573997600,
   "_from": "redux-devtools-log-monitor@>=1.0.11 <2.0.0",
   "_id": "redux-devtools-log-monitor@1.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-devtools-log-monitor",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-devtools-log-monitor/-/redux-devtools-log-monitor-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/redux-devtools-log-monitor/download/redux-devtools-log-monitor-1.1.1.tgz",
   "_shasum": "6d6c731e239934e4306765c256d9e1c1efd72e3c",
   "_shrinkwrap": null,
   "_spec": "redux-devtools-log-monitor@^1.0.11",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "6d6c731e239934e4306765c256d9e1c1efd72e3c",
-    "tarball": "https://registry.npmjs.org/redux-devtools-log-monitor/-/redux-devtools-log-monitor-1.1.1.tgz"
+    "size": 12110,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-devtools-log-monitor/download/redux-devtools-log-monitor-1.1.1.tgz"
   },
   "files": [
     "lib",
@@ -115,6 +119,7 @@
     "react": "^0.14.0 || ^15.0.0-0",
     "redux-devtools": "^3.0.0"
   },
+  "publish_time": 1477573997600,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

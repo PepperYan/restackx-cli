@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools"
     ]
   ],
+  "_cnpm_publish_time": 1475524623078,
   "_from": "redux-devtools-instrument@>=1.0.1 <2.0.0",
   "_id": "redux-devtools-instrument@1.3.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-devtools-instrument",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/redux-devtools"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-devtools-instrument/-/redux-devtools-instrument-1.3.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/redux-devtools-instrument/download/redux-devtools-instrument-1.3.2.tgz",
   "_shasum": "47c0e5df5daf22bf2fbc267e779b150159c87b9c",
   "_shrinkwrap": null,
   "_spec": "redux-devtools-instrument@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com",
@@ -79,7 +81,9 @@
   "directories": {},
   "dist": {
     "shasum": "47c0e5df5daf22bf2fbc267e779b150159c87b9c",
-    "tarball": "https://registry.npmjs.org/redux-devtools-instrument/-/redux-devtools-instrument-1.3.2.tgz"
+    "size": 9261,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-devtools-instrument/download/redux-devtools-instrument-1.3.2.tgz"
   },
   "files": [
     "lib",
@@ -109,6 +113,7 @@
   ],
   "name": "redux-devtools-instrument",
   "optionalDependencies": {},
+  "publish_time": 1475524623078,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

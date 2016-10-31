@@ -10,12 +10,14 @@
         "spec": ">=1.1.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core"
     ]
   ],
+  "_cnpm_publish_time": 1459618711994,
   "_from": "redux-devtools-dock-monitor@>=1.1.1 <2.0.0",
   "_id": "redux-devtools-dock-monitor@1.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-devtools-dock-monitor",
   "_nodeVersion": "4.2.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-devtools-dock-monitor/-/redux-devtools-dock-monitor-1.1.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/redux-devtools-dock-monitor/download/redux-devtools-dock-monitor-1.1.1.tgz",
   "_shasum": "6ef4ff5a7c42f5d7fa39c34859a8f4eb4dee9947",
   "_shrinkwrap": null,
   "_spec": "redux-devtools-dock-monitor@^1.1.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "6ef4ff5a7c42f5d7fa39c34859a8f4eb4dee9947",
-    "tarball": "https://registry.npmjs.org/redux-devtools-dock-monitor/-/redux-devtools-dock-monitor-1.1.1.tgz"
+    "size": 8584,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-devtools-dock-monitor/download/redux-devtools-dock-monitor-1.1.1.tgz"
   },
   "files": [
     "lib",
@@ -103,6 +107,10 @@
     {
       "name": "gaearon",
       "email": "dan.abramov@gmail.com"
+    },
+    {
+      "name": "zalmoxisus",
+      "email": "zalmoxisus@gmail.com"
     }
   ],
   "name": "redux-devtools-dock-monitor",
@@ -111,6 +119,7 @@
     "react": "^0.14.0 || ^15.0.0-0",
     "redux-devtools": "^3.0.0"
   },
+  "publish_time": 1459618711994,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

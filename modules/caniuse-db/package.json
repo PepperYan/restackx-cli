@@ -10,12 +10,14 @@
         "spec": ">=1.0.30000554 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/autoprefixer"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/autoprefixer"
     ]
   ],
+  "_cnpm_publish_time": 1477630572110,
   "_from": "caniuse-db@>=1.0.30000554 <2.0.0",
   "_id": "caniuse-db@1.0.30000570",
   "_inCache": true,
+  "_installable": true,
   "_location": "/caniuse-db",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
@@ -40,11 +42,11 @@
     "/autoprefixer",
     "/browserslist"
   ],
-  "_resolved": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000570.tgz",
+  "_resolved": "http://r.cnpmjs.org/caniuse-db/download/caniuse-db-1.0.30000570.tgz",
   "_shasum": "21843913855f4873974850ee8ef9e628f53bc8de",
   "_shrinkwrap": null,
   "_spec": "caniuse-db@^1.0.30000554",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/autoprefixer",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/autoprefixer",
   "author": {
     "name": "Alexis Deveria",
     "email": "adeveria@gmail.com"
@@ -58,7 +60,9 @@
   "directories": {},
   "dist": {
     "shasum": "21843913855f4873974850ee8ef9e628f53bc8de",
-    "tarball": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000570.tgz"
+    "size": 931861,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/caniuse-db/download/caniuse-db-1.0.30000570.tgz"
   },
   "homepage": "https://github.com/Fyrd/caniuse",
   "keywords": [
@@ -77,6 +81,7 @@
   ],
   "name": "caniuse-db",
   "optionalDependencies": {},
+  "publish_time": 1477630572110,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-base16-styling"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-base16-styling"
     ]
   ],
+  "_cnpm_publish_time": 1443110590719,
   "_from": "base16@>=1.0.0 <2.0.0",
   "_id": "base16@1.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/base16",
   "_nodeVersion": "2.2.1",
   "_npmUser": {
@@ -37,11 +39,11 @@
     "/react-base16-styling",
     "/redux-devtools-themes"
   ],
-  "_resolved": "https://registry.npmjs.org/base16/-/base16-1.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/base16/download/base16-1.0.0.tgz",
   "_shasum": "e297f60d7ec1014a7a971a39ebc8a98c0b681e70",
   "_shrinkwrap": null,
   "_spec": "base16@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-base16-styling",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-base16-styling",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com",
@@ -64,7 +66,9 @@
   "directories": {},
   "dist": {
     "shasum": "e297f60d7ec1014a7a971a39ebc8a98c0b681e70",
-    "tarball": "https://registry.npmjs.org/base16/-/base16-1.0.0.tgz"
+    "size": 12789,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/base16/download/base16-1.0.0.tgz"
   },
   "gitHead": "c48d08816c69b87517c8ea49055f695751bc86ad",
   "homepage": "https://github.com/gaearon/base16-js",
@@ -83,6 +87,7 @@
   ],
   "name": "base16",
   "optionalDependencies": {},
+  "publish_time": 1443110590719,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -17,7 +17,7 @@ var ON_OVERFLOW_EXPAND = 4;
 var zeroBuffer = { isEmpty: _utils.kTrue, put: _utils.noop, take: _utils.noop };
 
 function ringBuffer() {
-  var limit = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 10;
+  var limit = arguments.length <= 0 || arguments[0] === undefined ? 10 : arguments[0];
   var overflowAction = arguments[1];
 
   var arr = new Array(limit);
@@ -102,7 +102,7 @@ var buffers = exports.buffers = {
   sliding: function sliding(limit) {
     return ringBuffer(limit, ON_OVERFLOW_SLIDE);
   },
-  expanding: function expanding(limit) {
-    return ringBuffer(limit, ON_OVERFLOW_EXPAND);
+  expanding: function expanding(initialSize) {
+    return ringBuffer(initialSize, ON_OVERFLOW_EXPAND);
   }
 };

@@ -10,12 +10,14 @@
         "spec": ">=0.7.0 <0.8.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/postcss-svgo"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-svgo"
     ]
   ],
+  "_cnpm_publish_time": 1474965958357,
   "_from": "svgo@>=0.7.0 <0.8.0",
   "_id": "svgo@0.7.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/svgo",
   "_nodeVersion": "6.3.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/postcss-svgo"
   ],
-  "_resolved": "https://registry.npmjs.org/svgo/-/svgo-0.7.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/svgo/download/svgo-0.7.1.tgz",
   "_shasum": "287320fed972cb097e72c2bb1685f96fe08f8034",
   "_shrinkwrap": null,
   "_spec": "svgo@^0.7.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/postcss-svgo",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-svgo",
   "author": {
     "name": "Kir Belevich",
     "email": "kir@soulshine.in",
@@ -93,7 +95,9 @@
   },
   "dist": {
     "shasum": "287320fed972cb097e72c2bb1685f96fe08f8034",
-    "tarball": "https://registry.npmjs.org/svgo/-/svgo-0.7.1.tgz"
+    "size": 74810,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/svgo/download/svgo-0.7.1.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -120,6 +124,7 @@
   ],
   "name": "svgo",
   "optionalDependencies": {},
+  "publish_time": 1474965958357,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

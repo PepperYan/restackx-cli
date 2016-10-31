@@ -10,12 +10,14 @@
         "spec": ">=2.0.1 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1441920279786,
   "_from": "postcss-merge-longhand@>=2.0.1 <3.0.0",
   "_id": "postcss-merge-longhand@2.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-merge-longhand",
   "_nodeVersion": "2.3.4",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-2.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-merge-longhand/download/postcss-merge-longhand-2.0.1.tgz",
   "_shasum": "ff59b5dec6d586ce2cea183138f55c5876fa9cdc",
   "_shrinkwrap": null,
   "_spec": "postcss-merge-longhand@^2.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -62,7 +64,9 @@
   "directories": {},
   "dist": {
     "shasum": "ff59b5dec6d586ce2cea183138f55c5876fa9cdc",
-    "tarball": "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-2.0.1.tgz"
+    "size": 6032,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-merge-longhand/download/postcss-merge-longhand-2.0.1.tgz"
   },
   "files": [
     "LICENSE-MIT",
@@ -82,11 +86,12 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     }
   ],
   "name": "postcss-merge-longhand",
   "optionalDependencies": {},
+  "publish_time": 1441920279786,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

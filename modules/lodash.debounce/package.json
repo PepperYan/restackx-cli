@@ -10,12 +10,14 @@
         "spec": ">=3.1.1 <4.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-dock"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-dock"
     ]
   ],
+  "_cnpm_publish_time": 1435677479424,
   "_from": "lodash.debounce@>=3.1.1 <4.0.0",
   "_id": "lodash.debounce@3.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/lodash.debounce",
   "_nodeVersion": "0.12.5",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/react-dock"
   ],
-  "_resolved": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-3.1.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-3.1.1.tgz",
   "_shasum": "812211c378a94cc29d5aa4e3346cf0bfce3a7df5",
   "_shrinkwrap": null,
   "_spec": "lodash.debounce@^3.1.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-dock",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-dock",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",
@@ -84,7 +86,9 @@
   "directories": {},
   "dist": {
     "shasum": "812211c378a94cc29d5aa4e3346cf0bfce3a7df5",
-    "tarball": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-3.1.1.tgz"
+    "size": 4025,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/lodash.debounce/download/lodash.debounce-3.1.1.tgz"
   },
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
@@ -101,24 +105,13 @@
       "email": "john.david.dalton@gmail.com"
     },
     {
-      "name": "kitcambridge",
-      "email": "github@kitcambridge.be"
-    },
-    {
       "name": "mathias",
       "email": "mathias@qiwi.be"
-    },
-    {
-      "name": "phated",
-      "email": "blaine@iceddev.com"
-    },
-    {
-      "name": "d10",
-      "email": "demoneaux@gmail.com"
     }
   ],
   "name": "lodash.debounce",
   "optionalDependencies": {},
+  "publish_time": 1435677479424,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

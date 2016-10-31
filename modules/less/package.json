@@ -10,12 +10,14 @@
         "spec": ">=2.5.3 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1462826329919,
   "_from": "less@>=2.5.3 <3.0.0",
   "_id": "less@2.7.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/less",
   "_nodeVersion": "6.1.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/less/-/less-2.7.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/less/download/less-2.7.1.tgz",
   "_shasum": "6cbfea22b3b830304e9a5fb371d54fa480c9d7cf",
   "_shrinkwrap": null,
   "_spec": "less@^2.5.3",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Alexis Sellier",
     "email": "self@cloudhead.net"
@@ -92,7 +94,9 @@
   },
   "dist": {
     "shasum": "6cbfea22b3b830304e9a5fb371d54fa480c9d7cf",
-    "tarball": "https://registry.npmjs.org/less/-/less-2.7.1.tgz"
+    "size": 502361,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/less/download/less-2.7.1.tgz"
   },
   "engines": {
     "node": ">=0.12"
@@ -165,6 +169,7 @@
     "promise": "^7.1.1",
     "source-map": "^0.5.3"
   },
+  "publish_time": 1462826329919,
   "rawcurrent": "https://raw.github.com/less/less.js/v",
   "readme": "ERROR: No README data found!",
   "repository": {

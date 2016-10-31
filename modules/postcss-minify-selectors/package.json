@@ -10,12 +10,14 @@
         "spec": ">=2.0.4 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1462296685184,
   "_from": "postcss-minify-selectors@>=2.0.4 <3.0.0",
   "_id": "postcss-minify-selectors@2.0.5",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-minify-selectors",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-minify-selectors/-/postcss-minify-selectors-2.0.5.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-minify-selectors/download/postcss-minify-selectors-2.0.5.tgz",
   "_shasum": "4e1f966fb49c95266804016ba9a3c6645bb601e0",
   "_shrinkwrap": null,
   "_spec": "postcss-minify-selectors@^2.0.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -78,7 +80,9 @@
   "directories": {},
   "dist": {
     "shasum": "4e1f966fb49c95266804016ba9a3c6645bb601e0",
-    "tarball": "https://registry.npmjs.org/postcss-minify-selectors/-/postcss-minify-selectors-2.0.5.tgz"
+    "size": 4052,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-minify-selectors/download/postcss-minify-selectors-2.0.5.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -102,7 +106,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -111,6 +115,7 @@
   ],
   "name": "postcss-minify-selectors",
   "optionalDependencies": {},
+  "publish_time": 1462296685184,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.0.5 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-plugin-react-transform"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-plugin-react-transform"
     ]
   ],
+  "_cnpm_publish_time": 1429635161476,
   "_from": "path-parse@>=1.0.5 <2.0.0",
   "_id": "path-parse@1.0.5",
   "_inCache": true,
+  "_installable": true,
   "_location": "/path-parse",
   "_npmUser": {
     "name": "jbgutierrez",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/babel-plugin-react-transform"
   ],
-  "_resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.5.tgz",
+  "_resolved": "http://registry.npm.taobao.org/path-parse/download/path-parse-1.0.5.tgz",
   "_shasum": "3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1",
   "_shrinkwrap": null,
   "_spec": "path-parse@^1.0.5",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-plugin-react-transform",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-plugin-react-transform",
   "author": {
     "name": "Javier Blanco",
     "email": "http://jbgutierrez.info"
@@ -53,7 +55,9 @@
   "directories": {},
   "dist": {
     "shasum": "3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1",
-    "tarball": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.5.tgz"
+    "size": 4377,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/path-parse/download/path-parse-1.0.5.tgz"
   },
   "homepage": "https://github.com/jbgutierrez/path-parse#readme",
   "keywords": [
@@ -80,6 +84,7 @@
   ],
   "name": "path-parse",
   "optionalDependencies": {},
+  "publish_time": 1429635161476,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

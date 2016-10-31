@@ -10,23 +10,25 @@
         "spec": ">=0.12.0 <0.13.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1477829231562,
   "_from": "redux-saga@>=0.12.0 <0.13.0",
-  "_id": "redux-saga@0.12.0",
+  "_id": "redux-saga@0.12.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-saga",
-  "_nodeVersion": "5.1.0",
+  "_nodeVersion": "6.2.2",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/redux-saga-0.12.0.tgz_1475415408413_0.8960737339220941"
+    "tmp": "tmp/redux-saga-0.12.1.tgz_1477829229024_0.038869108306244016"
   },
   "_npmUser": {
-    "name": "yelouafi",
-    "email": "yelouafi@gmail.com"
+    "name": "andarist",
+    "email": "mateuszburzynski@gmail.com"
   },
-  "_npmVersion": "3.3.12",
+  "_npmVersion": "3.9.5",
   "_phantomChildren": {},
   "_requested": {
     "raw": "redux-saga@^0.12.0",
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-saga/-/redux-saga-0.12.0.tgz",
-  "_shasum": "4b6145e6f8c33a6082f7d18f30ab5d2901e621e8",
+  "_resolved": "http://r.cnpmjs.org/redux-saga/download/redux-saga-0.12.1.tgz",
+  "_shasum": "79c9263d67486fd26a7a3d3b9df8ed65057a9fc6",
   "_shrinkwrap": null,
   "_spec": "redux-saga@^0.12.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Yassine ELOUAFI",
     "email": "yelouafi@gmail.com"
@@ -84,10 +86,12 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "4b6145e6f8c33a6082f7d18f30ab5d2901e621e8",
-    "tarball": "https://registry.npmjs.org/redux-saga/-/redux-saga-0.12.0.tgz"
+    "shasum": "79c9263d67486fd26a7a3d3b9df8ed65057a9fc6",
+    "size": 117154,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-saga/download/redux-saga-0.12.1.tgz"
   },
-  "gitHead": "e55d5046830a63b3490bc54682697f5fb5987f37",
+  "gitHead": "557d26a92570f50c6ca822f9e1870f0a2e321818",
   "homepage": "https://github.com/yelouafi/redux-saga#readme",
   "jsnext:main": "es/index.js",
   "keywords": [
@@ -101,6 +105,10 @@
   "license": "MIT",
   "main": "lib/index.js",
   "maintainers": [
+    {
+      "name": "andarist",
+      "email": "mateuszburzynski@gmail.com"
+    },
     {
       "name": "yelouafi",
       "email": "yelouafi@gmail.com"
@@ -117,6 +125,7 @@
   ],
   "npmName": "redux-saga",
   "optionalDependencies": {},
+  "publish_time": 1477829231562,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -147,5 +156,5 @@
     "test-shop": "cross-env BABEL_ENV=cjs babel-node examples/shopping-cart/test/sagas.js | tap-spec"
   },
   "typings": "./index.d.ts",
-  "version": "0.12.0"
+  "version": "0.12.1"
 }

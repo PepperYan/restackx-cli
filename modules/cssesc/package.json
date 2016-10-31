@@ -10,12 +10,14 @@
         "spec": ">=0.1.0 <0.2.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer"
     ]
   ],
+  "_cnpm_publish_time": 1376055013761,
   "_from": "cssesc@>=0.1.0 <0.2.0",
   "_id": "cssesc@0.1.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/cssesc",
   "_npmUser": {
     "name": "mathias",
@@ -37,11 +39,11 @@
     "/postcss-modules-local-by-default/css-selector-tokenizer",
     "/postcss-modules-scope/css-selector-tokenizer"
   ],
-  "_resolved": "https://registry.npmjs.org/cssesc/-/cssesc-0.1.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/cssesc/download/cssesc-0.1.0.tgz",
   "_shasum": "c814903e45623371a0477b40109aaafbeeaddbb4",
   "_shrinkwrap": null,
   "_spec": "cssesc@^0.1.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer",
   "author": {
     "name": "Mathias Bynens",
     "url": "http://mathiasbynens.be/"
@@ -68,8 +70,10 @@
     "test": "tests"
   },
   "dist": {
+    "tarball": "http://r.cnpmjs.org/cssesc/download/cssesc-0.1.0.tgz",
     "shasum": "c814903e45623371a0477b40109aaafbeeaddbb4",
-    "tarball": "https://registry.npmjs.org/cssesc/-/cssesc-0.1.0.tgz"
+    "size": 6960,
+    "noattachment": false
   },
   "files": [
     "LICENSE-MIT.txt",
@@ -103,7 +107,9 @@
   ],
   "name": "cssesc",
   "optionalDependencies": {},
+  "publish_time": 1376055013761,
   "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mathiasbynens/cssesc.git"

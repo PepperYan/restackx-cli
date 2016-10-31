@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli"
     ]
   ],
+  "_cnpm_publish_time": 1476470198000,
   "_from": "chokidar@>=1.0.0 <2.0.0",
   "_id": "chokidar@1.6.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/chokidar",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
@@ -41,11 +43,11 @@
     "/babel-cli",
     "/watchpack"
   ],
-  "_resolved": "https://registry.npmjs.org/chokidar/-/chokidar-1.6.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/chokidar/download/chokidar-1.6.1.tgz",
   "_shasum": "2f4447ab5e96e50fb3d789fd90d4c72e0e4c70c2",
   "_shrinkwrap": null,
   "_spec": "chokidar@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli",
   "author": {
     "name": "Paul Miller",
     "url": "http://paulmillr.com"
@@ -78,7 +80,9 @@
   "directories": {},
   "dist": {
     "shasum": "2f4447ab5e96e50fb3d789fd90d4c72e0e4c70c2",
-    "tarball": "https://registry.npmjs.org/chokidar/-/chokidar-1.6.1.tgz"
+    "size": 22730,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/chokidar/download/chokidar-1.6.1.tgz"
   },
   "files": [
     "index.js",
@@ -98,18 +102,19 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "paulmillr",
-      "email": "paul@paulmillr.com"
-    },
-    {
       "name": "es128",
       "email": "elan.shanker+npm@gmail.com"
+    },
+    {
+      "name": "paulmillr",
+      "email": "paul@paulmillr.com"
     }
   ],
   "name": "chokidar",
   "optionalDependencies": {
     "fsevents": "^1.0.0"
   },
+  "publish_time": 1476470198000,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=0.2.0 <0.3.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/regexpu-core"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/regexpu-core"
     ]
   ],
+  "_cnpm_publish_time": 1409632332545,
   "_from": "regjsgen@>=0.2.0 <0.3.0",
   "_id": "regjsgen@0.2.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/regjsgen",
   "_npmUser": {
     "name": "d10",
@@ -37,11 +39,11 @@
     "/postcss-modules-scope/regexpu-core",
     "/regexpu-core"
   ],
-  "_resolved": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.2.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/regjsgen/download/regjsgen-0.2.0.tgz",
   "_shasum": "6c016adeac554f75823fe37ac05b92d5a4edb1f7",
   "_shrinkwrap": null,
   "_spec": "regjsgen@^0.2.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/regexpu-core",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/regexpu-core",
   "author": {
     "name": "Benjamin Tan",
     "email": "demoneaux@gmail.com",
@@ -71,7 +73,9 @@
   "directories": {},
   "dist": {
     "shasum": "6c016adeac554f75823fe37ac05b92d5a4edb1f7",
-    "tarball": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.2.0.tgz"
+    "size": 4329,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/regjsgen/download/regjsgen-0.2.0.tgz"
   },
   "files": [
     "LICENSE.txt",
@@ -96,6 +100,7 @@
   ],
   "name": "regjsgen",
   "optionalDependencies": {},
+  "publish_time": 1409632332545,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

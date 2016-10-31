@@ -10,12 +10,14 @@
         "spec": ">=3.0.2 <4.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-core"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-core"
     ]
   ],
+  "_cnpm_publish_time": 1470678322959,
   "_from": "minimatch@>=3.0.2 <4.0.0",
   "_id": "minimatch@3.0.3",
   "_inCache": true,
+  "_installable": true,
   "_location": "/minimatch",
   "_nodeVersion": "4.4.4",
   "_npmOperationalInternal": {
@@ -42,11 +44,11 @@
     "/glob",
     "/readdirp"
   ],
-  "_resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz",
+  "_resolved": "http://registry.npm.taobao.org/minimatch/download/minimatch-3.0.3.tgz",
   "_shasum": "2a4e4090b96b2db06a9d7df01055a62a77c9b774",
   "_shrinkwrap": null,
   "_spec": "minimatch@^3.0.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-core",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-core",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",
@@ -66,7 +68,9 @@
   "directories": {},
   "dist": {
     "shasum": "2a4e4090b96b2db06a9d7df01055a62a77c9b774",
-    "tarball": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz"
+    "size": 11392,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/minimatch/download/minimatch-3.0.3.tgz"
   },
   "engines": {
     "node": "*"
@@ -86,6 +90,7 @@
   ],
   "name": "minimatch",
   "optionalDependencies": {},
+  "publish_time": 1470678322959,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

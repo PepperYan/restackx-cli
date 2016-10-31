@@ -10,12 +10,14 @@
         "spec": ">=1.5.2 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/fill-range"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fill-range"
     ]
   ],
+  "_cnpm_publish_time": 1477241640613,
   "_from": "repeat-string@>=1.5.2 <2.0.0",
   "_id": "repeat-string@1.6.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/repeat-string",
   "_nodeVersion": "6.7.0",
   "_npmOperationalInternal": {
@@ -41,11 +43,11 @@
     "/align-text",
     "/fill-range"
   ],
-  "_resolved": "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/repeat-string/download/repeat-string-1.6.1.tgz",
   "_shasum": "8dcae470e1c88abc2d600fff4a776286da75e637",
   "_shrinkwrap": null,
   "_spec": "repeat-string@^1.5.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/fill-range",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fill-range",
   "author": {
     "name": "Jon Schlinkert",
     "url": "http://github.com/jonschlinkert"
@@ -95,7 +97,9 @@
   "directories": {},
   "dist": {
     "shasum": "8dcae470e1c88abc2d600fff4a776286da75e637",
-    "tarball": "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
+    "size": 3339,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/repeat-string/download/repeat-string-1.6.1.tgz"
   },
   "engines": {
     "node": ">=0.10"
@@ -126,16 +130,17 @@
   "main": "index.js",
   "maintainers": [
     {
-      "name": "jonschlinkert",
-      "email": "github@sellside.com"
-    },
-    {
       "name": "doowb",
       "email": "brian.woodward@gmail.com"
+    },
+    {
+      "name": "jonschlinkert",
+      "email": "github@sellside.com"
     }
   ],
   "name": "repeat-string",
   "optionalDependencies": {},
+  "publish_time": 1477241640613,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

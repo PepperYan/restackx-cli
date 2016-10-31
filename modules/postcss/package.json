@@ -10,12 +10,14 @@
         "spec": ">=5.0.6 <6.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader"
     ]
   ],
+  "_cnpm_publish_time": 1476966360570,
   "_from": "postcss@>=5.0.6 <6.0.0",
   "_id": "postcss@5.2.5",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss",
   "_nodeVersion": "6.8.1",
   "_npmOperationalInternal": {
@@ -73,11 +75,11 @@
     "/postcss-unique-selectors",
     "/postcss-zindex"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss/-/postcss-5.2.5.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss/download/postcss-5.2.5.tgz",
   "_shasum": "ec428c27dffc7fac65961340a9b022fa4af5f056",
   "_shrinkwrap": null,
   "_spec": "postcss@^5.0.6",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader",
   "author": {
     "name": "Andrey Sitnik",
     "email": "andrey@sitnik.ru"
@@ -125,7 +127,9 @@
   "directories": {},
   "dist": {
     "shasum": "ec428c27dffc7fac65961340a9b022fa4af5f056",
-    "tarball": "https://registry.npmjs.org/postcss/-/postcss-5.2.5.tgz"
+    "size": 181461,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss/download/postcss-5.2.5.tgz"
   },
   "engines": {
     "node": ">=0.12"
@@ -156,7 +160,7 @@
     },
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     }
   ],
   "name": "postcss",
@@ -164,6 +168,7 @@
   "pre-commit": [
     "lint-staged"
   ],
+  "publish_time": 1476966360570,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

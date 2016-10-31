@@ -10,12 +10,14 @@
         "spec": ">=1.1.4 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/buffer"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/buffer"
     ]
   ],
+  "_cnpm_publish_time": 1475481601268,
   "_from": "ieee754@>=1.1.4 <2.0.0",
   "_id": "ieee754@1.1.8",
   "_inCache": true,
+  "_installable": true,
   "_location": "/ieee754",
   "_nodeVersion": "6.7.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/buffer"
   ],
-  "_resolved": "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz",
+  "_resolved": "http://registry.npm.taobao.org/ieee754/download/ieee754-1.1.8.tgz",
   "_shasum": "be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4",
   "_shrinkwrap": null,
   "_spec": "ieee754@^1.1.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/buffer",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/buffer",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -69,7 +71,9 @@
   "directories": {},
   "dist": {
     "shasum": "be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4",
-    "tarball": "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz"
+    "size": 3326,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/ieee754/download/ieee754-1.1.8.tgz"
   },
   "gitHead": "53d3f869cc527852156b8307353c55addc3e03ae",
   "homepage": "https://github.com/feross/ieee754#readme",
@@ -90,6 +94,7 @@
   ],
   "name": "ieee754",
   "optionalDependencies": {},
+  "publish_time": 1475481601268,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

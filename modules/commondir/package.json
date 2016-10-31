@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/find-cache-dir"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-cache-dir"
     ]
   ],
+  "_cnpm_publish_time": 1426292101725,
   "_from": "commondir@>=1.0.1 <2.0.0",
   "_id": "commondir@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/commondir",
   "_nodeVersion": "0.12.0",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/find-cache-dir"
   ],
-  "_resolved": "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/commondir/download/commondir-1.0.1.tgz",
   "_shasum": "ddd800da0c66127393cca5950ea968a3aaf1253b",
   "_shrinkwrap": null,
   "_spec": "commondir@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/find-cache-dir",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-cache-dir",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
@@ -57,7 +59,9 @@
   "directories": {},
   "dist": {
     "shasum": "ddd800da0c66127393cca5950ea968a3aaf1253b",
-    "tarball": "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz"
+    "size": 2267,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/commondir/download/commondir-1.0.1.tgz"
   },
   "engine": {
     "node": ">=0.4"
@@ -77,11 +81,12 @@
   "maintainers": [
     {
       "name": "substack",
-      "email": "mail@substack.net"
+      "email": "substack@gmail.com"
     }
   ],
   "name": "commondir",
   "optionalDependencies": {},
+  "publish_time": 1426292101725,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

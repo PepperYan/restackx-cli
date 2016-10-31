@@ -10,12 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-redux"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-redux"
     ]
   ],
+  "_cnpm_publish_time": 1457504321916,
   "_from": "invariant@>=2.0.0 <3.0.0",
   "_id": "invariant@2.2.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/invariant",
   "_nodeVersion": "4.1.1",
   "_npmOperationalInternal": {
@@ -43,11 +45,11 @@
     "/react-redux",
     "/react-router"
   ],
-  "_resolved": "https://registry.npmjs.org/invariant/-/invariant-2.2.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/invariant/download/invariant-2.2.1.tgz",
   "_shasum": "b097010547668c7e337028ebe816ebe36c8a8d54",
   "_shrinkwrap": null,
   "_spec": "invariant@^2.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-redux",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-redux",
   "author": {
     "name": "Andres Suarez",
     "email": "zertosh@gmail.com"
@@ -72,7 +74,9 @@
   "directories": {},
   "dist": {
     "shasum": "b097010547668c7e337028ebe816ebe36c8a8d54",
-    "tarball": "https://registry.npmjs.org/invariant/-/invariant-2.2.1.tgz"
+    "size": 2809,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/invariant/download/invariant-2.2.1.tgz"
   },
   "files": [
     "invariant.js",
@@ -97,6 +101,7 @@
   ],
   "name": "invariant",
   "optionalDependencies": {},
+  "publish_time": 1457504321916,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

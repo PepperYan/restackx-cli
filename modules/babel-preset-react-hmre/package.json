@@ -10,12 +10,14 @@
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1457235624382,
   "_from": "babel-preset-react-hmre@>=1.1.0 <2.0.0",
   "_id": "babel-preset-react-hmre@1.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/babel-preset-react-hmre",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
@@ -42,11 +44,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/babel-preset-react-hmre/-/babel-preset-react-hmre-1.1.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/babel-preset-react-hmre/download/babel-preset-react-hmre-1.1.1.tgz",
   "_shasum": "d216e60cb5b8d4c873e19ed0f54eaff1437bc492",
   "_shrinkwrap": null,
   "_spec": "babel-preset-react-hmre@^1.1.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Daniel Martinez"
   },
@@ -68,7 +70,9 @@
   "directories": {},
   "dist": {
     "shasum": "d216e60cb5b8d4c873e19ed0f54eaff1437bc492",
-    "tarball": "https://registry.npmjs.org/babel-preset-react-hmre/-/babel-preset-react-hmre-1.1.1.tgz"
+    "size": 1053,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/babel-preset-react-hmre/download/babel-preset-react-hmre-1.1.1.tgz"
   },
   "gitHead": "4ff32ed3ec39c9d003ce125543a678311b1f8d7d",
   "homepage": "https://github.com/danmartinez101/babel-preset-react-hmre",
@@ -86,6 +90,7 @@
   ],
   "name": "babel-preset-react-hmre",
   "optionalDependencies": {},
+  "publish_time": 1457235624382,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

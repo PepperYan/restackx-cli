@@ -16,7 +16,7 @@ var _channel = require('./channel');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function sagaMiddlewareFactory() {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 
   var runSagaDynamically = void 0;
 

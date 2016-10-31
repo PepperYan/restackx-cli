@@ -10,12 +10,14 @@
         "spec": ">=0.2.2 <0.3.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1475223344856,
   "_from": "restack-core@>=0.2.2 <0.3.0",
   "_id": "restack-core@0.2.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/restack-core",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/restack-core/-/restack-core-0.2.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/restack-core/download/restack-core-0.2.2.tgz",
   "_shasum": "be6d268bfc19a5acc5b66da659ab13aa1ae0ee42",
   "_shrinkwrap": null,
   "_spec": "restack-core@^0.2.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Justin",
     "url": "justin.yip@foxmail.com"
@@ -89,7 +91,9 @@
   "directories": {},
   "dist": {
     "shasum": "be6d268bfc19a5acc5b66da659ab13aa1ae0ee42",
-    "tarball": "https://registry.npmjs.org/restack-core/-/restack-core-0.2.2.tgz"
+    "size": 11084,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.2.2.tgz"
   },
   "gitHead": "dc20a0e30e64376e99d9e2b9aa88498b5bb2fae1",
   "homepage": "https://github.com/yezhiming/restack-core#readme",
@@ -104,6 +108,7 @@
   "name": "restack-core",
   "optionalDependencies": {},
   "peerDependencies": {},
+  "publish_time": 1475223344856,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/pinkie-promise"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/pinkie-promise"
     ]
   ],
+  "_cnpm_publish_time": 1454324926357,
   "_from": "pinkie@>=2.0.0 <3.0.0",
   "_id": "pinkie@2.0.4",
   "_inCache": true,
+  "_installable": true,
   "_location": "/pinkie",
   "_nodeVersion": "4.2.4",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/pinkie-promise"
   ],
-  "_resolved": "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz",
+  "_resolved": "http://registry.npm.taobao.org/pinkie/download/pinkie-2.0.4.tgz",
   "_shasum": "72556b80cfa0d48a974e80e77248e80ed4f7f870",
   "_shrinkwrap": null,
   "_spec": "pinkie@^2.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/pinkie-promise",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/pinkie-promise",
   "author": {
     "name": "Vsevolod Strukchinsky",
     "email": "floatdrop@gmail.com",
@@ -62,7 +64,9 @@
   "directories": {},
   "dist": {
     "shasum": "72556b80cfa0d48a974e80e77248e80ed4f7f870",
-    "tarball": "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz"
+    "size": 3935,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/pinkie/download/pinkie-2.0.4.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -87,6 +91,7 @@
   ],
   "name": "pinkie",
   "optionalDependencies": {},
+  "publish_time": 1454324926357,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

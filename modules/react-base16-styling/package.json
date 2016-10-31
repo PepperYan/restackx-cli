@@ -10,12 +10,14 @@
         "spec": ">=0.4.1 <0.5.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-json-tree"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-json-tree"
     ]
   ],
+  "_cnpm_publish_time": 1474224375112,
   "_from": "react-base16-styling@>=0.4.1 <0.5.0",
   "_id": "react-base16-styling@0.4.6",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-base16-styling",
   "_nodeVersion": "4.3.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/react-json-tree"
   ],
-  "_resolved": "https://registry.npmjs.org/react-base16-styling/-/react-base16-styling-0.4.6.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-base16-styling/download/react-base16-styling-0.4.6.tgz",
   "_shasum": "ac23cb19b278974d965003b88f06a038d790bc80",
   "_shrinkwrap": null,
   "_spec": "react-base16-styling@^0.4.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-json-tree",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-json-tree",
   "author": {
     "name": "Alexander",
     "email": "alexkuz@gmail.com",
@@ -75,7 +77,9 @@
   "directories": {},
   "dist": {
     "shasum": "ac23cb19b278974d965003b88f06a038d790bc80",
-    "tarball": "https://registry.npmjs.org/react-base16-styling/-/react-base16-styling-0.4.6.tgz"
+    "size": 3952,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-base16-styling/download/react-base16-styling-0.4.6.tgz"
   },
   "gitHead": "00834c7c24793920867bfb6d49eec93d2aeaa2b0",
   "homepage": "https://github.com/alexkuz/react-base16-styling#readme",
@@ -96,6 +100,7 @@
   "name": "react-base16-styling",
   "optionalDependencies": {},
   "pre-commit": "lint",
+  "publish_time": 1474224375112,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

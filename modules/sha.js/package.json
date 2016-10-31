@@ -10,12 +10,14 @@
         "spec": "2.2.6",
         "type": "version"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/crypto-browserify"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify"
     ]
   ],
+  "_cnpm_publish_time": 1411032913144,
   "_from": "sha.js@2.2.6",
   "_id": "sha.js@2.2.6",
   "_inCache": true,
+  "_installable": true,
   "_location": "/sha.js",
   "_npmUser": {
     "name": "dominictarr",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/crypto-browserify"
   ],
-  "_resolved": "https://registry.npmjs.org/sha.js/-/sha.js-2.2.6.tgz",
+  "_resolved": "http://registry.npm.taobao.org/sha.js/download/sha.js-2.2.6.tgz",
   "_shasum": "17ddeddc5f722fb66501658895461977867315ba",
   "_shrinkwrap": null,
   "_spec": "sha.js@2.2.6",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/crypto-browserify",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify",
   "author": {
     "name": "Dominic Tarr",
     "email": "dominic.tarr@gmail.com",
@@ -61,12 +63,18 @@
   "directories": {},
   "dist": {
     "shasum": "17ddeddc5f722fb66501658895461977867315ba",
-    "tarball": "https://registry.npmjs.org/sha.js/-/sha.js-2.2.6.tgz"
+    "size": 155745,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/sha.js/download/sha.js-2.2.6.tgz"
   },
   "gitHead": "f867e611f54d4dac371e0b247d72978ba26fca82",
   "homepage": "https://github.com/dominictarr/sha.js",
   "license": "MIT",
   "maintainers": [
+    {
+      "name": "dcousens",
+      "email": "email@dcousens.com"
+    },
     {
       "name": "dominictarr",
       "email": "dominic.tarr@gmail.com"
@@ -74,6 +82,7 @@
   ],
   "name": "sha.js",
   "optionalDependencies": {},
+  "publish_time": 1411032913144,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

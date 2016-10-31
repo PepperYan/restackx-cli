@@ -10,12 +10,14 @@
         "spec": ">=0.1.4 <0.2.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/object.omit"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/object.omit"
     ]
   ],
+  "_cnpm_publish_time": 1459091315595,
   "_from": "for-own@>=0.1.4 <0.2.0",
   "_id": "for-own@0.1.4",
   "_inCache": true,
+  "_installable": true,
   "_location": "/for-own",
   "_nodeVersion": "5.5.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/object.omit"
   ],
-  "_resolved": "https://registry.npmjs.org/for-own/-/for-own-0.1.4.tgz",
+  "_resolved": "http://registry.npm.taobao.org/for-own/download/for-own-0.1.4.tgz",
   "_shasum": "0149b41a39088c7515f51ebe1c1386d45f935072",
   "_shrinkwrap": null,
   "_spec": "for-own@^0.1.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/object.omit",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/object.omit",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
@@ -63,7 +65,9 @@
   "directories": {},
   "dist": {
     "shasum": "0149b41a39088c7515f51ebe1c1386d45f935072",
-    "tarball": "https://registry.npmjs.org/for-own/-/for-own-0.1.4.tgz"
+    "size": 1934,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/for-own/download/for-own-0.1.4.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -89,16 +93,17 @@
   "main": "index.js",
   "maintainers": [
     {
-      "name": "jonschlinkert",
-      "email": "github@sellside.com"
-    },
-    {
       "name": "doowb",
       "email": "brian.woodward@gmail.com"
+    },
+    {
+      "name": "jonschlinkert",
+      "email": "github@sellside.com"
     }
   ],
   "name": "for-own",
   "optionalDependencies": {},
+  "publish_time": 1459091315595,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

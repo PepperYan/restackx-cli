@@ -10,12 +10,14 @@
         "spec": ">=0.23.1 <0.24.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1450777949031,
   "_from": "css-loader@>=0.23.1 <0.24.0",
   "_id": "css-loader@0.23.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/css-loader",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/css-loader/-/css-loader-0.23.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/css-loader/download/css-loader-0.23.1.tgz",
   "_shasum": "9fa23f2b5c0965235910ad5ecef3b8a36390fe50",
   "_shrinkwrap": null,
   "_spec": "css-loader@^0.23.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -71,23 +73,26 @@
   "directories": {},
   "dist": {
     "shasum": "9fa23f2b5c0965235910ad5ecef3b8a36390fe50",
-    "tarball": "https://registry.npmjs.org/css-loader/-/css-loader-0.23.1.tgz"
+    "size": 7831,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/css-loader/download/css-loader-0.23.1.tgz"
   },
   "gitHead": "7d2abbaa82a093fa9b71223e1b5ab485cf7e9623",
   "homepage": "https://github.com/webpack/css-loader#readme",
   "license": "MIT",
   "maintainers": [
     {
-      "name": "sokra",
-      "email": "tobias.koppers@googlemail.com"
-    },
-    {
       "name": "markdalgleish",
       "email": "mark.john.dalgleish@gmail.com"
+    },
+    {
+      "name": "sokra",
+      "email": "tobias.koppers@googlemail.com"
     }
   ],
   "name": "css-loader",
   "optionalDependencies": {},
+  "publish_time": 1450777949031,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

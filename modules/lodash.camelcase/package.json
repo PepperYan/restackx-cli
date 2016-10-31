@@ -10,12 +10,14 @@
         "spec": ">=3.0.1 <4.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader"
     ]
   ],
+  "_cnpm_publish_time": 1422983771621,
   "_from": "lodash.camelcase@>=3.0.1 <4.0.0",
   "_id": "lodash.camelcase@3.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/lodash.camelcase",
   "_nodeVersion": "0.10.35",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/css-loader"
   ],
-  "_resolved": "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-3.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-3.0.1.tgz",
   "_shasum": "932c8b87f8a4377897c67197533282f97aeac298",
   "_shrinkwrap": null,
   "_spec": "lodash.camelcase@^3.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",
@@ -84,7 +86,9 @@
   "directories": {},
   "dist": {
     "shasum": "932c8b87f8a4377897c67197533282f97aeac298",
-    "tarball": "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-3.0.1.tgz"
+    "size": 2046,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/lodash.camelcase/download/lodash.camelcase-3.0.1.tgz"
   },
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
@@ -101,24 +105,13 @@
       "email": "john.david.dalton@gmail.com"
     },
     {
-      "name": "d10",
-      "email": "demoneaux@gmail.com"
-    },
-    {
-      "name": "kitcambridge",
-      "email": "github@kitcambridge.be"
-    },
-    {
       "name": "mathias",
       "email": "mathias@qiwi.be"
-    },
-    {
-      "name": "phated",
-      "email": "blaine@iceddev.com"
     }
   ],
   "name": "lodash.camelcase",
   "optionalDependencies": {},
+  "publish_time": 1422983771621,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=0.5.1 <0.6.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/global"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global"
     ]
   ],
+  "_cnpm_publish_time": 1388677550078,
   "_from": "process@>=0.5.1 <0.6.0",
   "_id": "process@0.5.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/process",
   "_npmUser": {
     "name": "shtylman",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/global"
   ],
-  "_resolved": "https://registry.npmjs.org/process/-/process-0.5.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/process/download/process-0.5.2.tgz",
   "_shasum": "1638d8a8e34c2f440a91db95ab9aeb677fc185cf",
   "_shrinkwrap": null,
   "_spec": "process@~0.5.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/global",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global",
   "author": {
     "name": "Roman Shtylman",
     "email": "shtylman@gmail.com"
@@ -53,8 +55,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
+    "tarball": "http://r.cnpmjs.org/process/download/process-0.5.2.tgz",
     "shasum": "1638d8a8e34c2f440a91db95ab9aeb677fc185cf",
-    "tarball": "https://registry.npmjs.org/process/-/process-0.5.2.tgz"
+    "size": 1870,
+    "noattachment": false
   },
   "engines": {
     "node": ">= 0.6.0"
@@ -66,13 +70,23 @@
   "main": "./index.js",
   "maintainers": [
     {
-      "name": "shtylman",
+      "name": "coolaj86",
+      "email": "coolaj86@gmail.com"
+    },
+    {
+      "name": "cwmma",
+      "email": "calvin.metcalf@gmail.com"
+    },
+    {
+      "name": "defunctzombie",
       "email": "shtylman@gmail.com"
     }
   ],
   "name": "process",
   "optionalDependencies": {},
+  "publish_time": 1388677550078,
   "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git://github.com/shtylman/node-process.git"

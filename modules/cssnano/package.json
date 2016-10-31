@@ -10,12 +10,14 @@
         "spec": ">=2.6.1 <4.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader"
     ]
   ],
+  "_cnpm_publish_time": 1477230509781,
   "_from": "cssnano@>=2.6.1 <4.0.0",
   "_id": "cssnano@3.8.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/cssnano",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/css-loader"
   ],
-  "_resolved": "https://registry.npmjs.org/cssnano/-/cssnano-3.8.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/cssnano/download/cssnano-3.8.0.tgz",
   "_shasum": "bb90ac5292f42b679d9a05f6da0e9697556bb80d",
   "_shrinkwrap": null,
   "_spec": "cssnano@>=2.6.1 <4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -120,7 +122,9 @@
   "directories": {},
   "dist": {
     "shasum": "bb90ac5292f42b679d9a05f6da0e9697556bb80d",
-    "tarball": "https://registry.npmjs.org/cssnano/-/cssnano-3.8.0.tgz"
+    "size": 12201,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/cssnano/download/cssnano-3.8.0.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -145,7 +149,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -160,6 +164,7 @@
     ]
   },
   "optionalDependencies": {},
+  "publish_time": 1477230509781,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

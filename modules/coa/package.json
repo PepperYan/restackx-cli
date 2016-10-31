@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <1.1.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/svgo"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/svgo"
     ]
   ],
+  "_cnpm_publish_time": 1427712836038,
   "_from": "coa@>=1.0.1 <1.1.0",
   "_id": "coa@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/coa",
   "_npmUser": {
     "name": "veged",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/svgo"
   ],
-  "_resolved": "https://registry.npmjs.org/coa/-/coa-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/coa/download/coa-1.0.1.tgz",
   "_shasum": "7f959346cfc8719e3f7233cd6852854a7c67d8a3",
   "_shrinkwrap": null,
   "_spec": "coa@~1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/svgo",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/svgo",
   "author": {
     "name": "Sergey Berezhnoy",
     "email": "veged@ya.ru",
@@ -71,7 +73,9 @@
   },
   "dist": {
     "shasum": "7f959346cfc8719e3f7233cd6852854a7c67d8a3",
-    "tarball": "https://registry.npmjs.org/coa/-/coa-1.0.1.tgz"
+    "size": 24528,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/coa/download/coa-1.0.1.tgz"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -85,16 +89,17 @@
   ],
   "maintainers": [
     {
-      "name": "veged",
-      "email": "veged@mail.ru"
-    },
-    {
       "name": "arikon",
       "email": "peimei@ya.ru"
+    },
+    {
+      "name": "veged",
+      "email": "veged@ya.ru"
     }
   ],
   "name": "coa",
   "optionalDependencies": {},
+  "publish_time": 1427712836038,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

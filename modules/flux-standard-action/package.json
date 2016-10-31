@@ -10,12 +10,14 @@
         "spec": ">=0.6.1 <0.7.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-promise"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-promise"
     ]
   ],
+  "_cnpm_publish_time": 1454443068421,
   "_from": "flux-standard-action@>=0.6.1 <0.7.0",
   "_id": "flux-standard-action@0.6.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/flux-standard-action",
   "_nodeVersion": "5.0.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/redux-promise"
   ],
-  "_resolved": "https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/flux-standard-action/download/flux-standard-action-0.6.1.tgz",
   "_shasum": "6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2",
   "_shrinkwrap": null,
   "_spec": "flux-standard-action@^0.6.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-promise",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-promise",
   "author": {
     "name": "Andrew Clark",
     "email": "acdlite@me.com"
@@ -65,7 +67,9 @@
   "directories": {},
   "dist": {
     "shasum": "6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2",
-    "tarball": "https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz"
+    "size": 2819,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/flux-standard-action/download/flux-standard-action-0.6.1.tgz"
   },
   "gitHead": "96349384bcf478fcba8c92a6e2a03798fa8a5a3b",
   "keywords": [
@@ -80,10 +84,15 @@
     {
       "name": "acdlite",
       "email": "acdlite@me.com"
+    },
+    {
+      "name": "jakxz",
+      "email": "jgkurian@me.com"
     }
   ],
   "name": "flux-standard-action",
   "optionalDependencies": {},
+  "publish_time": 1454443068421,
   "readme": "ERROR: No README data found!",
   "scripts": {
     "prepublish": "make clean build",

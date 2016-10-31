@@ -10,12 +10,14 @@
         "spec": ">=0.6.0 <0.7.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
     ]
   ],
+  "_cnpm_publish_time": 1471502108727,
   "_from": "node-libs-browser@>=0.6.0 <0.7.0",
   "_id": "node-libs-browser@0.6.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/node-libs-browser",
   "_nodeVersion": "5.10.1",
   "_npmOperationalInternal": {
@@ -44,11 +46,11 @@
   "_requiredBy": [
     "/webpack"
   ],
-  "_resolved": "https://registry.npmjs.org/node-libs-browser/-/node-libs-browser-0.6.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/node-libs-browser/download/node-libs-browser-0.6.0.tgz",
   "_shasum": "244806d44d319e048bc8607b5cc4eaf9a29d2e3c",
   "_shrinkwrap": null,
   "_spec": "node-libs-browser@^0.6.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -85,7 +87,9 @@
   "directories": {},
   "dist": {
     "shasum": "244806d44d319e048bc8607b5cc4eaf9a29d2e3c",
-    "tarball": "https://registry.npmjs.org/node-libs-browser/-/node-libs-browser-0.6.0.tgz"
+    "size": 2860,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/node-libs-browser/download/node-libs-browser-0.6.0.tgz"
   },
   "files": [
     "index.js",
@@ -103,6 +107,7 @@
   ],
   "name": "node-libs-browser",
   "optionalDependencies": {},
+  "publish_time": 1471502108727,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

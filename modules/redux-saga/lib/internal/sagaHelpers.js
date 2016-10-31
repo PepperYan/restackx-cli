@@ -22,7 +22,7 @@ var done = { done: true, value: undefined };
 var qEnd = {};
 
 function fsmIterator(fsm, q0) {
-  var name = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'iterator';
+  var name = arguments.length <= 2 || arguments[2] === undefined ? 'iterator' : arguments[2];
 
   var updateState = void 0,
       qNext = q0;

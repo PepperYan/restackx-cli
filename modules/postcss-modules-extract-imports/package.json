@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader"
     ]
   ],
+  "_cnpm_publish_time": 1463042278203,
   "_from": "postcss-modules-extract-imports@>=1.0.0 <2.0.0",
   "_id": "postcss-modules-extract-imports@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-modules-extract-imports",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/css-loader"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-modules-extract-imports/-/postcss-modules-extract-imports-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-modules-extract-imports/download/postcss-modules-extract-imports-1.0.1.tgz",
   "_shasum": "8fb3fef9a6dd0420d3f6d4353cf1ff73f2b2a341",
   "_shrinkwrap": null,
   "_spec": "postcss-modules-extract-imports@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/css-loader",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader",
   "author": {
     "name": "Glen Maddern"
   },
@@ -69,7 +71,9 @@
   "directories": {},
   "dist": {
     "shasum": "8fb3fef9a6dd0420d3f6d4353cf1ff73f2b2a341",
-    "tarball": "https://registry.npmjs.org/postcss-modules-extract-imports/-/postcss-modules-extract-imports-1.0.1.tgz"
+    "size": 2637,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-modules-extract-imports/download/postcss-modules-extract-imports-1.0.1.tgz"
   },
   "files": [
     "lib"
@@ -99,6 +103,7 @@
   ],
   "name": "postcss-modules-extract-imports",
   "optionalDependencies": {},
+  "publish_time": 1463042278203,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

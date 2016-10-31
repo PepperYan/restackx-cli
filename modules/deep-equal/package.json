@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/history"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/history"
     ]
   ],
+  "_cnpm_publish_time": 1440882148562,
   "_from": "deep-equal@>=1.0.0 <2.0.0",
   "_id": "deep-equal@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/deep-equal",
   "_nodeVersion": "2.4.0",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/history"
   ],
-  "_resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz",
   "_shasum": "f5d260292b660e084eff4cdbc9f08ad3247448b5",
   "_shrinkwrap": null,
   "_spec": "deep-equal@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/history",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/history",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
@@ -61,7 +63,9 @@
   },
   "dist": {
     "shasum": "f5d260292b660e084eff4cdbc9f08ad3247448b5",
-    "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz"
+    "size": 3797,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/deep-equal/download/deep-equal-1.0.1.tgz"
   },
   "gitHead": "59c511f5aeae19e3dd1de054077a789d7302be34",
   "homepage": "https://github.com/substack/node-deep-equal#readme",
@@ -75,11 +79,12 @@
   "maintainers": [
     {
       "name": "substack",
-      "email": "mail@substack.net"
+      "email": "substack@gmail.com"
     }
   ],
   "name": "deep-equal",
   "optionalDependencies": {},
+  "publish_time": 1440882148562,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

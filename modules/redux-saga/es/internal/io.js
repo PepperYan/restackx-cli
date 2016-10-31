@@ -25,7 +25,7 @@ var effect = function effect(type, payload) {
 };
 
 export function take() {
-  var patternOrChannel = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '*';
+  var patternOrChannel = arguments.length <= 0 || arguments[0] === undefined ? '*' : arguments[0];
 
   if (arguments.length) {
     check(arguments[0], is.notUndef, 'take(patternOrChannel): patternOrChannel is undefined');
@@ -98,7 +98,7 @@ export function call(fn) {
 }
 
 export function apply(context, fn) {
-  var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
+  var args = arguments.length <= 2 || arguments[2] === undefined ? [] : arguments[2];
 
   return effect(CALL, getFnCallDesc('apply', { context: context, fn: fn }, args));
 }

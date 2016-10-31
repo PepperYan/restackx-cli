@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-log-monitor"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-log-monitor"
     ]
   ],
+  "_cnpm_publish_time": 1443112140165,
   "_from": "redux-devtools-themes@>=1.0.0 <2.0.0",
   "_id": "redux-devtools-themes@1.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-devtools-themes",
   "_nodeVersion": "2.2.1",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/redux-devtools-log-monitor"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-devtools-themes/-/redux-devtools-themes-1.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/redux-devtools-themes/download/redux-devtools-themes-1.0.0.tgz",
   "_shasum": "c482dce3c5373976045f40134907d9dcb3ae3d5d",
   "_shrinkwrap": null,
   "_spec": "redux-devtools-themes@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-log-monitor",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-log-monitor",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com",
@@ -65,7 +67,9 @@
   "directories": {},
   "dist": {
     "shasum": "c482dce3c5373976045f40134907d9dcb3ae3d5d",
-    "tarball": "https://registry.npmjs.org/redux-devtools-themes/-/redux-devtools-themes-1.0.0.tgz"
+    "size": 2665,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-devtools-themes/download/redux-devtools-themes-1.0.0.tgz"
   },
   "gitHead": "c29b91c08aa24be1aaf919cdfdd0b552ae932dc8",
   "homepage": "https://github.com/gaearon/redux-devtools-themes",
@@ -84,6 +88,7 @@
   ],
   "name": "redux-devtools-themes",
   "optionalDependencies": {},
+  "publish_time": 1443112140165,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

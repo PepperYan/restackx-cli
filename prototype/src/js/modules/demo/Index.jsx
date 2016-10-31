@@ -2,6 +2,7 @@ import React, {Component, PropTypes} from 'react'
 import {connect} from 'react-redux'
 import {withRouter} from 'react-router'
 import {incrementAsync,watchIncrementAsync} from './testSaga'
+import mobiscroll from "mobiscroll"
 import "./test.less"
 
 class Index extends Component {
@@ -18,7 +19,16 @@ class Index extends Component {
 
 	render() {
 		return (
-			<div onClick={this.onClick.bind(this)}>我是index{this.props.increment}</div>
+			<div>
+				<mobiscroll.Time
+	          ref="time"
+						headerText={false}                    // More info about headerText: https://docs.mobiscroll.com/3-0-0_beta6/react/datetime#!opt-headerText
+	          maxWidth={90}                         // More info about maxWidth: https://docs.mobiscroll.com/3-0-0_beta6/react/datetime#!opt-maxWidth
+	          placeholder="Please Select..."
+	      />
+				<div onClick={this.onClick.bind(this)}>我是index{this.props.increment }</div>
+
+			</div>
 		);
 	}
 }

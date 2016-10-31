@@ -10,12 +10,14 @@
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-code-frame"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-code-frame"
     ]
   ],
+  "_cnpm_publish_time": 1459210604512,
   "_from": "chalk@>=1.1.0 <2.0.0",
   "_id": "chalk@1.1.3",
   "_inCache": true,
+  "_installable": true,
   "_location": "/chalk",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
@@ -42,11 +44,11 @@
     "/clap",
     "/postcss"
   ],
-  "_resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+  "_resolved": "http://registry.npm.taobao.org/chalk/download/chalk-1.1.3.tgz",
   "_shasum": "a8115c55e4a702fe4d150abd3872822a7e09fc98",
   "_shrinkwrap": null,
   "_spec": "chalk@^1.1.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-code-frame",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-code-frame",
   "bugs": {
     "url": "https://github.com/chalk/chalk/issues"
   },
@@ -71,7 +73,9 @@
   "directories": {},
   "dist": {
     "shasum": "a8115c55e4a702fe4d150abd3872822a7e09fc98",
-    "tarball": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz"
+    "size": 5236,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/chalk/download/chalk-1.1.3.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -121,6 +125,7 @@
   ],
   "name": "chalk",
   "optionalDependencies": {},
+  "publish_time": 1459210604512,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

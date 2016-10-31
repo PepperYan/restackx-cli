@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/reduce-css-calc"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/reduce-css-calc"
     ]
   ],
+  "_cnpm_publish_time": 1407308448107,
   "_from": "reduce-function-call@>=1.0.1 <2.0.0",
   "_id": "reduce-function-call@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/reduce-function-call",
   "_npmUser": {
     "name": "moox",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/reduce-css-calc"
   ],
-  "_resolved": "https://registry.npmjs.org/reduce-function-call/-/reduce-function-call-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/reduce-function-call/download/reduce-function-call-1.0.1.tgz",
   "_shasum": "fa02e126e695824263cab91d3a5b0fdc1dd27a9a",
   "_shrinkwrap": null,
   "_spec": "reduce-function-call@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/reduce-css-calc",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/reduce-css-calc",
   "author": {
     "name": "MoOx"
   },
@@ -60,7 +62,9 @@
   "directories": {},
   "dist": {
     "shasum": "fa02e126e695824263cab91d3a5b0fdc1dd27a9a",
-    "tarball": "https://registry.npmjs.org/reduce-function-call/-/reduce-function-call-1.0.1.tgz"
+    "size": 2660,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/reduce-function-call/download/reduce-function-call-1.0.1.tgz"
   },
   "files": [
     "CHANGELOG.md",
@@ -88,6 +92,7 @@
   ],
   "name": "reduce-function-call",
   "optionalDependencies": {},
+  "publish_time": 1407308448107,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

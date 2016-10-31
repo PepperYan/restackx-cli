@@ -10,12 +10,14 @@
         "spec": ">=1.1.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/v8flags"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/v8flags"
     ]
   ],
+  "_cnpm_publish_time": 1421171269094,
   "_from": "user-home@>=1.1.1 <2.0.0",
   "_id": "user-home@1.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/user-home",
   "_nodeVersion": "0.10.32",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/v8flags"
   ],
-  "_resolved": "https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/user-home/download/user-home-1.1.1.tgz",
   "_shasum": "2b5be23a32b63a7c9deb8d0f28d485724a3df190",
   "_shrinkwrap": null,
   "_spec": "user-home@^1.1.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/v8flags",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/v8flags",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -60,7 +62,9 @@
   "directories": {},
   "dist": {
     "shasum": "2b5be23a32b63a7c9deb8d0f28d485724a3df190",
-    "tarball": "https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz"
+    "size": 1825,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/user-home/download/user-home-1.1.1.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -91,6 +95,7 @@
   ],
   "name": "user-home",
   "optionalDependencies": {},
+  "publish_time": 1421171269094,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

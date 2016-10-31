@@ -10,12 +10,14 @@
         "spec": ">=4.2.0 <5.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-redux"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-redux"
     ]
   ],
+  "_cnpm_publish_time": 1475766810196,
   "_from": "lodash@>=4.2.0 <5.0.0",
   "_id": "lodash@4.16.4",
   "_inCache": true,
+  "_installable": true,
   "_location": "/lodash",
   "_nodeVersion": "4.4.7",
   "_npmOperationalInternal": {
@@ -58,11 +60,11 @@
     "/redux-devtools-instrument",
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz",
+  "_resolved": "http://registry.npm.taobao.org/lodash/download/lodash-4.16.4.tgz",
   "_shasum": "01ce306b9bad1319f2a5528674f88297aeb70127",
   "_shrinkwrap": null,
   "_spec": "lodash@^4.2.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-redux",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-redux",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",
@@ -94,7 +96,9 @@
   "directories": {},
   "dist": {
     "shasum": "01ce306b9bad1319f2a5528674f88297aeb70127",
-    "tarball": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
+    "size": 307899,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/lodash/download/lodash-4.16.4.tgz"
   },
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
@@ -113,14 +117,11 @@
     {
       "name": "mathias",
       "email": "mathias@qiwi.be"
-    },
-    {
-      "name": "phated",
-      "email": "blaine.bublitz@gmail.com"
     }
   ],
   "name": "lodash",
   "optionalDependencies": {},
+  "publish_time": 1475766810196,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

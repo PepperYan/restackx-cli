@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/arr-diff"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/arr-diff"
     ]
   ],
+  "_cnpm_publish_time": 1426048109728,
   "_from": "arr-flatten@>=1.0.1 <2.0.0",
   "_id": "arr-flatten@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/arr-flatten",
   "_nodeVersion": "0.12.0",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/arr-diff"
   ],
-  "_resolved": "https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/arr-flatten/download/arr-flatten-1.0.1.tgz",
   "_shasum": "e5ffe54d45e19f32f216e91eb99c8ce892bb604b",
   "_shrinkwrap": null,
   "_spec": "arr-flatten@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/arr-diff",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/arr-diff",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
@@ -61,7 +63,9 @@
   "directories": {},
   "dist": {
     "shasum": "e5ffe54d45e19f32f216e91eb99c8ce892bb604b",
-    "tarball": "https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.0.1.tgz"
+    "size": 2165,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/arr-flatten/download/arr-flatten-1.0.1.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -95,6 +99,7 @@
   ],
   "name": "arr-flatten",
   "optionalDependencies": {},
+  "publish_time": 1426048109728,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

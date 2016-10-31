@@ -10,12 +10,14 @@
         "spec": ">=1.0.4 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1471378577007,
   "_from": "postcss-minify-params@>=1.0.4 <2.0.0",
   "_id": "postcss-minify-params@1.0.5",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-minify-params",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-minify-params/-/postcss-minify-params-1.0.5.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-minify-params/download/postcss-minify-params-1.0.5.tgz",
   "_shasum": "82d602643b8616a61fb3634d7ede0289836d67f9",
   "_shrinkwrap": null,
   "_spec": "postcss-minify-params@^1.0.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Bogdan Chadkin",
     "email": "trysound@yandex.ru"
@@ -71,7 +73,9 @@
   "directories": {},
   "dist": {
     "shasum": "82d602643b8616a61fb3634d7ede0289836d67f9",
-    "tarball": "https://registry.npmjs.org/postcss-minify-params/-/postcss-minify-params-1.0.5.tgz"
+    "size": 2186,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-minify-params/download/postcss-minify-params-1.0.5.tgz"
   },
   "eslintConfig": {
     "extends": "postcss",
@@ -97,7 +101,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -110,6 +114,7 @@
     "instrument": true
   },
   "optionalDependencies": {},
+  "publish_time": 1471378577007,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=2.4.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1473784353598,
   "_from": "react-router@>=2.4.0 <3.0.0",
   "_id": "react-router@2.8.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-router",
   "_nodeVersion": "6.3.1",
   "_npmOperationalInternal": {
@@ -41,11 +43,11 @@
     "/",
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/react-router/-/react-router-2.8.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-router/download/react-router-2.8.1.tgz",
   "_shasum": "73e9491f6ceb316d0f779829081863e378ee4ed7",
   "_shrinkwrap": null,
   "_spec": "react-router@^2.4.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "authors": [
     "Ryan Florence",
     "Michael Jackson"
@@ -112,7 +114,9 @@
   "directories": {},
   "dist": {
     "shasum": "73e9491f6ceb316d0f779829081863e378ee4ed7",
-    "tarball": "https://registry.npmjs.org/react-router/-/react-router-2.8.1.tgz"
+    "size": 128370,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-router/download/react-router-2.8.1.tgz"
   },
   "files": [
     "*.md",
@@ -146,6 +150,10 @@
     {
       "name": "taion",
       "email": "tesrin@gmail.com"
+    },
+    {
+      "name": "timdorr",
+      "email": "timdorr@timdorr.com"
     }
   ],
   "name": "react-router",
@@ -153,6 +161,7 @@
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0"
   },
+  "publish_time": 1473784353598,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

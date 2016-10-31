@@ -10,12 +10,14 @@
         "spec": ">=2.1.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1473346537937,
   "_from": "postcss-ordered-values@>=2.1.0 <3.0.0",
   "_id": "postcss-ordered-values@2.2.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-ordered-values",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-ordered-values/-/postcss-ordered-values-2.2.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-ordered-values/download/postcss-ordered-values-2.2.2.tgz",
   "_shasum": "be8b511741fab2dac8e614a2302e9d10267b0771",
   "_shrinkwrap": null,
   "_spec": "postcss-ordered-values@^2.1.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "be8b511741fab2dac8e614a2302e9d10267b0771",
-    "tarball": "https://registry.npmjs.org/postcss-ordered-values/-/postcss-ordered-values-2.2.2.tgz"
+    "size": 5272,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-ordered-values/download/postcss-ordered-values-2.2.2.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -101,11 +105,12 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     }
   ],
   "name": "postcss-ordered-values",
   "optionalDependencies": {},
+  "publish_time": 1473346537937,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

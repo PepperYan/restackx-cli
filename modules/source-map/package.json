@@ -10,12 +10,14 @@
         "spec": ">=0.5.0 <0.6.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli"
     ]
   ],
+  "_cnpm_publish_time": 1462209962930,
   "_from": "source-map@>=0.5.0 <0.6.0",
   "_id": "source-map@0.5.6",
   "_inCache": true,
+  "_installable": true,
   "_location": "/source-map",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
@@ -47,11 +49,11 @@
     "/source-map-support",
     "/uglify-js"
   ],
-  "_resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz",
+  "_resolved": "http://registry.npm.taobao.org/source-map/download/source-map-0.5.6.tgz",
   "_shasum": "75ce38f52bf0733c5a7f0c118d81334a2bb5f412",
   "_shrinkwrap": null,
   "_spec": "source-map@^0.5.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli",
   "author": {
     "name": "Nick Fitzgerald",
     "email": "nfitzgerald@mozilla.com"
@@ -214,7 +216,9 @@
   "directories": {},
   "dist": {
     "shasum": "75ce38f52bf0733c5a7f0c118d81334a2bb5f412",
-    "tarball": "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz"
+    "size": 186942,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/source-map/download/source-map-0.5.6.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -233,12 +237,16 @@
   "main": "./source-map.js",
   "maintainers": [
     {
-      "name": "mozilla-devtools",
-      "email": "mozilla-developer-tools@googlegroups.com"
+      "name": "ejpbruel",
+      "email": "ejpbruel@gmail.com"
     },
     {
       "name": "mozilla",
       "email": "dherman@mozilla.com"
+    },
+    {
+      "name": "mozilla-devtools",
+      "email": "nfitzgerald@mozilla.com"
     },
     {
       "name": "nickfitzgerald",
@@ -247,6 +255,7 @@
   ],
   "name": "source-map",
   "optionalDependencies": {},
+  "publish_time": 1462209962930,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

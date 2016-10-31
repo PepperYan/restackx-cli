@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
     ]
   ],
+  "_cnpm_publish_time": 1399700894652,
   "_from": "stream-browserify@>=1.0.0 <2.0.0",
   "_id": "stream-browserify@1.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/stream-browserify",
   "_npmUser": {
     "name": "substack",
@@ -39,11 +41,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "https://registry.npmjs.org/stream-browserify/-/stream-browserify-1.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/stream-browserify/download/stream-browserify-1.0.0.tgz",
   "_shasum": "bf9b4abfb42b274d751479e44e0ff2656b6f1193",
   "_shrinkwrap": null,
   "_spec": "stream-browserify@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
@@ -64,7 +66,9 @@
   "directories": {},
   "dist": {
     "shasum": "bf9b4abfb42b274d751479e44e0ff2656b6f1193",
-    "tarball": "https://registry.npmjs.org/stream-browserify/-/stream-browserify-1.0.0.tgz"
+    "size": 2934,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/stream-browserify/download/stream-browserify-1.0.0.tgz"
   },
   "homepage": "https://github.com/substack/stream-browserify",
   "keywords": [
@@ -76,12 +80,21 @@
   "main": "index.js",
   "maintainers": [
     {
+      "name": "feross",
+      "email": "feross@feross.org"
+    },
+    {
+      "name": "stevemao",
+      "email": "maochenyan@gmail.com"
+    },
+    {
       "name": "substack",
-      "email": "mail@substack.net"
+      "email": "substack@gmail.com"
     }
   ],
   "name": "stream-browserify",
   "optionalDependencies": {},
+  "publish_time": 1399700894652,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

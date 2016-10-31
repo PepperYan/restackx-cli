@@ -10,12 +10,14 @@
         "spec": ">=2.6.2 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1474426770056,
   "_from": "react-toastr@>=2.6.2 <3.0.0",
   "_id": "react-toastr@2.8.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-toastr",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-toastr/-/react-toastr-2.8.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-toastr/download/react-toastr-2.8.1.tgz",
   "_shasum": "17dfbccf37caec55e165b712e70fb35e6940205b",
   "_shrinkwrap": null,
   "_spec": "react-toastr@^2.6.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "tomchentw",
     "email": "developer@tomchentw.com",
@@ -102,7 +104,9 @@
   "directories": {},
   "dist": {
     "shasum": "17dfbccf37caec55e165b712e70fb35e6940205b",
-    "tarball": "https://registry.npmjs.org/react-toastr/-/react-toastr-2.8.1.tgz"
+    "size": 14903,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-toastr/download/react-toastr-2.8.1.tgz"
   },
   "files": [
     "lib/",
@@ -136,6 +140,7 @@
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0"
   },
+  "publish_time": 1474426770056,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

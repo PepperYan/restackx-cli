@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/inflight"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/inflight"
     ]
   ],
+  "_cnpm_publish_time": 1463527852415,
   "_from": "wrappy@>=1.0.0 <2.0.0",
   "_id": "wrappy@1.0.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/wrappy",
   "_nodeVersion": "5.10.1",
   "_npmOperationalInternal": {
@@ -41,11 +43,11 @@
     "/inflight",
     "/once"
   ],
-  "_resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/wrappy/download/wrappy-1.0.2.tgz",
   "_shasum": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
   "_shrinkwrap": null,
   "_spec": "wrappy@1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/inflight",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/inflight",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",
@@ -64,7 +66,9 @@
   },
   "dist": {
     "shasum": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
-    "tarball": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+    "size": 1676,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/wrappy/download/wrappy-1.0.2.tgz"
   },
   "files": [
     "wrappy.js"
@@ -85,6 +89,7 @@
   ],
   "name": "wrappy",
   "optionalDependencies": {},
+  "publish_time": 1463527852415,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

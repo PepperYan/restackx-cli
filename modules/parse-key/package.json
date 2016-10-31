@@ -10,12 +10,14 @@
         "spec": ">=0.2.1 <0.3.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor"
     ]
   ],
+  "_cnpm_publish_time": 1359826005290,
   "_from": "parse-key@>=0.2.1 <0.3.0",
   "_id": "parse-key@0.2.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/parse-key",
   "_npmUser": {
     "name": "thlorenz",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/redux-devtools-dock-monitor"
   ],
-  "_resolved": "https://registry.npmjs.org/parse-key/-/parse-key-0.2.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/parse-key/download/parse-key-0.2.1.tgz",
   "_shasum": "7bcf76595536e36075664be4d687e4bdd910208f",
   "_shrinkwrap": null,
   "_spec": "parse-key@^0.2.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor",
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
@@ -55,8 +57,10 @@
   },
   "directories": {},
   "dist": {
+    "tarball": "http://r.cnpmjs.org/parse-key/download/parse-key-0.2.1.tgz",
     "shasum": "7bcf76595536e36075664be4d687e4bdd910208f",
-    "tarball": "https://registry.npmjs.org/parse-key/-/parse-key-0.2.1.tgz"
+    "size": 2958,
+    "noattachment": false
   },
   "homepage": "https://github.com/thlorenz/parse-key#readme",
   "keywords": [
@@ -75,7 +79,8 @@
   ],
   "name": "parse-key",
   "optionalDependencies": {},
-  "readme": "# parse-key [![build status](https://secure.travis-ci.org/thlorenz/parse-key.png)](http://next.travis-ci.org/thlorenz/parse-key)\n\nParses strings into key objects of the same format as the ones emitted by [nodejs readline](http://nodejs.org/api/readline.html).\n\nCounter part to [stringify-key](https://github.com/thlorenz/stringify-key).\n\n## Installation\n\n    npm i parse-key\n\n## Usage\n\n```js\nvar parse = require('parse-key');\n\nparse('ctrl-c')       // returns { name: 'c', ctrl: true, meta: false, shift: false, alt: false, sequence: '\\u0003' }\n\nparse('shift-ctrl-c') // returns { name: 'c', ctrl: true, meta: false, shift: true, alt: false, sequence: '\\u0003' }\n\nparse('alt-c')        // returns { name: 'c', ctrl: false, meta: false, shift: false, alt: true, sequence: 'c' }\n```\n\n## Caveats\n\nFor completeness' sake, the `alt` modifier is parsed and included with the returned `key` although the nodejs readline does not\ninclude it in its `key` object nor does it have any effect when the key is emitted.\n",
+  "publish_time": 1359826005290,
+  "readme": "ERROR: No README data found!",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",

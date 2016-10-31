@@ -10,12 +10,14 @@
         "spec": ">=0.2.1 <0.3.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor"
     ]
   ],
+  "_cnpm_publish_time": 1445361293835,
   "_from": "react-dock@>=0.2.1 <0.3.0",
   "_id": "react-dock@0.2.3",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-dock",
   "_nodeVersion": "3.3.1",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/redux-devtools-dock-monitor"
   ],
-  "_resolved": "https://registry.npmjs.org/react-dock/-/react-dock-0.2.3.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-dock/download/react-dock-0.2.3.tgz",
   "_shasum": "a25461564f3cf64ab5b7098e7546036066a9c0e2",
   "_shrinkwrap": null,
   "_spec": "react-dock@^0.2.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux-devtools-dock-monitor",
   "author": {
     "name": "Alexander",
     "email": "alexkuz@gmail.com",
@@ -78,7 +80,9 @@
   "directories": {},
   "dist": {
     "shasum": "a25461564f3cf64ab5b7098e7546036066a9c0e2",
-    "tarball": "https://registry.npmjs.org/react-dock/-/react-dock-0.2.3.tgz"
+    "size": 6268,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-dock/download/react-dock-0.2.3.tgz"
   },
   "gitHead": "4a93c716514ca606d52d3125dbd69198f33023de",
   "homepage": "https://github.com/alexkuz/react-dock",
@@ -101,6 +105,7 @@
   "peerDependencies": {
     "react": ">=0.13.0"
   },
+  "publish_time": 1445361293835,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

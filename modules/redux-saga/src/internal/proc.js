@@ -440,7 +440,9 @@ export default function proc(
       try {
         result = (channel ? channel.put : dispatch)(action)
       } catch(error) {
-        return cb(error, true)
+        // If we have a channel or `put.sync` was used then bubble up the error.
+        if (channel || sync) return cb(error, true)
+        log('error', `uncaught at ${name}`, error.stack || error.message || error)
       }
 
       if(sync && is.promise(result)) {
@@ -473,9 +475,11 @@ export default function proc(
 
     // catch synchronous failures; see #152
     try {
-      fn.apply(context, args.concat(
-        (err, res) => is.undef(err) ? cb(res) : cb(err, true)
-      ))
+      const cpsCb = (err, res) => is.undef(err) ? cb(res) : cb(err, true);
+      fn.apply(context, args.concat(cpsCb));
+      if (cpsCb.cancel) {
+        cb.cancel = () => cpsCb.cancel();
+      }
     } catch(error) {
       return cb(error, true)
     }
@@ -597,7 +601,12 @@ export default function proc(
         keys.forEach(key => childCbs[key].cancel())
       }
     }
-    keys.forEach(key => runEffect(effects[key], effectId, key, childCbs[key]))
+    keys.forEach(key => {
+      if(completed) {
+        return
+      }
+      runEffect(effects[key], effectId, key, childCbs[key])
+    })
   }
 
   function runSelectEffect({selector, args}, cb) {

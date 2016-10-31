@@ -53,7 +53,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 function channel() {
-  var buffer = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _buffers.buffers.fixed();
+  var buffer = arguments.length <= 0 || arguments[0] === undefined ? _buffers.buffers.fixed() : arguments[0];
 
   var closed = false;
   var takers = [];
@@ -138,7 +138,7 @@ function channel() {
 }
 
 function eventChannel(subscribe) {
-  var buffer = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _buffers.buffers.none();
+  var buffer = arguments.length <= 1 || arguments[1] === undefined ? _buffers.buffers.none() : arguments[1];
   var matcher = arguments[2];
 
   /**

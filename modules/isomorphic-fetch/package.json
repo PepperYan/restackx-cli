@@ -10,12 +10,14 @@
         "spec": ">=2.2.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1452850062311,
   "_from": "isomorphic-fetch@>=2.2.0 <3.0.0",
   "_id": "isomorphic-fetch@2.2.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/isomorphic-fetch",
   "_nodeVersion": "4.2.3",
   "_npmUser": {
@@ -38,11 +40,11 @@
     "/fbjs",
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz",
   "_shasum": "611ae1acf14f5e81f729507472819fe9733558a9",
   "_shrinkwrap": null,
   "_spec": "isomorphic-fetch@^2.2.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Matt Andrews",
     "email": "matt@mattandre.ws"
@@ -68,7 +70,9 @@
   "directories": {},
   "dist": {
     "shasum": "611ae1acf14f5e81f729507472819fe9733558a9",
-    "tarball": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz"
+    "size": 3308,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz"
   },
   "gitHead": "43437dc5b381e391b73522d71cea23fc72675154",
   "homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
@@ -86,6 +90,7 @@
   ],
   "name": "isomorphic-fetch",
   "optionalDependencies": {},
+  "publish_time": 1452850062311,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

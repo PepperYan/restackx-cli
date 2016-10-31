@@ -10,12 +10,14 @@
         "spec": ">=2.2.1 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1476995386445,
   "_from": "postcss-discard-unused@>=2.2.1 <3.0.0",
   "_id": "postcss-discard-unused@2.2.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-discard-unused",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-discard-unused/-/postcss-discard-unused-2.2.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-discard-unused/download/postcss-discard-unused-2.2.2.tgz",
   "_shasum": "5d72f7d05d11de0a9589e001958067ccae1b4931",
   "_shrinkwrap": null,
   "_spec": "postcss-discard-unused@^2.2.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "5d72f7d05d11de0a9589e001958067ccae1b4931",
-    "tarball": "https://registry.npmjs.org/postcss-discard-unused/-/postcss-discard-unused-2.2.2.tgz"
+    "size": 4499,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-discard-unused/download/postcss-discard-unused-2.2.2.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -105,7 +109,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -114,6 +118,7 @@
   ],
   "name": "postcss-discard-unused",
   "optionalDependencies": {},
+  "publish_time": 1476995386445,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

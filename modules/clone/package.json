@@ -10,12 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/color"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color"
     ]
   ],
+  "_cnpm_publish_time": 1427326650099,
   "_from": "clone@>=1.0.2 <2.0.0",
   "_id": "clone@1.0.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/clone",
   "_npmUser": {
     "name": "pvorb",
@@ -36,11 +38,11 @@
     "/color",
     "/webpack"
   ],
-  "_resolved": "https://registry.npmjs.org/clone/-/clone-1.0.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/clone/download/clone-1.0.2.tgz",
   "_shasum": "260b7a99ebb1edfe247538175f783243cb19d149",
   "_shrinkwrap": null,
   "_spec": "clone@^1.0.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/color",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color",
   "author": {
     "name": "Paul Vorbach",
     "email": "paul@vorba.ch",
@@ -131,7 +133,9 @@
   "directories": {},
   "dist": {
     "shasum": "260b7a99ebb1edfe247538175f783243cb19d149",
-    "tarball": "https://registry.npmjs.org/clone/-/clone-1.0.2.tgz"
+    "size": 7631,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/clone/download/clone-1.0.2.tgz"
   },
   "engines": {
     "node": ">=0.8"
@@ -143,11 +147,12 @@
   "maintainers": [
     {
       "name": "pvorb",
-      "email": "paul@vorb.de"
+      "email": "paul@vorba.ch"
     }
   ],
   "name": "clone",
   "optionalDependencies": {},
+  "publish_time": 1427326650099,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=0.5.0 <0.6.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/less"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/less"
     ]
   ],
+  "_cnpm_publish_time": 1458683484205,
   "_from": "image-size@>=0.5.0 <0.6.0",
   "_id": "image-size@0.5.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/image-size",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/less"
   ],
-  "_resolved": "https://registry.npmjs.org/image-size/-/image-size-0.5.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/image-size/download/image-size-0.5.0.tgz",
   "_shasum": "be7aed1c37b5ac3d9ba1d66a24b4c47ff8397651",
   "_shrinkwrap": null,
   "_spec": "image-size@~0.5.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/less",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/less",
   "author": {
     "name": "netroy",
     "email": "aditya@netroy.in",
@@ -70,7 +72,9 @@
   "directories": {},
   "dist": {
     "shasum": "be7aed1c37b5ac3d9ba1d66a24b4c47ff8397651",
-    "tarball": "https://registry.npmjs.org/image-size/-/image-size-0.5.0.tgz"
+    "size": 6504,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/image-size/download/image-size-0.5.0.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -115,6 +119,7 @@
   ],
   "name": "image-size",
   "optionalDependencies": {},
+  "publish_time": 1458683484205,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

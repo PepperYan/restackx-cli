@@ -10,12 +10,14 @@
         "spec": ">=0.8.4 <0.9.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react"
     ]
   ],
+  "_cnpm_publish_time": 1475016048039,
   "_from": "fbjs@>=0.8.4 <0.9.0",
   "_id": "fbjs@0.8.5",
   "_inCache": true,
+  "_installable": true,
   "_location": "/fbjs",
   "_nodeVersion": "4.4.5",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/react"
   ],
-  "_resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.5.tgz",
+  "_resolved": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.8.5.tgz",
   "_shasum": "f69ba8a876096cb1b9bffe4d7c1e71c19d39d008",
   "_shrinkwrap": null,
   "_spec": "fbjs@^0.8.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react",
   "browserify": {
     "transform": [
       "loose-envify"
@@ -85,7 +87,9 @@
   "directories": {},
   "dist": {
     "shasum": "f69ba8a876096cb1b9bffe4d7c1e71c19d39d008",
-    "tarball": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.5.tgz"
+    "size": 128546,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/fbjs/download/fbjs-0.8.5.tgz"
   },
   "files": [
     "LICENSE",
@@ -156,6 +160,7 @@
   ],
   "name": "fbjs",
   "optionalDependencies": {},
+  "publish_time": 1475016048039,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

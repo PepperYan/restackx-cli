@@ -10,12 +10,14 @@
         "spec": ">=2.2.2 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1477085406287,
   "_from": "postcss-reduce-idents@>=2.2.2 <3.0.0",
   "_id": "postcss-reduce-idents@2.3.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-reduce-idents",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-reduce-idents/-/postcss-reduce-idents-2.3.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-reduce-idents/download/postcss-reduce-idents-2.3.1.tgz",
   "_shasum": "024e8e219f52773313408573db9645ba62d2d2fe",
   "_shrinkwrap": null,
   "_spec": "postcss-reduce-idents@^2.2.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -79,7 +81,9 @@
   "directories": {},
   "dist": {
     "shasum": "024e8e219f52773313408573db9645ba62d2d2fe",
-    "tarball": "https://registry.npmjs.org/postcss-reduce-idents/-/postcss-reduce-idents-2.3.1.tgz"
+    "size": 4677,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-reduce-idents/download/postcss-reduce-idents-2.3.1.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -100,7 +104,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -109,6 +113,7 @@
   ],
   "name": "postcss-reduce-idents",
   "optionalDependencies": {},
+  "publish_time": 1477085406287,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

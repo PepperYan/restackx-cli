@@ -10,12 +10,14 @@
         "spec": ">=1.0.3 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack-dev-middleware"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack-dev-middleware"
     ]
   ],
+  "_cnpm_publish_time": 1464803294367,
   "_from": "range-parser@>=1.0.3 <2.0.0",
   "_id": "range-parser@1.2.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/range-parser",
   "_npmOperationalInternal": {
     "host": "packages-16-east.internal.npmjs.com",
@@ -39,11 +41,11 @@
   "_requiredBy": [
     "/webpack-dev-middleware"
   ],
-  "_resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/range-parser/download/range-parser-1.2.0.tgz",
   "_shasum": "f49be6b487894ddc40dcc94a322f611092e00d5e",
   "_shrinkwrap": null,
   "_spec": "range-parser@^1.0.3",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack-dev-middleware",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack-dev-middleware",
   "author": {
     "name": "TJ Holowaychuk",
     "email": "tj@vision-media.ca",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "f49be6b487894ddc40dcc94a322f611092e00d5e",
-    "tarball": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz"
+    "size": 3383,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/range-parser/download/range-parser-1.2.0.tgz"
   },
   "engines": {
     "node": ">= 0.6"
@@ -118,6 +122,7 @@
   ],
   "name": "range-parser",
   "optionalDependencies": {},
+  "publish_time": 1464803294367,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

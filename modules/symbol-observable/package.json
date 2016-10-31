@@ -10,12 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux"
     ]
   ],
+  "_cnpm_publish_time": 1476392361924,
   "_from": "symbol-observable@>=1.0.2 <2.0.0",
   "_id": "symbol-observable@1.0.4",
   "_inCache": true,
+  "_installable": true,
   "_location": "/symbol-observable",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/redux"
   ],
-  "_resolved": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.0.4.tgz",
+  "_resolved": "http://registry.npm.taobao.org/symbol-observable/download/symbol-observable-1.0.4.tgz",
   "_shasum": "29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d",
   "_shrinkwrap": null,
   "_spec": "symbol-observable@^1.0.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/redux",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux",
   "author": {
     "name": "Ben Lesh",
     "email": "ben@benlesh.com"
@@ -66,7 +68,9 @@
   "directories": {},
   "dist": {
     "shasum": "29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d",
-    "tarball": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.0.4.tgz"
+    "size": 4601,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/symbol-observable/download/symbol-observable-1.0.4.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -108,6 +112,7 @@
   ],
   "name": "symbol-observable",
   "optionalDependencies": {},
+  "publish_time": 1476392361924,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=3.10.0 <3.11.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/uglify-js"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/uglify-js"
     ]
   ],
+  "_cnpm_publish_time": 1432873936617,
   "_from": "yargs@>=3.10.0 <3.11.0",
   "_id": "yargs@3.10.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/yargs",
   "_nodeVersion": "2.0.2",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/uglify-js"
   ],
-  "_resolved": "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/yargs/download/yargs-3.10.0.tgz",
   "_shasum": "f7ee7bd857dd7c1d2d38c0e74efbd681d1431fd1",
   "_shrinkwrap": null,
   "_spec": "yargs@~3.10.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/uglify-js",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/uglify-js",
   "author": {
     "name": "Alex Ford",
     "email": "Alex.Ford@CodeTunnel.com",
@@ -92,7 +94,9 @@
   "directories": {},
   "dist": {
     "shasum": "f7ee7bd857dd7c1d2d38c0e74efbd681d1431fd1",
-    "tarball": "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz"
+    "size": 33186,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/yargs/download/yargs-3.10.0.tgz"
   },
   "engine": {
     "node": ">=0.4"
@@ -118,12 +122,16 @@
   "main": "./index.js",
   "maintainers": [
     {
+      "name": "bcoe",
+      "email": "bencoe@gmail.com"
+    },
+    {
       "name": "chevex",
       "email": "alex.ford@codetunnel.com"
     },
     {
-      "name": "bcoe",
-      "email": "bencoe@gmail.com"
+      "name": "nexdrew",
+      "email": "andrew@npmjs.com"
     },
     {
       "name": "nylen",
@@ -132,6 +140,7 @@
   ],
   "name": "yargs",
   "optionalDependencies": {},
+  "publish_time": 1432873936617,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.13.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1477491824936,
   "_from": "webpack@>=1.13.1 <2.0.0",
   "_id": "webpack@1.13.3",
   "_inCache": true,
+  "_installable": true,
   "_location": "/webpack",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
@@ -42,11 +44,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/webpack/-/webpack-1.13.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/webpack/download/webpack-1.13.3.tgz",
   "_shasum": "e79c46fe5a37c5ca70084ba0894c595cdcb42815",
   "_shrinkwrap": null,
   "_spec": "webpack@^1.13.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -113,7 +115,9 @@
   "directories": {},
   "dist": {
     "shasum": "e79c46fe5a37c5ca70084ba0894c595cdcb42815",
-    "tarball": "https://registry.npmjs.org/webpack/-/webpack-1.13.3.tgz"
+    "size": 106480,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/webpack/download/webpack-1.13.3.tgz"
   },
   "engines": {
     "node": ">=0.6"
@@ -145,6 +149,7 @@
   ],
   "name": "webpack",
   "optionalDependencies": {},
+  "publish_time": 1477491824936,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

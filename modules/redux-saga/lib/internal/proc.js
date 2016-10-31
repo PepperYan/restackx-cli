@@ -197,14 +197,14 @@ function wrapHelper(helper) {
 }
 
 function proc(iterator) {
-  var subscribe = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : function () {
+  var subscribe = arguments.length <= 1 || arguments[1] === undefined ? function () {
     return _utils.noop;
-  };
-  var dispatch = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _utils.noop;
-  var getState = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : _utils.noop;
-  var options = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {};
-  var parentEffectId = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
-  var name = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 'anonymous';
+  } : arguments[1];
+  var dispatch = arguments.length <= 2 || arguments[2] === undefined ? _utils.noop : arguments[2];
+  var getState = arguments.length <= 3 || arguments[3] === undefined ? _utils.noop : arguments[3];
+  var options = arguments.length <= 4 || arguments[4] === undefined ? {} : arguments[4];
+  var parentEffectId = arguments.length <= 5 || arguments[5] === undefined ? 0 : arguments[5];
+  var name = arguments.length <= 6 || arguments[6] === undefined ? 'anonymous' : arguments[6];
   var cont = arguments[7];
 
   (0, _utils.check)(iterator, _utils.is.iterator, NOT_ITERATOR_ERROR);
@@ -243,9 +243,9 @@ function proc(iterator) {
   /**
     This may be called by a parent generator to trigger/propagate cancellation
     cancel all pending tasks (including the main task), then end the current task.
-      Cancellation propagates down to the whole execution tree holded by this Parent task
+     Cancellation propagates down to the whole execution tree holded by this Parent task
     It's also propagated to all joiners of this task and their execution tree/joiners
-      Cancellation is noop for terminated/Cancelled tasks tasks
+     Cancellation is noop for terminated/Cancelled tasks tasks
   **/
   function cancel() {
     /**
@@ -295,7 +295,7 @@ function proc(iterator) {
         /**
           getting TASK_CANCEL autoamtically cancels the main task
           We can get this value here
-            - By cancelling the parent task manually
+           - By cancelling the parent task manually
           - By joining a Cancelled task
         **/
         mainTask.isCancelled = true;
@@ -364,7 +364,7 @@ function proc(iterator) {
   }
 
   function runEffect(effect, parentEffectId) {
-    var label = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
+    var label = arguments.length <= 2 || arguments[2] === undefined ? '' : arguments[2];
     var cb = arguments[3];
 
     var effectId = nextEffectId();
@@ -420,12 +420,12 @@ function proc(iterator) {
     /**
       each effect runner must attach its own logic of cancellation to the provided callback
       it allows this generator to propagate cancellation downward.
-        ATTENTION! effect runners must setup the cancel logic by setting cb.cancel = [cancelMethod]
+       ATTENTION! effect runners must setup the cancel logic by setting cb.cancel = [cancelMethod]
       And the setup must occur before calling the callback
-        This is a sort of inversion of control: called async functions are responsible
+       This is a sort of inversion of control: called async functions are responsible
       of completing the flow by calling the provided continuation; while caller functions
       are responsible for aborting the current flow by calling the attached cancel function
-        Library users can attach their own cancellation logic to promises by defining a
+       Library users can attach their own cancellation logic to promises by defining a
       promise[CANCEL] method in their returned promises
       ATTENTION! calling cancel must have no effect on an already completed or cancelled effect
     **/
@@ -486,7 +486,9 @@ function proc(iterator) {
       try {
         result = (channel ? channel.put : dispatch)(action);
       } catch (error) {
-        return cb(error, true);
+        // If we have a channel or `put.sync` was used then bubble up the error.
+        if (channel || sync) return cb(error, true);
+        log('error', 'uncaught at ' + name, error.stack || error.message || error);
       }
 
       if (sync && _utils.is.promise(result)) {
@@ -523,9 +525,17 @@ function proc(iterator) {
 
     // catch synchronous failures; see #152
     try {
-      fn.apply(context, args.concat(function (err, res) {
-        return _utils.is.undef(err) ? cb(res) : cb(err, true);
-      }));
+      (function () {
+        var cpsCb = function cpsCb(err, res) {
+          return _utils.is.undef(err) ? cb(res) : cb(err, true);
+        };
+        fn.apply(context, args.concat(cpsCb));
+        if (cpsCb.cancel) {
+          cb.cancel = function () {
+            return cpsCb.cancel();
+          };
+        }
+      })();
     } catch (error) {
       return cb(error, true);
     }
@@ -663,7 +673,10 @@ function proc(iterator) {
       }
     };
     keys.forEach(function (key) {
-      return runEffect(effects[key], effectId, key, childCbs[key]);
+      if (completed) {
+        return;
+      }
+      runEffect(effects[key], effectId, key, childCbs[key]);
     });
   }
 

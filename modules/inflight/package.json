@@ -10,12 +10,14 @@
         "spec": ">=1.0.4 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/glob"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/glob"
     ]
   ],
+  "_cnpm_publish_time": 1476330809524,
   "_from": "inflight@>=1.0.4 <2.0.0",
   "_id": "inflight@1.0.6",
   "_inCache": true,
+  "_installable": true,
   "_location": "/inflight",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/glob"
   ],
-  "_resolved": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz",
+  "_resolved": "http://registry.npm.taobao.org/inflight/download/inflight-1.0.6.tgz",
   "_shasum": "49bd6331d7d02d0c09bc910a1075ba8165b56df9",
   "_shrinkwrap": null,
   "_spec": "inflight@^1.0.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/glob",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/glob",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",
@@ -64,7 +66,9 @@
   "directories": {},
   "dist": {
     "shasum": "49bd6331d7d02d0c09bc910a1075ba8165b56df9",
-    "tarball": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+    "size": 2041,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/inflight/download/inflight-1.0.6.tgz"
   },
   "files": [
     "inflight.js"
@@ -93,6 +97,7 @@
   ],
   "name": "inflight",
   "optionalDependencies": {},
+  "publish_time": 1476330809524,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1454433771112,
   "_from": "react-transform-catch-errors@>=1.0.2 <2.0.0",
   "_id": "react-transform-catch-errors@1.0.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-transform-catch-errors",
   "_nodeVersion": "5.1.1",
   "_npmOperationalInternal": {
@@ -41,11 +43,11 @@
     "#DEV:/",
     "/babel-preset-react-hmre"
   ],
-  "_resolved": "https://registry.npmjs.org/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-transform-catch-errors/download/react-transform-catch-errors-1.0.2.tgz",
   "_shasum": "1b4d4a76e97271896fc16fe3086c793ec88a9eeb",
   "_shrinkwrap": null,
   "_spec": "react-transform-catch-errors@^1.0.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com"
@@ -65,7 +67,9 @@
   "directories": {},
   "dist": {
     "shasum": "1b4d4a76e97271896fc16fe3086c793ec88a9eeb",
-    "tarball": "https://registry.npmjs.org/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz"
+    "size": 3605,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-transform-catch-errors/download/react-transform-catch-errors-1.0.2.tgz"
   },
   "files": [
     "lib",
@@ -95,6 +99,7 @@
   ],
   "name": "react-transform-catch-errors",
   "optionalDependencies": {},
+  "publish_time": 1454433771112,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

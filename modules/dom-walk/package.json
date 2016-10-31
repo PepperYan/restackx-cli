@@ -10,12 +10,14 @@
         "spec": ">=0.1.0 <0.2.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/min-document"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/min-document"
     ]
   ],
+  "_cnpm_publish_time": 1405664362188,
   "_from": "dom-walk@>=0.1.0 <0.2.0",
   "_id": "dom-walk@0.1.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/dom-walk",
   "_npmUser": {
     "name": "raynos",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/min-document"
   ],
-  "_resolved": "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/dom-walk/download/dom-walk-0.1.1.tgz",
   "_shasum": "672226dc74c8f799ad35307df936aba11acd6018",
   "_shrinkwrap": null,
   "_spec": "dom-walk@^0.1.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/min-document",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/min-document",
   "author": {
     "name": "Raynos",
     "email": "raynos2@gmail.com"
@@ -61,7 +63,9 @@
   "directories": {},
   "dist": {
     "shasum": "672226dc74c8f799ad35307df936aba11acd6018",
-    "tarball": "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.1.tgz"
+    "size": 5760,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/dom-walk/download/dom-walk-0.1.1.tgz"
   },
   "homepage": "https://github.com/Raynos/dom-walk",
   "keywords": [],
@@ -80,6 +84,7 @@
   ],
   "name": "dom-walk",
   "optionalDependencies": {},
+  "publish_time": 1405664362188,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

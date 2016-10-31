@@ -10,12 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
     ]
   ],
+  "_cnpm_publish_time": 1422107333313,
   "_from": "filename-regex@>=2.0.0 <3.0.0",
   "_id": "filename-regex@2.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/filename-regex",
   "_npmUser": {
     "name": "jonschlinkert",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/micromatch"
   ],
-  "_resolved": "https://registry.npmjs.org/filename-regex/-/filename-regex-2.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/filename-regex/download/filename-regex-2.0.0.tgz",
   "_shasum": "996e3e80479b98b9897f15a8a58b3d084e926775",
   "_shrinkwrap": null,
   "_spec": "filename-regex@^2.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
@@ -53,7 +55,9 @@
   "directories": {},
   "dist": {
     "shasum": "996e3e80479b98b9897f15a8a58b3d084e926775",
-    "tarball": "https://registry.npmjs.org/filename-regex/-/filename-regex-2.0.0.tgz"
+    "size": 1055,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/filename-regex/download/filename-regex-2.0.0.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -88,6 +92,7 @@
   ],
   "name": "filename-regex",
   "optionalDependencies": {},
+  "publish_time": 1422107333313,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

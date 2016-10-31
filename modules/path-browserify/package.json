@@ -10,12 +10,14 @@
         "spec": "0.0.0",
         "type": "version"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
     ]
   ],
+  "_cnpm_publish_time": 1386100117866,
   "_from": "path-browserify@0.0.0",
   "_id": "path-browserify@0.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/path-browserify",
   "_npmUser": {
     "name": "substack",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/path-browserify/download/path-browserify-0.0.0.tgz",
   "_shasum": "a0b870729aae214005b7d5032ec2cbbb0fb4451a",
   "_shrinkwrap": null,
   "_spec": "path-browserify@0.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
@@ -55,8 +57,10 @@
   },
   "directories": {},
   "dist": {
+    "tarball": "http://r.cnpmjs.org/path-browserify/download/path-browserify-0.0.0.tgz",
     "shasum": "a0b870729aae214005b7d5032ec2cbbb0fb4451a",
-    "tarball": "https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.0.tgz"
+    "size": 3059,
+    "noattachment": false
   },
   "homepage": "https://github.com/substack/path-browserify",
   "keywords": [
@@ -69,12 +73,14 @@
   "maintainers": [
     {
       "name": "substack",
-      "email": "mail@substack.net"
+      "email": "substack@gmail.com"
     }
   ],
   "name": "path-browserify",
   "optionalDependencies": {},
+  "publish_time": 1386100117866,
   "readme": "ERROR: No README data found!",
+  "readmeFilename": "readme.markdown",
   "repository": {
     "type": "git",
     "url": "git://github.com/substack/path-browserify.git"

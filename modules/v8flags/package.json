@@ -10,12 +10,14 @@
         "spec": ">=2.0.10 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli"
     ]
   ],
+  "_cnpm_publish_time": 1450727021533,
   "_from": "v8flags@>=2.0.10 <3.0.0",
   "_id": "v8flags@2.0.11",
   "_inCache": true,
+  "_installable": true,
   "_location": "/v8flags",
   "_nodeVersion": "5.2.0",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/babel-cli"
   ],
-  "_resolved": "https://registry.npmjs.org/v8flags/-/v8flags-2.0.11.tgz",
+  "_resolved": "http://registry.npm.taobao.org/v8flags/download/v8flags-2.0.11.tgz",
   "_shasum": "bca8f30f0d6d60612cc2c00641e6962d42ae6881",
   "_shrinkwrap": null,
   "_spec": "v8flags@^2.0.10",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/babel-cli",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-cli",
   "author": {
     "name": "Tyler Kellen",
     "url": "http://goingslowly.com/"
@@ -60,7 +62,9 @@
   "directories": {},
   "dist": {
     "shasum": "bca8f30f0d6d60612cc2c00641e6962d42ae6881",
-    "tarball": "https://registry.npmjs.org/v8flags/-/v8flags-2.0.11.tgz"
+    "size": 3849,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/v8flags/download/v8flags-2.0.11.tgz"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -85,7 +89,7 @@
     },
     {
       "name": "phated",
-      "email": "blaine@iceddev.com"
+      "email": "blaine.bublitz@gmail.com"
     },
     {
       "name": "tkellen",
@@ -94,6 +98,7 @@
   ],
   "name": "v8flags",
   "optionalDependencies": {},
+  "publish_time": 1450727021533,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.3.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/color"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color"
     ]
   ],
+  "_cnpm_publish_time": 1472948783790,
   "_from": "color-convert@>=1.3.0 <2.0.0",
   "_id": "color-convert@1.5.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/color-convert",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/color"
   ],
-  "_resolved": "https://registry.npmjs.org/color-convert/-/color-convert-1.5.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/color-convert/download/color-convert-1.5.0.tgz",
   "_shasum": "7a2b4efb4488df85bca6443cb038b7100fbe7de1",
   "_shrinkwrap": null,
   "_spec": "color-convert@^1.3.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/color",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color",
   "author": {
     "name": "Heather Arthur",
     "email": "fayearthur@gmail.com"
@@ -61,7 +63,9 @@
   "directories": {},
   "dist": {
     "shasum": "7a2b4efb4488df85bca6443cb038b7100fbe7de1",
-    "tarball": "https://registry.npmjs.org/color-convert/-/color-convert-1.5.0.tgz"
+    "size": 9893,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/color-convert/download/color-convert-1.5.0.tgz"
   },
   "files": [
     "index.js",
@@ -102,6 +106,7 @@
   ],
   "name": "color-convert",
   "optionalDependencies": {},
+  "publish_time": 1472948783790,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

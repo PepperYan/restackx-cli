@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/home-or-tmp"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/home-or-tmp"
     ]
   ],
+  "_cnpm_publish_time": 1475211274812,
   "_from": "os-tmpdir@>=1.0.1 <2.0.0",
   "_id": "os-tmpdir@1.0.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/os-tmpdir",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/home-or-tmp"
   ],
-  "_resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz",
   "_shasum": "bbe67406c79aa85c5cfec766fe5734555dfa1274",
   "_shrinkwrap": null,
   "_spec": "os-tmpdir@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/home-or-tmp",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/home-or-tmp",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -62,7 +64,9 @@
   "directories": {},
   "dist": {
     "shasum": "bbe67406c79aa85c5cfec766fe5734555dfa1274",
-    "tarball": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+    "size": 1796,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -97,6 +101,7 @@
   ],
   "name": "os-tmpdir",
   "optionalDependencies": {},
+  "publish_time": 1475211274812,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

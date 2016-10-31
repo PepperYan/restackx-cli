@@ -10,12 +10,14 @@
         "spec": ">=0.14.0 <0.15.0||>=15.0.0 <16.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-toastr"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr"
     ]
   ],
+  "_cnpm_publish_time": 1474307216472,
   "_from": "react-addons-update@>=0.14.0 <0.15.0||>=15.0.0 <16.0.0",
   "_id": "react-addons-update@15.3.2",
   "_inCache": true,
+  "_installable": true,
   "_location": "/react-addons-update",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/react-toastr"
   ],
-  "_resolved": "https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.2.tgz",
+  "_resolved": "http://registry.npm.taobao.org/react-addons-update/download/react-addons-update-15.3.2.tgz",
   "_shasum": "b6385c4db1e5df371825e0615b04360ed94430fe",
   "_shrinkwrap": null,
   "_spec": "react-addons-update@^0.14.0 || ^15.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/react-toastr",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr",
   "bugs": {
     "url": "https://github.com/facebook/react/issues"
   },
@@ -54,7 +56,9 @@
   "directories": {},
   "dist": {
     "shasum": "b6385c4db1e5df371825e0615b04360ed94430fe",
-    "tarball": "https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.2.tgz"
+    "size": 2786,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/react-addons-update/download/react-addons-update-15.3.2.tgz"
   },
   "files": [
     "LICENSE",
@@ -100,6 +104,7 @@
   "peerDependencies": {
     "react": "^15.3.2"
   },
+  "publish_time": 1474307216472,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

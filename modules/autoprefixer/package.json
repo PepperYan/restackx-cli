@@ -10,12 +10,14 @@
         "spec": ">=6.3.1 <7.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1476305172609,
   "_from": "autoprefixer@>=6.3.1 <7.0.0",
   "_id": "autoprefixer@6.5.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/autoprefixer",
   "_nodeVersion": "6.7.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/autoprefixer/download/autoprefixer-6.5.1.tgz",
   "_shasum": "ae759a5221e709f3da17c2d656230e67c43cbb75",
   "_shrinkwrap": null,
   "_spec": "autoprefixer@^6.3.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Andrey Sitnik",
     "email": "andrey@sitnik.ru"
@@ -79,7 +81,9 @@
   "directories": {},
   "dist": {
     "shasum": "ae759a5221e709f3da17c2d656230e67c43cbb75",
-    "tarball": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.1.tgz"
+    "size": 41062,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/autoprefixer/download/autoprefixer-6.5.1.tgz"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
@@ -101,7 +105,7 @@
     },
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "kossnocorp",
@@ -110,6 +114,7 @@
   ],
   "name": "autoprefixer",
   "optionalDependencies": {},
+  "publish_time": 1476305172609,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1437727770633,
   "_from": "has@>=1.0.1 <2.0.0",
   "_id": "has@1.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/has",
   "_nodeVersion": "2.2.1",
   "_npmUser": {
@@ -38,11 +40,11 @@
     "/cssnano",
     "/postcss-merge-idents"
   ],
-  "_resolved": "https://registry.npmjs.org/has/-/has-1.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/has/download/has-1.0.1.tgz",
   "_shasum": "8461733f538b0837c9361e39a9ab9e9704dc2f28",
   "_shrinkwrap": null,
   "_spec": "has@^1.0.1",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Thiago de Arruda",
     "email": "tpadilha84@gmail.com"
@@ -61,7 +63,9 @@
   "directories": {},
   "dist": {
     "shasum": "8461733f538b0837c9361e39a9ab9e9704dc2f28",
-    "tarball": "https://registry.npmjs.org/has/-/has-1.0.1.tgz"
+    "size": 1668,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/has/download/has-1.0.1.tgz"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -83,6 +87,7 @@
   ],
   "name": "has",
   "optionalDependencies": {},
+  "publish_time": 1437727770633,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

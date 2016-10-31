@@ -10,12 +10,14 @@
         "spec": ">=5.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/color-space"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color-space"
     ]
   ],
+  "_cnpm_publish_time": 1441389566370,
   "_from": "husl@>=5.0.0",
   "_id": "husl@6.0.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/husl",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/color-space"
   ],
-  "_resolved": "https://registry.npmjs.org/husl/-/husl-6.0.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/husl/download/husl-6.0.1.tgz",
   "_shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
   "_shrinkwrap": null,
   "_spec": "husl@>=5.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/color-space",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color-space",
   "author": {
     "name": "Alexei Boronine",
     "email": "alexei@boronine.com"
@@ -59,7 +61,9 @@
   "directories": {},
   "dist": {
     "shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
-    "tarball": "https://registry.npmjs.org/husl/-/husl-6.0.1.tgz"
+    "size": 4808,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/husl/download/husl-6.0.1.tgz"
   },
   "files": [
     "husl.js"
@@ -84,6 +88,7 @@
   ],
   "name": "husl",
   "optionalDependencies": {},
+  "publish_time": 1441389566370,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

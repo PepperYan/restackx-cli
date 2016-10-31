@@ -10,12 +10,14 @@
         "spec": "0.0.0",
         "type": "version"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
     ]
   ],
+  "_cnpm_publish_time": 1386098800780,
   "_from": "https-browserify@0.0.0",
   "_id": "https-browserify@0.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/https-browserify",
   "_npmUser": {
     "name": "substack",
@@ -35,11 +37,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "https://registry.npmjs.org/https-browserify/-/https-browserify-0.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/https-browserify/download/https-browserify-0.0.0.tgz",
   "_shasum": "b3ffdfe734b2a3d4a9efd58e8654c91fce86eafd",
   "_shrinkwrap": null,
   "_spec": "https-browserify@0.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
@@ -53,8 +55,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
+    "tarball": "http://r.cnpmjs.org/https-browserify/download/https-browserify-0.0.0.tgz",
     "shasum": "b3ffdfe734b2a3d4a9efd58e8654c91fce86eafd",
-    "tarball": "https://registry.npmjs.org/https-browserify/-/https-browserify-0.0.0.tgz"
+    "size": 1413,
+    "noattachment": false
   },
   "homepage": "https://github.com/substack/https-browserify",
   "keywords": [
@@ -66,13 +70,23 @@
   "main": "index.js",
   "maintainers": [
     {
+      "name": "feross",
+      "email": "feross@feross.org"
+    },
+    {
+      "name": "ptarjan",
+      "email": "npm@paulisageek.com"
+    },
+    {
       "name": "substack",
-      "email": "mail@substack.net"
+      "email": "substack@gmail.com"
     }
   ],
   "name": "https-browserify",
   "optionalDependencies": {},
+  "publish_time": 1386098800780,
   "readme": "ERROR: No README data found!",
+  "readmeFilename": "readme.markdown",
   "repository": {
     "type": "git",
     "url": "git://github.com/substack/https-browserify.git"

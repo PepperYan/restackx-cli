@@ -10,12 +10,14 @@
         "spec": ">=2.0.3 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1468878234167,
   "_from": "postcss-merge-rules@>=2.0.3 <3.0.0",
   "_id": "postcss-merge-rules@2.0.10",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-merge-rules",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-merge-rules/-/postcss-merge-rules-2.0.10.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-merge-rules/download/postcss-merge-rules-2.0.10.tgz",
   "_shasum": "54b360be804e7e69a5c7222635247b92a3569e9b",
   "_shrinkwrap": null,
   "_spec": "postcss-merge-rules@^2.0.3",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -81,7 +83,9 @@
   "directories": {},
   "dist": {
     "shasum": "54b360be804e7e69a5c7222635247b92a3569e9b",
-    "tarball": "https://registry.npmjs.org/postcss-merge-rules/-/postcss-merge-rules-2.0.10.tgz"
+    "size": 12817,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-merge-rules/download/postcss-merge-rules-2.0.10.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -103,7 +107,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -112,6 +116,7 @@
   ],
   "name": "postcss-merge-rules",
   "optionalDependencies": {},
+  "publish_time": 1468878234167,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

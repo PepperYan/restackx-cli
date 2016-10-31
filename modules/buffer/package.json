@@ -10,12 +10,14 @@
         "spec": ">=4.9.0 <5.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
     ]
   ],
+  "_cnpm_publish_time": 1471491999280,
   "_from": "buffer@>=4.9.0 <5.0.0",
   "_id": "buffer@4.9.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/buffer",
   "_nodeVersion": "6.4.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/buffer/download/buffer-4.9.1.tgz",
   "_shasum": "6d1bb601b07a4efced97094132093027c95bc298",
   "_shrinkwrap": null,
   "_spec": "buffer@^4.9.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -85,7 +87,9 @@
   "directories": {},
   "dist": {
     "shasum": "6d1bb601b07a4efced97094132093027c95bc298",
-    "tarball": "https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz"
+    "size": 59441,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/buffer/download/buffer-4.9.1.tgz"
   },
   "gitHead": "2152e6ac4f8b47dc46eba44e07fad7c9d3e30563",
   "homepage": "https://github.com/feross/buffer",
@@ -115,6 +119,7 @@
   ],
   "name": "buffer",
   "optionalDependencies": {},
+  "publish_time": 1471491999280,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

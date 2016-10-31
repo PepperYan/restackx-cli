@@ -10,12 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1464799894410,
   "_from": "postcss-reduce-initial@>=1.0.0 <2.0.0",
   "_id": "postcss-reduce-initial@1.0.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-reduce-initial",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-1.0.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-reduce-initial/download/postcss-reduce-initial-1.0.0.tgz",
   "_shasum": "8f739b938289ef2e48936d7101783e4741ca9bbb",
   "_shrinkwrap": null,
   "_spec": "postcss-reduce-initial@^1.0.0",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "8f739b938289ef2e48936d7101783e4741ca9bbb",
-    "tarball": "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-1.0.0.tgz"
+    "size": 4258,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-reduce-initial/download/postcss-reduce-initial-1.0.0.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -102,11 +106,12 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     }
   ],
   "name": "postcss-reduce-initial",
   "optionalDependencies": {},
+  "publish_time": 1464799894410,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

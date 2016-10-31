@@ -3,7 +3,7 @@ import proc from './proc';
 import { emitter } from './channel';
 
 export default function sagaMiddlewareFactory() {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 
   var runSagaDynamically = void 0;
 

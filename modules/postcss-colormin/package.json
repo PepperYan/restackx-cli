@@ -10,12 +10,14 @@
         "spec": ">=2.1.8 <3.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
     ]
   ],
+  "_cnpm_publish_time": 1474318614339,
   "_from": "postcss-colormin@>=2.1.8 <3.0.0",
   "_id": "postcss-colormin@2.2.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/postcss-colormin",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "https://registry.npmjs.org/postcss-colormin/-/postcss-colormin-2.2.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/postcss-colormin/download/postcss-colormin-2.2.1.tgz",
   "_shasum": "dc5421b6ae6f779ef6bfd47352b94abe59d0316b",
   "_shrinkwrap": null,
   "_spec": "postcss-colormin@^2.1.8",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -80,7 +82,9 @@
   "directories": {},
   "dist": {
     "shasum": "dc5421b6ae6f779ef6bfd47352b94abe59d0316b",
-    "tarball": "https://registry.npmjs.org/postcss-colormin/-/postcss-colormin-2.2.1.tgz"
+    "size": 3772,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/postcss-colormin/download/postcss-colormin-2.2.1.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -105,7 +109,7 @@
   "maintainers": [
     {
       "name": "beneb",
-      "email": "beneb.info@gmail.com"
+      "email": "therealbenbriggs@hotmail.com"
     },
     {
       "name": "trysound",
@@ -114,6 +118,7 @@
   ],
   "name": "postcss-colormin",
   "optionalDependencies": {},
+  "publish_time": 1474318614339,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -78,7 +78,7 @@ export function remove(array, item) {
 }
 
 export function deferred() {
-  var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var props = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 
   var def = _extends({}, props);
   var promise = new Promise(function (resolve, reject) {
@@ -98,7 +98,7 @@ export function arrayOfDeffered(length) {
 }
 
 export function delay(ms) {
-  var val = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  var val = arguments.length <= 1 || arguments[1] === undefined ? true : arguments[1];
 
   var timeoutId = void 0;
   var promise = new Promise(function (resolve) {
@@ -137,7 +137,7 @@ export function createMockTask() {
 }
 
 export function autoInc() {
-  var seed = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+  var seed = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];
 
   return function () {
     return ++seed;
@@ -151,8 +151,8 @@ var kReturn = function kReturn(value) {
   return { value: value, done: true };
 };
 export function makeIterator(next) {
-  var thro = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : kThrow;
-  var name = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
+  var thro = arguments.length <= 1 || arguments[1] === undefined ? kThrow : arguments[1];
+  var name = arguments.length <= 2 || arguments[2] === undefined ? '' : arguments[2];
   var isHelper = arguments[3];
 
   var iterator = { name: name, next: next, throw: thro, return: kReturn };

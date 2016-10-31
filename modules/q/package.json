@@ -10,12 +10,14 @@
         "spec": ">=1.1.2 <2.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/coa"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/coa"
     ]
   ],
+  "_cnpm_publish_time": 1431836707299,
   "_from": "q@>=1.1.2 <2.0.0",
   "_id": "q@1.4.1",
   "_inCache": true,
+  "_installable": true,
   "_location": "/q",
   "_nodeVersion": "1.8.1",
   "_npmUser": {
@@ -36,11 +38,11 @@
   "_requiredBy": [
     "/coa"
   ],
-  "_resolved": "https://registry.npmjs.org/q/-/q-1.4.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/q/download/q-1.4.1.tgz",
   "_shasum": "55705bcd93c5f3673530c2c2cbc0c2b3addc286e",
   "_shrinkwrap": null,
   "_spec": "q@^1.1.2",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/coa",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/coa",
   "author": {
     "name": "Kris Kowal",
     "email": "kris@cixar.com",
@@ -84,7 +86,9 @@
   },
   "dist": {
     "shasum": "55705bcd93c5f3673530c2c2cbc0c2b3addc286e",
-    "tarball": "https://registry.npmjs.org/q/-/q-1.4.1.tgz"
+    "size": 36332,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/q/download/q-1.4.1.tgz"
   },
   "engines": {
     "node": ">=0.6.0",
@@ -118,12 +122,12 @@
   "main": "q.js",
   "maintainers": [
     {
-      "name": "kriskowal",
-      "email": "kris.kowal@cixar.com"
-    },
-    {
       "name": "domenic",
       "email": "domenic@domenicdenicola.com"
+    },
+    {
+      "name": "kriskowal",
+      "email": "kris.kowal@cixar.com"
     }
   ],
   "name": "q",
@@ -135,6 +139,7 @@
       }
     }
   },
+  "publish_time": 1431836707299,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

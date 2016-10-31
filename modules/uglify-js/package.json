@@ -10,12 +10,14 @@
         "spec": ">=2.7.3 <2.8.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
     ]
   ],
+  "_cnpm_publish_time": 1477252007943,
   "_from": "uglify-js@>=2.7.3 <2.8.0",
   "_id": "uglify-js@2.7.4",
   "_inCache": true,
+  "_installable": true,
   "_location": "/uglify-js",
   "_nodeVersion": "6.3.0",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/webpack"
   ],
-  "_resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.4.tgz",
+  "_resolved": "http://registry.npm.taobao.org/uglify-js/download/uglify-js-2.7.4.tgz",
   "_shasum": "a295a0de12b6a650c031c40deb0dc40b14568bd2",
   "_shrinkwrap": null,
   "_spec": "uglify-js@~2.7.3",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
   "author": {
     "name": "Mihai Bazon",
     "email": "mihai.bazon@gmail.com",
@@ -78,7 +80,9 @@
   "directories": {},
   "dist": {
     "shasum": "a295a0de12b6a650c031c40deb0dc40b14568bd2",
-    "tarball": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.4.tgz"
+    "size": 119636,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/uglify-js/download/uglify-js-2.7.4.tgz"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -111,6 +115,7 @@
   ],
   "name": "uglify-js",
   "optionalDependencies": {},
+  "publish_time": 1477252007943,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=0.5.3 <0.6.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core"
     ]
   ],
+  "_cnpm_publish_time": 1458072065135,
   "_from": "redux-promise@>=0.5.3 <0.6.0",
   "_id": "redux-promise@0.5.3",
   "_inCache": true,
+  "_installable": true,
   "_location": "/redux-promise",
   "_nodeVersion": "5.7.1",
   "_npmOperationalInternal": {
@@ -40,11 +42,11 @@
   "_requiredBy": [
     "/restack-core"
   ],
-  "_resolved": "https://registry.npmjs.org/redux-promise/-/redux-promise-0.5.3.tgz",
+  "_resolved": "http://registry.npm.taobao.org/redux-promise/download/redux-promise-0.5.3.tgz",
   "_shasum": "e97e6c9d3bf376eacb79babe6d906da20112d6d8",
   "_shrinkwrap": null,
   "_spec": "redux-promise@^0.5.3",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype/node_modules/restack-core",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core",
   "author": {
     "name": "Andrew Clark",
     "email": "acdlite@me.com"
@@ -70,7 +72,9 @@
   "directories": {},
   "dist": {
     "shasum": "e97e6c9d3bf376eacb79babe6d906da20112d6d8",
-    "tarball": "https://registry.npmjs.org/redux-promise/-/redux-promise-0.5.3.tgz"
+    "size": 3500,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/redux-promise/download/redux-promise-0.5.3.tgz"
   },
   "gitHead": "d2338adac128436a623e3e40a6624074d8d01a52",
   "homepage": "https://github.com/acdlite/redux-promise",
@@ -92,6 +96,7 @@
   ],
   "name": "redux-promise",
   "optionalDependencies": {},
+  "publish_time": 1458072065135,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -10,12 +10,14 @@
         "spec": ">=6.6.4 <7.0.0",
         "type": "range"
       },
-      "/home/core/restack/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
     ]
   ],
+  "_cnpm_publish_time": 1477343920028,
   "_from": "babel-core@>=6.6.4 <7.0.0",
   "_id": "babel-core@6.18.0",
   "_inCache": true,
+  "_installable": true,
   "_location": "/babel-core",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
@@ -42,11 +44,11 @@
     "/babel-cli",
     "/babel-register"
   ],
-  "_resolved": "https://registry.npmjs.org/babel-core/-/babel-core-6.18.0.tgz",
+  "_resolved": "http://registry.npm.taobao.org/babel-core/download/babel-core-6.18.0.tgz",
   "_shasum": "bb5ce9bc0a956e6e94e2f12d597abb3b0b330deb",
   "_shrinkwrap": null,
   "_spec": "babel-core@^6.6.4",
-  "_where": "/home/core/restack/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
   "author": {
     "name": "Sebastian McKenzie",
     "email": "sebmck@gmail.com"
@@ -81,7 +83,9 @@
   "directories": {},
   "dist": {
     "shasum": "bb5ce9bc0a956e6e94e2f12d597abb3b0b330deb",
-    "tarball": "https://registry.npmjs.org/babel-core/-/babel-core-6.18.0.tgz"
+    "size": 18966,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/babel-core/download/babel-core-6.18.0.tgz"
   },
   "homepage": "https://babeljs.io/",
   "keywords": [
@@ -126,6 +130,7 @@
   ],
   "name": "babel-core",
   "optionalDependencies": {},
+  "publish_time": 1477343920028,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
