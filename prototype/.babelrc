@@ -1,8 +1,8 @@
 {
   "presets": [
-    "react",
     "es2015",
-    "stage-1"
+    "stage-1",
+    "react"
   ],
   "plugins": [
     "transform-class-properties",
@@ -10,9 +10,12 @@
     "transform-decorators",
     "transform-runtime",
     "syntax-async-functions",
-    "transform-regenerator"
+    "transform-regenerator",
+    "transform-object-assign"
   ],
   "env": {
-  
+    "development": {
+      "presets": ["react-hmre"]
+    }
   }
 }

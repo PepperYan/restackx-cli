@@ -9,13 +9,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = function(cwd, project) {
-  var entries = _.mapValues(project.entries, function(v, k){
-    return path.join(cwd, v)
-  })
 
   var entries = _.mapValues(project.entries, function(v, k){
     const path = (project.staticUrl&&project.staticUrl !== '') ? `?path=${project.staticUrl}/__webpack_hmr` : ""
-    return [v, `webpack-hot-middleware/client${path}`, 'webpack/hot/dev-server'] //['webpack-dev-server/client?http://localhost:3000/']
+    //这个v必须放最后,不然热部署会有问题
+    return [`webpack-hot-middleware/client${path}`, 'webpack/hot/dev-server', v] //['webpack-dev-server/client?http://localhost:3000/']
   })
 
   return makeConfig({

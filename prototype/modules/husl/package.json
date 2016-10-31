@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "husl@>=5.0",
+        "scope": null,
+        "escapedName": "husl",
+        "name": "husl",
+        "rawSpec": ">=5.0",
+        "spec": ">=5.0.0",
+        "type": "range"
+      },
+      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color-space"
+    ]
+  ],
+  "_cnpm_publish_time": 1441389566370,
+  "_from": "husl@>=5.0.0",
+  "_id": "husl@6.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/husl",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "boronine",
+    "email": "alexei.boronine@gmail.com"
+  },
+  "_npmVersion": "2.10.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "husl@>=5.0",
+    "scope": null,
+    "escapedName": "husl",
+    "name": "husl",
+    "rawSpec": ">=5.0",
+    "spec": ">=5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/color-space"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/husl/download/husl-6.0.1.tgz",
+  "_shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
+  "_shrinkwrap": null,
+  "_spec": "husl@>=5.0",
+  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color-space",
+  "author": {
+    "name": "Alexei Boronine",
+    "email": "alexei@boronine.com"
+  },
+  "bugs": {
+    "url": "https://github.com/husl-colors/husl/issues"
+  },
+  "dependencies": {},
+  "description": "Human-friendly HSL",
+  "devDependencies": {
+    "coffee-script": "*",
+    "mocha": "*",
+    "uglify-js": "*",
+    "underscore": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
+    "size": 4808,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/husl/download/husl-6.0.1.tgz"
+  },
+  "files": [
+    "husl.js"
+  ],
+  "gitHead": "a42f3aafa2493aa96fd0b64b1b917688d010a319",
+  "homepage": "http://www.husl-colors.org",
+  "keywords": [
+    "color",
+    "color space",
+    "CIE",
+    "RGB",
+    "HUSL",
+    "HSL"
+  ],
+  "license": "MIT",
+  "main": "husl.js",
+  "maintainers": [
+    {
+      "name": "boronine",
+      "email": "alexei.boronine@gmail.com"
+    }
+  ],
+  "name": "husl",
+  "optionalDependencies": {},
+  "publish_time": 1441389566370,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/husl-colors/husl.git"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "version": "6.0.1"
+}
