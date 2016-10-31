@@ -47,7 +47,7 @@ function config(cwd){
       modulesDirectories: ['node_modules', 'bower_components'],
       extensions: ['', '.js', '.jsx'],
       alias: {
-        "mobiscroll": cwd + "/mobiscroll.custom-3.0.0-beta6.min"
+        "mobiscroll": cwd + "/lib/js/mobiscroll.custom-3.0.0-beta6.min"
       }
     },
     plugins: [
