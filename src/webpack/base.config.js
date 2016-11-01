@@ -86,7 +86,6 @@ function merge(target, source) {
   target.entry = Object.assign({}, target.entry, source.entry)
   target.output = Object.assign({}, target.output, source.output)
   target.plugins = target.plugins.concat( source.plugins )
-  if(target.resolve) target.resolve.alias = Object.assign({}, target.resolve.alias, source.resolve.alias)
 
   return target
 }
