@@ -59,12 +59,6 @@ function config(cwd){
       // new HtmlWebpackPlugin({
       //   template: 'template.html'
       // }),
-      new webpack.DefinePlugin({
-        "process.env": {
-          BROWSER: JSON.stringify(true),
-          NODE_ENV: JSON.stringify( process.env.NODE_ENV || 'development' )
-        }
-      }),
       new webpack.NoErrorsPlugin(),
       new webpack.ResolverPlugin(
         new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
