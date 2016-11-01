@@ -4,6 +4,7 @@
 var program = require('./program');
 var fs = require('fs');
 const distDir = program.cwd+"/dist"
+const happypackCache = program.cwd+"/.happypack"
 var deleteFolderRecursive = function(path) {
   if( fs.existsSync(path) ) {
     fs.readdirSync(path).forEach(function(file,index){
@@ -19,6 +20,9 @@ var deleteFolderRecursive = function(path) {
 };
 
 deleteFolderRecursive(distDir)
+//if we don't delete it, the development cache will be used automatic
+//and make the bundle unusable
+deleteFolderRecursive(happypackCache)
 
 //build production files
 console.log("build with production enviroment")
