@@ -7,6 +7,8 @@ var cwd = process.cwd();
 program
   .option('-d, --debug', 'output extra information for debugging')
   .option('-e, --env [env]', 'specify an environment', 'dev')
+  .option('-n, --name [name]', 'output directories name', "restack-mobile-prototype")
+  .option('-p, --path [path]', 'output directory\'s parent\'s path')
   .action(function(project){
     // change cwd if argument provided
     cwd = project
@@ -19,5 +21,7 @@ module.exports = {
   program,
   cwd: path.resolve(cwd),
   debug: program.debug,
-  env: program.env
+  env: program.env,
+  name: program.name,
+  path: program.path
 }

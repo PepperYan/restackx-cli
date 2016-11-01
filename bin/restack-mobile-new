@@ -7,15 +7,15 @@ var ncp = require('ncp').ncp;
 var path = require('path');
 var unzip = require('unzip');
 
-var destName = "restack-mobile-prototype"
-
 ncp.limit = 16;
 var path2Zip = path.resolve(__dirname,"../node_modules.zip");
 var source = path.resolve(__dirname,"../prototype");
 var nodeModules = path.resolve(__dirname,"../modules");
 
-var prototypePath = program.cwd + '/restack-mobile-prototype'
-console.log("creating working dir...")
+var outputPath = program.path || program.cwd
+var prototypePath = outputPath + "/" + program.name
+
+console.log("creating working dir at : "+prototypePath)
 if( !fs.existsSync(prototypePath) ) {
   fs.mkdir(prototypePath, function(error){
     if(error){
@@ -26,7 +26,7 @@ if( !fs.existsSync(prototypePath) ) {
        return console.error(err);
      }
 
-     var nodeModuleDest = program.cwd + `/restack-mobile-prototype/node_modules`
+     var nodeModuleDest = prototypePath + "/node_modules"
      if( !fs.existsSync(nodeModuleDest) ) {
        console.log("installing dependencies...");
        fs.mkdir(nodeModuleDest,function(moduleErr){
