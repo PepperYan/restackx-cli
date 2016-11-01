@@ -29,7 +29,12 @@ function config(cwd){
     module: {
       loaders: [
         {test: /\.json$/, loader: 'json'},
-        {test: /\.jsx?$/, loaders: ['babel'], exclude: /(node_modules|bower_components)/, happy: { id: 'jsx' }},
+        {
+          test: /\.jsx?$/,
+          loaders: ['babel'],
+          exclude: /(node_modules|bower_components)/,
+          happy: { id: 'jsx' },
+        },
         // {test: /\.less$/, loader: 'style!css!less-loader'}, //使用less简写可能会出现问题
         // {test: /\.css$/, loader: 'style!css'},
         {test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")},
@@ -81,20 +86,7 @@ function merge(target, source) {
   target.entry = Object.assign({}, target.entry, source.entry)
   target.output = Object.assign({}, target.output, source.output)
   target.plugins = target.plugins.concat( source.plugins )
-  // console.log(target.output)
-  // for(var name in target.entry){
-  //   if(target.entry.hasOwnProperty(name)){
-  //     // console.log(name)
-  //     target.plugins.push(
-  //       new HtmlWebpackPlugin({
-  //         chunks:['vendors',name],
-  //         filename:name+'.html',
-  //         template: 'template.html',
-  //         env: process.env.NODE_ENV || 'development'
-  //       })
-  //     )
-  //   }
-  // }
+  if(target.resolve)target.resolve.alias = Object.assign({}, target.resolve.alias, source.resolve.alias)
 
   return target
 }
