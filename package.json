@@ -1,6 +1,6 @@
 {
   "name": "restack-mobile-cli",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "cli tool for restack mobile",
   "bin": {
     "restack-mobile": "./bin/restack-mobile",
@@ -41,6 +41,7 @@
     "commander": "^2.9.0",
     "cookie-parser": "^1.4.3",
     "cross-env": "^1.0.8",
+    "cross-spawn": "^5.0.0",
     "css-loader": "^0.23.1",
     "css-modules-require-hook": "^4.0.1",
     "express": "^4.13.3",
