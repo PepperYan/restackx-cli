@@ -4,8 +4,27 @@ var program = require('commander');
 
 program
   .version(require('../package.json').version)
-  .command('new', 'new a restack-mobile project')
+  .command('create', 'create a restack-mobile project')
   .command('run', 'run integrated restack application')
   .command('build', 'builds a restack-mobile application')
-  .command('prod', 'run a production mode application, you need to build your project first')
-  .parse(process.argv)
+
+
+program.on('--help', function(){
+  console.log('  Examples:');
+  console.log('');
+  console.log('   1.create project');
+  console.log('    $ restack-mobile create');
+  console.log('    $ restack-mobile create -n prjectname -p /anypath');
+  console.log('');
+  console.log('   2.build project under project dir');
+  console.log('    $ restack-mobile build');
+  console.log('');
+  console.log('   3.run dev mode under project dir');
+  console.log('    $ restack-mobile run');
+  console.log('');
+  console.log('   4.run prod mode after project was built');
+  console.log('    $ restack-mobile run -e prod')
+  console.log('');
+});
+
+program.parse(process.argv);
