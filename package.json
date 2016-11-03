@@ -1,6 +1,6 @@
 {
   "name": "restack-mobile-cli",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "cli tool for restack mobile",
   "bin": {
     "restack-mobile": "./bin/restack-mobile",
@@ -45,7 +45,6 @@
     "css-loader": "^0.23.1",
     "css-modules-require-hook": "^4.0.1",
     "express": "^4.13.3",
-    "express-handlebars": "^3.0.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "fs-extra-promise": "^0.3.1",
@@ -53,6 +52,7 @@
     "happypack": "^2.1.1",
     "highlight.js": "^9.3.0",
     "history": "^1.17.0",
+    "html-webpack-harddisk-plugin": "0.0.2",
     "html-webpack-plugin": "^2.9.0",
     "isomorphic-fetch": "^2.2.0",
     "jed": "^1.1.0",

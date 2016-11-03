@@ -4,8 +4,6 @@ import traverse from 'fs-tree-traverse'
 
 import _                         from 'lodash'
 import express                   from 'express'
-import exphbs                    from 'express-handlebars'
-
 
 import React                     from 'react'
 
@@ -39,13 +37,6 @@ import {i18n, configureStore}    from 'restack-core'
 
 module.exports = function(app, cwd, env){
 
-  app.set('views', `${cwd}/src`);
-  app.engine('hbs', exphbs({
-    defaultLayout: null
-  }));
-  app.set('view engine', 'hbs');
-
-
   app.use('/images',express.static(`${cwd}/src/images`))
   app.use('/lang', express.static(`${cwd}/static/lang`))
   // app.use('/vendors.bundle.js', express.static(`${cwd}/static/webpack-dll/vendors.bundle.js`))
@@ -54,8 +45,8 @@ module.exports = function(app, cwd, env){
 
     app.get([path], function(req, res) {
       // scripts = v.scripts.map(function(each){return `${each}.${req.params.lang}`})
-      console.log(v.scripts)
-      res.render(`${v.view}`, {layout: false, scripts: v.scripts,csses:v.csses});
+      var f = cwd+'/.temp/index.html';
+      res.sendFile(f);
     });
   });
 
