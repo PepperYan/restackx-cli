@@ -26,7 +26,7 @@ deleteFolderRecursive(distDir)
 deleteFolderRecursive(happypackCache)
 
 //build production files
-console.log("build with production enviroment")
+console.log("building with production enviroment")
 var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
 var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
 var exec = require('child_process').exec;
@@ -36,4 +36,30 @@ exec(cmd,{'env':{'NODE_ENV':'production','BABEL_ENV':'server'}}, function(error,
   // command output is in stdout
   console.log(stdout)
   console.error(stderr)
+
+  console.log("zipping... with prod enviroment");
+  var archiver = require('archiver');
+  var archive = archiver('zip',{
+     store: false // Sets the compression method to STORE.
+  });
+
+  function createArchive(){
+    var output = fs.createWriteStream(program.cwd + '/dist.zip');
+    archive.on('error', function(err) {
+      throw err;
+    });
+    archive.pipe(output);
+    archive.directory(program.cwd + '/dist/',"dist");
+    archive.finalize();
+  }
+
+  if(!fs.existsSync(program.cwd + '/dist.zip')){
+    createArchive()
+  }else{
+    console.log("zip exists...")
+    fs.unlinkSync(program.cwd + '/dist.zip');
+    console.log("rezip...");
+    createArchive();
+  }
+
 });
