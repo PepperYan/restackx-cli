@@ -2,19 +2,19 @@
   "_args": [
     [
       {
-        "raw": "react-dom@^15.0.1",
+        "raw": "react-dom@^15.3.2",
         "scope": null,
         "escapedName": "react-dom",
         "name": "react-dom",
-        "rawSpec": "^15.0.1",
-        "spec": ">=15.0.1 <16.0.0",
+        "rawSpec": "^15.3.2",
+        "spec": ">=15.3.2 <16.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype"
     ]
   ],
   "_cnpm_publish_time": 1474307217685,
-  "_from": "react-dom@>=15.0.1 <16.0.0",
+  "_from": "react-dom@>=15.3.2 <16.0.0",
   "_id": "react-dom@15.3.2",
   "_inCache": true,
   "_installable": true,
@@ -31,12 +31,12 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-dom@^15.0.1",
+    "raw": "react-dom@^15.3.2",
     "scope": null,
     "escapedName": "react-dom",
     "name": "react-dom",
-    "rawSpec": "^15.0.1",
-    "spec": ">=15.0.1 <16.0.0",
+    "rawSpec": "^15.3.2",
+    "spec": ">=15.3.2 <16.0.0",
     "type": "range"
   },
   "_requiredBy": [
@@ -47,8 +47,8 @@
   "_resolved": "http://registry.npm.taobao.org/react-dom/download/react-dom-15.3.2.tgz",
   "_shasum": "c46b0aa5380d7b838e7a59c4a7beff2ed315531f",
   "_shrinkwrap": null,
-  "_spec": "react-dom@^15.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_spec": "react-dom@^15.3.2",
+  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype",
   "bugs": {
     "url": "https://github.com/facebook/react/issues"
   },

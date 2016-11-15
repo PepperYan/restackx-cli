@@ -460,8 +460,17 @@ function liftReducerWith(reducer, initialCommittedState, monitorReducer, options
       case ActionTypes.PAUSE_RECORDING:
         {
           isPaused = liftedAction.status;
-          if (isPaused) return computePausedAction(true);
-          minInvalidatedStateIndex = Infinity;
+          if (isPaused) {
+            return computePausedAction(true);
+          }
+          // Commit when unpausing
+          actionsById = { 0: liftAction(INIT_ACTION) };
+          nextActionId = 1;
+          stagedActionIds = [0];
+          skippedActionIds = [];
+          committedState = computedStates[currentStateIndex].state;
+          currentStateIndex = 0;
+          computedStates = [];
           break;
         }
       case '@@redux/INIT':

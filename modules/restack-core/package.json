@@ -2,27 +2,27 @@
   "_args": [
     [
       {
-        "raw": "restack-core@^0.2.2",
+        "raw": "restack-core@^0.3.0",
         "scope": null,
         "escapedName": "restack-core",
         "name": "restack-core",
-        "rawSpec": "^0.2.2",
-        "spec": ">=0.2.2 <0.3.0",
+        "rawSpec": "^0.3.0",
+        "spec": ">=0.3.0 <0.4.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1475223344856,
-  "_from": "restack-core@>=0.2.2 <0.3.0",
-  "_id": "restack-core@0.2.2",
+  "_cnpm_publish_time": 1479205024470,
+  "_from": "restack-core@>=0.3.0 <0.4.0",
+  "_id": "restack-core@0.3.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/restack-core",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/restack-core-0.2.2.tgz_1475223344605_0.30750318500213325"
+    "tmp": "tmp/restack-core-0.3.0.tgz_1479205022372_0.48262711917050183"
   },
   "_npmUser": {
     "name": "yezhiming",
@@ -31,22 +31,22 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "restack-core@^0.2.2",
+    "raw": "restack-core@^0.3.0",
     "scope": null,
     "escapedName": "restack-core",
     "name": "restack-core",
-    "rawSpec": "^0.2.2",
-    "spec": ">=0.2.2 <0.3.0",
+    "rawSpec": "^0.3.0",
+    "spec": ">=0.3.0 <0.4.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/restack-core/download/restack-core-0.2.2.tgz",
-  "_shasum": "be6d268bfc19a5acc5b66da659ab13aa1ae0ee42",
+  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.0.tgz",
+  "_shasum": "b389ab33108842bc720b5fb964bbdd2613cd139b",
   "_shrinkwrap": null,
-  "_spec": "restack-core@^0.2.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_spec": "restack-core@^0.3.0",
+  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype",
   "author": {
     "name": "Justin",
     "url": "justin.yip@foxmail.com"
@@ -61,16 +61,16 @@
     "jed": "^1.1.1",
     "lodash": "^4.14.1",
     "moment": "^2.14.1",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
     "react-router-redux": "^4.0.5",
     "redux-devtools": "^3.3.1",
     "redux-devtools-dock-monitor": "^1.1.1",
     "redux-devtools-log-monitor": "^1.0.11",
     "redux-logger": "^2.6.1",
-    "redux-promise": "^0.5.3",
-    "redux-thunk": "^2.1.0"
+    "redux-saga": "^0.11.1",
+    "updeep": "^1.0.0"
   },
   "description": "react application tools",
   "devDependencies": {
@@ -85,17 +85,16 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-react-hmre": "^1.1.1",
     "cross-env": "^2.0.1",
-    "jest": "^15.1.1",
-    "redux-saga": "^0.11.1"
+    "jest": "^15.1.1"
   },
   "directories": {},
   "dist": {
-    "shasum": "be6d268bfc19a5acc5b66da659ab13aa1ae0ee42",
-    "size": 11084,
+    "shasum": "b389ab33108842bc720b5fb964bbdd2613cd139b",
+    "size": 13468,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.2.2.tgz"
+    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.0.tgz"
   },
-  "gitHead": "dc20a0e30e64376e99d9e2b9aa88498b5bb2fae1",
+  "gitHead": "a421433e1dffa5283af7666dc00d8808bc450f85",
   "homepage": "https://github.com/yezhiming/restack-core#readme",
   "license": "MIT",
   "main": "lib/index.js",
@@ -108,7 +107,7 @@
   "name": "restack-core",
   "optionalDependencies": {},
   "peerDependencies": {},
-  "publish_time": 1475223344856,
+  "publish_time": 1479205024470,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -119,5 +118,5 @@
     "test": "cross-env BABEL_ENV=commonjs jest --verbose",
     "test:watch": "npm test --watch"
   },
-  "version": "0.2.2"
+  "version": "0.3.0"
 }

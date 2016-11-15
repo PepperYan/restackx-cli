@@ -2,19 +2,19 @@
   "_args": [
     [
       {
-        "raw": "react@^15.0.1",
+        "raw": "react@^15.3.2",
         "scope": null,
         "escapedName": "react",
         "name": "react",
-        "rawSpec": "^15.0.1",
-        "spec": ">=15.0.1 <16.0.0",
+        "rawSpec": "^15.3.2",
+        "spec": ">=15.3.2 <16.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype"
     ]
   ],
   "_cnpm_publish_time": 1474307224705,
-  "_from": "react@>=15.0.1 <16.0.0",
+  "_from": "react@>=15.3.2 <16.0.0",
   "_id": "react@15.3.2",
   "_inCache": true,
   "_installable": true,
@@ -31,12 +31,12 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react@^15.0.1",
+    "raw": "react@^15.3.2",
     "scope": null,
     "escapedName": "react",
     "name": "react",
-    "rawSpec": "^15.0.1",
-    "spec": ">=15.0.1 <16.0.0",
+    "rawSpec": "^15.3.2",
+    "spec": ">=15.3.2 <16.0.0",
     "type": "range"
   },
   "_requiredBy": [
@@ -46,8 +46,8 @@
   "_resolved": "http://registry.npm.taobao.org/react/download/react-15.3.2.tgz",
   "_shasum": "a7bccd2fee8af126b0317e222c28d1d54528d09e",
   "_shrinkwrap": null,
-  "_spec": "react@^15.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_spec": "react@^15.3.2",
+  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype",
   "browserify": {
     "transform": [
       "loose-envify"

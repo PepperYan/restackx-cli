@@ -26,10 +26,20 @@ class Index extends Component {
 	          maxWidth={90}                         // More info about maxWidth: https://docs.mobiscroll.com/3-0-0_beta6/react/datetime#!opt-maxWidth
 	          placeholder="Please Select..."
 	      />
-			<div className="css-sample" onClick={this.onClick.bind(this)}>点我计数:{this.props.increment }</div>
-
+			<button onClick={this.add}>add</button> {this.props.crud.isFetching? "fetching" : "done"}
 			</div>
 		);
+	}
+
+	add = () => {
+		let nextState = this.props.crud.isFetching? false : true;
+		console.log(nextState)
+		this.props.dispatch({
+			type:"crud/list",
+			payload: {
+				isFetching: nextState,
+			}
+		})
 	}
 }
 
@@ -37,7 +47,7 @@ Index.propTypes = {};
 
 function mapStateToProps(state) {
 	return {
-		increment: state.increment
+		crud: state.crud || {}
 	};
 }
 
