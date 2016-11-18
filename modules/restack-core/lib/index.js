@@ -3,7 +3,28 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.createApp = exports.createReducer = exports.configureStore = undefined;
+exports.createMemoryHistory = exports.hashHistory = exports.browserHistory = exports.createApp = exports.createReducer = exports.configureStore = undefined;
+
+var _reactRouter = require('react-router');
+
+Object.defineProperty(exports, 'browserHistory', {
+  enumerable: true,
+  get: function get() {
+    return _reactRouter.browserHistory;
+  }
+});
+Object.defineProperty(exports, 'hashHistory', {
+  enumerable: true,
+  get: function get() {
+    return _reactRouter.hashHistory;
+  }
+});
+Object.defineProperty(exports, 'createMemoryHistory', {
+  enumerable: true,
+  get: function get() {
+    return _reactRouter.createMemoryHistory;
+  }
+});
 
 var _configureStore2 = require('./store/configureStore');
 

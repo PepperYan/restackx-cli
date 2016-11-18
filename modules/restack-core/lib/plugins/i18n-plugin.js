@@ -174,17 +174,6 @@ function i18n(_ref2) {
       });
     },
 
-    // generator
-    // create: function* (pre) {
-    //   const {locale, localeData} = yield call(fetchLocaleData, getUserLocale(), defaultLocale)
-    //   const tools = new Tools({locale, localeData})
-    //   return (
-    //     <Provider i18n={tools}>
-    //       {pre}
-    //     </Provider>
-    //   )
-    // },
-
     render: function render(next) {
       next();
     }

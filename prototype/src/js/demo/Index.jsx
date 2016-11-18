@@ -1,19 +1,22 @@
 import React, {Component, PropTypes} from 'react'
 import {connect} from 'react-redux'
 import {withRouter} from 'react-router'
-import {incrementAsync,watchIncrementAsync} from './testSaga'
 import mobiscroll from "mobiscroll"
-import "./test.less"
+import "./assets/test.less"
 
-class Index extends Component {
-
-	componentDidMount(){
-		console.log("gen start");
+@connect(
+	state => {
+		return {
+			crud: state.crud || {}
+		}
 	}
+)
+@withRouter
+export default class Index extends Component {
+
+	static propTypes = {}
 
 	onClick(){
-		// console.log(this.gen.next());
-
 		this.props.dispatch({type:"INCREMENT_ASYNC"})
 	}
 
@@ -26,7 +29,11 @@ class Index extends Component {
 	          maxWidth={90}                         // More info about maxWidth: https://docs.mobiscroll.com/3-0-0_beta6/react/datetime#!opt-maxWidth
 	          placeholder="Please Select..."
 	      />
-			<button onClick={this.add}>add</button> {this.props.crud.isFetching? "fetching" : "done"}
+			<br/>
+			<button onClick={this.add}>fetch</button>
+			{this.props.crud.isFetching? "fetching" : "done"}
+			<br/>
+			<button onClick={this.nav}>navigation</button>
 			</div>
 		);
 	}
@@ -41,14 +48,8 @@ class Index extends Component {
 			}
 		})
 	}
+
+	nav = () => {
+		this.props.router.push("/next");
+	}
 }
-
-Index.propTypes = {};
-
-function mapStateToProps(state) {
-	return {
-		crud: state.crud || {}
-	};
-}
-
-export default connect(mapStateToProps)(withRouter(Index))

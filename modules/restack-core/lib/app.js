@@ -46,8 +46,6 @@ var _reduxSaga = require('redux-saga');
 
 var _reduxSaga2 = _interopRequireDefault(_reduxSaga);
 
-var _effects = require('redux-saga/effects');
-
 var _lodash = require('lodash');
 
 var _lodash2 = _interopRequireDefault(_lodash);
@@ -60,9 +58,7 @@ var _configureStore = require('./store/configureStore');
 
 var _configureStore2 = _interopRequireDefault(_configureStore);
 
-var _updeep3 = require('./reducers/updeep');
-
-var _updeep4 = _interopRequireDefault(_updeep3);
+var _model2 = require('./model');
 
 var _errorMessage = require('./reducers/errorMessage');
 
@@ -74,6 +70,7 @@ var _modal2 = _interopRequireDefault(_modal);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// core frameworks
 var App = function () {
   function App(config) {
     (0, _classCallCheck3.default)(this, App);
@@ -124,15 +121,32 @@ var App = function () {
       app.models = [].concat((0, _toConsumableArray3.default)(app.models), [_model]);
     }
   }, {
+    key: 'models',
+    value: function models(_models) {
+      this.app.models = _models;
+    }
+
+    // 1. collect reducers from plugins & models (created by framework)
+    // 2. collect initialState from app config & plugins
+    // 3. collect middlewares from plugins
+    // 4. create store
+
+  }, {
     key: 'createStore',
     value: function createStore() {
       var app = this.app;
 
-      // merge plugin reducers into app reducers
 
-      var reducers = app.plugins.reduce(function (all, plugin) {
+      var reducers = app.reducers;
+      // merge plugin reducers into app reducers
+      reducers = app.plugins.reduce(function (all, plugin) {
         return (0, _extends4.default)({}, all, plugin.reducers);
-      }, app.reducers);
+      }, reducers);
+      // create a default Reducer for each model
+      reducers = app.models.reduce(function (all, model) {
+        var modelReducer = (0, _model2.createModelReducer)(model.name, model.initialState);
+        return (0, _extends4.default)({}, all, (0, _defineProperty3.default)({}, model.name, modelReducer));
+      }, reducers);
 
       // merge plugin initialState
       var initialState = app.plugins.reduce(function (all, plugin) {
@@ -143,12 +157,7 @@ var App = function () {
         return [].concat((0, _toConsumableArray3.default)(all), (0, _toConsumableArray3.default)(plugin.middlewares || []));
       }, app.middlewares);
 
-      // model initialState
-      var modelInitialState = app.models.reduce(function (all, model) {
-        return (0, _extends4.default)({}, all, (0, _defineProperty3.default)({}, model.name, model.initialState));
-      }, {});
-
-      return (0, _configureStore2.default)((0, _updeep4.default)(modelInitialState, reducers), initialState, middlewares);
+      return (0, _configureStore2.default)(reducers, initialState, middlewares);
     }
   }, {
     key: 'createSagas',
@@ -163,18 +172,8 @@ var App = function () {
         var sagas = (0, _lodash2.default)(m.sagas).mapKeys(function (v, k) {
           return m.name + '/' + k;
         }).mapValues(function (v, k) {
-          // update effect creator
-          function updateFor(name) {
-            return function update(path, updates) {
-              if (arguments.length === 1) {
-                updates = path;
-                path = null;
-              }
-              return (0, _effects.put)({ type: "@@update", name: name, update: true, updates: updates, path: path });
-            };
-          }
           // redux-saga effects as second parameter, plus update effect
-          var enhancedEffects = (0, _extends4.default)({}, _reduxSaga.effects, { update: updateFor(m.name) });
+          var enhancedEffects = (0, _extends4.default)({}, _reduxSaga.effects, { update: (0, _model2.createUpdateEffect)(m.name) });
           return _regenerator2.default.mark(function _callee() {
             return _regenerator2.default.wrap(function _callee$(_context) {
               while (1) {
@@ -211,6 +210,7 @@ var App = function () {
 
       var sagas = this.createSagas();
 
+      // run sagas
       _lodash2.default.each(sagas, app.sagaMiddleware.run);
 
       // create chain
@@ -235,8 +235,8 @@ var App = function () {
       var app = this.app;
 
 
-      this.create().then(function (RootComponent) {
-        console.log('got root component');
+      return this.create().then(function (RootComponent) {
+        console.log('[restack] root component created');
 
         var renderChain = app.plugins.reduce(function (chain, plugin) {
           return chain.then(function (result) {
@@ -246,8 +246,8 @@ var App = function () {
           });
         }, _promise2.default.resolve());
 
-        renderChain.then(function () {
-          console.log('final');
+        return renderChain.then(function () {
+          console.log('[restack] render');
 
           if (el) {
             _reactDom2.default.render(RootComponent, el);
@@ -260,8 +260,7 @@ var App = function () {
     }
   }]);
   return App;
-}(); // core frameworks
-
+}();
 
 function createApp(config) {
   return new App(config);

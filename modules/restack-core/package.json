@@ -2,27 +2,27 @@
   "_args": [
     [
       {
-        "raw": "restack-core@^0.3.0",
+        "raw": "restack-core@^0.3.3",
         "scope": null,
         "escapedName": "restack-core",
         "name": "restack-core",
-        "rawSpec": "^0.3.0",
-        "spec": ">=0.3.0 <0.4.0",
+        "rawSpec": "^0.3.3",
+        "spec": ">=0.3.3 <0.4.0",
         "type": "range"
       },
       "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1479205024470,
-  "_from": "restack-core@>=0.3.0 <0.4.0",
-  "_id": "restack-core@0.3.0",
+  "_cnpm_publish_time": 1479365960700,
+  "_from": "restack-core@>=0.3.3 <0.4.0",
+  "_id": "restack-core@0.3.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/restack-core",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/restack-core-0.3.0.tgz_1479205022372_0.48262711917050183"
+    "tmp": "tmp/restack-core-0.3.3.tgz_1479365958695_0.5649760258384049"
   },
   "_npmUser": {
     "name": "yezhiming",
@@ -31,21 +31,21 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "restack-core@^0.3.0",
+    "raw": "restack-core@^0.3.3",
     "scope": null,
     "escapedName": "restack-core",
     "name": "restack-core",
-    "rawSpec": "^0.3.0",
-    "spec": ">=0.3.0 <0.4.0",
+    "rawSpec": "^0.3.3",
+    "spec": ">=0.3.3 <0.4.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.0.tgz",
-  "_shasum": "b389ab33108842bc720b5fb964bbdd2613cd139b",
+  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.3.tgz",
+  "_shasum": "bb2c03bbad103b23a1857efbaa5671534fbd0936",
   "_shrinkwrap": null,
-  "_spec": "restack-core@^0.3.0",
+  "_spec": "restack-core@^0.3.3",
   "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype",
   "author": {
     "name": "Justin",
@@ -89,12 +89,12 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "b389ab33108842bc720b5fb964bbdd2613cd139b",
-    "size": 13468,
+    "shasum": "bb2c03bbad103b23a1857efbaa5671534fbd0936",
+    "size": 12531,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.0.tgz"
+    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.3.tgz"
   },
-  "gitHead": "a421433e1dffa5283af7666dc00d8808bc450f85",
+  "gitHead": "4d8c177815db72399faa64bc1e3f3b4a46b028d6",
   "homepage": "https://github.com/yezhiming/restack-core#readme",
   "license": "MIT",
   "main": "lib/index.js",
@@ -107,16 +107,18 @@
   "name": "restack-core",
   "optionalDependencies": {},
   "peerDependencies": {},
-  "publish_time": 1479205024470,
+  "publish_time": 1479365960700,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/yezhiming/restack-core.git"
   },
   "scripts": {
-    "compile": "rm -rf lib && babel src --out-dir lib",
+    "clean": "rm -rf lib",
+    "compile": "babel src --out-dir lib",
+    "compile:watch": "babel src --out-dir lib --watch",
     "test": "cross-env BABEL_ENV=commonjs jest --verbose",
     "test:watch": "npm test --watch"
   },
-  "version": "0.3.0"
+  "version": "0.3.3"
 }

@@ -23,7 +23,7 @@ function configureStore(rootReducer, initialState) {
   var middlewares = arguments.length <= 2 || arguments[2] === undefined ? [] : arguments[2];
 
 
-  // rootReducer = combineReducers(rootReducer)
+  rootReducer = (0, _redux.combineReducers)(rootReducer);
 
   return (0, _redux.createStore)(rootReducer, initialState, _redux.applyMiddleware.apply(undefined, (0, _toConsumableArray3.default)(middlewares)));
 }

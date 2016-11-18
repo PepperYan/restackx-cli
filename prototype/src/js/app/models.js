@@ -1,7 +1,7 @@
-import crud from './demo/crud'
+import crud from '../demo/crud'
 
 const models = [
-  crud
+  crud,
 ]
 
 export default models;

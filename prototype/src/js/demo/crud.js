@@ -12,8 +12,6 @@ const crud = {
 
       // yield put({ type: "crudModules.REQUEST", payload: {isFetching: true} })
       const response = yield call(fetch, `/system/api/v1/modules`)
-      console.log(response)
-      console.log(action)
       if (response) {
         yield put({type: "crudModules.SUCCESS", response})
         // yield put({type: "crudModules.SUCCESS", Object.assign({})})
