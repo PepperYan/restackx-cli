@@ -37,9 +37,9 @@ function router(_ref) {
     // warp create
     create: function create(next, pre, app) {
 
-      var syncHistory = (0, _reactRouterRedux.syncHistoryWithStore)(history, app.store);
+      var syncedHistory = (0, _reactRouterRedux.syncHistoryWithStore)(history, app.store);
 
-      next(_react2.default.createElement(_reactRouter.Router, { history: syncHistory, children: routes }));
+      next(_react2.default.createElement(_reactRouter.Router, { history: syncedHistory, children: routes }));
     },
     // warp render
     render: function render(next) {

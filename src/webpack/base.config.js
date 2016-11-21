@@ -10,7 +10,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HappyPack = require('happypack');
 
 //改成func是因为要指定happypack的缓存路径到项目目录
-function config(cwd){
+function config(cwd,env){
   return {
     entry: {
       // vendors: [
@@ -31,9 +31,31 @@ function config(cwd){
         {test: /\.json$/, loader: 'json'},
         {
           test: /\.jsx?$/,
-          loaders: ['babel'],
+          loader: 'babel-loader',
           exclude: /(node_modules|bower_components)/,
           happy: { id: 'jsx' },
+          query: {
+            "presets": [
+              "es2015",
+              "stage-1",
+              "react"
+            ],
+            "plugins": [
+              "transform-decorators-legacy",
+              "transform-class-properties",
+              "transform-object-rest-spread",
+              "transform-decorators",
+              "transform-runtime",
+              "syntax-async-functions",
+              "transform-regenerator",
+              "transform-object-assign"
+            ],
+            "env": {
+              "development": {
+                "presets": ["react-hmre"]
+              }
+            }
+          }
         },
         // {test: /\.less$/, loader: 'style!css!less-loader'}, //使用less简写可能会出现问题
         // {test: /\.css$/, loader: 'style!css'},
@@ -59,6 +81,12 @@ function config(cwd){
       // new HtmlWebpackPlugin({
       //   template: 'template.html'
       // }),
+      new webpack.DefinePlugin({
+        "process.env": {
+          BROWSER: JSON.stringify(true),
+          NODE_ENV: JSON.stringify( env || 'development' )
+        }
+      }),
       new webpack.NoErrorsPlugin(),
       new webpack.ResolverPlugin(
         new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])

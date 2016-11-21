@@ -100,7 +100,7 @@ var Provider = function (_React$Component) {
 
   function Provider() {
     (0, _classCallCheck3.default)(this, Provider);
-    return (0, _possibleConstructorReturn3.default)(this, (Provider.__proto__ || (0, _getPrototypeOf2.default)(Provider)).apply(this, arguments));
+    return (0, _possibleConstructorReturn3.default)(this, (0, _getPrototypeOf2.default)(Provider).apply(this, arguments));
   }
 
   (0, _createClass3.default)(Provider, [{

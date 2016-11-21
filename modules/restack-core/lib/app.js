@@ -71,6 +71,10 @@ var _modal2 = _interopRequireDefault(_modal);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // core frameworks
+
+
+var CANCEL_SAGAS = "CANCEL_SAGAS";
+
 var App = function () {
   function App(config) {
     (0, _classCallCheck3.default)(this, App);
@@ -120,17 +124,23 @@ var App = function () {
 
       app.models = [].concat((0, _toConsumableArray3.default)(app.models), [_model]);
     }
+
+    //hmr for sagas modules
+
   }, {
-    key: 'models',
-    value: function models(_models) {
-      this.app.models = _models;
+    key: 'replaceSagas',
+    value: function replaceSagas(models) {
+      var _this = this;
+
+      var app = this.app;
+
+      app.models = models;
+      app.store.dispatch({ type: CANCEL_SAGAS });
+      setTimeout(function () {
+        var sagas = _this.createSagas();
+        _lodash2.default.each(sagas, app.sagaMiddleware.run);
+      });
     }
-
-    // 1. collect reducers from plugins & models (created by framework)
-    // 2. collect initialState from app config & plugins
-    // 3. collect middlewares from plugins
-    // 4. create store
-
   }, {
     key: 'createStore',
     value: function createStore() {
@@ -165,6 +175,42 @@ var App = function () {
       var app = this.app;
 
 
+      var createAbortableSaga = function currySaga() {
+        if (process.env.NODE_ENV !== 'development') {
+          return function (watcher) {
+            return watcher;
+          };
+        } else {
+          return function (watcher) {
+            return _regenerator2.default.mark(function main() {
+              var sagaTask;
+              return _regenerator2.default.wrap(function main$(_context) {
+                while (1) {
+                  switch (_context.prev = _context.next) {
+                    case 0:
+                      _context.next = 2;
+                      return _reduxSaga.effects.fork(watcher);
+
+                    case 2:
+                      sagaTask = _context.sent;
+                      _context.next = 5;
+                      return _reduxSaga.effects.take(CANCEL_SAGAS);
+
+                    case 5:
+                      _context.next = 7;
+                      return _reduxSaga.effects.cancel(sagaTask);
+
+                    case 7:
+                    case 'end':
+                      return _context.stop();
+                  }
+                }
+              }, main, this);
+            });
+          };
+        }
+      }();
+
       var sagas = (0, _lodash2.default)(app.models).filter(function (m) {
         return m.sagas;
       }).reduce(function (all, m) {
@@ -174,25 +220,28 @@ var App = function () {
         }).mapValues(function (v, k) {
           // redux-saga effects as second parameter, plus update effect
           var enhancedEffects = (0, _extends4.default)({}, _reduxSaga.effects, { update: (0, _model2.createUpdateEffect)(m.name) });
-          return _regenerator2.default.mark(function _callee() {
-            return _regenerator2.default.wrap(function _callee$(_context) {
+          var watcher = _regenerator2.default.mark(function watcher() {
+            return _regenerator2.default.wrap(function watcher$(_context2) {
               while (1) {
-                switch (_context.prev = _context.next) {
+                switch (_context2.prev = _context2.next) {
                   case 0:
                     console.log('takeEvery: ' + k);
                     // yield takeEvery(k, v)
-                    _context.next = 3;
+                    // yield takeEvery(k, (action) => v(action, enhancedEffects))
+                    _context2.next = 3;
                     return (0, _reduxSaga.takeEvery)(k, function (action) {
                       return v(action, enhancedEffects);
                     });
 
                   case 3:
                   case 'end':
-                    return _context.stop();
+                    return _context2.stop();
                 }
               }
-            }, _callee, this);
+            }, watcher, this);
           });
+
+          return createAbortableSaga(watcher);
         }).value();
 
         return (0, _extends4.default)({}, all, sagas);
@@ -253,8 +302,8 @@ var App = function () {
             _reactDom2.default.render(RootComponent, el);
             // return something?
           } else {
-            return RootComponent;
-          }
+              return RootComponent;
+            }
         });
       });
     }

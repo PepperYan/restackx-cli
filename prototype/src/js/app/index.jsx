@@ -11,7 +11,6 @@ import i18n from 'restack-core/lib/plugins/i18n-plugin'
 import {browserHistory} from 'react-router'
 
 import routes from './routes'
-import models from './models'
 
 //choose the history that meet ur need
 const app = createApp({
@@ -21,9 +20,43 @@ const app = createApp({
   ]
 });
 
+function mapContextModels2App(context){
+  return context.keys()
+  .map((key)=>{
+
+    // app.model(context(key).default);
+    return context(key).default;
+  })
+}
+
+const modelContext = require.context('../', true, /.model.js$/)
+
+// console.log(modelContext.keys());
+// console.log(models);
+
+var models = mapContextModels2App(modelContext)
+
 _.each(models, (m, index)=>{
   app.model(m);
 })
 
 
+
 app.render(document.getElementById('react-view'))
+
+
+
+if (module.hot) {
+  // module.hot.accept('./routes', () => {
+  //   app.render(document.getElementById('react-view'));
+  // })
+  module.hot.accept(modelContext.id, () => {
+    console.log('model reloaded.')
+    // replace reducers
+    // replace sagas
+
+    const modifiedModelContext = require.context('../',true, /.model.js$/);
+    const modifiedModels = mapContextModels2App(modifiedModelContext);
+    app.replaceSagas(modifiedModels)
+  })
+}

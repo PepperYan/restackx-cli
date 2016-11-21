@@ -1,6 +1,6 @@
 {
   "name": "restack-mobile-cli",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "cli tool for restack mobile",
   "bin": {
     "restack-mobile": "./bin/restack-mobile",

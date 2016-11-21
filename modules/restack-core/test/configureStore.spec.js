@@ -37,7 +37,7 @@
       expect(actionFn).toBeCalled();
     })
 
-    it('dispatch action and middleware takes effect', () => {
+    it('dispatch action and middleware take effect', () => {
 
       // action type for test
       const MY_ACTION_TYPE = "MY_ACTION_TYPE";

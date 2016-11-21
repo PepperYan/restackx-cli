@@ -32,7 +32,7 @@ var config = makeConfig({
   },
 
   plugins: plugins
-},cwd)
+}, cwd, "production")
 
 config.module.loaders = _.dropRight(config.module.loaders,5)
 config.module.loaders = config.module.loaders.concat([

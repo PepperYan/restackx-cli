@@ -16,10 +16,6 @@ export default class Index extends Component {
 
 	static propTypes = {}
 
-	onClick(){
-		this.props.dispatch({type:"INCREMENT_ASYNC"})
-	}
-
 	render() {
 		return (
 			<div>

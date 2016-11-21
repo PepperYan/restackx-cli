@@ -1,4 +1,4 @@
-import crud from '../demo/crud'
+import crud from '../demo/crud.model'
 
 const models = [
   crud,
