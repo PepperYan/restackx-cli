@@ -34,6 +34,7 @@ fs.exists(program.cwd+"/webpack", (exists) => {
   if (exists) {
     console.log('using custom webpack production config');
     config = program.cwd+"/webpack/webpack.prod.config";
+    console.error('using custom webpack config for production build');
   } else {
     config = __dirname+"/../lib/webpack/webpack.prod.config.js";
   }

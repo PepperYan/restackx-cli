@@ -72,7 +72,7 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
     if(projectConfig.proxies && projectConfig.proxies.length != 0){
       require('./proxy')(app,projectConfig.proxies);
     }
-
+    console.error('using custom webpack config for devserver');
     var compiler = webpack(config);
     app.use(webpackDevMiddleware(compiler, {
       noInfo: true,
