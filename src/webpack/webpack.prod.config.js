@@ -34,13 +34,4 @@ var config = makeConfig({
   plugins: plugins
 }, cwd, "production")
 
-config.module.loaders = _.dropRight(config.module.loaders,5)
-config.module.loaders = config.module.loaders.concat([
-  {test: /\.eot(\?\w+)?/, loader: 'url?limit=5000'}, // 'file' ?
-  {test: /\.(woff|woff2)(\?\w+)?/, loader: 'url?limit=5000&mimetype=application/font-woff'},
-  {test: /\.ttf(\?\w+)?/, loader: 'url?limit=5000&mimetype=application/octet-stream'},
-  {test: /\.svg(\?\w+)?/, loader: 'url?limit=5000&mimetype=image/svg+xml'},
-  {test: /\.(png|jpg|gif)$/, loader: 'url?limit=25000'}
-])
-
 module.exports =  config

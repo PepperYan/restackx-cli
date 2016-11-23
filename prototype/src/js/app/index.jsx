@@ -40,21 +40,12 @@ _.each(models, (m, index)=>{
   app.model(m);
 })
 
-
-
 app.render(document.getElementById('react-view'))
 
-
-
 if (module.hot) {
-  // module.hot.accept('./routes', () => {
-  //   app.render(document.getElementById('react-view'));
-  // })
   module.hot.accept(modelContext.id, () => {
     console.log('model reloaded.')
-    // replace reducers
     // replace sagas
-
     const modifiedModelContext = require.context('../',true, /.model.js$/);
     const modifiedModels = mapContextModels2App(modifiedModelContext);
     app.replaceSagas(modifiedModels)

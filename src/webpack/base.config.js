@@ -57,8 +57,6 @@ function config(cwd,env){
             }
           }
         },
-        // {test: /\.less$/, loader: 'style!css!less-loader'}, //使用less简写可能会出现问题
-        // {test: /\.css$/, loader: 'style!css'},
         {test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")},
         {test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader")},
         {test: /\.scss$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")},
