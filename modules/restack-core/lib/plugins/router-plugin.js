@@ -16,11 +16,11 @@ var _reactRouterRedux = require('react-router-redux');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function router(_ref) {
-  var _ref$universal = _ref.universal;
-  var universal = _ref$universal === undefined ? false : _ref$universal;
-  var routes = _ref.routes;
-  var _ref$history = _ref.history;
-  var history = _ref$history === undefined ? _reactRouter.browserHistory : _ref$history;
+  var _ref$universal = _ref.universal,
+      universal = _ref$universal === undefined ? false : _ref$universal,
+      routes = _ref.routes,
+      _ref$history = _ref.history,
+      history = _ref$history === undefined ? _reactRouter.browserHistory : _ref$history;
 
 
   // enable navigation via redux actions

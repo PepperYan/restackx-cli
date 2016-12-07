@@ -8,10 +8,6 @@ var _promise = require('babel-runtime/core-js/promise');
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _regenerator = require('babel-runtime/regenerator');
-
-var _regenerator2 = _interopRequireDefault(_regenerator);
-
 var _defineProperty2 = require('babel-runtime/helpers/defineProperty');
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
@@ -50,15 +46,15 @@ var _lodash = require('lodash');
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
-var _updeep = require('updeep');
+var _model2 = require('./model');
 
-var _updeep2 = _interopRequireDefault(_updeep);
+var _model3 = _interopRequireDefault(_model2);
+
+var _createAbortableSaga = require('./utils/createAbortableSaga');
 
 var _configureStore = require('./store/configureStore');
 
 var _configureStore2 = _interopRequireDefault(_configureStore);
-
-var _model2 = require('./model');
 
 var _errorMessage = require('./reducers/errorMessage');
 
@@ -71,10 +67,6 @@ var _modal2 = _interopRequireDefault(_modal);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // core frameworks
-
-
-var CANCEL_SAGAS = "CANCEL_SAGAS";
-
 var App = function () {
   function App(config) {
     (0, _classCallCheck3.default)(this, App);
@@ -104,9 +96,9 @@ var App = function () {
 
     this.app = (0, _extends4.default)({}, initialApp, overrides);
 
-    var _app = this.app;
-    var middlewares = _app.middlewares;
-    var reducers = _app.reducers;
+    var _app = this.app,
+        middlewares = _app.middlewares,
+        reducers = _app.reducers;
 
 
     this.app = (0, _extends4.default)({}, this.app, {
@@ -122,25 +114,14 @@ var App = function () {
     value: function model(_model) {
       var app = this.app;
 
-      app.models = [].concat((0, _toConsumableArray3.default)(app.models), [_model]);
+      app.models = [].concat((0, _toConsumableArray3.default)(app.models), [(0, _model3.default)(_model)]);
     }
 
-    //hmr for sagas modules
+    // 1. collect reducers from plugins & models (created by framework)
+    // 2. collect initialState from app config & plugins
+    // 3. collect middlewares from plugins
+    // 4. create store
 
-  }, {
-    key: 'replaceSagas',
-    value: function replaceSagas(models) {
-      var _this = this;
-
-      var app = this.app;
-
-      app.models = models;
-      app.store.dispatch({ type: CANCEL_SAGAS });
-      setTimeout(function () {
-        var sagas = _this.createSagas();
-        _lodash2.default.each(sagas, app.sagaMiddleware.run);
-      });
-    }
   }, {
     key: 'createStore',
     value: function createStore() {
@@ -154,7 +135,7 @@ var App = function () {
       }, reducers);
       // create a default Reducer for each model
       reducers = app.models.reduce(function (all, model) {
-        var modelReducer = (0, _model2.createModelReducer)(model.name, model.initialState);
+        var modelReducer = model.createReducer();
         return (0, _extends4.default)({}, all, (0, _defineProperty3.default)({}, model.name, modelReducer));
       }, reducers);
 
@@ -172,82 +153,29 @@ var App = function () {
   }, {
     key: 'createSagas',
     value: function createSagas() {
+      var models = this.app.models;
+
+
+      return (0, _lodash2.default)(models).map(function (m) {
+        return m.createSaga();
+      }).compact().value();
+    }
+
+    //hmr for sagas modules
+
+  }, {
+    key: 'replaceSagas',
+    value: function replaceSagas(models) {
+      var _this = this;
+
       var app = this.app;
 
-
-      var createAbortableSaga = function currySaga() {
-        if (process.env.NODE_ENV !== 'development') {
-          return function (watcher) {
-            return watcher;
-          };
-        } else {
-          return function (watcher) {
-            return _regenerator2.default.mark(function main() {
-              var sagaTask;
-              return _regenerator2.default.wrap(function main$(_context) {
-                while (1) {
-                  switch (_context.prev = _context.next) {
-                    case 0:
-                      _context.next = 2;
-                      return _reduxSaga.effects.fork(watcher);
-
-                    case 2:
-                      sagaTask = _context.sent;
-                      _context.next = 5;
-                      return _reduxSaga.effects.take(CANCEL_SAGAS);
-
-                    case 5:
-                      _context.next = 7;
-                      return _reduxSaga.effects.cancel(sagaTask);
-
-                    case 7:
-                    case 'end':
-                      return _context.stop();
-                  }
-                }
-              }, main, this);
-            });
-          };
-        }
-      }();
-
-      var sagas = (0, _lodash2.default)(app.models).filter(function (m) {
-        return m.sagas;
-      }).reduce(function (all, m) {
-
-        var sagas = (0, _lodash2.default)(m.sagas).mapKeys(function (v, k) {
-          return m.name + '/' + k;
-        }).mapValues(function (v, k) {
-          // redux-saga effects as second parameter, plus update effect
-          var enhancedEffects = (0, _extends4.default)({}, _reduxSaga.effects, { update: (0, _model2.createUpdateEffect)(m.name) });
-          var watcher = _regenerator2.default.mark(function watcher() {
-            return _regenerator2.default.wrap(function watcher$(_context2) {
-              while (1) {
-                switch (_context2.prev = _context2.next) {
-                  case 0:
-                    console.log('takeEvery: ' + k);
-                    // yield takeEvery(k, v)
-                    // yield takeEvery(k, (action) => v(action, enhancedEffects))
-                    _context2.next = 3;
-                    return (0, _reduxSaga.takeEvery)(k, function (action) {
-                      return v(action, enhancedEffects);
-                    });
-
-                  case 3:
-                  case 'end':
-                    return _context2.stop();
-                }
-              }
-            }, watcher, this);
-          });
-
-          return createAbortableSaga(watcher);
-        }).value();
-
-        return (0, _extends4.default)({}, all, sagas);
-      }, {});
-
-      return sagas;
+      app.models = models;
+      app.store.dispatch({ type: _createAbortableSaga.CANCEL_SAGAS });
+      setTimeout(function () {
+        var sagas = _this.createSagas();
+        _lodash2.default.each(sagas, app.sagaMiddleware.run);
+      });
     }
   }, {
     key: 'create',
@@ -274,7 +202,7 @@ var App = function () {
         return _react2.default.createElement(
           _reactRedux.Provider,
           { store: store },
-          component
+          component || _react2.default.createElement('div', null)
         );
       });
     }
@@ -300,10 +228,10 @@ var App = function () {
 
           if (el) {
             _reactDom2.default.render(RootComponent, el);
-            // return something?
+            //TODO: return something?
           } else {
-              return RootComponent;
-            }
+            return RootComponent;
+          }
         });
       });
     }

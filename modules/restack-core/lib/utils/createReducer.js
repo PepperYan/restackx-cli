@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var createReducer = function createReducer(initialState, handlers) {
   return function () {
-    var state = arguments.length <= 0 || arguments[0] === undefined ? initialState : arguments[0];
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
     var action = arguments[1];
 
     if (handlers.hasOwnProperty(action.type)) {

@@ -1,21 +1,56 @@
 {
-  "name": "restack-core",
-  "version": "0.3.1",
-  "description": "react application tools",
-  "main": "lib/index.js",
-  "scripts": {
-    "clean": "rm -rf lib",
-    "compile": "babel src --out-dir lib",
-    "compile:watch": "babel src --out-dir lib --watch",
-    "test": "cross-env BABEL_ENV=commonjs jest --verbose",
-    "test:watch": "npm test --watch"
+  "_args": [
+    [
+      {
+        "raw": "restack-core@^0.3.11",
+        "scope": null,
+        "escapedName": "restack-core",
+        "name": "restack-core",
+        "rawSpec": "^0.3.11",
+        "spec": ">=0.3.11 <0.4.0",
+        "type": "range"
+      },
+      "/Users/hibad/Desktop/交付内容/demo-todo"
+    ]
+  ],
+  "_cnpm_publish_time": 1481023867803,
+  "_from": "restack-core@>=0.3.11 <0.4.0",
+  "_id": "restack-core@0.3.11",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/restack-core",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/restack-core-0.3.11.tgz_1481023865665_0.04085168964229524"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/yezhiming/restack-core.git"
+  "_npmUser": {
+    "name": "yezhiming",
+    "email": "justin.yip@foxmail.com"
   },
-  "author": "Justin (justin.yip@foxmail.com)",
-  "license": "MIT",
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "restack-core@^0.3.11",
+    "scope": null,
+    "escapedName": "restack-core",
+    "name": "restack-core",
+    "rawSpec": "^0.3.11",
+    "spec": ">=0.3.11 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.11.tgz",
+  "_shasum": "10132d37c264e14655ab55f9b0ee0c82d1715e70",
+  "_shrinkwrap": null,
+  "_spec": "restack-core@^0.3.11",
+  "_where": "/Users/hibad/Desktop/交付内容/demo-todo",
+  "author": {
+    "name": "Justin",
+    "url": "justin.yip@foxmail.com"
+  },
   "bugs": {
     "url": "https://github.com/yezhiming/restack-core/issues"
   },
@@ -37,7 +72,7 @@
     "redux-saga": "^0.11.1",
     "updeep": "^1.0.0"
   },
-  "peerDependencies": {},
+  "description": "react application tools",
   "devDependencies": {
     "babel-jest": "^15.0.0",
     "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -51,5 +86,39 @@
     "babel-preset-react-hmre": "^1.1.1",
     "cross-env": "^2.0.1",
     "jest": "^15.1.1"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "10132d37c264e14655ab55f9b0ee0c82d1715e70",
+    "size": 15744,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.11.tgz"
+  },
+  "gitHead": "56832b54307cc0e8642838566f1f0f5fe4ca479d",
+  "homepage": "https://github.com/yezhiming/restack-core#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "yezhiming",
+      "email": "justin.yip@foxmail.com"
+    }
+  ],
+  "name": "restack-core",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "publish_time": 1481023867803,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yezhiming/restack-core.git"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "compile": "babel src --out-dir lib",
+    "compile:watch": "babel src --out-dir lib --watch",
+    "test": "cross-env BABEL_ENV=commonjs jest --verbose",
+    "test:watch": "npm test --watch"
+  },
+  "version": "0.3.11"
 }

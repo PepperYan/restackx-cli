@@ -20,7 +20,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // reducers
 function configureStore(rootReducer, initialState) {
-  var middlewares = arguments.length <= 2 || arguments[2] === undefined ? [] : arguments[2];
+  var middlewares = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
 
   rootReducer = (0, _redux.combineReducers)(rootReducer);

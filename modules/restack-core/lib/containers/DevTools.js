@@ -36,6 +36,4 @@ _react2.default.createElement(
 ));
 
 // Exported from redux-devtools
-
-
 exports.default = DevTools;

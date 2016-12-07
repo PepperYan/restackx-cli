@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Provider = exports.Tools = undefined;
 
 var _promise = require('babel-runtime/core-js/promise');
 
@@ -52,11 +53,11 @@ function sprintf(text) {
   return _jed2.default.sprintf.apply(_jed2.default, [text].concat(params));
 }
 
-var Tools = function Tools(_ref) {
+var Tools = exports.Tools = function Tools(_ref) {
   var _this = this;
 
-  var localeData = _ref.localeData;
-  var locale = _ref.locale;
+  var localeData = _ref.localeData,
+      locale = _ref.locale;
   (0, _classCallCheck3.default)(this, Tools);
 
   this.l = function (text, context) {
@@ -95,12 +96,12 @@ var Tools = function Tools(_ref) {
   this.locale = locale;
 };
 
-var Provider = function (_React$Component) {
+var Provider = exports.Provider = function (_React$Component) {
   (0, _inherits3.default)(Provider, _React$Component);
 
   function Provider() {
     (0, _classCallCheck3.default)(this, Provider);
-    return (0, _possibleConstructorReturn3.default)(this, (0, _getPrototypeOf2.default)(Provider).apply(this, arguments));
+    return (0, _possibleConstructorReturn3.default)(this, (Provider.__proto__ || (0, _getPrototypeOf2.default)(Provider)).apply(this, arguments));
   }
 
   (0, _createClass3.default)(Provider, [{
@@ -123,11 +124,11 @@ Provider.propTypes = {
 };
 Provider.childContextTypes = { i18n: _react2.default.PropTypes.object };
 function i18n(_ref2) {
-  var _ref2$universal = _ref2.universal;
-  var universal = _ref2$universal === undefined ? false : _ref2$universal;
-  var defaultLocale = _ref2.defaultLocale;
-  var getUserLocale = _ref2.getUserLocale;
-  var setUserLocale = _ref2.setUserLocale;
+  var _ref2$universal = _ref2.universal,
+      universal = _ref2$universal === undefined ? false : _ref2$universal,
+      defaultLocale = _ref2.defaultLocale,
+      getUserLocale = _ref2.getUserLocale,
+      setUserLocale = _ref2.setUserLocale;
 
 
   var userLocale = defaultLocale;
@@ -161,8 +162,8 @@ function i18n(_ref2) {
 
     create: function create(next, pre) {
       fetchLocaleData(getUserLocale(), defaultLocale).then(function (_ref3) {
-        var locale = _ref3.locale;
-        var localeData = _ref3.localeData;
+        var locale = _ref3.locale,
+            localeData = _ref3.localeData;
 
         console.log('[i18n-plugin.create] fetch locale data success');
         var tools = new Tools({ locale: locale, localeData: localeData });

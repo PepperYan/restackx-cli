@@ -1,3 +1,5 @@
+import createSagaMiddleware from 'redux-saga'
+
 /**
  * debugging:
  * http://facebook.github.io/jest/docs/troubleshooting.html#tests-are-failing-and-you-don-t-know-why
@@ -37,7 +39,7 @@
       expect(actionFn).toBeCalled();
     })
 
-    it('dispatch action and middleware take effect', () => {
+    it('dispatch action and middleware takes effect', () => {
 
       // action type for test
       const MY_ACTION_TYPE = "MY_ACTION_TYPE";
@@ -71,6 +73,18 @@
       expect(myReducer).toBeCalled();
     })
 
+    it('can configure with redux-saga middleware', () => {
+      const sagaMiddleware = createSagaMiddleware()
+      const store = configureStore({}, {}, [sagaMiddleware])
+
+      expect(store).not.toBeNull()
+
+      function* helloSaga() {
+        console.log('hello sagas!')
+      }
+
+      sagaMiddleware.run(helloSaga)
+    })
   })
 
 })
