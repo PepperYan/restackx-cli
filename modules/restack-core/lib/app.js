@@ -170,7 +170,9 @@ var App = function () {
 
       var app = this.app;
 
-      app.models = models;
+      app.models = models.map(function (m) {
+        return (0, _model3.default)(m);
+      });
       app.store.dispatch({ type: _createAbortableSaga.CANCEL_SAGAS });
       setTimeout(function () {
         var sagas = _this.createSagas();

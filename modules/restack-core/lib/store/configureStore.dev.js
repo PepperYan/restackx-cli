@@ -29,7 +29,7 @@ function configureStore(rootReducer, initialState) {
 
   rootReducer = (0, _redux.combineReducers)(rootReducer);
 
-  var store = (0, _redux.createStore)(rootReducer, initialState, (0, _redux.compose)(_redux.applyMiddleware.apply(undefined, (0, _toConsumableArray3.default)(middlewares)), _DevTools2.default.instrument()));
+  var store = (0, _redux.createStore)(rootReducer, initialState, (0, _redux.compose)(_redux.applyMiddleware.apply(undefined, [(0, _reduxLogger2.default)()].concat((0, _toConsumableArray3.default)(middlewares))), _DevTools2.default.instrument()));
 
   // if (module.hot) {
   //   // Enable Webpack hot module replacement for reducers

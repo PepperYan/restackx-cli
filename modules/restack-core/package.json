@@ -2,27 +2,27 @@
   "_args": [
     [
       {
-        "raw": "restack-core@^0.3.11",
+        "raw": "restack-core@0.3.13",
         "scope": null,
         "escapedName": "restack-core",
         "name": "restack-core",
-        "rawSpec": "^0.3.11",
-        "spec": ">=0.3.11 <0.4.0",
-        "type": "range"
+        "rawSpec": "0.3.13",
+        "spec": "0.3.13",
+        "type": "version"
       },
       "/Users/hibad/Desktop/交付内容/demo-todo"
     ]
   ],
-  "_cnpm_publish_time": 1481023867803,
-  "_from": "restack-core@>=0.3.11 <0.4.0",
-  "_id": "restack-core@0.3.11",
+  "_cnpm_publish_time": 1481094824419,
+  "_from": "restack-core@0.3.13",
+  "_id": "restack-core@0.3.13",
   "_inCache": true,
   "_installable": true,
   "_location": "/restack-core",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/restack-core-0.3.11.tgz_1481023865665_0.04085168964229524"
+    "tmp": "tmp/restack-core-0.3.13.tgz_1481094822731_0.1941537440288812"
   },
   "_npmUser": {
     "name": "yezhiming",
@@ -31,21 +31,22 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "restack-core@^0.3.11",
+    "raw": "restack-core@0.3.13",
     "scope": null,
     "escapedName": "restack-core",
     "name": "restack-core",
-    "rawSpec": "^0.3.11",
-    "spec": ">=0.3.11 <0.4.0",
-    "type": "range"
+    "rawSpec": "0.3.13",
+    "spec": "0.3.13",
+    "type": "version"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.11.tgz",
-  "_shasum": "10132d37c264e14655ab55f9b0ee0c82d1715e70",
+  "_resolved": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.13.tgz",
+  "_shasum": "d82835fe4208b97cad914ff9524d96cb08476c03",
   "_shrinkwrap": null,
-  "_spec": "restack-core@^0.3.11",
+  "_spec": "restack-core@0.3.13",
   "_where": "/Users/hibad/Desktop/交付内容/demo-todo",
   "author": {
     "name": "Justin",
@@ -89,12 +90,12 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "10132d37c264e14655ab55f9b0ee0c82d1715e70",
-    "size": 15744,
+    "shasum": "d82835fe4208b97cad914ff9524d96cb08476c03",
+    "size": 11528,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.11.tgz"
+    "tarball": "http://r.cnpmjs.org/restack-core/download/restack-core-0.3.13.tgz"
   },
-  "gitHead": "56832b54307cc0e8642838566f1f0f5fe4ca479d",
+  "gitHead": "19d45bb958324620d8cd2f079f82b696d91b20cb",
   "homepage": "https://github.com/yezhiming/restack-core#readme",
   "license": "MIT",
   "main": "lib/index.js",
@@ -107,7 +108,7 @@
   "name": "restack-core",
   "optionalDependencies": {},
   "peerDependencies": {},
-  "publish_time": 1481023867803,
+  "publish_time": 1481094824419,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -120,5 +121,5 @@
     "test": "cross-env BABEL_ENV=commonjs jest --verbose",
     "test:watch": "npm test --watch"
   },
-  "version": "0.3.11"
+  "version": "0.3.13"
 }
