@@ -54,7 +54,6 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
 } else {
   // run in dev mode with webpack
   var webpack = require('webpack');
-  var browserSync = require('browser-sync');
   var webpackDevMiddleware = require('webpack-dev-middleware');
   var webpackHotMiddleware = require('webpack-hot-middleware');
   var projectConfig = require(`${cwd}/config/${env}`);
