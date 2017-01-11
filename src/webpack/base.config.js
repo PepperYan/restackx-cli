@@ -57,9 +57,9 @@ function config(cwd,env){
             }
           }
         },
-        {test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")},
-        {test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader")},
-        {test: /\.scss$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")},
+        {test: /\.less$/, loader: env === 'production'? ExtractTextPlugin.extract("style-loader", "css-loader!less-loader") : "style-loader!css-loader!less-loader"},
+        {test: /\.css$/, loader: env === 'production'? ExtractTextPlugin.extract("style-loader", "css-loader") : "style-loader!css-loader"},
+        {test: /\.scss$/, loader: env === 'production'? ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader"):"style-loader!css-loader!sass-loader"},
         //other assets
         {test: /\.eot(\?\w+)?/, loader: 'url?limit=5000'}, // 'file' ?
         {test: /\.(woff|woff2)(\?\w+)?/, loader: 'url?limit=5000&mimetype=application/font-woff'},
@@ -110,6 +110,6 @@ function merge(target, source) {
   return target
 }
 
-module.exports.makeConfig = function(newConfig,cwd) {
-  return merge(_.cloneDeep(config(cwd)), newConfig);
+module.exports.makeConfig = function(newConfig,cwd, env) {
+  return merge(_.cloneDeep(config(cwd, env)), newConfig);
 }

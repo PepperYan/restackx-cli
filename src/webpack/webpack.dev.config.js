@@ -36,7 +36,6 @@ module.exports = function (cwd, project) {
       }
     },
     plugins: [
-      new ExtractTextPlugin("vendors.css"),
       new webpack.HotModuleReplacementPlugin(),
       new webpack.optimize.CommonsChunkPlugin({
         name: 'vendors',
