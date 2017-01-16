@@ -3,6 +3,7 @@
 //remove dir and files
 var program = require('./program');
 var fs = require('fs');
+var fse = require('fs-extra')
 
 const distDir = program.cwd+"/dist"
 const happypackCache = program.cwd+"/.happypack"
@@ -51,30 +52,37 @@ fs.exists(program.cwd+"/webpack", (exists) => {
     console.log(stdout)
     console.error(stderr)
 
-    console.log("zipping... with prod enviroment");
-    var archiver = require('archiver');
-    var archive = archiver('zip',{
-       store: false // Sets the compression method to STORE.
-    });
+    //复制static到dist目录下
+    console.log('bundling static libs...');
+    fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
+      if (err) return console.error(err)
 
-    function createArchive(){
-      var output = fs.createWriteStream(program.cwd + '/dist.zip');
-      archive.on('error', function(err) {
-        throw err;
+      console.log("zipping... with prod enviroment");
+      var archiver = require('archiver');
+      var archive = archiver('zip',{
+         store: false // Sets the compression method to STORE.
       });
-      archive.pipe(output);
-      archive.directory(program.cwd + '/dist/',"dist");
-      archive.finalize();
-    }
 
-    if(!fs.existsSync(program.cwd + '/dist.zip')){
-      createArchive()
-    }else{
-      console.log("zip exists...")
-      fs.unlinkSync(program.cwd + '/dist.zip');
-      console.log("rezip...");
-      createArchive();
-    }
+      function createArchive(){
+        var output = fs.createWriteStream(program.cwd + '/dist.zip');
+        archive.on('error', function(err) {
+          throw err;
+        });
+        archive.pipe(output);
+        archive.directory(program.cwd + '/dist/',"dist");
+        archive.finalize();
+      }
+
+      if(!fs.existsSync(program.cwd + '/dist.zip')){
+        createArchive()
+      }else{
+        console.log("zip exists...")
+        fs.unlinkSync(program.cwd + '/dist.zip');
+        console.log("rezip...");
+        createArchive();
+      }
+
+    })
 
   });
 
