@@ -21,6 +21,33 @@ var deleteFolderRecursive = function(path) {
   }
 };
 
+var compressDist = function(){
+  console.log("zipping... with prod enviroment");
+  var archiver = require('archiver');
+  var archive = archiver('zip',{
+     store: false // Sets the compression method to STORE.
+  });
+
+  function createArchive(){
+    var output = fs.createWriteStream(program.cwd + '/dist.zip');
+    archive.on('error', function(err) {
+      throw err;
+    });
+    archive.pipe(output);
+    archive.directory(program.cwd + '/dist/',"dist");
+    archive.finalize();
+  }
+
+  if(!fs.existsSync(program.cwd + '/dist.zip')){
+    createArchive()
+  }else{
+    console.log("zip exists...")
+    fs.unlinkSync(program.cwd + '/dist.zip');
+    console.log("rezip...");
+    createArchive();
+  }
+}
+
 deleteFolderRecursive(distDir)
 //if we don't delete it, the development cache will be used automatic
 //and make the bundle unusable
@@ -52,38 +79,19 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
     console.log(stdout)
     console.error(stderr)
 
-    //复制static到dist目录下
-    console.log('bundling static libs...');
-    fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
-      if (err) return console.error(err)
-
-      console.log("zipping... with prod enviroment");
-      var archiver = require('archiver');
-      var archive = archiver('zip',{
-         store: false // Sets the compression method to STORE.
-      });
-
-      function createArchive(){
-        var output = fs.createWriteStream(program.cwd + '/dist.zip');
-        archive.on('error', function(err) {
-          throw err;
-        });
-        archive.pipe(output);
-        archive.directory(program.cwd + '/dist/',"dist");
-        archive.finalize();
-      }
-
-      if(!fs.existsSync(program.cwd + '/dist.zip')){
-        createArchive()
+    fs.exists(program.cwd+"/static", (exists) => {
+      if(exists){
+        //复制static到dist目录下
+        console.log('bundling static libs...');
+        fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
+          if (err) return console.error(err)
+          compressDist();
+        })
       }else{
-        console.log("zip exists...")
-        fs.unlinkSync(program.cwd + '/dist.zip');
-        console.log("rezip...");
-        createArchive();
+        //直接压缩
+        compressDist();
       }
-
     })
-
   });
 
 });
