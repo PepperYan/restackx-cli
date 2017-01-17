@@ -61,11 +61,11 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
   //直接把外部类库暴露出去
   app.use('/', express.static(`${cwd}/static`));
   //正在使用deprecated api,6.9.1LTS后使用fs.access
-  fs.exists(`${cwd}/webpack`, (exists) => {
+  fs.exists(`${cwd}/config/webpack`, (exists) => {
     var config;
     if (exists) {
       console.error('custom webpack config exists');
-      config = require(`${cwd}/webpack/webpack.${env}.config`);
+      config = require(`${cwd}/config/webpack/webpack.${env}.config`);
     } else {
       config = require(`../webpack/webpack.${env}.config`)(cwd, projectConfig);
     }

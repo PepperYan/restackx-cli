@@ -30,11 +30,11 @@ deleteFolderRecursive(happypackCache)
 console.log("building with production enviroment")
 var path2Config = program.cwd+ "/config/"+program.env
 var projectConfig = require(path2Config);
-fs.exists(program.cwd+"/webpack", (exists) => {
+fs.exists(program.cwd+"/config/webpack", (exists) => {
   var config;
   if (exists) {
     console.log('using custom webpack production config');
-    config = program.cwd+"/webpack/webpack.prod.config";
+    config = program.cwd+"/config/webpack/webpack.prod.config";
     console.error('using custom webpack config for production build');
   } else {
     config = __dirname+"/../lib/webpack/webpack.prod.config.js";
