@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import {Route, IndexRoute} from 'react-router'
 
-import App from './App'
-import Index from '../demo/Index'
-import Next from '../demo/Next'
+import App from './App';
+import NewComponent from '../demo/newcomponent'
+import Demo from './demo'
+import PageTwo from '../demo/page2'
 
-const rootRoute = (
+export default (
   <Route path="/" component={App}>
-    <IndexRoute component={Index}/>
-    <Route path="/next" component={Next}/>
+    <Route component={Demo}>
+      <IndexRoute component={NewComponent}/>
+      <Route path="pagetwo" component={PageTwo}/>
+    </Route>
   </Route>
-)
-
-export default rootRoute
+);

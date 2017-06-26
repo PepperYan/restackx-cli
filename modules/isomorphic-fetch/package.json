@@ -10,14 +10,14 @@
         "spec": ">=2.2.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1452850062311,
   "_from": "isomorphic-fetch@>=2.2.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "isomorphic-fetch@2.2.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/isomorphic-fetch",
   "_nodeVersion": "4.2.3",
   "_npmUser": {
@@ -38,13 +38,13 @@
   "_requiredBy": [
     "/",
     "/fbjs",
-    "/restack-core"
+    "/restackx-core"
   ],
-  "_resolved": "http://registry.npm.taobao.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz",
   "_shasum": "611ae1acf14f5e81f729507472819fe9733558a9",
   "_shrinkwrap": null,
   "_spec": "isomorphic-fetch@^2.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Matt Andrews",
     "email": "matt@mattandre.ws"

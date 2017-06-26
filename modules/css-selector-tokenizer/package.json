@@ -10,14 +10,14 @@
         "spec": ">=0.5.1 <0.6.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/css-loader"
     ]
   ],
   "_cnpm_publish_time": 1437943738256,
   "_from": "css-selector-tokenizer@>=0.5.1 <0.6.0",
+  "_hasShrinkwrap": false,
   "_id": "css-selector-tokenizer@0.5.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/css-selector-tokenizer",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/css-loader"
   ],
-  "_resolved": "http://registry.npm.taobao.org/css-selector-tokenizer/download/css-selector-tokenizer-0.5.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/css-selector-tokenizer/download/css-selector-tokenizer-0.5.4.tgz",
   "_shasum": "139bafd34a35fd0c1428487049e0699e6f6a2c21",
   "_shrinkwrap": null,
   "_spec": "css-selector-tokenizer@^0.5.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-loader",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/css-loader",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

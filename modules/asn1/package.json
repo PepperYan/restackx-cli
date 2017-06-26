@@ -10,14 +10,14 @@
         "spec": ">=0.2.3 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/sshpk"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/sshpk"
     ]
   ],
   "_cnpm_publish_time": 1443653610238,
   "_from": "asn1@>=0.2.3 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "asn1@0.2.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/asn1",
   "_npmUser": {
     "name": "pfmooney",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/sshpk"
   ],
-  "_resolved": "http://registry.npm.taobao.org/asn1/download/asn1-0.2.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/asn1/download/asn1-0.2.3.tgz",
   "_shasum": "dac8787713c9966849fc8180777ebe9c1ddf3b86",
   "_shrinkwrap": null,
   "_spec": "asn1@~0.2.3",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/sshpk",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/sshpk",
   "author": {
     "name": "Mark Cavage",
     "email": "mcavage@gmail.com"
@@ -89,7 +89,7 @@
     },
     {
       "name": "pfmooney",
-      "email": "patrick.f.mooney@gmail.com"
+      "email": "pmooney@pfmooney.com"
     }
   ],
   "name": "asn1",

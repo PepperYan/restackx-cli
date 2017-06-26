@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <1.1.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/readable-stream"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/readable-stream"
     ]
   ],
   "_cnpm_publish_time": 1447979853081,
   "_from": "core-util-is@>=1.0.0 <1.1.0",
+  "_hasShrinkwrap": false,
   "_id": "core-util-is@1.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/core-util-is",
   "_nodeVersion": "4.0.0",
   "_npmUser": {
@@ -36,15 +36,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/node-libs-browser/readable-stream",
-    "/readable-stream",
-    "/stream-browserify/readable-stream"
+    "/readable-stream"
   ],
-  "_resolved": "http://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/core-util-is/download/core-util-is-1.0.2.tgz",
   "_shasum": "b5fd54220aa2bc5ab57aab7140c940754503c1a7",
   "_shrinkwrap": null,
   "_spec": "core-util-is@~1.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/readable-stream",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/readable-stream",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",

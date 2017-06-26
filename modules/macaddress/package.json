@@ -10,14 +10,14 @@
         "spec": ">=0.2.8 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/uniqid"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/uniqid"
     ]
   ],
   "_cnpm_publish_time": 1430052299877,
   "_from": "macaddress@>=0.2.8 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "macaddress@0.2.8",
   "_inCache": true,
-  "_installable": true,
   "_location": "/macaddress",
   "_npmUser": {
     "name": "scravy",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/uniqid"
   ],
-  "_resolved": "http://registry.npm.taobao.org/macaddress/download/macaddress-0.2.8.tgz",
+  "_resolved": "http://r.cnpmjs.org/macaddress/download/macaddress-0.2.8.tgz",
   "_shasum": "5904dc537c39ec6dbefeae902327135fa8511f12",
   "_shrinkwrap": null,
   "_spec": "macaddress@^0.2.8",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/uniqid",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/uniqid",
   "author": {
     "name": "Julian Fleischer"
   },

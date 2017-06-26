@@ -10,14 +10,14 @@
         "spec": ">=0.8.1 <0.9.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request"
     ]
   ],
   "_cnpm_publish_time": 1462396401752,
   "_from": "oauth-sign@>=0.8.1 <0.9.0",
+  "_hasShrinkwrap": false,
   "_id": "oauth-sign@0.8.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/oauth-sign",
   "_nodeVersion": "5.9.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/request"
   ],
-  "_resolved": "http://registry.npm.taobao.org/oauth-sign/download/oauth-sign-0.8.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/oauth-sign/download/oauth-sign-0.8.2.tgz",
   "_shasum": "46a6ab7f0aead8deae9ec0565780b7d4efeb9d43",
   "_shrinkwrap": null,
   "_spec": "oauth-sign@~0.8.1",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request",
   "author": {
     "name": "Mikeal Rogers",
     "email": "mikeal.rogers@gmail.com",

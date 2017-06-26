@@ -10,14 +10,14 @@
         "spec": ">=0.2.1 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch"
     ]
   ],
   "_cnpm_publish_time": 1427255229823,
   "_from": "array-unique@>=0.2.1 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "array-unique@0.2.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/array-unique",
   "_nodeVersion": "1.6.2",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/micromatch"
   ],
-  "_resolved": "http://registry.npm.taobao.org/array-unique/download/array-unique-0.2.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/array-unique/download/array-unique-0.2.1.tgz",
   "_shasum": "a1d97ccafcbc2625cc70fadceb36a50c58b01a53",
   "_shrinkwrap": null,
   "_spec": "array-unique@^0.2.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

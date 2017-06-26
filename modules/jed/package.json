@@ -10,14 +10,14 @@
         "spec": ">=1.1.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/restackx-core"
     ]
   ],
   "_cnpm_publish_time": 1469173697176,
   "_from": "jed@>=1.1.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "jed@1.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/jed",
   "_nodeVersion": "4.4.3",
   "_npmOperationalInternal": {
@@ -40,13 +40,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/restack-core"
+    "/restackx-core"
   ],
-  "_resolved": "http://registry.npm.taobao.org/jed/download/jed-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/jed/download/jed-1.1.1.tgz",
   "_shasum": "7a549bbd9ffe1585b0cd0a191e203055bee574b4",
   "_shrinkwrap": null,
   "_spec": "jed@^1.1.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/restack-core",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/restackx-core",
   "author": {
     "name": "Alex Sexton",
     "email": "alexsexton@gmail.com"

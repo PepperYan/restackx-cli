@@ -52,6 +52,7 @@ exports.ObjectTypeAnnotation = ObjectTypeAnnotation;
 exports.ObjectTypeCallProperty = ObjectTypeCallProperty;
 exports.ObjectTypeIndexer = ObjectTypeIndexer;
 exports.ObjectTypeProperty = ObjectTypeProperty;
+exports.ObjectTypeSpreadProperty = ObjectTypeSpreadProperty;
 exports.QualifiedTypeIdentifier = QualifiedTypeIdentifier;
 exports.UnionTypeAnnotation = UnionTypeAnnotation;
 exports.TypeCastExpression = TypeCastExpression;
@@ -321,11 +322,19 @@ function ObjectTypeAnnotation(node) {
     this.space();
 
     this.printJoin(props, node, {
+      addNewlines: function addNewlines(leading) {
+        if (leading && !props[0]) return 1;
+      },
+
       indent: true,
       statement: true,
       iterator: function iterator() {
         if (props.length !== 1) {
-          _this.semicolon();
+          if (_this.format.flowCommaSeparator) {
+            _this.token(",");
+          } else {
+            _this.semicolon();
+          }
           _this.space();
         }
       }
@@ -377,6 +386,11 @@ function ObjectTypeProperty(node) {
   this.token(":");
   this.space();
   this.print(node.value, node);
+}
+
+function ObjectTypeSpreadProperty(node) {
+  this.token("...");
+  this.print(node.argument, node);
 }
 
 function QualifiedTypeIdentifier(node) {

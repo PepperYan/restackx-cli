@@ -10,14 +10,14 @@
         "spec": ">=2.6.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/js-yaml"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/js-yaml"
     ]
   ],
   "_cnpm_publish_time": 1472013605981,
   "_from": "esprima@>=2.6.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "esprima@2.7.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/esprima",
   "_nodeVersion": "6.1.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/js-yaml"
   ],
-  "_resolved": "http://registry.npm.taobao.org/esprima/download/esprima-2.7.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/esprima/download/esprima-2.7.3.tgz",
   "_shasum": "96e3b70d5779f6ad49cd032673d1c312767ba581",
   "_shrinkwrap": null,
   "_spec": "esprima@^2.6.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/js-yaml",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/js-yaml",
   "author": {
     "name": "Ariya Hidayat",
     "email": "ariya.hidayat@gmail.com"

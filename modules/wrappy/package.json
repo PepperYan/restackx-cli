@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/inflight"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/inflight"
     ]
   ],
   "_cnpm_publish_time": 1463527852415,
   "_from": "wrappy@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "wrappy@1.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/wrappy",
   "_nodeVersion": "5.10.1",
   "_npmOperationalInternal": {
@@ -43,11 +43,11 @@
     "/inflight",
     "/once"
   ],
-  "_resolved": "http://registry.npm.taobao.org/wrappy/download/wrappy-1.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/wrappy/download/wrappy-1.0.2.tgz",
   "_shasum": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
   "_shrinkwrap": null,
   "_spec": "wrappy@1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/inflight",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/inflight",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",

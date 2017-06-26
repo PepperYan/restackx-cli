@@ -2,47 +2,51 @@
   "_args": [
     [
       {
-        "raw": "timers-browserify@^1.0.1",
+        "raw": "timers-browserify@^2.0.2",
         "scope": null,
         "escapedName": "timers-browserify",
         "name": "timers-browserify",
-        "rawSpec": "^1.0.1",
-        "spec": ">=1.0.1 <2.0.0",
+        "rawSpec": "^2.0.2",
+        "spec": ">=2.0.2 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser"
     ]
   ],
-  "_cnpm_publish_time": 1449574838866,
-  "_from": "timers-browserify@>=1.0.1 <2.0.0",
-  "_id": "timers-browserify@1.4.2",
+  "_cnpm_publish_time": 1476882407914,
+  "_from": "timers-browserify@>=2.0.2 <3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "timers-browserify@2.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/timers-browserify",
-  "_nodeVersion": "4.2.2",
+  "_nodeVersion": "6.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/timers-browserify-2.0.2.tgz_1476882406189_0.28604227397590876"
+  },
   "_npmUser": {
     "name": "jryans",
     "email": "jryans@gmail.com"
   },
-  "_npmVersion": "2.14.7",
+  "_npmVersion": "3.9.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "timers-browserify@^1.0.1",
+    "raw": "timers-browserify@^2.0.2",
     "scope": null,
     "escapedName": "timers-browserify",
     "name": "timers-browserify",
-    "rawSpec": "^1.0.1",
-    "spec": ">=1.0.1 <2.0.0",
+    "rawSpec": "^2.0.2",
+    "spec": ">=2.0.2 <3.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/timers-browserify/download/timers-browserify-1.4.2.tgz",
-  "_shasum": "c9c58b575be8407375cb5e2462dacee74359f41d",
+  "_resolved": "http://r.cnpmjs.org/timers-browserify/download/timers-browserify-2.0.2.tgz",
+  "_shasum": "ab4883cf597dcd50af211349a00fbca56ac86b86",
   "_shrinkwrap": null,
-  "_spec": "timers-browserify@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_spec": "timers-browserify@^2.0.2",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser",
   "author": {
     "name": "J. Ryan Stinnett",
     "email": "jryans@gmail.com",
@@ -52,6 +56,10 @@
     "url": "https://github.com/jryans/timers-browserify/issues"
   },
   "contributors": [
+    {
+      "name": "Colton Brown",
+      "email": "coltonTB@me.com"
+    },
     {
       "name": "Guy Bedford",
       "email": "guybedford@gmail.com"
@@ -82,7 +90,7 @@
     }
   ],
   "dependencies": {
-    "process": "~0.11.0"
+    "setimmediate": "^1.0.4"
   },
   "description": "timers module for browserify",
   "devDependencies": {
@@ -91,15 +99,15 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "c9c58b575be8407375cb5e2462dacee74359f41d",
-    "size": 7215,
+    "shasum": "ab4883cf597dcd50af211349a00fbca56ac86b86",
+    "size": 3482,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/timers-browserify/download/timers-browserify-1.4.2.tgz"
+    "tarball": "http://r.cnpmjs.org/timers-browserify/download/timers-browserify-2.0.2.tgz"
   },
   "engines": {
     "node": ">=0.6.0"
   },
-  "gitHead": "762af88b6ed1d9b2ac97110649b723391ddd6bdd",
+  "gitHead": "2b4f7e6f3eda4109e06f90b50ee3ec24fc386506",
   "homepage": "https://github.com/jryans/timers-browserify",
   "jspm": {
     "map": {
@@ -128,12 +136,12 @@
   ],
   "name": "timers-browserify",
   "optionalDependencies": {},
-  "publish_time": 1449574838866,
+  "publish_time": 1476882407914,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/jryans/timers-browserify.git"
   },
   "scripts": {},
-  "version": "1.4.2"
+  "version": "2.0.2"
 }

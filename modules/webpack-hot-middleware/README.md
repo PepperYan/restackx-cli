@@ -2,7 +2,9 @@
 
 Webpack hot reloading using only [webpack-dev-middleware](http://webpack.github.io/docs/webpack-dev-middleware.html). This allows you to add hot reloading into an existing server without [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html).
 
-This module is **only** concerned with the mechanisms to connect a browser client to a webpack server & receive updates. It will subscribe to changes from the server and execute those changes using [webpack's HMR api](http://webpack.github.io/docs/hot-module-replacement-with-webpack.html). Actually making your application capable of using hot reloading to make seamless changes is out of scope, and usually handled by another library.
+This module is **only** concerned with the mechanisms to connect a browser client to a webpack server & receive updates. It will subscribe to changes from the server and execute those changes using [webpack's HMR API](http://webpack.github.io/docs/hot-module-replacement-with-webpack.html). Actually making your application capable of using hot reloading to make seamless changes is out of scope, and usually handled by another library.
+
+If you're using React then some common options are [react-transform-hmr](https://github.com/gaearon/react-transform-hmr/) and [react-hot-loader](https://github.com/gaearon/react-hot-loader).
 
 [![npm version](https://img.shields.io/npm/v/webpack-hot-middleware.svg)](https://www.npmjs.com/package/webpack-hot-middleware) [![Build Status](https://img.shields.io/travis/glenjamin/webpack-hot-middleware/master.svg)](https://travis-ci.org/glenjamin/webpack-hot-middleware) [![Coverage Status](https://coveralls.io/repos/glenjamin/webpack-hot-middleware/badge.svg?branch=master)](https://coveralls.io/r/glenjamin/webpack-hot-middleware?branch=master) ![MIT Licensed](https://img.shields.io/npm/l/webpack-hot-middleware.svg)
 
@@ -18,13 +20,11 @@ npm install --save-dev webpack-hot-middleware
 
 Next, enable hot reloading in your webpack config:
 
- 1. Add the following three plugins to the `plugins` array:
+ 1. Add the following plugins to the `plugins` array:
     ```js
     plugins: [
-        // Webpack 1.0
+        // OccurenceOrderPlugin is needed for webpack 1.x only
         new webpack.optimize.OccurenceOrderPlugin(),
-        // Webpack 2.0 fixed this mispelling
-        // new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
     ]
@@ -73,6 +73,8 @@ More to come soon, you'll have to mostly rely on the example for now.
 
 ### Config
 
+#### Client
+
 Configuration options can be passed to the client by adding querystring parameters to the path in the webpack config.
 
 ```js
@@ -80,12 +82,29 @@ Configuration options can be passed to the client by adding querystring paramete
 ```
 
 * **path** - The path which the middleware is serving the event stream on
+* **name** - Bundle name, specifically for multi-compiler mode
 * **timeout** - The time to wait after a disconnection before attempting to reconnect
 * **overlay** - Set to `false` to disable the DOM-based client-side overlay.
 * **reload** - Set to `true` to auto-reload the page when webpack gets stuck.
 * **noInfo** - Set to `true` to disable informational console logging.
 * **quiet** - Set to `true` to disable all console logging.
 * **dynamicPublicPath** - Set to `true` to use webpack `publicPath` as prefix of `path`. (We can set `__webpack_public_path__` dynamically at runtime in the entry point, see note of [output.publicPath](https://webpack.github.io/docs/configuration.html#output-publicpath))
+
+#### Middleware
+
+Configuration options can be passed to the middleware by passing a second argument.
+
+```js
+app.use(require("webpack-hot-middleware")(compiler, {
+    log: false,
+    path: "/__what",
+    heartbeat: 2000
+}));
+```
+
+* **log** - A function used to log lines, pass `false` to disable. Defaults to `console.log`
+* **path** - The path which the middleware will serve the event stream on, must match the client setting
+* **heartbeat** - How often to send heartbeat updates to the client to keep the connection alive. Should be less than the client's `timeout` setting - usually set to half its value.
 
 ## How it Works
 
@@ -94,6 +113,30 @@ The middleware installs itself as a webpack plugin, and listens for compiler eve
 Each connected client gets a [Server Sent Events](http://www.html5rocks.com/en/tutorials/eventsource/basics/) connection, the server will publish notifications to connected clients on compiler events.
 
 When the client receives a message, it will check to see if the local code is up to date. If it isn't up to date, it will trigger webpack hot module reloading.
+
+### Multi-compiler mode
+
+If you're using multi-compiler mode (exporting an array of config in `webpack.config.js`), set `name` parameters to make sure bundles don't process each other's updates. For example:
+
+```
+// webpack.config.js
+module.exports = [
+    {
+        name: 'mobile',
+        entry: {
+            vendor: 'vendor.js',
+            main: ['webpack-hot-middleware/client?name=mobile', 'mobile.js']
+        }
+    },
+    {
+        name: 'desktop',
+        entry: {
+            vendor: 'vendor.js',
+            main: ['webpack-hot-middleware/client?name=desktop', 'desktop.js']
+        }
+    }
+]
+```
 
 ## Other Frameworks
 
@@ -134,4 +177,4 @@ entry: {
 
 Copyright 2015 Glen Mailer.
 
-MIT Licened.
+MIT Licensed.

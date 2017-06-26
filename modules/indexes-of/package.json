@@ -10,14 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-selector-parser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-selector-parser"
     ]
   ],
   "_cnpm_publish_time": 1384655111536,
   "_from": "indexes-of@>=1.0.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "indexes-of@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/indexes-of",
   "_npmUser": {
     "name": "dominictarr",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/postcss-selector-parser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/indexes-of/download/indexes-of-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/indexes-of/download/indexes-of-1.0.1.tgz",
   "_shasum": "f30f716c8e2bd346c7b67d3df3915566a7c05607",
   "_shrinkwrap": null,
   "_spec": "indexes-of@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-selector-parser",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-selector-parser",
   "author": {
     "name": "Dominic Tarr",
     "email": "dominic.tarr@gmail.com",

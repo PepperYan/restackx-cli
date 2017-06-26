@@ -10,14 +10,14 @@
         "spec": ">=0.1.8 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack"
     ]
   ],
   "_cnpm_publish_time": 1448348004122,
   "_from": "tapable@>=0.1.8 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "tapable@0.1.10",
   "_inCache": true,
-  "_installable": true,
   "_location": "/tapable",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -39,11 +39,11 @@
     "/enhanced-resolve",
     "/webpack"
   ],
-  "_resolved": "http://registry.npm.taobao.org/tapable/download/tapable-0.1.10.tgz",
+  "_resolved": "http://r.cnpmjs.org/tapable/download/tapable-0.1.10.tgz",
   "_shasum": "29c35707c2b70e50d07482b5d202e8ed446dafd4",
   "_shrinkwrap": null,
   "_spec": "tapable@~0.1.8",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

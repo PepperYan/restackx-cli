@@ -10,14 +10,14 @@
         "spec": ">=0.1.4 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch"
     ]
   ],
   "_cnpm_publish_time": 1459554508244,
   "_from": "expand-brackets@>=0.1.4 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "expand-brackets@0.1.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/expand-brackets",
   "_nodeVersion": "5.5.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/micromatch"
   ],
-  "_resolved": "http://registry.npm.taobao.org/expand-brackets/download/expand-brackets-0.1.5.tgz",
+  "_resolved": "http://r.cnpmjs.org/expand-brackets/download/expand-brackets-0.1.5.tgz",
   "_shasum": "df07284e342a807cd733ac5af72411e581d1177b",
   "_shrinkwrap": null,
   "_spec": "expand-brackets@^0.1.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

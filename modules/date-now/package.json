@@ -10,14 +10,14 @@
         "spec": ">=0.1.4 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/console-browserify"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/console-browserify"
     ]
   ],
   "_cnpm_publish_time": 1360378913400,
   "_from": "date-now@>=0.1.4 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "date-now@0.1.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/date-now",
   "_npmUser": {
     "name": "raynos",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/console-browserify"
   ],
-  "_resolved": "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/date-now/download/date-now-0.1.4.tgz",
   "_shasum": "eaf439fd4d4848ad74e5cc7dbef200672b9e345b",
   "_shrinkwrap": null,
   "_spec": "date-now@^0.1.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/console-browserify",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/console-browserify",
   "author": {
     "name": "Raynos",
     "email": "raynos2@gmail.com"

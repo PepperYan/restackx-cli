@@ -10,14 +10,14 @@
         "spec": "0.2.0",
         "type": "version"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/crypto-browserify"
     ]
   ],
   "_cnpm_publish_time": 1394382723743,
   "_from": "ripemd160@0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "ripemd160@0.2.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/ripemd160",
   "_npmUser": {
     "name": "jp",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/crypto-browserify"
   ],
-  "_resolved": "http://registry.npm.taobao.org/ripemd160/download/ripemd160-0.2.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/ripemd160/download/ripemd160-0.2.0.tgz",
   "_shasum": "2bf198bde167cacfa51c0a928e84b68bbe171fce",
   "_shrinkwrap": null,
   "_spec": "ripemd160@0.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/crypto-browserify",
   "bugs": {
     "url": "https://github.com/cryptocoinjs/ripemd160/issues"
   },

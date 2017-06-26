@@ -10,8 +10,6 @@ import React                     from 'react'
 import { Provider }              from 'react-redux';
 import { RouterContext, match }  from 'react-router';
 
-import {i18n, configureStore}    from 'restack-core'
-
 // import "css-modules-require-hook/preset"
 // import routes from '../src/js/routes'
 

@@ -10,14 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/yargs"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/yargs"
     ]
   ],
   "_cnpm_publish_time": 1438425493833,
   "_from": "camelcase@>=1.0.2 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "camelcase@1.2.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/camelcase",
   "_nodeVersion": "0.12.5",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/yargs"
   ],
-  "_resolved": "http://registry.npm.taobao.org/camelcase/download/camelcase-1.2.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/camelcase/download/camelcase-1.2.1.tgz",
   "_shasum": "9bb5304d2e0b56698b2c758b08a3eaa9daa58a39",
   "_shrinkwrap": null,
   "_spec": "camelcase@^1.0.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/yargs",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/yargs",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

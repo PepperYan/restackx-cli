@@ -10,14 +10,14 @@
         "spec": ">=1.0.4 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/glob"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/glob"
     ]
   ],
   "_cnpm_publish_time": 1476330809524,
   "_from": "inflight@>=1.0.4 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "inflight@1.0.6",
   "_inCache": true,
-  "_installable": true,
   "_location": "/inflight",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/glob"
   ],
-  "_resolved": "http://registry.npm.taobao.org/inflight/download/inflight-1.0.6.tgz",
+  "_resolved": "http://r.cnpmjs.org/inflight/download/inflight-1.0.6.tgz",
   "_shasum": "49bd6331d7d02d0c09bc910a1075ba8165b56df9",
   "_shrinkwrap": null,
   "_spec": "inflight@^1.0.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/glob",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/glob",
   "author": {
     "name": "Isaac Z. Schlueter",
     "email": "i@izs.me",

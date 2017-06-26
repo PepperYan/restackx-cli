@@ -10,14 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/detect-indent"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/detect-indent"
     ]
   ],
   "_cnpm_publish_time": 1460395967204,
   "_from": "repeating@>=2.0.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "repeating@2.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/repeating",
   "_nodeVersion": "4.4.2",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/detect-indent"
   ],
-  "_resolved": "http://registry.npm.taobao.org/repeating/download/repeating-2.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/repeating/download/repeating-2.0.1.tgz",
   "_shasum": "5214c53a926d3552707527fbab415dbc08d06dda",
   "_shrinkwrap": null,
   "_spec": "repeating@^2.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/detect-indent",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/detect-indent",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

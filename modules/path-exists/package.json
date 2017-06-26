@@ -10,14 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-up"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/find-up"
     ]
   ],
   "_cnpm_publish_time": 1447509322456,
   "_from": "path-exists@>=2.0.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "path-exists@2.1.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/path-exists",
   "_nodeVersion": "4.2.1",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/find-up"
   ],
-  "_resolved": "http://registry.npm.taobao.org/path-exists/download/path-exists-2.1.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/path-exists/download/path-exists-2.1.0.tgz",
   "_shasum": "0feb6c64f0fc518d9a754dd5efb62c7022761f4b",
   "_shrinkwrap": null,
   "_spec": "path-exists@^2.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-up",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/find-up",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

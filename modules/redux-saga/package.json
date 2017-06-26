@@ -10,14 +10,14 @@
         "spec": ">=0.12.0 <0.13.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1477829231562,
   "_from": "redux-saga@>=0.12.0 <0.13.0",
+  "_hasShrinkwrap": false,
   "_id": "redux-saga@0.12.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/redux-saga",
   "_nodeVersion": "6.2.2",
   "_npmOperationalInternal": {
@@ -46,7 +46,7 @@
   "_shasum": "79c9263d67486fd26a7a3d3b9df8ed65057a9fc6",
   "_shrinkwrap": null,
   "_spec": "redux-saga@^0.12.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Yassine ELOUAFI",
     "email": "yelouafi@gmail.com"

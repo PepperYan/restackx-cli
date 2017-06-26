@@ -10,14 +10,14 @@
         "spec": ">=2.2.5 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-toastr"
     ]
   ],
   "_cnpm_publish_time": 1462195436485,
   "_from": "classnames@>=2.2.5 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "classnames@2.2.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/classnames",
   "_nodeVersion": "5.0.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/react-toastr"
   ],
-  "_resolved": "http://registry.npm.taobao.org/classnames/download/classnames-2.2.5.tgz",
+  "_resolved": "http://r.cnpmjs.org/classnames/download/classnames-2.2.5.tgz",
   "_shasum": "fb3801d453467649ef3603c7d61a02bd129bde6d",
   "_shrinkwrap": null,
   "_spec": "classnames@^2.2.5",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-toastr",
   "author": {
     "name": "Jed Watson"
   },

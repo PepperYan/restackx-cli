@@ -10,21 +10,25 @@
         "spec": ">=1.2.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack-hot-middleware"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack-hot-middleware"
     ]
   ],
-  "_cnpm_publish_time": 1444335107023,
+  "_cnpm_publish_time": 1493034372756,
   "_from": "html-entities@>=1.2.0 <2.0.0",
-  "_id": "html-entities@1.2.0",
+  "_hasShrinkwrap": false,
+  "_id": "html-entities@1.2.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/html-entities",
-  "_nodeVersion": "0.12.5",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/html-entities-1.2.1.tgz_1493034372090_0.6101754817645997"
+  },
   "_npmUser": {
     "name": "mdevils",
     "email": "mdevils@yandex.ru"
   },
-  "_npmVersion": "2.11.2",
+  "_npmVersion": "2.15.12",
   "_phantomChildren": {},
   "_requested": {
     "raw": "html-entities@^1.2.0",
@@ -38,11 +42,11 @@
   "_requiredBy": [
     "/webpack-hot-middleware"
   ],
-  "_resolved": "http://registry.npm.taobao.org/html-entities/download/html-entities-1.2.0.tgz",
-  "_shasum": "41948caf85ce82fed36e4e6a0ed371a6664379e2",
+  "_resolved": "http://r.cnpmjs.org/html-entities/download/html-entities-1.2.1.tgz",
+  "_shasum": "0df29351f0721163515dfb9e5543e5f6eed5162f",
   "_shrinkwrap": null,
   "_spec": "html-entities@^1.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack-hot-middleware",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack-hot-middleware",
   "author": {
     "name": "Marat Dulin",
     "email": "mdevils@yandex.ru"
@@ -62,10 +66,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "41948caf85ce82fed36e4e6a0ed371a6664379e2",
-    "size": 17622,
+    "shasum": "0df29351f0721163515dfb9e5543e5f6eed5162f",
+    "size": 17696,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/html-entities/download/html-entities-1.2.0.tgz"
+    "tarball": "http://r.cnpmjs.org/html-entities/download/html-entities-1.2.1.tgz"
   },
   "engines": [
     "node >= 0.4.0"
@@ -75,7 +79,7 @@
     "lib",
     "LICENSE"
   ],
-  "gitHead": "3a2cd397697c872325f526bb422bdee74f089cda",
+  "gitHead": "dc08bde42ee6468d60ca617061b0b37b2edc45ca",
   "homepage": "https://github.com/mdevils/node-html-entities#readme",
   "keywords": [
     "html",
@@ -96,7 +100,7 @@
   ],
   "name": "html-entities",
   "optionalDependencies": {},
-  "publish_time": 1444335107023,
+  "publish_time": 1493034372756,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -117,5 +121,5 @@
       "test/**/*.js"
     ]
   },
-  "version": "1.2.0"
+  "version": "1.2.1"
 }

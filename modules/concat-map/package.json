@@ -10,14 +10,14 @@
         "spec": "0.0.1",
         "type": "version"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/brace-expansion"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/brace-expansion"
     ]
   ],
   "_cnpm_publish_time": 1391051195982,
   "_from": "concat-map@0.0.1",
+  "_hasShrinkwrap": false,
   "_id": "concat-map@0.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/concat-map",
   "_npmUser": {
     "name": "substack",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/brace-expansion"
   ],
-  "_resolved": "http://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/concat-map/download/concat-map-0.0.1.tgz",
   "_shasum": "d8a96bd77fd68df7793a73036a3ba0d5405d477b",
   "_shrinkwrap": null,
   "_spec": "concat-map@0.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/brace-expansion",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/brace-expansion",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",

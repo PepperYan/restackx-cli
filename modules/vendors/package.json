@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-merge-rules"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-merge-rules"
     ]
   ],
   "_cnpm_publish_time": 1470912121762,
   "_from": "vendors@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "vendors@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/vendors",
   "_nodeVersion": "5.0.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/postcss-merge-rules"
   ],
-  "_resolved": "http://registry.npm.taobao.org/vendors/download/vendors-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/vendors/download/vendors-1.0.1.tgz",
   "_shasum": "37ad73c8ee417fb3d580e785312307d274847f22",
   "_shrinkwrap": null,
   "_spec": "vendors@^1.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-merge-rules",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-merge-rules",
   "author": {
     "name": "Titus Wormer",
     "email": "tituswormer@gmail.com",
@@ -103,6 +103,10 @@
   "license": "MIT",
   "main": "index.json",
   "maintainers": [
+    {
+      "name": "beneb",
+      "email": "therealbenbriggs@hotmail.com"
+    },
     {
       "name": "wooorm",
       "email": "tituswormer@gmail.com"

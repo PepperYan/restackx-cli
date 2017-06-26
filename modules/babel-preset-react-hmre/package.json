@@ -10,14 +10,14 @@
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1457235624382,
   "_from": "babel-preset-react-hmre@>=1.1.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "babel-preset-react-hmre@1.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-preset-react-hmre",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-preset-react-hmre/download/babel-preset-react-hmre-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/babel-preset-react-hmre/download/babel-preset-react-hmre-1.1.1.tgz",
   "_shasum": "d216e60cb5b8d4c873e19ed0f54eaff1437bc492",
   "_shrinkwrap": null,
   "_spec": "babel-preset-react-hmre@^1.1.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Daniel Martinez"
   },

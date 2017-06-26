@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/hawk"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/hawk"
     ]
   ],
   "_cnpm_publish_time": 1409946921608,
   "_from": "sntp@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "sntp@1.0.9",
   "_inCache": true,
-  "_installable": true,
   "_location": "/sntp",
   "_npmUser": {
     "name": "hueniverse",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/hawk"
   ],
-  "_resolved": "http://registry.npm.taobao.org/sntp/download/sntp-1.0.9.tgz",
+  "_resolved": "http://r.cnpmjs.org/sntp/download/sntp-1.0.9.tgz",
   "_shasum": "6541184cc90aeea6c6e7b35e2659082443c66198",
   "_shrinkwrap": null,
   "_spec": "sntp@1.x.x",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/hawk",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/hawk",
   "author": {
     "name": "Eran Hammer",
     "email": "eran@hammer.io",

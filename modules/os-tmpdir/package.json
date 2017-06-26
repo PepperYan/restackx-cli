@@ -10,14 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/home-or-tmp"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/home-or-tmp"
     ]
   ],
   "_cnpm_publish_time": 1475211274812,
   "_from": "os-tmpdir@>=1.0.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "os-tmpdir@1.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/os-tmpdir",
   "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/home-or-tmp"
   ],
-  "_resolved": "http://registry.npm.taobao.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz",
   "_shasum": "bbe67406c79aa85c5cfec766fe5734555dfa1274",
   "_shrinkwrap": null,
   "_spec": "os-tmpdir@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/home-or-tmp",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/home-or-tmp",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

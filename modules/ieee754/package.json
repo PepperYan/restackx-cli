@@ -10,14 +10,14 @@
         "spec": ">=1.1.4 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/buffer"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/buffer"
     ]
   ],
   "_cnpm_publish_time": 1475481601268,
   "_from": "ieee754@>=1.1.4 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "ieee754@1.1.8",
   "_inCache": true,
-  "_installable": true,
   "_location": "/ieee754",
   "_nodeVersion": "6.7.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/buffer"
   ],
-  "_resolved": "http://registry.npm.taobao.org/ieee754/download/ieee754-1.1.8.tgz",
+  "_resolved": "http://r.cnpmjs.org/ieee754/download/ieee754-1.1.8.tgz",
   "_shasum": "be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4",
   "_shrinkwrap": null,
   "_spec": "ieee754@^1.1.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/buffer",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/buffer",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",

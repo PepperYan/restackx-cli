@@ -10,21 +10,25 @@
         "spec": ">=7.1.1 <8.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fbjs"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/fbjs"
     ]
   ],
-  "_cnpm_publish_time": 1450839282143,
+  "_cnpm_publish_time": 1497910543634,
   "_from": "promise@>=7.1.1 <8.0.0",
-  "_id": "promise@7.1.1",
+  "_hasShrinkwrap": false,
+  "_id": "promise@7.3.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/promise",
-  "_nodeVersion": "1.6.2",
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/promise-7.3.1.tgz_1497910542099_0.35927393985912204"
+  },
   "_npmUser": {
     "name": "forbeslindesay",
     "email": "forbes@lindesay.co.uk"
   },
-  "_npmVersion": "2.7.1",
+  "_npmVersion": "5.0.3",
   "_phantomChildren": {},
   "_requested": {
     "raw": "promise@^7.1.1",
@@ -39,11 +43,11 @@
     "/fbjs",
     "/less"
   ],
-  "_resolved": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
-  "_shasum": "489654c692616b8aa55b0724fa809bb7db49c5bf",
+  "_resolved": "http://r.cnpmjs.org/promise/download/promise-7.3.1.tgz",
+  "_shasum": "064b72602b18f90f29192b8b1bc418ffd1ebd3bf",
   "_shrinkwrap": null,
   "_spec": "promise@^7.1.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/fbjs",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/fbjs",
   "author": {
     "name": "ForbesLindesay"
   },
@@ -64,13 +68,13 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "489654c692616b8aa55b0724fa809bb7db49c5bf",
-    "size": 26214,
+    "shasum": "064b72602b18f90f29192b8b1bc418ffd1ebd3bf",
+    "size": 16490,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/promise/download/promise-7.1.1.tgz"
+    "tarball": "http://r.cnpmjs.org/promise/download/promise-7.3.1.tgz"
   },
-  "gitHead": "90757a38c86975f36893012581b72315b352d482",
-  "homepage": "https://github.com/then/promise",
+  "gitHead": "cebfa6049cc08843f428c6fc92dde918f8687e6d",
+  "homepage": "https://github.com/then/promise#readme",
   "license": "MIT",
   "main": "index.js",
   "maintainers": [
@@ -85,7 +89,7 @@
   ],
   "name": "promise",
   "optionalDependencies": {},
-  "publish_time": 1450839282143,
+  "publish_time": 1497910543634,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -103,5 +107,5 @@
     "test-memory-leak": "node --expose-gc test/memory-leak.js",
     "test-resolve": "mocha test/resolver-tests.js --timeout 200 --slow 999999"
   },
-  "version": "7.1.1"
+  "version": "7.3.1"
 }

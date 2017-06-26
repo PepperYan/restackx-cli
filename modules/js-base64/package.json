@@ -10,14 +10,14 @@
         "spec": ">=2.1.9 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss"
     ]
   ],
   "_cnpm_publish_time": 1438308724258,
   "_from": "js-base64@>=2.1.9 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "js-base64@2.1.9",
   "_inCache": true,
-  "_installable": true,
   "_location": "/js-base64",
   "_nodeVersion": "0.12.7",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/postcss"
   ],
-  "_resolved": "http://registry.npm.taobao.org/js-base64/download/js-base64-2.1.9.tgz",
+  "_resolved": "http://r.cnpmjs.org/js-base64/download/js-base64-2.1.9.tgz",
   "_shasum": "f0e80ae039a4bd654b5f281fc93f04a914a7fcce",
   "_shrinkwrap": null,
   "_spec": "js-base64@^2.1.9",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss",
   "author": {
     "name": "Dan Kogai"
   },

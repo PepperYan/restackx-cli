@@ -10,14 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch"
     ]
   ],
   "_cnpm_publish_time": 1477549485221,
   "_from": "object.omit@>=2.0.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "object.omit@2.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/object.omit",
   "_nodeVersion": "6.7.0",
   "_npmOperationalInternal": {
@@ -46,7 +46,7 @@
   "_shasum": "1a9c744829f39dbb858c76ca3579ae2a54ebd1fa",
   "_shrinkwrap": null,
   "_spec": "object.omit@^2.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

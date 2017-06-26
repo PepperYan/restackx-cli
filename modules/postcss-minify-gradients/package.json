@@ -10,19 +10,19 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
-  "_cnpm_publish_time": 1476886744745,
+  "_cnpm_publish_time": 1477958563042,
   "_from": "postcss-minify-gradients@>=1.0.1 <2.0.0",
-  "_id": "postcss-minify-gradients@1.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "postcss-minify-gradients@1.0.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/postcss-minify-gradients",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/postcss-minify-gradients-1.0.4.tgz_1476886744132_0.73909628437832"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/postcss-minify-gradients-1.0.5.tgz_1477958561213_0.879301795270294"
   },
   "_npmUser": {
     "name": "beneb",
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "http://registry.npm.taobao.org/postcss-minify-gradients/download/postcss-minify-gradients-1.0.4.tgz",
-  "_shasum": "47d4fef7efbcc64e541fae6115c9a3cc84d47006",
+  "_resolved": "http://r.cnpmjs.org/postcss-minify-gradients/download/postcss-minify-gradients-1.0.5.tgz",
+  "_shasum": "5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1",
   "_shrinkwrap": null,
   "_spec": "postcss-minify-gradients@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",
@@ -81,10 +81,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "47d4fef7efbcc64e541fae6115c9a3cc84d47006",
-    "size": 3709,
+    "shasum": "5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1",
+    "size": 3748,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/postcss-minify-gradients/download/postcss-minify-gradients-1.0.4.tgz"
+    "tarball": "http://r.cnpmjs.org/postcss-minify-gradients/download/postcss-minify-gradients-1.0.5.tgz"
   },
   "eslintConfig": {
     "extends": "cssnano"
@@ -93,7 +93,7 @@
     "LICENSE-MIT",
     "dist"
   ],
-  "gitHead": "bbc382b3876d8a31bb788dd6e77178980b9b1ca6",
+  "gitHead": "7988589504d76ff782bf38a2fed7cdae7a496a77",
   "homepage": "https://github.com/ben-eb/postcss-minify-gradients",
   "keywords": [
     "css",
@@ -110,7 +110,7 @@
   ],
   "name": "postcss-minify-gradients",
   "optionalDependencies": {},
-  "publish_time": 1476886744745,
+  "publish_time": 1477958563042,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -124,5 +124,5 @@
     "test": "ava src/__tests__",
     "test-012": "ava src/__tests__"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }

@@ -10,14 +10,14 @@
         "spec": ">=0.5.1 <0.6.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/global"
     ]
   ],
   "_cnpm_publish_time": 1388677550078,
   "_from": "process@>=0.5.1 <0.6.0",
+  "_hasShrinkwrap": false,
   "_id": "process@0.5.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/process",
   "_npmUser": {
     "name": "shtylman",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/global"
   ],
-  "_resolved": "http://registry.npm.taobao.org/process/download/process-0.5.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/process/download/process-0.5.2.tgz",
   "_shasum": "1638d8a8e34c2f440a91db95ab9aeb677fc185cf",
   "_shrinkwrap": null,
   "_spec": "process@~0.5.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/global",
   "author": {
     "name": "Roman Shtylman",
     "email": "shtylman@gmail.com"

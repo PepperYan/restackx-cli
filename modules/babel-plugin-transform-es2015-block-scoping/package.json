@@ -2,68 +2,68 @@
   "_args": [
     [
       {
-        "raw": "babel-plugin-transform-es2015-block-scoping@^6.18.0",
+        "raw": "babel-plugin-transform-es2015-block-scoping@^6.24.1",
         "scope": null,
         "escapedName": "babel-plugin-transform-es2015-block-scoping",
         "name": "babel-plugin-transform-es2015-block-scoping",
-        "rawSpec": "^6.18.0",
-        "spec": ">=6.18.0 <7.0.0",
+        "rawSpec": "^6.24.1",
+        "spec": ">=6.24.1 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015"
     ]
   ],
-  "_cnpm_publish_time": 1477343940956,
-  "_from": "babel-plugin-transform-es2015-block-scoping@>=6.18.0 <7.0.0",
-  "_id": "babel-plugin-transform-es2015-block-scoping@6.18.0",
+  "_cnpm_publish_time": 1491578362979,
+  "_from": "babel-plugin-transform-es2015-block-scoping@>=6.24.1 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "babel-plugin-transform-es2015-block-scoping@6.24.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-transform-es2015-block-scoping",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
     "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz_1477343939322_0.37236395198851824"
+    "tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz_1491578361103_0.9910478659439832"
   },
   "_npmUser": {
     "name": "hzoo",
     "email": "hi@henryzoo.com"
   },
-  "_npmVersion": "3.10.8",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "babel-plugin-transform-es2015-block-scoping@^6.18.0",
+    "raw": "babel-plugin-transform-es2015-block-scoping@^6.24.1",
     "scope": null,
     "escapedName": "babel-plugin-transform-es2015-block-scoping",
     "name": "babel-plugin-transform-es2015-block-scoping",
-    "rawSpec": "^6.18.0",
-    "spec": ">=6.18.0 <7.0.0",
+    "rawSpec": "^6.24.1",
+    "spec": ">=6.24.1 <7.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/babel-preset-es2015"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz",
-  "_shasum": "3bfdcfec318d46df22525cdea88f1978813653af",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz",
+  "_shasum": "76c295dc3a4741b1665adfd3167215dcff32a576",
   "_shrinkwrap": null,
-  "_spec": "babel-plugin-transform-es2015-block-scoping@^6.18.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015",
+  "_spec": "babel-plugin-transform-es2015-block-scoping@^6.24.1",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015",
   "dependencies": {
-    "babel-runtime": "^6.9.0",
-    "babel-template": "^6.15.0",
-    "babel-traverse": "^6.18.0",
-    "babel-types": "^6.18.0",
+    "babel-runtime": "^6.22.0",
+    "babel-template": "^6.24.1",
+    "babel-traverse": "^6.24.1",
+    "babel-types": "^6.24.1",
     "lodash": "^4.2.0"
   },
   "description": "Compile ES2015 block scoping (const and let) to ES5",
   "devDependencies": {
-    "babel-helper-plugin-test-runner": "^6.18.0"
+    "babel-helper-plugin-test-runner": "^6.24.1"
   },
   "directories": {},
   "dist": {
-    "shasum": "3bfdcfec318d46df22525cdea88f1978813653af",
-    "size": 5520,
+    "shasum": "76c295dc3a4741b1665adfd3167215dcff32a576",
+    "size": 6020,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz"
+    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz"
   },
   "keywords": [
     "babel-plugin"
@@ -72,16 +72,12 @@
   "main": "lib/index.js",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -90,20 +86,16 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel-plugin-transform-es2015-block-scoping",
   "optionalDependencies": {},
-  "publish_time": 1477343940956,
+  "publish_time": 1491578362979,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
   },
   "scripts": {},
-  "version": "6.18.0"
+  "version": "6.24.1"
 }

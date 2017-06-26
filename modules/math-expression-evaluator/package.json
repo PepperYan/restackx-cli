@@ -10,25 +10,25 @@
         "spec": ">=1.2.14 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/reduce-css-calc"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/reduce-css-calc"
     ]
   ],
-  "_cnpm_publish_time": 1472113089074,
+  "_cnpm_publish_time": 1493387392201,
   "_from": "math-expression-evaluator@>=1.2.14 <2.0.0",
-  "_id": "math-expression-evaluator@1.2.14",
+  "_hasShrinkwrap": false,
+  "_id": "math-expression-evaluator@1.2.17",
   "_inCache": true,
-  "_installable": true,
   "_location": "/math-expression-evaluator",
-  "_nodeVersion": "4.4.7",
+  "_nodeVersion": "6.10.2",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/math-expression-evaluator-1.2.14.tgz_1472113084747_0.16513858549296856"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/math-expression-evaluator-1.2.17.tgz_1493387390378_0.6613296787254512"
   },
   "_npmUser": {
-    "name": "ankit31894",
-    "email": "ankit31894@gmail.com"
+    "name": "ankitbug94",
+    "email": "ankitbug94@gmail.com"
   },
-  "_npmVersion": "2.15.8",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
     "raw": "math-expression-evaluator@^1.2.14",
@@ -42,21 +42,19 @@
   "_requiredBy": [
     "/reduce-css-calc"
   ],
-  "_resolved": "http://registry.npm.taobao.org/math-expression-evaluator/download/math-expression-evaluator-1.2.14.tgz",
-  "_shasum": "39511771ed9602405fba9affff17eb4d2a3843ab",
+  "_resolved": "https://registry.npmjs.org/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz",
+  "_shasum": "de819fdbcd84dccd8fae59c6aeb79615b9d266ac",
   "_shrinkwrap": null,
   "_spec": "math-expression-evaluator@^1.2.14",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/reduce-css-calc",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/reduce-css-calc",
   "author": {
-    "name": "Ankit G.",
-    "email": "ankit31894@gmail.com"
+    "name": "Ankit",
+    "email": "ankitbug94@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/ankit2038/math-expression-evaluator/issues"
+    "url": "https://github.com/redhivesoftware/math-expression-evaluator/issues"
   },
-  "dependencies": {
-    "lodash.indexof": "^4.0.5"
-  },
+  "dependencies": {},
   "description": "A flexible math expression evaluator",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -67,13 +65,13 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "39511771ed9602405fba9affff17eb4d2a3843ab",
-    "size": 18141,
+    "shasum": "de819fdbcd84dccd8fae59c6aeb79615b9d266ac",
+    "size": 13323,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/math-expression-evaluator/download/math-expression-evaluator-1.2.14.tgz"
+    "tarball": "http://r.cnpmjs.org/math-expression-evaluator/download/math-expression-evaluator-1.2.17.tgz"
   },
-  "gitHead": "a9c0ce91efd784ede71f13febb5ee6c9b569be4e",
-  "homepage": "https://github.com/ankit2038/math-expression-evaluator#readme",
+  "gitHead": "4ab734ed659f1ccddde850d21b24b90e895d42fc",
+  "homepage": "https://github.com/redhivesoftware/math-expression-evaluator#readme",
   "keywords": [
     "math",
     "expression",
@@ -84,20 +82,20 @@
   "main": "src/formula_evaluator.js",
   "maintainers": [
     {
-      "name": "ankit31894",
-      "email": "ankit31894@gmail.com"
+      "name": "ankitbug94",
+      "email": "ankitbug94@gmail.com"
     }
   ],
   "name": "math-expression-evaluator",
   "optionalDependencies": {},
-  "publish_time": 1472113089074,
+  "publish_time": 1493387392201,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ankit31894/math-expression-evaluator.git"
+    "url": "git+https://github.com/redhivesoftware/math-expression-evaluator.git#readme"
   },
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.2.14"
+  "version": "1.2.17"
 }

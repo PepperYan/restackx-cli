@@ -10,14 +10,14 @@
         "spec": ">=0.2.0 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/braces"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/braces"
     ]
   ],
   "_cnpm_publish_time": 1420928978220,
   "_from": "preserve@>=0.2.0 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "preserve@0.2.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/preserve",
   "_npmUser": {
     "name": "jonschlinkert",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/braces"
   ],
-  "_resolved": "http://registry.npm.taobao.org/preserve/download/preserve-0.2.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/preserve/download/preserve-0.2.0.tgz",
   "_shasum": "815ed1f6ebc65926f865b310c0713bcb3315ce4b",
   "_shrinkwrap": null,
   "_spec": "preserve@^0.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/braces",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/braces",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/history"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/history"
     ]
   ],
   "_cnpm_publish_time": 1440882148562,
   "_from": "deep-equal@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "deep-equal@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/deep-equal",
   "_nodeVersion": "2.4.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/history"
   ],
-  "_resolved": "http://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/deep-equal/download/deep-equal-1.0.1.tgz",
   "_shasum": "f5d260292b660e084eff4cdbc9f08ad3247448b5",
   "_shrinkwrap": null,
   "_spec": "deep-equal@^1.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/history",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/history",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",

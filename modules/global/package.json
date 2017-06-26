@@ -10,25 +10,25 @@
         "spec": ">=4.3.0 <5.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-transform-hmr"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-transform-hmr"
     ]
   ],
-  "_cnpm_publish_time": 1474513834925,
+  "_cnpm_publish_time": 1492580148867,
   "_from": "global@>=4.3.0 <5.0.0",
-  "_id": "global@4.3.1",
+  "_hasShrinkwrap": false,
+  "_id": "global@4.3.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/global",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/global-4.3.1.tgz_1474513833151_0.2703236402012408"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/global-4.3.2.tgz_1492580146760_0.3673510455992073"
   },
   "_npmUser": {
     "name": "raynos",
     "email": "raynos2@gmail.com"
   },
-  "_npmVersion": "2.15.9",
+  "_npmVersion": "2.15.11",
   "_phantomChildren": {},
   "_requested": {
     "raw": "global@^4.3.0",
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/react-transform-hmr"
   ],
-  "_resolved": "http://registry.npm.taobao.org/global/download/global-4.3.1.tgz",
-  "_shasum": "5f757908c7cbabce54f386ae440e11e26b7916df",
+  "_resolved": "http://r.cnpmjs.org/global/download/global-4.3.2.tgz",
+  "_shasum": "e76989268a6c74c38908b1305b10fc0e394e9d0f",
   "_shrinkwrap": null,
   "_spec": "global@^4.3.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-transform-hmr",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-transform-hmr",
   "author": {
     "name": "Raynos",
     "email": "raynos2@gmail.com"
@@ -74,12 +74,12 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "5f757908c7cbabce54f386ae440e11e26b7916df",
-    "size": 2005,
+    "shasum": "e76989268a6c74c38908b1305b10fc0e394e9d0f",
+    "size": 2016,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/global/download/global-4.3.1.tgz"
+    "tarball": "http://r.cnpmjs.org/global/download/global-4.3.2.tgz"
   },
-  "gitHead": "65eb66c398296ef52887e0ba06a21a88eae62ab6",
+  "gitHead": "dca6193fee92549cb0a1944705f8b054beb338a2",
   "homepage": "https://github.com/Raynos/global",
   "keywords": [],
   "license": "MIT",
@@ -100,7 +100,7 @@
   ],
   "name": "global",
   "optionalDependencies": {},
-  "publish_time": 1474513834925,
+  "publish_time": 1492580148867,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -138,5 +138,5 @@
       ]
     }
   },
-  "version": "4.3.1"
+  "version": "4.3.2"
 }

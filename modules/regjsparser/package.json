@@ -10,14 +10,14 @@
         "spec": ">=0.1.4 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/regexpu-core"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/regexpu-core"
     ]
   ],
   "_cnpm_publish_time": 1439758508321,
   "_from": "regjsparser@>=0.1.4 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "regjsparser@0.1.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/regjsparser",
   "_nodeVersion": "0.12.6",
   "_npmUser": {
@@ -40,11 +40,11 @@
     "/postcss-modules-scope/regexpu-core",
     "/regexpu-core"
   ],
-  "_resolved": "http://registry.npm.taobao.org/regjsparser/download/regjsparser-0.1.5.tgz",
+  "_resolved": "http://r.cnpmjs.org/regjsparser/download/regjsparser-0.1.5.tgz",
   "_shasum": "7ee8f84dc6fa792d3fd0ae228d24bd949ead205c",
   "_shrinkwrap": null,
   "_spec": "regjsparser@^0.1.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/regexpu-core",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/regexpu-core",
   "author": {
     "name": "'Julian Viereck'",
     "email": "julian.viereck@gmail.com"

@@ -10,25 +10,25 @@
         "spec": ">=1.0.4 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
-  "_cnpm_publish_time": 1471378577007,
+  "_cnpm_publish_time": 1482921955458,
   "_from": "postcss-minify-params@>=1.0.4 <2.0.0",
-  "_id": "postcss-minify-params@1.0.5",
+  "_hasShrinkwrap": false,
+  "_id": "postcss-minify-params@1.2.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/postcss-minify-params",
-  "_nodeVersion": "5.4.1",
+  "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/postcss-minify-params-1.0.5.tgz_1471378574351_0.10043538571335375"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/postcss-minify-params-1.2.2.tgz_1482921953368_0.2908381929155439"
   },
   "_npmUser": {
     "name": "beneb",
     "email": "beneb.info@gmail.com"
   },
-  "_npmVersion": "3.10.2",
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
     "raw": "postcss-minify-params@^1.0.4",
@@ -42,17 +42,17 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "http://registry.npm.taobao.org/postcss-minify-params/download/postcss-minify-params-1.0.5.tgz",
-  "_shasum": "82d602643b8616a61fb3634d7ede0289836d67f9",
+  "_resolved": "http://r.cnpmjs.org/postcss-minify-params/download/postcss-minify-params-1.2.2.tgz",
+  "_shasum": "ad2ce071373b943b3d930a3fa59a358c28d6f1f3",
   "_shrinkwrap": null,
   "_spec": "postcss-minify-params@^1.0.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Bogdan Chadkin",
     "email": "trysound@yandex.ru"
   },
   "bugs": {
-    "url": "https://github.com/TrySound/postcss-minify-params/issues"
+    "url": "https://github.com/ben-eb/postcss-minify-params/issues"
   },
   "dependencies": {
     "alphanum-sort": "^1.0.1",
@@ -72,10 +72,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "82d602643b8616a61fb3634d7ede0289836d67f9",
-    "size": 2186,
+    "shasum": "ad2ce071373b943b3d930a3fa59a358c28d6f1f3",
+    "size": 2810,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/postcss-minify-params/download/postcss-minify-params-1.0.5.tgz"
+    "tarball": "http://r.cnpmjs.org/postcss-minify-params/download/postcss-minify-params-1.2.2.tgz"
   },
   "eslintConfig": {
     "extends": "postcss",
@@ -86,8 +86,8 @@
   "files": [
     "dist"
   ],
-  "gitHead": "cc5bbbd6b004f169a892b126f94edaa20697e968",
-  "homepage": "https://github.com/TrySound/postcss-minify-params",
+  "gitHead": "a77a40f50fb5589e17dd18a0a103efbec7ff6d10",
+  "homepage": "https://github.com/ben-eb/postcss-minify-params",
   "keywords": [
     "postcss",
     "css",
@@ -114,11 +114,11 @@
     "instrument": true
   },
   "optionalDependencies": {},
-  "publish_time": 1471378577007,
+  "publish_time": 1482921955458,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trysound/postcss-minify-params.git"
+    "url": "git+https://github.com/ben-eb/postcss-minify-params.git"
   },
   "scripts": {
     "prepublish": "del-cli dist && cross-env BABEL_ENV=publish buble src -o dist",
@@ -126,5 +126,5 @@
     "report": "nyc report --reporter=html",
     "test": "cross-env BABEL_ENV=test nyc mocha test --compilers js:buble/register"
   },
-  "version": "1.0.5"
+  "version": "1.2.2"
 }

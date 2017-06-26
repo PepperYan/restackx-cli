@@ -10,14 +10,14 @@
         "spec": ">=0.3.0 <0.4.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack"
     ]
   ],
   "_cnpm_publish_time": 1446678381535,
   "_from": "memory-fs@>=0.3.0 <0.4.0",
+  "_hasShrinkwrap": false,
   "_id": "memory-fs@0.3.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/memory-fs",
   "_nodeVersion": "4.0.0",
   "_npmUser": {
@@ -36,14 +36,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/webpack",
-    "/webpack-dev-middleware"
+    "/webpack"
   ],
-  "_resolved": "http://registry.npm.taobao.org/memory-fs/download/memory-fs-0.3.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/memory-fs/download/memory-fs-0.3.0.tgz",
   "_shasum": "7bcc6b629e3a43e871d7e29aca6ae8a7f15cbb20",
   "_shrinkwrap": null,
   "_spec": "memory-fs@~0.3.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

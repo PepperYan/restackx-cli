@@ -10,14 +10,14 @@
         "spec": ">=0.1.1 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-loader"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-loader"
     ]
   ],
   "_cnpm_publish_time": 1451456134620,
   "_from": "find-cache-dir@>=0.1.1 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "find-cache-dir@0.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/find-cache-dir",
   "_nodeVersion": "5.2.0",
   "_npmUser": {
@@ -42,7 +42,7 @@
   "_shasum": "c8defae57c8a52a8a784f9e31c57c742e993a0b9",
   "_shrinkwrap": null,
   "_spec": "find-cache-dir@^0.1.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-loader",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-loader",
   "author": {
     "name": "James Talmage",
     "email": "james@talmage.io",
@@ -89,6 +89,10 @@
     {
       "name": "jamestalmage",
       "email": "james@talmage.io"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
     }
   ],
   "name": "find-cache-dir",

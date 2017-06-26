@@ -10,14 +10,14 @@
         "spec": ">=5.2.0 <6.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
   "_cnpm_publish_time": 1471856376603,
   "_from": "postcss-calc@>=5.2.0 <6.0.0",
+  "_hasShrinkwrap": false,
   "_id": "postcss-calc@5.3.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/postcss-calc",
   "_nodeVersion": "5.12.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "http://registry.npm.taobao.org/postcss-calc/download/postcss-calc-5.3.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/postcss-calc/download/postcss-calc-5.3.1.tgz",
   "_shasum": "77bae7ca928ad85716e2fda42f261bf7c1d65b5e",
   "_shrinkwrap": null,
   "_spec": "postcss-calc@^5.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Maxime Thirouin"
   },
@@ -87,8 +87,20 @@
   "license": "MIT",
   "maintainers": [
     {
+      "name": "beneb",
+      "email": "therealbenbriggs@hotmail.com"
+    },
+    {
+      "name": "jonathantneal",
+      "email": "jonathantneal@hotmail.com"
+    },
+    {
       "name": "moox",
       "email": "m@moox.io"
+    },
+    {
+      "name": "semigradsky",
+      "email": "semigradskyd@gmail.com"
     }
   ],
   "name": "postcss-calc",

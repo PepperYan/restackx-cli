@@ -10,25 +10,25 @@
         "spec": ">=0.14.0 <0.15.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/sshpk"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/sshpk"
     ]
   ],
-  "_cnpm_publish_time": 1459224952637,
+  "_cnpm_publish_time": 1481627516945,
   "_from": "tweetnacl@>=0.14.0 <0.15.0",
-  "_id": "tweetnacl@0.14.3",
+  "_hasShrinkwrap": false,
+  "_id": "tweetnacl@0.14.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/tweetnacl",
-  "_nodeVersion": "5.6.0",
+  "_nodeVersion": "7.0.0",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/tweetnacl-0.14.3.tgz_1459224951636_0.7403244483284652"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/tweetnacl-0.14.5.tgz_1481627515097_0.015130913350731134"
   },
   "_npmUser": {
     "name": "dchest",
     "email": "dmitry@codingrobots.com"
   },
-  "_npmVersion": "3.7.3",
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
     "raw": "tweetnacl@~0.14.0",
@@ -43,11 +43,11 @@
     "/bcrypt-pbkdf",
     "/sshpk"
   ],
-  "_resolved": "http://registry.npm.taobao.org/tweetnacl/download/tweetnacl-0.14.3.tgz",
-  "_shasum": "3da382f670f25ded78d7b3d1792119bca0b7132d",
+  "_resolved": "http://r.cnpmjs.org/tweetnacl/download/tweetnacl-0.14.5.tgz",
+  "_shasum": "5ae68177f192d4456269d108afa93ff8743f4f64",
   "_shrinkwrap": null,
   "_spec": "tweetnacl@~0.14.0",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/sshpk",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/sshpk",
   "author": {
     "name": "TweetNaCl-js contributors"
   },
@@ -74,12 +74,12 @@
     "test": "test"
   },
   "dist": {
-    "shasum": "3da382f670f25ded78d7b3d1792119bca0b7132d",
-    "size": 46825,
+    "shasum": "5ae68177f192d4456269d108afa93ff8743f4f64",
+    "size": 49663,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/tweetnacl/download/tweetnacl-0.14.3.tgz"
+    "tarball": "http://r.cnpmjs.org/tweetnacl/download/tweetnacl-0.14.5.tgz"
   },
-  "gitHead": "3eb4fc544a2a1d6c0a41b98b9906288ca8b087e4",
+  "gitHead": "cce829e473b1ae299a9373b5140c713ee88f577f",
   "homepage": "https://tweetnacl.js.org",
   "keywords": [
     "crypto",
@@ -95,7 +95,7 @@
     "salsa20",
     "signatures"
   ],
-  "license": "SEE LICENSE IN COPYING.txt",
+  "license": "Unlicense",
   "main": "nacl-fast.js",
   "maintainers": [
     {
@@ -105,7 +105,7 @@
   ],
   "name": "tweetnacl",
   "optionalDependencies": {},
-  "publish_time": 1459224952637,
+  "publish_time": 1481627516945,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -121,5 +121,6 @@
     "test-node": "tape test/*.js | faucet",
     "test-node-all": "make -C test/c && tape test/*.js test/c/*.js | faucet"
   },
-  "version": "0.14.3"
+  "types": "nacl.d.ts",
+  "version": "0.14.5"
 }

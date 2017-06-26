@@ -10,14 +10,14 @@
         "spec": ">=4.0.0 <5.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/is-my-json-valid"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/stream-http"
     ]
   ],
   "_cnpm_publish_time": 1446502761923,
   "_from": "xtend@>=4.0.0 <5.0.0",
+  "_hasShrinkwrap": false,
   "_id": "xtend@4.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/xtend",
   "_nodeVersion": "0.10.32",
   "_npmUser": {
@@ -36,13 +36,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/is-my-json-valid"
+    "/stream-http"
   ],
-  "_resolved": "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/xtend/download/xtend-4.0.1.tgz",
   "_shasum": "a5c6d532be656e23db820efb943a1f04998d63af",
   "_shrinkwrap": null,
   "_spec": "xtend@^4.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/is-my-json-valid",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/stream-http",
   "author": {
     "name": "Raynos",
     "email": "raynos2@gmail.com"

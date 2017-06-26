@@ -10,14 +10,14 @@
         "spec": ">=4.9.0 <5.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser"
     ]
   ],
   "_cnpm_publish_time": 1471491999280,
   "_from": "buffer@>=4.9.0 <5.0.0",
+  "_hasShrinkwrap": false,
   "_id": "buffer@4.9.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/buffer",
   "_nodeVersion": "6.4.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/buffer/download/buffer-4.9.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/buffer/download/buffer-4.9.1.tgz",
   "_shasum": "6d1bb601b07a4efced97094132093027c95bc298",
   "_shrinkwrap": null,
   "_spec": "buffer@^4.9.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",

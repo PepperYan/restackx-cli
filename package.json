@@ -1,12 +1,12 @@
 {
-  "name": "restack-mobile-cli",
-  "version": "0.3.9",
-  "description": "cli tool for restack mobile",
+  "name": "restackx-cli",
+  "version": "0.0.2",
+  "description": "cli tool for restackx",
   "bin": {
-    "restack-mobile": "./bin/restack-mobile",
-    "restack-mobile-run": "./bin/restack-mobile-run",
-    "restack-mobile-build": "./bin/restack-mobile-build",
-    "restack-mobile-create": "./bin/restack-mobile-create"
+    "restackx": "./bin/restackx",
+    "restackx-run": "./bin/restackx-run",
+    "restackx-build": "./bin/restackx-build",
+    "restackx-create": "./bin/restackx-create"
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
@@ -78,7 +78,7 @@
     "redux-saga": "^0.12.0",
     "redux-thunk": "^0.1.0",
     "redux-undo": "^0.6.0",
-    "restack-core": "^0.2.2",
+    "restackx-core": "*",
     "sass-loader": "^4.0.0",
     "scss-loader": "0.0.1",
     "style-loader": "^0.13.0",

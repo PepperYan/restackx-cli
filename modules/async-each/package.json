@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/chokidar"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/chokidar"
     ]
   ],
   "_cnpm_publish_time": 1472080937631,
   "_from": "async-each@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "async-each@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/async-each",
   "_nodeVersion": "6.3.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/chokidar"
   ],
-  "_resolved": "http://registry.npm.taobao.org/async-each/download/async-each-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/async-each/download/async-each-1.0.1.tgz",
   "_shasum": "19d386a1d9edc6e7c1c85d388aedbcc56d33602d",
   "_shrinkwrap": null,
   "_spec": "async-each@^1.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/chokidar",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/chokidar",
   "author": {
     "name": "Paul Miller",
     "url": "http://paulmillr.com/"

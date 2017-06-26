@@ -10,14 +10,14 @@
         "spec": ">=2.3.0 <2.4.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request"
     ]
   ],
   "_cnpm_publish_time": 1477415233167,
   "_from": "tough-cookie@>=2.3.0 <2.4.0",
+  "_hasShrinkwrap": false,
   "_id": "tough-cookie@2.3.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/tough-cookie",
   "_nodeVersion": "7.0.0",
   "_npmOperationalInternal": {
@@ -46,7 +46,7 @@
   "_shasum": "f081f76e4c85720e6c37a5faced737150d84072a",
   "_shrinkwrap": null,
   "_spec": "tough-cookie@~2.3.0",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request",
   "author": {
     "name": "Jeremy Stashewsky",
     "email": "jstashewsky@salesforce.com"

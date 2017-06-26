@@ -10,14 +10,14 @@
         "spec": ">=0.3.1 <0.4.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/error-stack-parser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/error-stack-parser"
     ]
   ],
   "_cnpm_publish_time": 1439521395596,
   "_from": "stackframe@>=0.3.1 <0.4.0",
+  "_hasShrinkwrap": false,
   "_id": "stackframe@0.3.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/stackframe",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/error-stack-parser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/stackframe/download/stackframe-0.3.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/stackframe/download/stackframe-0.3.1.tgz",
   "_shasum": "33aa84f1177a5548c8935533cbfeb3420975f5a4",
   "_shrinkwrap": null,
   "_spec": "stackframe@^0.3.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/error-stack-parser",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/error-stack-parser",
   "bugs": {
     "url": "https://github.com/stacktracejs/stackframe/issues"
   },

@@ -10,14 +10,14 @@
         "spec": ">=0.4.2 <0.5.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch"
     ]
   ],
   "_cnpm_publish_time": 1459536607156,
   "_from": "regex-cache@>=0.4.2 <0.5.0",
+  "_hasShrinkwrap": false,
   "_id": "regex-cache@0.4.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/regex-cache",
   "_nodeVersion": "5.5.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/micromatch"
   ],
-  "_resolved": "http://registry.npm.taobao.org/regex-cache/download/regex-cache-0.4.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/regex-cache/download/regex-cache-0.4.3.tgz",
   "_shasum": "9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145",
   "_shrinkwrap": null,
   "_spec": "regex-cache@^0.4.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

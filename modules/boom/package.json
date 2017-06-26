@@ -10,14 +10,14 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/hawk"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/hawk"
     ]
   ],
   "_cnpm_publish_time": 1446232592557,
   "_from": "boom@>=2.0.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "boom@2.10.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/boom",
   "_nodeVersion": "0.10.40",
   "_npmUser": {
@@ -39,11 +39,11 @@
     "/cryptiles",
     "/hawk"
   ],
-  "_resolved": "http://registry.npm.taobao.org/boom/download/boom-2.10.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/boom/download/boom-2.10.1.tgz",
   "_shasum": "39c8918ceff5799f83f9492a848f625add0c766f",
   "_shrinkwrap": null,
   "_spec": "boom@2.x.x",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/hawk",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/hawk",
   "bugs": {
     "url": "https://github.com/hapijs/boom/issues"
   },
@@ -81,6 +81,14 @@
     {
       "name": "hueniverse",
       "email": "eran@hueniverse.com"
+    },
+    {
+      "name": "marsup",
+      "email": "marsup@gmail.com"
+    },
+    {
+      "name": "nlf",
+      "email": "quitlahok@gmail.com"
     },
     {
       "name": "wyatt",

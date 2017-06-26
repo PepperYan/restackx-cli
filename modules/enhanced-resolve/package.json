@@ -10,14 +10,14 @@
         "spec": ">=0.9.0 <0.10.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack"
     ]
   ],
   "_cnpm_publish_time": 1445467729269,
   "_from": "enhanced-resolve@>=0.9.0 <0.10.0",
+  "_hasShrinkwrap": false,
   "_id": "enhanced-resolve@0.9.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/enhanced-resolve",
   "_nodeVersion": "4.0.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/webpack"
   ],
-  "_resolved": "http://registry.npm.taobao.org/enhanced-resolve/download/enhanced-resolve-0.9.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/enhanced-resolve/download/enhanced-resolve-0.9.1.tgz",
   "_shasum": "4d6e689b3725f86090927ccc86cd9f1635b89e2e",
   "_shrinkwrap": null,
   "_spec": "enhanced-resolve@~0.9.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

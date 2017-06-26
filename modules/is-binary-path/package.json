@@ -10,14 +10,14 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/chokidar"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/chokidar"
     ]
   ],
   "_cnpm_publish_time": 1432553552616,
   "_from": "is-binary-path@>=1.0.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "is-binary-path@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/is-binary-path",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/chokidar"
   ],
-  "_resolved": "http://registry.npm.taobao.org/is-binary-path/download/is-binary-path-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/is-binary-path/download/is-binary-path-1.0.1.tgz",
   "_shasum": "75f16642b480f187a711c814161fd3a4a7655898",
   "_shrinkwrap": null,
   "_spec": "is-binary-path@^1.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/chokidar",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/chokidar",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

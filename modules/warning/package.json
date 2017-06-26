@@ -10,14 +10,14 @@
         "spec": ">=3.0.0 <4.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-router"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-router"
     ]
   ],
   "_cnpm_publish_time": 1464922443287,
   "_from": "warning@>=3.0.0 <4.0.0",
+  "_hasShrinkwrap": false,
   "_id": "warning@3.0.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/warning",
   "_nodeVersion": "4.2.4",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/react-router"
   ],
-  "_resolved": "http://registry.npm.taobao.org/warning/download/warning-3.0.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/warning/download/warning-3.0.0.tgz",
   "_shasum": "32e5377cb572de4ab04753bdf8821c01ed605b7c",
   "_shrinkwrap": null,
   "_spec": "warning@^3.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-router",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-router",
   "author": {
     "name": "Berkeley Martinez",
     "email": "berkeley@r3dm.com",

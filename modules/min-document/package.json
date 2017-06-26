@@ -10,14 +10,14 @@
         "spec": ">=2.19.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/global"
     ]
   ],
   "_cnpm_publish_time": 1474498558325,
   "_from": "min-document@>=2.19.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "min-document@2.19.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/min-document",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/global"
   ],
-  "_resolved": "http://registry.npm.taobao.org/min-document/download/min-document-2.19.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/min-document/download/min-document-2.19.0.tgz",
   "_shasum": "7bd282e3f5842ed295bb748cdd9f1ffa2c824685",
   "_shrinkwrap": null,
   "_spec": "min-document@^2.19.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/global",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/global",
   "author": {
     "name": "Raynos",
     "email": "raynos2@gmail.com"

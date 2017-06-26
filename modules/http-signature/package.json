@@ -10,14 +10,14 @@
         "spec": ">=1.1.0 <1.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request"
     ]
   ],
   "_cnpm_publish_time": 1453759488994,
   "_from": "http-signature@>=1.1.0 <1.2.0",
+  "_hasShrinkwrap": false,
   "_id": "http-signature@1.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/http-signature",
   "_nodeVersion": "0.12.9",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/request"
   ],
-  "_resolved": "http://registry.npm.taobao.org/http-signature/download/http-signature-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/http-signature/download/http-signature-1.1.1.tgz",
   "_shasum": "df72e267066cd0ac67fb76adf8e134a8fbcf91bf",
   "_shrinkwrap": null,
   "_spec": "http-signature@~1.1.0",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request",
   "author": {
     "name": "Joyent, Inc"
   },
@@ -103,7 +103,7 @@
     },
     {
       "name": "pfmooney",
-      "email": "patrick.f.mooney@gmail.com"
+      "email": "pmooney@pfmooney.com"
     }
   ],
   "name": "http-signature",

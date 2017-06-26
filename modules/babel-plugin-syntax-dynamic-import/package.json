@@ -10,14 +10,14 @@
         "spec": ">=6.18.0 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-stage-2"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-stage-2"
     ]
   ],
   "_cnpm_publish_time": 1477343936762,
   "_from": "babel-plugin-syntax-dynamic-import@>=6.18.0 <7.0.0",
+  "_hasShrinkwrap": false,
   "_id": "babel-plugin-syntax-dynamic-import@6.18.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-syntax-dynamic-import",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/babel-preset-stage-2"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-syntax-dynamic-import/download/babel-plugin-syntax-dynamic-import-6.18.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-syntax-dynamic-import/download/babel-plugin-syntax-dynamic-import-6.18.0.tgz",
   "_shasum": "8d6a26229c83745a9982a441051572caa179b1da",
   "_shrinkwrap": null,
   "_spec": "babel-plugin-syntax-dynamic-import@^6.18.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-stage-2",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-stage-2",
   "dependencies": {},
   "description": "Allow parsing of import()",
   "devDependencies": {},
@@ -64,8 +64,20 @@
   "main": "lib/index.js",
   "maintainers": [
     {
+      "name": "danez",
+      "email": "daniel@tschinder.de"
+    },
+    {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "loganfsmyth",
+      "email": "loganfsmyth@gmail.com"
+    },
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
     }
   ],
   "name": "babel-plugin-syntax-dynamic-import",

@@ -10,25 +10,25 @@
         "spec": ">=6.5.2 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1455294603415,
+  "_cnpm_publish_time": 1487027070620,
   "_from": "babel@>=6.5.2 <7.0.0",
-  "_id": "babel@6.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "babel@6.23.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel",
-  "_nodeVersion": "5.1.0",
+  "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
-    "host": "packages-5-east.internal.npmjs.com",
-    "tmp": "tmp/babel-6.5.2.tgz_1455294601370_0.7809299291111529"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/babel-6.23.0.tgz_1487027070006_0.409561536507681"
   },
   "_npmUser": {
-    "name": "hzoo",
-    "email": "hi@henryzoo.com"
+    "name": "loganfsmyth",
+    "email": "loganfsmyth@gmail.com"
   },
-  "_npmVersion": "3.6.0",
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
     "raw": "babel@^6.5.2",
@@ -42,45 +42,41 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel/download/babel-6.5.2.tgz",
-  "_shasum": "59140607438270920047ff56f02b2d8630c2d129",
+  "_resolved": "http://r.cnpmjs.org/babel/download/babel-6.23.0.tgz",
+  "_shasum": "d0d1e7d803e974765beea3232d4e153c0efb90f4",
   "_shrinkwrap": null,
   "_spec": "babel@^6.5.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Sebastian McKenzie",
     "email": "sebmck@gmail.com"
   },
   "bin": {
-    "babel": "./cli.js",
-    "babel-node": "./cli.js",
-    "babel-external-helpers": "./cli.js"
+    "babel": "./lib/cli.js",
+    "babel-node": "./lib/cli.js",
+    "babel-external-helpers": "./lib/cli.js"
   },
   "dependencies": {},
-  "deprecated": "Babel's CLI commands have been moved from the babel package to the babel-cli package",
+  "deprecated": "In 6.x, the babel package has been deprecated in favor of babel-cli. Check https://opencollective.com/babel to support the Babel maintainers",
   "description": "Turn ES6 code into readable vanilla ES5 with source maps",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "59140607438270920047ff56f02b2d8630c2d129",
-    "size": 743,
+    "shasum": "d0d1e7d803e974765beea3232d4e153c0efb90f4",
+    "size": 932,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel/download/babel-6.5.2.tgz"
+    "tarball": "http://r.cnpmjs.org/babel/download/babel-6.23.0.tgz"
   },
   "homepage": "https://babeljs.io/",
   "license": "MIT",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -89,20 +85,16 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel",
   "optionalDependencies": {},
-  "publish_time": 1455294603415,
+  "publish_time": 1487027070620,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "https://github.com/babel/babel/tree/master/packages/babel"
   },
   "scripts": {},
-  "version": "6.5.2"
+  "version": "6.23.0"
 }

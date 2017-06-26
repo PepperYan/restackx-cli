@@ -10,14 +10,14 @@
         "spec": ">=2.2.2 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1458935339738,
   "_from": "less-loader@>=2.2.2 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "less-loader@2.2.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/less-loader",
   "_nodeVersion": "5.9.1",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/less-loader/download/less-loader-2.2.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/less-loader/download/less-loader-2.2.3.tgz",
   "_shasum": "b6d8f8139c8493df09d992a93a00734b08f84528",
   "_shrinkwrap": null,
   "_spec": "less-loader@^2.2.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -84,12 +84,32 @@
   ],
   "maintainers": [
     {
+      "name": "bebraw",
+      "email": "bebraw@gmail.com"
+    },
+    {
+      "name": "d3viant0ne",
+      "email": "wiens.joshua@gmail.com"
+    },
+    {
+      "name": "ericclemmons",
+      "email": "eric@smarterspam.com"
+    },
+    {
       "name": "jhnns",
       "email": "mail@johannesewald.de"
     },
     {
+      "name": "jtangelder",
+      "email": "j.tangelder@gmail.com"
+    },
+    {
       "name": "sokra",
       "email": "tobias.koppers@googlemail.com"
+    },
+    {
+      "name": "thelarkinn",
+      "email": "sean.larkin@cuw.edu"
     }
   ],
   "name": "less-loader",

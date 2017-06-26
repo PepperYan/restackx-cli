@@ -10,14 +10,14 @@
         "spec": ">=1.1.2 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
   "_cnpm_publish_time": 1457167750462,
   "_from": "decamelize@>=1.1.2 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "decamelize@1.2.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/decamelize",
   "_nodeVersion": "4.3.0",
   "_npmOperationalInternal": {
@@ -43,11 +43,11 @@
     "/cssnano",
     "/yargs"
   ],
-  "_resolved": "http://registry.npm.taobao.org/decamelize/download/decamelize-1.2.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/decamelize/download/decamelize-1.2.0.tgz",
   "_shasum": "f6534d15148269b20352e7bee26f501f9a191290",
   "_shrinkwrap": null,
   "_spec": "decamelize@^1.1.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

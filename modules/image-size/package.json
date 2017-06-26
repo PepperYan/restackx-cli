@@ -10,25 +10,25 @@
         "spec": ">=0.5.0 <0.6.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/less"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/less"
     ]
   ],
-  "_cnpm_publish_time": 1458683484205,
+  "_cnpm_publish_time": 1497255555148,
   "_from": "image-size@>=0.5.0 <0.6.0",
-  "_id": "image-size@0.5.0",
+  "_hasShrinkwrap": false,
+  "_id": "image-size@0.5.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/image-size",
-  "_nodeVersion": "5.8.0",
+  "_nodeVersion": "6.10.3",
   "_npmOperationalInternal": {
-    "host": "packages-13-west.internal.npmjs.com",
-    "tmp": "tmp/image-size-0.5.0.tgz_1458683483601_0.9503235800657421"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/image-size-0.5.5.tgz_1497255554208_0.9632799690589309"
   },
   "_npmUser": {
-    "name": "zeke",
-    "email": "zeke@sikelianos.com"
+    "name": "netroy",
+    "email": "aditya@netroy.in"
   },
-  "_npmVersion": "3.7.3",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
     "raw": "image-size@~0.5.0",
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/less"
   ],
-  "_resolved": "http://registry.npm.taobao.org/image-size/download/image-size-0.5.0.tgz",
-  "_shasum": "be7aed1c37b5ac3d9ba1d66a24b4c47ff8397651",
+  "_resolved": "https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz",
+  "_shasum": "09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c",
   "_shrinkwrap": null,
   "_spec": "image-size@~0.5.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/less",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/less",
   "author": {
     "name": "netroy",
     "email": "aditya@netroy.in",
@@ -63,18 +63,18 @@
   "devDependencies": {
     "escomplex-js": "^1.2.0",
     "expect.js": "^0.3.1",
-    "glob": "^6.0.1",
-    "istanbul": "^0.4.0",
-    "jshint": "^2.8.0",
-    "mocha": "^2.3.4",
-    "sinon": "^1.17.2"
+    "glob": "^7.1.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "jshint": "^2.9.4",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0"
   },
   "directories": {},
   "dist": {
-    "shasum": "be7aed1c37b5ac3d9ba1d66a24b4c47ff8397651",
-    "size": 6504,
+    "shasum": "09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c",
+    "size": 6977,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/image-size/download/image-size-0.5.0.tgz"
+    "tarball": "http://r.cnpmjs.org/image-size/download/image-size-0.5.5.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -83,7 +83,7 @@
     "bin",
     "lib"
   ],
-  "gitHead": "1420c0bc4b6a316d48edc0b3bdc0e4da6d7ddc63",
+  "gitHead": "77ff58653f18c2ea3c9e176a6dee663beacb4889",
   "homepage": "https://github.com/image-size/image-size#readme",
   "keywords": [
     "image",
@@ -119,7 +119,7 @@
   ],
   "name": "image-size",
   "optionalDependencies": {},
-  "publish_time": 1458683484205,
+  "publish_time": 1497255555148,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -130,5 +130,5 @@
     "pretest": "jshint",
     "test": "mocha specs"
   },
-  "version": "0.5.0"
+  "version": "0.5.5"
 }

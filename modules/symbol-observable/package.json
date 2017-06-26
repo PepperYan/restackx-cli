@@ -2,22 +2,22 @@
   "_args": [
     [
       {
-        "raw": "symbol-observable@^1.0.2",
+        "raw": "symbol-observable@^1.0.3",
         "scope": null,
         "escapedName": "symbol-observable",
         "name": "symbol-observable",
-        "rawSpec": "^1.0.2",
-        "spec": ">=1.0.2 <2.0.0",
+        "rawSpec": "^1.0.3",
+        "spec": ">=1.0.3 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/redux"
     ]
   ],
   "_cnpm_publish_time": 1476392361924,
-  "_from": "symbol-observable@>=1.0.2 <2.0.0",
+  "_from": "symbol-observable@>=1.0.3 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "symbol-observable@1.0.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/symbol-observable",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -31,22 +31,22 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "symbol-observable@^1.0.2",
+    "raw": "symbol-observable@^1.0.3",
     "scope": null,
     "escapedName": "symbol-observable",
     "name": "symbol-observable",
-    "rawSpec": "^1.0.2",
-    "spec": ">=1.0.2 <2.0.0",
+    "rawSpec": "^1.0.3",
+    "spec": ">=1.0.3 <2.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/redux"
   ],
-  "_resolved": "http://registry.npm.taobao.org/symbol-observable/download/symbol-observable-1.0.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/symbol-observable/download/symbol-observable-1.0.4.tgz",
   "_shasum": "29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d",
   "_shrinkwrap": null,
-  "_spec": "symbol-observable@^1.0.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux",
+  "_spec": "symbol-observable@^1.0.3",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/redux",
   "author": {
     "name": "Ben Lesh",
     "email": "ben@benlesh.com"

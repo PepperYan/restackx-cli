@@ -10,14 +10,14 @@
         "spec": "0.0.0",
         "type": "version"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser"
     ]
   ],
   "_cnpm_publish_time": 1386100117866,
   "_from": "path-browserify@0.0.0",
+  "_hasShrinkwrap": false,
   "_id": "path-browserify@0.0.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/path-browserify",
   "_npmUser": {
     "name": "substack",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/path-browserify/download/path-browserify-0.0.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/path-browserify/download/path-browserify-0.0.0.tgz",
   "_shasum": "a0b870729aae214005b7d5032ec2cbbb0fb4451a",
   "_shrinkwrap": null,
   "_spec": "path-browserify@0.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",

@@ -29,8 +29,35 @@ function getFilenameFromUrl(publicPath, outputPath, url) {
 		return false;
 	}
 	// and if not match, use outputPath as filename
-	return filename ? pathJoin(outputPath, filename) : outputPath;
+	return decodeURIComponent(filename ? pathJoin(outputPath, filename) : outputPath);
 
 }
 
-module.exports = getFilenameFromUrl;
+// support for multi-compiler configuration
+// see: https://github.com/webpack/webpack-dev-server/issues/641
+function getPaths(publicPath, compiler, url) {
+	var compilers = compiler && compiler.compilers;
+	if(Array.isArray(compilers)) {
+		var compilerPublicPath;
+		for(var i = 0; i < compilers.length; i++) {
+			compilerPublicPath = compilers[i].options
+				&& compilers[i].options.output
+				&& compilers[i].options.output.publicPath;
+			if(url.indexOf(compilerPublicPath) === 0) {
+				return {
+					publicPath: compilerPublicPath,
+					outputPath: compilers[i].outputPath
+				};
+			}
+		}
+	}
+	return {
+		publicPath: publicPath,
+		outputPath: compiler.outputPath
+	};
+}
+
+module.exports = function(publicPath, compiler, url) {
+	var paths = getPaths(publicPath, compiler, url);
+	return getFilenameFromUrl(paths.publicPath, paths.outputPath, url);
+};

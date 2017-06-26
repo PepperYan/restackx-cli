@@ -10,14 +10,14 @@
         "spec": ">=0.1.11 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-fetch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-fetch"
     ]
   ],
   "_cnpm_publish_time": 1450861590764,
   "_from": "encoding@>=0.1.11 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "encoding@0.1.12",
   "_inCache": true,
-  "_installable": true,
   "_location": "/encoding",
   "_nodeVersion": "5.3.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/node-fetch"
   ],
-  "_resolved": "http://registry.npm.taobao.org/encoding/download/encoding-0.1.12.tgz",
+  "_resolved": "http://r.cnpmjs.org/encoding/download/encoding-0.1.12.tgz",
   "_shasum": "538b66f3ee62cd1ab51ec323829d1f9480c74beb",
   "_shrinkwrap": null,
   "_spec": "encoding@^0.1.11",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-fetch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-fetch",
   "author": {
     "name": "Andris Reinman"
   },

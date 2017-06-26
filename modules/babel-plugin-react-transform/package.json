@@ -10,14 +10,14 @@
         "spec": ">=2.0.2 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1457141471804,
   "_from": "babel-plugin-react-transform@>=2.0.2 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "babel-plugin-react-transform@2.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-react-transform",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
@@ -42,11 +42,11 @@
     "#DEV:/",
     "/babel-preset-react-hmre"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-react-transform/download/babel-plugin-react-transform-2.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-react-transform/download/babel-plugin-react-transform-2.0.2.tgz",
   "_shasum": "515bbfa996893981142d90b1f9b1635de2995109",
   "_shrinkwrap": null,
   "_spec": "babel-plugin-react-transform@^2.0.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Dan Abramov",
     "email": "dan.abramov@me.com"

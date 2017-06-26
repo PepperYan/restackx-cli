@@ -10,14 +10,14 @@
         "spec": ">=0.23.1 <0.24.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
   "_cnpm_publish_time": 1450777949031,
   "_from": "css-loader@>=0.23.1 <0.24.0",
+  "_hasShrinkwrap": false,
   "_id": "css-loader@0.23.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/css-loader",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/css-loader/download/css-loader-0.23.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/css-loader/download/css-loader-0.23.1.tgz",
   "_shasum": "9fa23f2b5c0965235910ad5ecef3b8a36390fe50",
   "_shrinkwrap": null,
   "_spec": "css-loader@^0.23.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -82,12 +82,40 @@
   "license": "MIT",
   "maintainers": [
     {
+      "name": "bebraw",
+      "email": "bebraw@gmail.com"
+    },
+    {
+      "name": "d3viant0ne",
+      "email": "wiens.joshua@gmail.com"
+    },
+    {
+      "name": "ericclemmons",
+      "email": "eric@smarterspam.com"
+    },
+    {
+      "name": "jhnns",
+      "email": "mail@johannesewald.de"
+    },
+    {
+      "name": "jtangelder",
+      "email": "j.tangelder@gmail.com"
+    },
+    {
       "name": "markdalgleish",
       "email": "mark.john.dalgleish@gmail.com"
     },
     {
       "name": "sokra",
       "email": "tobias.koppers@googlemail.com"
+    },
+    {
+      "name": "spacek33z",
+      "email": "kees@webduck.nl"
+    },
+    {
+      "name": "thelarkinn",
+      "email": "sean.larkin@cuw.edu"
     }
   ],
   "name": "css-loader",

@@ -10,22 +10,30 @@
         "spec": ">=0.5.7 <0.6.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1448315308086,
+  "_cnpm_publish_time": 1497285189569,
   "_from": "url-loader@>=0.5.7 <0.6.0",
-  "_id": "url-loader@0.5.7",
+  "_hasShrinkwrap": false,
+  "_id": "url-loader@0.5.9",
   "_inCache": true,
-  "_installable": true,
   "_location": "/url-loader",
-  "_nodeVersion": "0.12.4",
-  "_npmUser": {
-    "name": "sokra",
-    "email": "tobias.koppers@googlemail.com"
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/url-loader-0.5.9.tgz_1497285188669_0.9403480282053351"
   },
-  "_npmVersion": "2.10.1",
-  "_phantomChildren": {},
+  "_npmUser": {
+    "name": "d3viant0ne",
+    "email": "wiens.joshua@gmail.com"
+  },
+  "_npmVersion": "5.0.2",
+  "_phantomChildren": {
+    "big.js": "3.1.3",
+    "emojis-list": "2.1.0",
+    "json5": "0.5.1"
+  },
   "_requested": {
     "raw": "url-loader@^0.5.7",
     "scope": null,
@@ -38,11 +46,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/url-loader/download/url-loader-0.5.7.tgz",
-  "_shasum": "67e8779759f8000da74994906680c943a9b0925d",
+  "_resolved": "https://registry.npmjs.org/url-loader/-/url-loader-0.5.9.tgz",
+  "_shasum": "cc8fea82c7b906e7777019250869e569e995c295",
   "_shrinkwrap": null,
   "_spec": "url-loader@^0.5.7",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -50,25 +58,51 @@
     "url": "https://github.com/webpack/url-loader/issues"
   },
   "dependencies": {
-    "loader-utils": "0.2.x",
-    "mime": "1.2.x"
+    "loader-utils": "^1.0.2",
+    "mime": "1.3.x"
   },
   "description": "url loader module for webpack",
-  "devDependencies": {},
+  "devDependencies": {
+    "standard-version": "^4.0.0"
+  },
   "directories": {},
   "dist": {
-    "shasum": "67e8779759f8000da74994906680c943a9b0925d",
-    "size": 1204,
+    "shasum": "cc8fea82c7b906e7777019250869e569e995c295",
+    "size": 3914,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/url-loader/download/url-loader-0.5.7.tgz"
+    "tarball": "http://r.cnpmjs.org/url-loader/download/url-loader-0.5.9.tgz"
   },
-  "gitHead": "fa139f418caf45e0c638eb171a4d40cb77b6b78d",
+  "gitHead": "5574ed3ec10c71440f6de32f0abcd5d2609ffb79",
   "homepage": "https://github.com/webpack/url-loader#readme",
   "license": "MIT",
   "maintainers": [
     {
+      "name": "bebraw",
+      "email": "bebraw@gmail.com"
+    },
+    {
+      "name": "d3viant0ne",
+      "email": "wiens.joshua@gmail.com"
+    },
+    {
+      "name": "ericclemmons",
+      "email": "eric@smarterspam.com"
+    },
+    {
+      "name": "jhnns",
+      "email": "mail@johannesewald.de"
+    },
+    {
+      "name": "jtangelder",
+      "email": "j.tangelder@gmail.com"
+    },
+    {
       "name": "sokra",
       "email": "tobias.koppers@googlemail.com"
+    },
+    {
+      "name": "thelarkinn",
+      "email": "sean.larkin@cuw.edu"
     }
   ],
   "name": "url-loader",
@@ -76,12 +110,14 @@
   "peerDependencies": {
     "file-loader": "*"
   },
-  "publish_time": 1448315308086,
+  "publish_time": 1497285189569,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/webpack/url-loader.git"
   },
-  "scripts": {},
-  "version": "0.5.7"
+  "scripts": {
+    "release": "standard-version"
+  },
+  "version": "0.5.9"
 }

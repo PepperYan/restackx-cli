@@ -10,14 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-cache-dir"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/find-cache-dir"
     ]
   ],
   "_cnpm_publish_time": 1426292101725,
   "_from": "commondir@>=1.0.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "commondir@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/commondir",
   "_nodeVersion": "0.12.0",
   "_npmUser": {
@@ -42,7 +42,7 @@
   "_shasum": "ddd800da0c66127393cca5950ea968a3aaf1253b",
   "_shrinkwrap": null,
   "_spec": "commondir@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/find-cache-dir",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/find-cache-dir",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",

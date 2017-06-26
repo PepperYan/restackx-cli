@@ -10,14 +10,14 @@
         "spec": ">=2.0.4 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
   "_cnpm_publish_time": 1455123683310,
   "_from": "postcss-discard-comments@>=2.0.4 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "postcss-discard-comments@2.0.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/postcss-discard-comments",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "http://registry.npm.taobao.org/postcss-discard-comments/download/postcss-discard-comments-2.0.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/postcss-discard-comments/download/postcss-discard-comments-2.0.4.tgz",
   "_shasum": "befe89fafd5b3dace5ccce51b76b81514be00e3d",
   "_shrinkwrap": null,
   "_spec": "postcss-discard-comments@^2.0.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Ben Briggs",
     "email": "beneb.info@gmail.com",

@@ -10,14 +10,14 @@
         "spec": ">=0.6.4 <0.7.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack"
     ]
   ],
   "_cnpm_publish_time": 1442838290113,
   "_from": "interpret@>=0.6.4 <0.7.0",
+  "_hasShrinkwrap": false,
   "_id": "interpret@0.6.6",
   "_inCache": true,
-  "_installable": true,
   "_location": "/interpret",
   "_nodeVersion": "4.0.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/webpack"
   ],
-  "_resolved": "http://registry.npm.taobao.org/interpret/download/interpret-0.6.6.tgz",
+  "_resolved": "http://r.cnpmjs.org/interpret/download/interpret-0.6.6.tgz",
   "_shasum": "fecd7a18e7ce5ca6abfb953e1f86213a49f1625b",
   "_shrinkwrap": null,
   "_spec": "interpret@^0.6.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/webpack",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/webpack",
   "author": {
     "name": "Tyler Kellen",
     "url": "http://goingslowly.com/"

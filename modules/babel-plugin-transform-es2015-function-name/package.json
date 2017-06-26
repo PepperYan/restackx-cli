@@ -2,66 +2,66 @@
   "_args": [
     [
       {
-        "raw": "babel-plugin-transform-es2015-function-name@^6.9.0",
+        "raw": "babel-plugin-transform-es2015-function-name@^6.24.1",
         "scope": null,
         "escapedName": "babel-plugin-transform-es2015-function-name",
         "name": "babel-plugin-transform-es2015-function-name",
-        "rawSpec": "^6.9.0",
-        "spec": ">=6.9.0 <7.0.0",
+        "rawSpec": "^6.24.1",
+        "spec": ">=6.24.1 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015"
     ]
   ],
-  "_cnpm_publish_time": 1463510976806,
-  "_from": "babel-plugin-transform-es2015-function-name@>=6.9.0 <7.0.0",
-  "_id": "babel-plugin-transform-es2015-function-name@6.9.0",
+  "_cnpm_publish_time": 1491578373008,
+  "_from": "babel-plugin-transform-es2015-function-name@>=6.24.1 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "babel-plugin-transform-es2015-function-name@6.24.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-transform-es2015-function-name",
-  "_nodeVersion": "5.1.0",
+  "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/babel-plugin-transform-es2015-function-name-6.9.0.tgz_1463510973758_0.4115482100751251"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/babel-plugin-transform-es2015-function-name-6.24.1.tgz_1491578372751_0.10986475623212755"
   },
   "_npmUser": {
     "name": "hzoo",
     "email": "hi@henryzoo.com"
   },
-  "_npmVersion": "3.8.6",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "babel-plugin-transform-es2015-function-name@^6.9.0",
+    "raw": "babel-plugin-transform-es2015-function-name@^6.24.1",
     "scope": null,
     "escapedName": "babel-plugin-transform-es2015-function-name",
     "name": "babel-plugin-transform-es2015-function-name",
-    "rawSpec": "^6.9.0",
-    "spec": ">=6.9.0 <7.0.0",
+    "rawSpec": "^6.24.1",
+    "spec": ">=6.24.1 <7.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/babel-preset-es2015"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.9.0.tgz",
-  "_shasum": "8c135b17dbd064e5bba56ec511baaee2fca82719",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.24.1.tgz",
+  "_shasum": "834c89853bc36b1af0f3a4c5dbaa94fd8eacaa8b",
   "_shrinkwrap": null,
-  "_spec": "babel-plugin-transform-es2015-function-name@^6.9.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015",
+  "_spec": "babel-plugin-transform-es2015-function-name@^6.24.1",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015",
   "dependencies": {
-    "babel-helper-function-name": "^6.8.0",
-    "babel-runtime": "^6.9.0",
-    "babel-types": "^6.9.0"
+    "babel-helper-function-name": "^6.24.1",
+    "babel-runtime": "^6.22.0",
+    "babel-types": "^6.24.1"
   },
   "description": "Apply ES2015 function.name semantics to all functions",
   "devDependencies": {
-    "babel-helper-plugin-test-runner": "^6.8.0"
+    "babel-helper-plugin-test-runner": "^6.24.1"
   },
   "directories": {},
   "dist": {
-    "shasum": "8c135b17dbd064e5bba56ec511baaee2fca82719",
-    "size": 1080,
+    "shasum": "834c89853bc36b1af0f3a4c5dbaa94fd8eacaa8b",
+    "size": 1044,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.9.0.tgz"
+    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.24.1.tgz"
   },
   "keywords": [
     "babel-plugin"
@@ -70,16 +70,12 @@
   "main": "lib/index.js",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -88,20 +84,16 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel-plugin-transform-es2015-function-name",
   "optionalDependencies": {},
-  "publish_time": 1463510976806,
+  "publish_time": 1491578373008,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-function-name"
   },
   "scripts": {},
-  "version": "6.9.0"
+  "version": "6.24.1"
 }

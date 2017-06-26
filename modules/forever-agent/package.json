@@ -10,14 +10,14 @@
         "spec": ">=0.6.1 <0.7.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request"
     ]
   ],
   "_cnpm_publish_time": 1428426229221,
   "_from": "forever-agent@>=0.6.1 <0.7.0",
+  "_hasShrinkwrap": false,
   "_id": "forever-agent@0.6.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/forever-agent",
   "_npmUser": {
     "name": "simov",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/request"
   ],
-  "_resolved": "http://registry.npm.taobao.org/forever-agent/download/forever-agent-0.6.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/forever-agent/download/forever-agent-0.6.1.tgz",
   "_shasum": "fbc71f0c41adeb37f96c577ad1ed42d8fdacca91",
   "_shrinkwrap": null,
   "_spec": "forever-agent@~0.6.1",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request",
   "author": {
     "name": "Mikeal Rogers",
     "email": "mikeal.rogers@gmail.com",

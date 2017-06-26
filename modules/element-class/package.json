@@ -10,14 +10,14 @@
         "spec": ">=0.2.2 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-toastr"
     ]
   ],
   "_cnpm_publish_time": 1439716202368,
   "_from": "element-class@>=0.2.2 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "element-class@0.2.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/element-class",
   "_nodeVersion": "0.12.7",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/react-toastr"
   ],
-  "_resolved": "http://registry.npm.taobao.org/element-class/download/element-class-0.2.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/element-class/download/element-class-0.2.2.tgz",
   "_shasum": "9d3bbd0767f9013ef8e1c8ebe722c1402a60050e",
   "_shrinkwrap": null,
   "_spec": "element-class@^0.2.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/react-toastr",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/react-toastr",
   "author": {
     "name": "Max Ogden",
     "email": "max@maxogden.com"

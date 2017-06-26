@@ -10,14 +10,14 @@
         "spec": ">=3.0.4 <4.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch"
     ]
   ],
   "_cnpm_publish_time": 1442935106837,
   "_from": "parse-glob@>=3.0.4 <4.0.0",
+  "_hasShrinkwrap": false,
   "_id": "parse-glob@3.0.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/parse-glob",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/micromatch"
   ],
-  "_resolved": "http://registry.npm.taobao.org/parse-glob/download/parse-glob-3.0.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/parse-glob/download/parse-glob-3.0.4.tgz",
   "_shasum": "b2c376cfb11f35513badd173ef0bb6e3a388391c",
   "_shrinkwrap": null,
   "_spec": "parse-glob@^3.0.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/micromatch",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/micromatch",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

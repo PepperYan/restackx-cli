@@ -2,66 +2,66 @@
   "_args": [
     [
       {
-        "raw": "babel-plugin-transform-react-jsx@^6.3.13",
+        "raw": "babel-plugin-transform-react-jsx@^6.24.1",
         "scope": null,
         "escapedName": "babel-plugin-transform-react-jsx",
         "name": "babel-plugin-transform-react-jsx",
-        "rawSpec": "^6.3.13",
-        "spec": ">=6.3.13 <7.0.0",
+        "rawSpec": "^6.24.1",
+        "spec": ">=6.24.1 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-react"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-react"
     ]
   ],
-  "_cnpm_publish_time": 1462232715124,
-  "_from": "babel-plugin-transform-react-jsx@>=6.3.13 <7.0.0",
-  "_id": "babel-plugin-transform-react-jsx@6.8.0",
+  "_cnpm_publish_time": 1491578354168,
+  "_from": "babel-plugin-transform-react-jsx@>=6.24.1 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "babel-plugin-transform-react-jsx@6.24.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-transform-react-jsx",
-  "_nodeVersion": "5.1.0",
+  "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/babel-plugin-transform-react-jsx-6.8.0.tgz_1462232712919_0.16883028321899474"
+    "tmp": "tmp/babel-plugin-transform-react-jsx-6.24.1.tgz_1491578353896_0.45240585040301085"
   },
   "_npmUser": {
     "name": "hzoo",
     "email": "hi@henryzoo.com"
   },
-  "_npmVersion": "3.8.6",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "babel-plugin-transform-react-jsx@^6.3.13",
+    "raw": "babel-plugin-transform-react-jsx@^6.24.1",
     "scope": null,
     "escapedName": "babel-plugin-transform-react-jsx",
     "name": "babel-plugin-transform-react-jsx",
-    "rawSpec": "^6.3.13",
-    "spec": ">=6.3.13 <7.0.0",
+    "rawSpec": "^6.24.1",
+    "spec": ">=6.24.1 <7.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/babel-preset-react"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.8.0.tgz",
-  "_shasum": "94759942f70af18c617189aa7f3593f1644a71ab",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.24.1.tgz",
+  "_shasum": "840a028e7df460dfc3a2d29f0c0d91f6376e66a3",
   "_shrinkwrap": null,
-  "_spec": "babel-plugin-transform-react-jsx@^6.3.13",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-react",
+  "_spec": "babel-plugin-transform-react-jsx@^6.24.1",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-react",
   "dependencies": {
-    "babel-helper-builder-react-jsx": "^6.8.0",
+    "babel-helper-builder-react-jsx": "^6.24.1",
     "babel-plugin-syntax-jsx": "^6.8.0",
-    "babel-runtime": "^6.0.0"
+    "babel-runtime": "^6.22.0"
   },
   "description": "Turn JSX into React function calls",
   "devDependencies": {
-    "babel-helper-plugin-test-runner": "^6.8.0"
+    "babel-helper-plugin-test-runner": "^6.24.1"
   },
   "directories": {},
   "dist": {
-    "shasum": "94759942f70af18c617189aa7f3593f1644a71ab",
-    "size": 1599,
+    "shasum": "840a028e7df460dfc3a2d29f0c0d91f6376e66a3",
+    "size": 1986,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.8.0.tgz"
+    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.24.1.tgz"
   },
   "keywords": [
     "babel-plugin"
@@ -70,16 +70,12 @@
   "main": "lib/index.js",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -88,20 +84,16 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel-plugin-transform-react-jsx",
   "optionalDependencies": {},
-  "publish_time": 1462232715124,
+  "publish_time": 1491578354168,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-jsx"
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx"
   },
   "scripts": {},
-  "version": "6.8.0"
+  "version": "6.24.1"
 }

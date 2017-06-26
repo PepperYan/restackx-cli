@@ -10,14 +10,14 @@
         "spec": ">=0.0.0 <0.1.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/errno"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/errno"
     ]
   ],
   "_cnpm_publish_time": 1364836890886,
   "_from": "prr@>=0.0.0 <0.1.0",
+  "_hasShrinkwrap": false,
   "_id": "prr@0.0.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/prr",
   "_npmUser": {
     "name": "rvagg",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/errno"
   ],
-  "_resolved": "http://registry.npm.taobao.org/prr/download/prr-0.0.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/prr/download/prr-0.0.0.tgz",
   "_shasum": "1a84b85908325501411853d0081ee3fa86e2926a",
   "_shrinkwrap": null,
   "_spec": "prr@~0.0.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/errno",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/errno",
   "authors": [
     "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
   ],

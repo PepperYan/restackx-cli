@@ -10,14 +10,14 @@
         "spec": ">=2.0.3 <2.1.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/promise"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/promise"
     ]
   ],
   "_cnpm_publish_time": 1474846550212,
   "_from": "asap@>=2.0.3 <2.1.0",
+  "_hasShrinkwrap": false,
   "_id": "asap@2.0.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/asap",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/promise"
   ],
-  "_resolved": "http://registry.npm.taobao.org/asap/download/asap-2.0.5.tgz",
+  "_resolved": "http://r.cnpmjs.org/asap/download/asap-2.0.5.tgz",
   "_shasum": "522765b50c3510490e52d7dcfe085ef9ba96958f",
   "_shrinkwrap": null,
   "_spec": "asap@~2.0.3",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/promise",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/promise",
   "browser": {
     "./asap": "./browser-asap.js",
     "./asap.js": "./browser-asap.js",

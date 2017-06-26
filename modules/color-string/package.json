@@ -10,14 +10,14 @@
         "spec": ">=0.3.0 <0.4.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/color"
     ]
   ],
   "_cnpm_publish_time": 1424330764506,
   "_from": "color-string@>=0.3.0 <0.4.0",
+  "_hasShrinkwrap": false,
   "_id": "color-string@0.3.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/color-string",
   "_nodeVersion": "0.12.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/color"
   ],
-  "_resolved": "http://registry.npm.taobao.org/color-string/download/color-string-0.3.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/color-string/download/color-string-0.3.0.tgz",
   "_shasum": "27d46fb67025c5c2fa25993bfbf579e47841b991",
   "_shrinkwrap": null,
   "_spec": "color-string@^0.3.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/color",
   "author": {
     "name": "Heather Arthur",
     "email": "fayearthur@gmail.com"

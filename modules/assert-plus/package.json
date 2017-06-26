@@ -10,14 +10,14 @@
         "spec": ">=0.2.0 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/http-signature"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/http-signature"
     ]
   ],
   "_cnpm_publish_time": 1447141862234,
   "_from": "assert-plus@>=0.2.0 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "assert-plus@0.2.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/assert-plus",
   "_nodeVersion": "0.10.36",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/http-signature"
   ],
-  "_resolved": "http://registry.npm.taobao.org/assert-plus/download/assert-plus-0.2.0.tgz",
+  "_resolved": "http://r.cnpmjs.org/assert-plus/download/assert-plus-0.2.0.tgz",
   "_shasum": "d74e1b87e7affc0db8aadb7021f3fe48101ab234",
   "_shrinkwrap": null,
   "_spec": "assert-plus@^0.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/http-signature",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/http-signature",
   "author": {
     "name": "Mark Cavage",
     "email": "mcavage@gmail.com"
@@ -102,7 +102,7 @@
     },
     {
       "name": "pfmooney",
-      "email": "patrick.f.mooney@gmail.com"
+      "email": "pmooney@pfmooney.com"
     }
   ],
   "name": "assert-plus",

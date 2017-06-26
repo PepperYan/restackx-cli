@@ -10,25 +10,25 @@
         "spec": ">=1.13.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1477491824936,
+  "_cnpm_publish_time": 1492078818661,
   "_from": "webpack@>=1.13.1 <2.0.0",
-  "_id": "webpack@1.13.3",
+  "_hasShrinkwrap": false,
+  "_id": "webpack@1.15.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/webpack",
-  "_nodeVersion": "6.9.0",
+  "_nodeVersion": "7.4.0",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/webpack-1.13.3.tgz_1477491822577_0.763972872402519"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/webpack-1.15.0.tgz_1492078816506_0.7693944799248129"
   },
   "_npmUser": {
-    "name": "jhnns",
-    "email": "mail@johannesewald.de"
+    "name": "sokra",
+    "email": "tobias.koppers@googlemail.com"
   },
-  "_npmVersion": "3.10.8",
+  "_npmVersion": "4.0.5",
   "_phantomChildren": {
     "has-flag": "1.0.0"
   },
@@ -44,11 +44,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://r.cnpmjs.org/webpack/download/webpack-1.13.3.tgz",
-  "_shasum": "e79c46fe5a37c5ca70084ba0894c595cdcb42815",
+  "_resolved": "http://r.cnpmjs.org/webpack/download/webpack-1.15.0.tgz",
+  "_shasum": "4ff31f53db03339e55164a9d468ee0324968fe98",
   "_shrinkwrap": null,
   "_spec": "webpack@^1.13.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -67,13 +67,13 @@
     "loader-utils": "^0.2.11",
     "memory-fs": "~0.3.0",
     "mkdirp": "~0.5.0",
-    "node-libs-browser": "^0.6.0",
+    "node-libs-browser": "^0.7.0",
     "optimist": "~0.6.0",
     "supports-color": "^3.1.0",
     "tapable": "~0.1.8",
     "uglify-js": "~2.7.3",
     "watchpack": "^0.2.1",
-    "webpack-core": "~0.6.0"
+    "webpack-core": "~0.6.9"
   },
   "description": "Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jade, coffee, css, less, ... and your custom stuff.",
   "devDependencies": {
@@ -93,15 +93,15 @@
     "file-loader": "~0.8.0",
     "glob": "^5.0.14",
     "i18n-webpack-plugin": "~0.2.0",
-    "istanbul": "^0.3.13",
+    "istanbul": "^0.4.5",
     "jade": "^1.11.0",
     "jade-loader": "~0.7.0",
     "js-beautify": "^1.5.10",
     "json-loader": "~0.5.1",
     "less": "^2.5.1",
     "less-loader": "^2.0.0",
-    "mocha": "~2.2.0",
-    "mocha-lcov-reporter": "0.0.2",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.0.0",
     "raw-loader": "~0.5.0",
     "script-loader": "~0.6.0",
     "should": "^7.0.2",
@@ -114,10 +114,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "e79c46fe5a37c5ca70084ba0894c595cdcb42815",
-    "size": 106480,
+    "shasum": "4ff31f53db03339e55164a9d468ee0324968fe98",
+    "size": 107650,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/webpack/download/webpack-1.13.3.tgz"
+    "tarball": "http://r.cnpmjs.org/webpack/download/webpack-1.15.0.tgz"
   },
   "engines": {
     "node": ">=0.6"
@@ -129,7 +129,7 @@
     "hot/",
     "web_modules/"
   ],
-  "gitHead": "1a5fd7e8caeef794f67e56d9d734998209b0838c",
+  "gitHead": "d4878a55be7a4b7ac4e5db1ae5eef89e15811072",
   "homepage": "https://github.com/webpack/webpack",
   "license": "MIT",
   "main": "lib/webpack.js",
@@ -149,23 +149,26 @@
   ],
   "name": "webpack",
   "optionalDependencies": {},
-  "publish_time": 1477491824936,
+  "publish_time": 1492078818661,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webpack/webpack.git"
   },
   "scripts": {
+    "appveyor:test": "node --max_old_space_size=4096 node_modules\\mocha\\bin\\mocha --harmony test/*.test.js",
     "beautify": "node ./scripts/beautify-rewrite",
     "beautify-lint": "node ./scripts/beautify-check",
-    "cover": "istanbul cover -x **/*.runtime.js node_modules/mocha/bin/_mocha",
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover -x '**/*.runtime.js' node_modules/mocha/bin/_mocha -- test/*.test.js",
+    "cover:min": "node ./node_modules/istanbul/lib/cli.js cover -x '**/*.runtime.js' --report lcovonly node_modules/mocha/bin/_mocha -- test/*.test.js",
     "lint": "eslint lib bin hot scripts",
     "precover": "npm run lint && npm run beautify-lint",
     "pretest": "npm run lint && npm run beautify-lint",
     "publish-patch": "npm run lint && npm run beautify-lint && mocha && npm version patch && git push && git push --tags && npm publish",
     "test": "mocha",
-    "travis": "npm run cover -- --report lcovonly"
+    "travis:lint": "npm run lint && npm run beautify-lint",
+    "travis:test": "npm run cover:min"
   },
-  "version": "1.13.3",
+  "version": "1.15.0",
   "web": "lib/webpack.web.js"
 }

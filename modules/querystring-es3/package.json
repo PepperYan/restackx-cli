@@ -2,22 +2,22 @@
   "_args": [
     [
       {
-        "raw": "querystring-es3@~0.2.0",
+        "raw": "querystring-es3@^0.2.0",
         "scope": null,
         "escapedName": "querystring-es3",
         "name": "querystring-es3",
-        "rawSpec": "~0.2.0",
+        "rawSpec": "^0.2.0",
         "spec": ">=0.2.0 <0.3.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser"
     ]
   ],
   "_cnpm_publish_time": 1413227168473,
   "_from": "querystring-es3@>=0.2.0 <0.3.0",
+  "_hasShrinkwrap": false,
   "_id": "querystring-es3@0.2.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/querystring-es3",
   "_nodeVersion": "0.10.26",
   "_npmUser": {
@@ -27,22 +27,22 @@
   "_npmVersion": "2.0.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "querystring-es3@~0.2.0",
+    "raw": "querystring-es3@^0.2.0",
     "scope": null,
     "escapedName": "querystring-es3",
     "name": "querystring-es3",
-    "rawSpec": "~0.2.0",
+    "rawSpec": "^0.2.0",
     "spec": ">=0.2.0 <0.3.0",
     "type": "range"
   },
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/querystring-es3/download/querystring-es3-0.2.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/querystring-es3/download/querystring-es3-0.2.1.tgz",
   "_shasum": "9ec61f79049875707d69414596fd907a4d711e73",
   "_shrinkwrap": null,
-  "_spec": "querystring-es3@~0.2.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_spec": "querystring-es3@^0.2.0",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser",
   "author": {
     "name": "Irakli Gozalishvili",
     "email": "rfobic@gmail.com"

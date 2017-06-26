@@ -10,14 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/color"
     ]
   ],
   "_cnpm_publish_time": 1427326650099,
   "_from": "clone@>=1.0.2 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "clone@1.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/clone",
   "_npmUser": {
     "name": "pvorb",
@@ -38,11 +38,11 @@
     "/color",
     "/webpack"
   ],
-  "_resolved": "http://registry.npm.taobao.org/clone/download/clone-1.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/clone/download/clone-1.0.2.tgz",
   "_shasum": "260b7a99ebb1edfe247538175f783243cb19d149",
   "_shrinkwrap": null,
   "_spec": "clone@^1.0.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/color",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/color",
   "author": {
     "name": "Paul Vorbach",
     "email": "paul@vorba.ch",

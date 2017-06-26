@@ -10,14 +10,14 @@
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-code-frame"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-code-frame"
     ]
   ],
   "_cnpm_publish_time": 1459210604512,
   "_from": "chalk@>=1.1.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "chalk@1.1.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/chalk",
   "_nodeVersion": "0.10.32",
   "_npmOperationalInternal": {
@@ -42,13 +42,17 @@
   "_requiredBy": [
     "/babel-code-frame",
     "/clap",
-    "/postcss"
+    "/postcss",
+    "/postcss-modules-extract-imports/postcss",
+    "/postcss-modules-local-by-default/postcss",
+    "/postcss-modules-scope/postcss",
+    "/postcss-modules-values/postcss"
   ],
-  "_resolved": "http://registry.npm.taobao.org/chalk/download/chalk-1.1.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/chalk/download/chalk-1.1.3.tgz",
   "_shasum": "a8115c55e4a702fe4d150abd3872822a7e09fc98",
   "_shrinkwrap": null,
   "_spec": "chalk@^1.1.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-code-frame",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-code-frame",
   "bugs": {
     "url": "https://github.com/chalk/chalk/issues"
   },

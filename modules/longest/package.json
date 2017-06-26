@@ -10,14 +10,14 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/align-text"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/align-text"
     ]
   ],
   "_cnpm_publish_time": 1427801901482,
   "_from": "longest@>=1.0.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "longest@1.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/longest",
   "_nodeVersion": "0.12.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/align-text"
   ],
-  "_resolved": "http://registry.npm.taobao.org/longest/download/longest-1.0.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/longest/download/longest-1.0.1.tgz",
   "_shasum": "30a0b2da38f73770e8294a0d22e6625ed77d0097",
   "_shrinkwrap": null,
   "_spec": "longest@^1.0.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/align-text",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/align-text",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

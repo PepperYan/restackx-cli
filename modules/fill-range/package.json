@@ -10,14 +10,14 @@
         "spec": ">=2.1.0 <3.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/expand-range"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/expand-range"
     ]
   ],
   "_cnpm_publish_time": 1449440102623,
   "_from": "fill-range@>=2.1.0 <3.0.0",
+  "_hasShrinkwrap": false,
   "_id": "fill-range@2.2.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/fill-range",
   "_nodeVersion": "5.0.0",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/expand-range"
   ],
-  "_resolved": "http://registry.npm.taobao.org/fill-range/download/fill-range-2.2.3.tgz",
+  "_resolved": "http://r.cnpmjs.org/fill-range/download/fill-range-2.2.3.tgz",
   "_shasum": "50b77dfd7e469bc7492470963699fe7a8485a723",
   "_shrinkwrap": null,
   "_spec": "fill-range@^2.1.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/expand-range",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/expand-range",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

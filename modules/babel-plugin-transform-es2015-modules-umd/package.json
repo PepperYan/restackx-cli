@@ -2,66 +2,66 @@
   "_args": [
     [
       {
-        "raw": "babel-plugin-transform-es2015-modules-umd@^6.18.0",
+        "raw": "babel-plugin-transform-es2015-modules-umd@^6.24.1",
         "scope": null,
         "escapedName": "babel-plugin-transform-es2015-modules-umd",
         "name": "babel-plugin-transform-es2015-modules-umd",
-        "rawSpec": "^6.18.0",
-        "spec": ">=6.18.0 <7.0.0",
+        "rawSpec": "^6.24.1",
+        "spec": ">=6.24.1 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015"
     ]
   ],
-  "_cnpm_publish_time": 1477343946570,
-  "_from": "babel-plugin-transform-es2015-modules-umd@>=6.18.0 <7.0.0",
-  "_id": "babel-plugin-transform-es2015-modules-umd@6.18.0",
+  "_cnpm_publish_time": 1491578379055,
+  "_from": "babel-plugin-transform-es2015-modules-umd@>=6.24.1 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "babel-plugin-transform-es2015-modules-umd@6.24.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-plugin-transform-es2015-modules-umd",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/babel-plugin-transform-es2015-modules-umd-6.18.0.tgz_1477343945049_0.6534498787950724"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/babel-plugin-transform-es2015-modules-umd-6.24.1.tgz_1491578378753_0.8726147976703942"
   },
   "_npmUser": {
     "name": "hzoo",
     "email": "hi@henryzoo.com"
   },
-  "_npmVersion": "3.10.8",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "babel-plugin-transform-es2015-modules-umd@^6.18.0",
+    "raw": "babel-plugin-transform-es2015-modules-umd@^6.24.1",
     "scope": null,
     "escapedName": "babel-plugin-transform-es2015-modules-umd",
     "name": "babel-plugin-transform-es2015-modules-umd",
-    "rawSpec": "^6.18.0",
-    "spec": ">=6.18.0 <7.0.0",
+    "rawSpec": "^6.24.1",
+    "spec": ">=6.24.1 <7.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/babel-preset-es2015"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.18.0.tgz",
-  "_shasum": "23351770ece5c1f8e83ed67cb1d7992884491e50",
+  "_resolved": "http://r.cnpmjs.org/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.24.1.tgz",
+  "_shasum": "ac997e6285cd18ed6176adb607d602344ad38468",
   "_shrinkwrap": null,
-  "_spec": "babel-plugin-transform-es2015-modules-umd@^6.18.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/babel-preset-es2015",
+  "_spec": "babel-plugin-transform-es2015-modules-umd@^6.24.1",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/babel-preset-es2015",
   "dependencies": {
-    "babel-plugin-transform-es2015-modules-amd": "^6.18.0",
-    "babel-runtime": "^6.0.0",
-    "babel-template": "^6.8.0"
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "babel-runtime": "^6.22.0",
+    "babel-template": "^6.24.1"
   },
   "description": "This plugin transforms ES2015 modules to UMD",
   "devDependencies": {
-    "babel-helper-plugin-test-runner": "^6.18.0"
+    "babel-helper-plugin-test-runner": "^6.24.1"
   },
   "directories": {},
   "dist": {
-    "shasum": "23351770ece5c1f8e83ed67cb1d7992884491e50",
-    "size": 3180,
+    "shasum": "ac997e6285cd18ed6176adb607d602344ad38468",
+    "size": 3390,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.18.0.tgz"
+    "tarball": "http://r.cnpmjs.org/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.24.1.tgz"
   },
   "keywords": [
     "babel-plugin"
@@ -70,16 +70,12 @@
   "main": "lib/index.js",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -88,20 +84,16 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel-plugin-transform-es2015-modules-umd",
   "optionalDependencies": {},
-  "publish_time": 1477343946570,
+  "publish_time": 1491578379055,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-umd"
   },
   "scripts": {},
-  "version": "6.18.0"
+  "version": "6.24.1"
 }

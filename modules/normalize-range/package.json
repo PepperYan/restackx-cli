@@ -10,14 +10,14 @@
         "spec": ">=0.1.2 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/autoprefixer"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/autoprefixer"
     ]
   ],
   "_cnpm_publish_time": 1442121604639,
   "_from": "normalize-range@>=0.1.2 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "normalize-range@0.1.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/normalize-range",
   "_nodeVersion": "0.12.7",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/autoprefixer"
   ],
-  "_resolved": "http://registry.npm.taobao.org/normalize-range/download/normalize-range-0.1.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/normalize-range/download/normalize-range-0.1.2.tgz",
   "_shasum": "2d10c06bdfd312ea9777695a4d28439456b75942",
   "_shrinkwrap": null,
   "_spec": "normalize-range@^0.1.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/autoprefixer",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/autoprefixer",
   "author": {
     "name": "James Talmage",
     "email": "james@talmage.io",

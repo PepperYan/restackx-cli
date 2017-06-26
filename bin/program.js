@@ -7,7 +7,7 @@ var cwd = process.cwd();
 program
   .option('-d, --debug', 'output extra information for debugging')
   .option('-e, --env [env]', 'specify an environment', 'dev')
-  .option('-n, --name [name]', 'output directories name', "restack-mobile-prototype")
+  .option('-n, --name [name]', 'output directories name', "restackx-prototype")
   .option('-p, --path [path]', 'output directory\'s parent\'s path')
   .action(function(project){
     // change cwd if argument provided

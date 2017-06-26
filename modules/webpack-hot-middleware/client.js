@@ -7,7 +7,8 @@ var options = {
   overlay: true,
   reload: false,
   log: true,
-  warn: true
+  warn: true,
+  name: ''
 };
 if (__resourceQuery) {
   var querystring = require('querystring');
@@ -18,6 +19,9 @@ if (__resourceQuery) {
   if (overrides.reload) options.reload = overrides.reload !== 'false';
   if (overrides.noInfo && overrides.noInfo !== 'false') {
     options.log = false;
+  }
+  if (overrides.name) {
+    options.name = overrides.name;
   }
   if (overrides.quiet && overrides.quiet !== 'false') {
     options.log = false;
@@ -37,22 +41,27 @@ if (typeof window === 'undefined') {
     "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events#Tools"
   );
 } else {
-  connect(window.EventSource);
+  connect();
 }
 
-function connect(EventSource) {
-  var source = new EventSource(options.path);
+function EventSourceWrapper() {
+  var source;
   var lastActivity = new Date();
+  var listeners = [];
 
-  source.onopen = handleOnline;
-  source.onmessage = handleMessage;
-  source.onerror = handleDisconnect;
-
+  init();
   var timer = setInterval(function() {
     if ((new Date() - lastActivity) > options.timeout) {
       handleDisconnect();
     }
   }, options.timeout / 2);
+
+  function init() {
+    source = new window.EventSource(options.path);
+    source.onopen = handleOnline;
+    source.onerror = handleDisconnect;
+    source.onmessage = handleMessage;
+  }
 
   function handleOnline() {
     if (options.log) console.log("[HMR] connected");
@@ -61,6 +70,40 @@ function connect(EventSource) {
 
   function handleMessage(event) {
     lastActivity = new Date();
+    for (var i = 0; i < listeners.length; i++) {
+      listeners[i](event);
+    }
+  }
+
+  function handleDisconnect() {
+    clearInterval(timer);
+    source.close();
+    setTimeout(init, options.timeout);
+  }
+
+  return {
+    addMessageListener: function(fn) {
+      listeners.push(fn);
+    }
+  };
+}
+
+function getEventSourceWrapper() {
+  if (!window.__whmEventSourceWrapper) {
+    window.__whmEventSourceWrapper = {};
+  }
+  if (!window.__whmEventSourceWrapper[options.path]) {
+    // cache the wrapper for other entries loaded on
+    // the same page with the same options.path
+    window.__whmEventSourceWrapper[options.path] = EventSourceWrapper();
+  }
+  return window.__whmEventSourceWrapper[options.path];
+}
+
+function connect() {
+  getEventSourceWrapper().addMessageListener(handleMessage);
+
+  function handleMessage(event) {
     if (event.data == "\uD83D\uDC93") {
       return;
     }
@@ -72,23 +115,19 @@ function connect(EventSource) {
       }
     }
   }
-
-  function handleDisconnect() {
-    clearInterval(timer);
-    source.close();
-    setTimeout(function() { connect(EventSource); }, options.timeout);
-  }
-
 }
 
-var reporter;
 // the reporter needs to be a singleton on the page
-// in case the client is being used by mutliple bundles
+// in case the client is being used by multiple bundles
 // we only want to report once.
 // all the errors will go to all clients
 var singletonKey = '__webpack_hot_middleware_reporter__';
-if (typeof window !== 'undefined' && !window[singletonKey]) {
-  reporter = window[singletonKey] = createReporter();
+var reporter;
+if (typeof window !== 'undefined') {
+  if (!window[singletonKey]) {
+    window[singletonKey] = createReporter();
+  }
+  reporter = window[singletonKey];
 }
 
 function createReporter() {
@@ -99,13 +138,44 @@ function createReporter() {
     overlay = require('./client-overlay');
   }
 
+  var styles = {
+    errors: "color: #ff0000;",
+    warnings: "color: #999933;"
+  };
+  var previousProblems = null;
+  function log(type, obj) {
+    var newProblems = obj[type].map(function(msg) { return strip(msg); }).join('\n');
+    if (previousProblems == newProblems) {
+      return;
+    } else {
+      previousProblems = newProblems;
+    }
+
+    var style = styles[type];
+    var name = obj.name ? "'" + obj.name + "' " : "";
+    var title = "[HMR] bundle " + name + "has " + obj[type].length + " " + type;
+    // NOTE: console.warn or console.error will print the stack trace
+    // which isn't helpful here, so using console.log to escape it.
+    if (console.group && console.groupEnd) {
+      console.group("%c" + title, style);
+      console.log("%c" + newProblems, style);
+      console.groupEnd();
+    } else {
+      console.log(
+        "%c" + title + "\n\t%c" + newProblems.replace(/\n/g, "\n\t"),
+        style + "font-weight: bold;",
+        style + "font-weight: normal;"
+      );
+    }
+  }
+
   return {
+    cleanProblemsCache: function () {
+      previousProblems = null;
+    },
     problems: function(type, obj) {
       if (options.warn) {
-        console.warn("[HMR] bundle has " + type + ":");
-        obj[type].forEach(function(msg) {
-          console.warn("[HMR] " + strip(msg));
-        });
+        log(type, obj);
       }
       if (overlay && type !== 'warnings') overlay.showProblems(type, obj[type]);
     },
@@ -125,22 +195,34 @@ var subscribeAllHandler;
 function processMessage(obj) {
   switch(obj.action) {
     case "building":
-      if (options.log) console.log("[HMR] bundle rebuilding");
+      if (options.log) {
+        console.log(
+          "[HMR] bundle " + (obj.name ? "'" + obj.name + "' " : "") +
+          "rebuilding"
+        );
+      }
       break;
     case "built":
       if (options.log) {
         console.log(
-          "[HMR] bundle " + (obj.name ? obj.name + " " : "") +
+          "[HMR] bundle " + (obj.name ? "'" + obj.name + "' " : "") +
           "rebuilt in " + obj.time + "ms"
         );
       }
       // fall through
     case "sync":
+      if (obj.name && options.name && obj.name !== options.name) {
+        return;
+      }
       if (obj.errors.length > 0) {
         if (reporter) reporter.problems('errors', obj);
       } else {
         if (reporter) {
-          if (obj.warnings.length > 0) reporter.problems('warnings', obj);
+          if (obj.warnings.length > 0) {
+            reporter.problems('warnings', obj);
+          } else {
+            reporter.cleanProblemsCache();
+          }
           reporter.success();
         }
         processUpdate(obj.hash, obj.modules, options);

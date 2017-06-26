@@ -10,14 +10,14 @@
         "spec": ">=1.1.1 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/css-selector-tokenizer"
     ]
   ],
   "_cnpm_publish_time": 1432495934557,
   "_from": "fastparse@>=1.1.1 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "fastparse@1.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/fastparse",
   "_nodeVersion": "0.12.2",
   "_npmUser": {
@@ -40,11 +40,11 @@
     "/postcss-modules-local-by-default/css-selector-tokenizer",
     "/postcss-modules-scope/css-selector-tokenizer"
   ],
-  "_resolved": "http://registry.npm.taobao.org/fastparse/download/fastparse-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/fastparse/download/fastparse-1.1.1.tgz",
   "_shasum": "d1e2643b38a94d7583b479060e6c4affc94071f8",
   "_shrinkwrap": null,
   "_spec": "fastparse@^1.1.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/css-selector-tokenizer",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/css-selector-tokenizer",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

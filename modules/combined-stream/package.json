@@ -10,14 +10,14 @@
         "spec": ">=1.0.5 <1.1.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request"
     ]
   ],
   "_cnpm_publish_time": 1434338357202,
   "_from": "combined-stream@>=1.0.5 <1.1.0",
+  "_hasShrinkwrap": false,
   "_id": "combined-stream@1.0.5",
   "_inCache": true,
-  "_installable": true,
   "_location": "/combined-stream",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
@@ -39,11 +39,11 @@
     "/form-data",
     "/request"
   ],
-  "_resolved": "http://registry.npm.taobao.org/combined-stream/download/combined-stream-1.0.5.tgz",
+  "_resolved": "http://r.cnpmjs.org/combined-stream/download/combined-stream-1.0.5.tgz",
   "_shasum": "938370a57b4a51dea2c77c15d5c5fdf895164009",
   "_shrinkwrap": null,
   "_spec": "combined-stream@~1.0.5",
-  "_where": "/Users/hibad/Documents/foreveross/fontend/restack-mobile-prototype/node_modules/request",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/request",
   "author": {
     "name": "Felix Geisendörfer",
     "email": "felix@debuggable.com",

@@ -10,14 +10,14 @@
         "spec": "2.2.6",
         "type": "version"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/crypto-browserify"
     ]
   ],
   "_cnpm_publish_time": 1411032913144,
   "_from": "sha.js@2.2.6",
+  "_hasShrinkwrap": false,
   "_id": "sha.js@2.2.6",
   "_inCache": true,
-  "_installable": true,
   "_location": "/sha.js",
   "_npmUser": {
     "name": "dominictarr",
@@ -37,11 +37,11 @@
   "_requiredBy": [
     "/crypto-browserify"
   ],
-  "_resolved": "http://registry.npm.taobao.org/sha.js/download/sha.js-2.2.6.tgz",
+  "_resolved": "http://r.cnpmjs.org/sha.js/download/sha.js-2.2.6.tgz",
   "_shasum": "17ddeddc5f722fb66501658895461977867315ba",
   "_shrinkwrap": null,
   "_spec": "sha.js@2.2.6",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/crypto-browserify",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/crypto-browserify",
   "author": {
     "name": "Dominic Tarr",
     "email": "dominic.tarr@gmail.com",

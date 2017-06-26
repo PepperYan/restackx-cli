@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "restackx-core@^0.0.6",
+        "scope": null,
+        "escapedName": "restackx-core",
+        "name": "restackx-core",
+        "rawSpec": "^0.0.6",
+        "spec": ">=0.0.6 <0.0.7",
+        "type": "range"
+      },
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
+    ]
+  ],
+  "_cnpm_publish_time": 1494398414739,
+  "_from": "restackx-core@>=0.0.6 <0.0.7",
+  "_hasShrinkwrap": false,
+  "_id": "restackx-core@0.0.6",
+  "_inCache": true,
+  "_location": "/restackx-core",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/restackx-core-0.0.6.tgz_1494398412764_0.15749027533456683"
+  },
+  "_npmUser": {
+    "name": "hibad",
+    "email": "coldwinner1@163.com"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "restackx-core@^0.0.6",
+    "scope": null,
+    "escapedName": "restackx-core",
+    "name": "restackx-core",
+    "rawSpec": "^0.0.6",
+    "spec": ">=0.0.6 <0.0.7",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://r.cnpmjs.org/restackx-core/download/restackx-core-0.0.6.tgz",
+  "_shasum": "57a152f5c83b10916a2837994ab6a3af67234911",
+  "_shrinkwrap": null,
+  "_spec": "restackx-core@^0.0.6",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
+  "author": {
+    "name": "hibad",
+    "url": "188266760@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PepperYan/restackx-core/issues"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.11.6",
+    "cookie": "^0.3.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jed": "^1.1.1",
+    "lodash": "^4.14.1",
+    "mobx": "^3.1.9",
+    "mobx-react": "^4.1.8",
+    "prop-types": "^15.5.8",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "description": "react and mobx application tools",
+  "devDependencies": {
+    "babel-jest": "^15.0.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-regenerator": "^6.6.5",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "cross-env": "^2.0.1",
+    "jest": "^15.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "57a152f5c83b10916a2837994ab6a3af67234911",
+    "size": 6175,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/restackx-core/download/restackx-core-0.0.6.tgz"
+  },
+  "gitHead": "1985581564623ad31a7f05556aa0b73f54c1f97c",
+  "homepage": "https://github.com/PepperYan/restackx-core#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "hibad",
+      "email": "coldwinner1@163.com"
+    }
+  ],
+  "name": "restackx-core",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "publish_time": 1494398414739,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepperYan/restackx-core.git"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "compile": "babel src --out-dir lib",
+    "compile:watch": "babel src --out-dir lib --watch",
+    "prepublish": "npm run compile",
+    "test": "cross-env BABEL_ENV=commonjs jest --verbose",
+    "test:watch": "npm test --watch"
+  },
+  "version": "0.0.6"
+}

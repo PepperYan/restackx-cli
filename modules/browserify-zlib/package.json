@@ -2,22 +2,22 @@
   "_args": [
     [
       {
-        "raw": "browserify-zlib@~0.1.4",
+        "raw": "browserify-zlib@^0.1.4",
         "scope": null,
         "escapedName": "browserify-zlib",
         "name": "browserify-zlib",
-        "rawSpec": "~0.1.4",
+        "rawSpec": "^0.1.4",
         "spec": ">=0.1.4 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser"
     ]
   ],
   "_cnpm_publish_time": 1397805657938,
   "_from": "browserify-zlib@>=0.1.4 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "browserify-zlib@0.1.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/browserify-zlib",
   "_npmUser": {
     "name": "devongovett",
@@ -26,22 +26,22 @@
   "_npmVersion": "1.4.4",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "browserify-zlib@~0.1.4",
+    "raw": "browserify-zlib@^0.1.4",
     "scope": null,
     "escapedName": "browserify-zlib",
     "name": "browserify-zlib",
-    "rawSpec": "~0.1.4",
+    "rawSpec": "^0.1.4",
     "spec": ">=0.1.4 <0.2.0",
     "type": "range"
   },
   "_requiredBy": [
     "/node-libs-browser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/browserify-zlib/download/browserify-zlib-0.1.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/browserify-zlib/download/browserify-zlib-0.1.4.tgz",
   "_shasum": "bb35f8a519f600e0fa6b8485241c979d0141fb2d",
   "_shrinkwrap": null,
-  "_spec": "browserify-zlib@~0.1.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/node-libs-browser",
+  "_spec": "browserify-zlib@^0.1.4",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/node-libs-browser",
   "author": {
     "name": "Devon Govett",
     "email": "devongovett@gmail.com"
@@ -77,6 +77,10 @@
     {
       "name": "devongovett",
       "email": "devongovett@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
     }
   ],
   "name": "browserify-zlib",

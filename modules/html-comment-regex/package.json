@@ -10,14 +10,14 @@
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/is-svg"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/is-svg"
     ]
   ],
   "_cnpm_publish_time": 1468323646193,
   "_from": "html-comment-regex@>=1.1.0 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "html-comment-regex@1.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/html-comment-regex",
   "_nodeVersion": "4.4.4",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/is-svg"
   ],
-  "_resolved": "http://registry.npm.taobao.org/html-comment-regex/download/html-comment-regex-1.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/html-comment-regex/download/html-comment-regex-1.1.1.tgz",
   "_shasum": "668b93776eaae55ebde8f3ad464b307a4963625e",
   "_shrinkwrap": null,
   "_spec": "html-comment-regex@^1.1.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/is-svg",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/is-svg",
   "author": {
     "name": "Steve Mao",
     "email": "maochenyan@gmail.com",

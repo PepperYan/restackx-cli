@@ -10,26 +10,30 @@
         "spec": ">=0.13.0 <0.14.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1458847791615,
+  "_cnpm_publish_time": 1487954662761,
   "_from": "style-loader@>=0.13.0 <0.14.0",
-  "_id": "style-loader@0.13.1",
+  "_hasShrinkwrap": false,
+  "_id": "style-loader@0.13.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/style-loader",
-  "_nodeVersion": "5.4.1",
+  "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/style-loader-0.13.1.tgz_1458847789435_0.8123822319321334"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/style-loader-0.13.2.tgz_1487954662208_0.9082186338491738"
   },
   "_npmUser": {
-    "name": "sokra",
-    "email": "tobias.koppers@googlemail.com"
+    "name": "d3viant0ne",
+    "email": "wiens.joshua@gmail.com"
   },
-  "_npmVersion": "3.3.3",
-  "_phantomChildren": {},
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {
+    "big.js": "3.1.3",
+    "emojis-list": "2.1.0",
+    "json5": "0.5.1"
+  },
   "_requested": {
     "raw": "style-loader@^0.13.0",
     "scope": null,
@@ -42,11 +46,11 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/style-loader/download/style-loader-0.13.1.tgz",
-  "_shasum": "468280efbc0473023cd3a6cd56e33b5a1d7fc3a9",
+  "_resolved": "http://r.cnpmjs.org/style-loader/download/style-loader-0.13.2.tgz",
+  "_shasum": "74533384cf698c7104c7951150b49717adc2f3bb",
   "_shrinkwrap": null,
   "_spec": "style-loader@^0.13.0",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Tobias Koppers @sokra"
   },
@@ -54,7 +58,7 @@
     "url": "https://github.com/webpack/style-loader/issues"
   },
   "dependencies": {
-    "loader-utils": "^0.2.7"
+    "loader-utils": "^1.0.2"
   },
   "description": "style loader module for webpack",
   "devDependencies": {
@@ -62,28 +66,52 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "468280efbc0473023cd3a6cd56e33b5a1d7fc3a9",
-    "size": 4692,
+    "shasum": "74533384cf698c7104c7951150b49717adc2f3bb",
+    "size": 6618,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/style-loader/download/style-loader-0.13.1.tgz"
+    "tarball": "http://r.cnpmjs.org/style-loader/download/style-loader-0.13.2.tgz"
   },
-  "gitHead": "bba5bdb192b3d0cb487e2043a011562c6801f2c8",
+  "gitHead": "11c54f2c7631e96f38a3a38da90f757fc902da1c",
   "homepage": "https://github.com/webpack/style-loader#readme",
   "license": "MIT",
   "maintainers": [
     {
+      "name": "bebraw",
+      "email": "bebraw@gmail.com"
+    },
+    {
+      "name": "d3viant0ne",
+      "email": "wiens.joshua@gmail.com"
+    },
+    {
+      "name": "ericclemmons",
+      "email": "eric@smarterspam.com"
+    },
+    {
+      "name": "jhnns",
+      "email": "mail@johannesewald.de"
+    },
+    {
+      "name": "jtangelder",
+      "email": "j.tangelder@gmail.com"
+    },
+    {
       "name": "sokra",
       "email": "tobias.koppers@googlemail.com"
+    },
+    {
+      "name": "thelarkinn",
+      "email": "sean.larkin@cuw.edu"
     }
   ],
   "name": "style-loader",
   "optionalDependencies": {},
-  "publish_time": 1458847791615,
+  "publish_time": 1487954662761,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/webpack/style-loader.git"
   },
   "scripts": {},
-  "version": "0.13.1"
+  "version": "0.13.2"
 }

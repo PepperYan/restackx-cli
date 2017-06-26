@@ -10,14 +10,14 @@
         "spec": ">=1.0.3 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/center-align"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/center-align"
     ]
   ],
   "_cnpm_publish_time": 1461378861150,
   "_from": "lazy-cache@>=1.0.3 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "lazy-cache@1.0.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/lazy-cache",
   "_nodeVersion": "5.5.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/center-align"
   ],
-  "_resolved": "http://registry.npm.taobao.org/lazy-cache/download/lazy-cache-1.0.4.tgz",
+  "_resolved": "http://r.cnpmjs.org/lazy-cache/download/lazy-cache-1.0.4.tgz",
   "_shasum": "a1d78fc3a50474cb80845d3b3b6e1da49a446e8e",
   "_shrinkwrap": null,
   "_spec": "lazy-cache@^1.0.3",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/center-align",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/center-align",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"

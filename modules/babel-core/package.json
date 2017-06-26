@@ -10,25 +10,25 @@
         "spec": ">=6.6.4 <7.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype"
     ]
   ],
-  "_cnpm_publish_time": 1477343920028,
+  "_cnpm_publish_time": 1496957350002,
   "_from": "babel-core@>=6.6.4 <7.0.0",
-  "_id": "babel-core@6.18.0",
+  "_hasShrinkwrap": false,
+  "_id": "babel-core@6.25.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/babel-core",
   "_nodeVersion": "6.9.0",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/babel-core-6.18.0.tgz_1477343918254_0.11207001795992255"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/babel-core-6.25.0.tgz_1496957349805_0.9169255252927542"
   },
   "_npmUser": {
     "name": "hzoo",
     "email": "hi@henryzoo.com"
   },
-  "_npmVersion": "3.10.8",
+  "_npmVersion": "4.6.1",
   "_phantomChildren": {},
   "_requested": {
     "raw": "babel-core@^6.6.4",
@@ -44,26 +44,26 @@
     "/babel-cli",
     "/babel-register"
   ],
-  "_resolved": "http://registry.npm.taobao.org/babel-core/download/babel-core-6.18.0.tgz",
-  "_shasum": "bb5ce9bc0a956e6e94e2f12d597abb3b0b330deb",
+  "_resolved": "https://registry.npmjs.org/babel-core/-/babel-core-6.25.0.tgz",
+  "_shasum": "7dd42b0463c742e9d5296deb3ec67a9322dad729",
   "_shrinkwrap": null,
   "_spec": "babel-core@^6.6.4",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype",
   "author": {
     "name": "Sebastian McKenzie",
     "email": "sebmck@gmail.com"
   },
   "dependencies": {
-    "babel-code-frame": "^6.16.0",
-    "babel-generator": "^6.18.0",
-    "babel-helpers": "^6.16.0",
-    "babel-messages": "^6.8.0",
-    "babel-register": "^6.18.0",
-    "babel-runtime": "^6.9.1",
-    "babel-template": "^6.16.0",
-    "babel-traverse": "^6.18.0",
-    "babel-types": "^6.18.0",
-    "babylon": "^6.11.0",
+    "babel-code-frame": "^6.22.0",
+    "babel-generator": "^6.25.0",
+    "babel-helpers": "^6.24.1",
+    "babel-messages": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "babel-runtime": "^6.22.0",
+    "babel-template": "^6.25.0",
+    "babel-traverse": "^6.25.0",
+    "babel-types": "^6.25.0",
+    "babylon": "^6.17.2",
     "convert-source-map": "^1.1.0",
     "debug": "^2.1.1",
     "json5": "^0.5.0",
@@ -76,16 +76,16 @@
   },
   "description": "Babel compiler core.",
   "devDependencies": {
-    "babel-helper-fixtures": "^6.18.0",
-    "babel-helper-transform-fixture-test-runner": "^6.18.0",
-    "babel-polyfill": "^6.16.0"
+    "babel-helper-fixtures": "^6.22.0",
+    "babel-helper-transform-fixture-test-runner": "^6.24.1",
+    "babel-polyfill": "^6.23.0"
   },
   "directories": {},
   "dist": {
-    "shasum": "bb5ce9bc0a956e6e94e2f12d597abb3b0b330deb",
-    "size": 18966,
+    "shasum": "7dd42b0463c742e9d5296deb3ec67a9322dad729",
+    "size": 21998,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/babel-core/download/babel-core-6.18.0.tgz"
+    "tarball": "http://r.cnpmjs.org/babel-core/download/babel-core-6.25.0.tgz"
   },
   "homepage": "https://babeljs.io/",
   "keywords": [
@@ -99,21 +99,19 @@
     "modules",
     "transpile",
     "transpiler",
-    "var"
+    "var",
+    "babel-core",
+    "compiler"
   ],
   "license": "MIT",
   "maintainers": [
     {
-      "name": "amasad",
-      "email": "amjad.masad@gmail.com"
+      "name": "danez",
+      "email": "daniel@tschinder.de"
     },
     {
       "name": "hzoo",
       "email": "hi@henryzoo.com"
-    },
-    {
-      "name": "jmm",
-      "email": "npm-public@jessemccarthy.net"
     },
     {
       "name": "loganfsmyth",
@@ -122,15 +120,11 @@
     {
       "name": "sebmck",
       "email": "sebmck@gmail.com"
-    },
-    {
-      "name": "thejameskyle",
-      "email": "me@thejameskyle.com"
     }
   ],
   "name": "babel-core",
   "optionalDependencies": {},
-  "publish_time": 1477343920028,
+  "publish_time": 1496957350002,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -140,5 +134,5 @@
     "bench": "make bench",
     "test": "make test"
   },
-  "version": "6.18.0"
+  "version": "6.25.0"
 }

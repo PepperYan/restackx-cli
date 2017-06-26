@@ -10,14 +10,14 @@
         "spec": ">=1.0.2 <2.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-selector-parser"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-selector-parser"
     ]
   ],
   "_cnpm_publish_time": 1453251617869,
   "_from": "flatten@>=1.0.2 <2.0.0",
+  "_hasShrinkwrap": false,
   "_id": "flatten@1.0.2",
   "_inCache": true,
-  "_installable": true,
   "_location": "/flatten",
   "_nodeVersion": "4.2.1",
   "_npmUser": {
@@ -38,11 +38,11 @@
   "_requiredBy": [
     "/postcss-selector-parser"
   ],
-  "_resolved": "http://registry.npm.taobao.org/flatten/download/flatten-1.0.2.tgz",
+  "_resolved": "http://r.cnpmjs.org/flatten/download/flatten-1.0.2.tgz",
   "_shasum": "dae46a9d78fbe25292258cc1e780a41d95c03782",
   "_shrinkwrap": null,
   "_spec": "flatten@^1.0.2",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/postcss-selector-parser",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/postcss-selector-parser",
   "author": {
     "name": "Joshua Holbrook",
     "email": "josh.holbrook@gmail.com",

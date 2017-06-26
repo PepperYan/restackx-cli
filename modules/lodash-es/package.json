@@ -10,19 +10,19 @@
         "spec": ">=4.2.1 <5.0.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/redux"
     ]
   ],
-  "_cnpm_publish_time": 1477896617831,
+  "_cnpm_publish_time": 1483223772848,
   "_from": "lodash-es@>=4.2.1 <5.0.0",
-  "_id": "lodash-es@4.16.5",
+  "_hasShrinkwrap": false,
+  "_id": "lodash-es@4.17.4",
   "_inCache": true,
-  "_installable": true,
   "_location": "/lodash-es",
-  "_nodeVersion": "6.0.0",
+  "_nodeVersion": "7.2.1",
   "_npmOperationalInternal": {
     "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/lodash-es-4.16.5.tgz_1477896615518_0.28627553838305175"
+    "tmp": "tmp/lodash-es-4.17.4.tgz_1483223772305_0.40917129116132855"
   },
   "_npmUser": {
     "name": "jdalton",
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/redux"
   ],
-  "_resolved": "http://r.cnpmjs.org/lodash-es/download/lodash-es-4.16.5.tgz",
-  "_shasum": "0d813fb745f1b038eea63a33cd96435293c51f39",
+  "_resolved": "http://r.cnpmjs.org/lodash-es/download/lodash-es-4.17.4.tgz",
+  "_shasum": "dcc1d7552e150a0640073ba9cb31d70f032950e7",
   "_shrinkwrap": null,
   "_spec": "lodash-es@^4.2.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/redux",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/redux",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",
@@ -77,10 +77,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "0d813fb745f1b038eea63a33cd96435293c51f39",
-    "size": 153291,
+    "shasum": "dcc1d7552e150a0640073ba9cb31d70f032950e7",
+    "size": 154109,
     "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/lodash-es/download/lodash-es-4.16.5.tgz"
+    "tarball": "http://r.cnpmjs.org/lodash-es/download/lodash-es-4.17.4.tgz"
   },
   "homepage": "https://lodash.com/custom-builds",
   "jsnext:main": "lodash.js",
@@ -105,7 +105,7 @@
   "module": "lodash.js",
   "name": "lodash-es",
   "optionalDependencies": {},
-  "publish_time": 1477896617831,
+  "publish_time": 1483223772848,
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
@@ -114,5 +114,5 @@
   "scripts": {
     "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
   },
-  "version": "4.16.5"
+  "version": "4.17.4"
 }

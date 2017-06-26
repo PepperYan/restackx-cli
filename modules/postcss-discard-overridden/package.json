@@ -10,14 +10,14 @@
         "spec": ">=0.1.1 <0.2.0",
         "type": "range"
       },
-      "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano"
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano"
     ]
   ],
   "_cnpm_publish_time": 1461734872743,
   "_from": "postcss-discard-overridden@>=0.1.1 <0.2.0",
+  "_hasShrinkwrap": false,
   "_id": "postcss-discard-overridden@0.1.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/postcss-discard-overridden",
   "_nodeVersion": "5.5.0",
   "_npmOperationalInternal": {
@@ -42,11 +42,11 @@
   "_requiredBy": [
     "/cssnano"
   ],
-  "_resolved": "http://registry.npm.taobao.org/postcss-discard-overridden/download/postcss-discard-overridden-0.1.1.tgz",
+  "_resolved": "http://r.cnpmjs.org/postcss-discard-overridden/download/postcss-discard-overridden-0.1.1.tgz",
   "_shasum": "8b1eaf554f686fb288cd874c55667b0aa3668d58",
   "_shrinkwrap": null,
   "_spec": "postcss-discard-overridden@^0.1.1",
-  "_where": "/Users/hibad/Documents/foreveross/restack-mobile-cli/prototype/node_modules/cssnano",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/cssnano",
   "author": {
     "name": "Justineo",
     "email": "justice360@gmail.com"
@@ -95,6 +95,10 @@
   "license": "MIT",
   "main": "dist/index.js",
   "maintainers": [
+    {
+      "name": "beneb",
+      "email": "therealbenbriggs@hotmail.com"
+    },
     {
       "name": "justineo",
       "email": "justice360@gmail.com"
