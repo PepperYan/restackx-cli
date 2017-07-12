@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jed@^1.1.1",
+        "scope": null,
+        "escapedName": "jed",
+        "name": "jed",
+        "rawSpec": "^1.1.1",
+        "spec": ">=1.1.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/restackx-core"
+    ]
+  ],
+  "_cnpm_publish_time": 1469173697176,
+  "_from": "jed@>=1.1.1 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "jed@1.1.1",
+  "_inCache": true,
+  "_location": "/jed",
+  "_nodeVersion": "4.4.3",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/jed-1.1.1.tgz_1469173695083_0.6749573699198663"
+  },
+  "_npmUser": {
+    "name": "slexaxton",
+    "email": "alexsexton@gmail.com"
+  },
+  "_npmVersion": "2.15.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jed@^1.1.1",
+    "scope": null,
+    "escapedName": "jed",
+    "name": "jed",
+    "rawSpec": "^1.1.1",
+    "spec": ">=1.1.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/restackx-core"
+  ],
+  "_resolved": "http://r.cnpmjs.org/jed/download/jed-1.1.1.tgz",
+  "_shasum": "7a549bbd9ffe1585b0cd0a191e203055bee574b4",
+  "_shrinkwrap": null,
+  "_spec": "jed@^1.1.1",
+  "_where": "/Users/hibad/Documents/foreveross/变色龙/restackx-prototype/node_modules/restackx-core",
+  "author": {
+    "name": "Alex Sexton",
+    "email": "alexsexton@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SlexAxton/Jed/issues"
+  },
+  "dependencies": {},
+  "description": "Gettext Style i18n for Modern JavaScript Apps",
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "serve": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7a549bbd9ffe1585b0cd0a191e203055bee574b4",
+    "size": 51851,
+    "noattachment": false,
+    "tarball": "http://r.cnpmjs.org/jed/download/jed-1.1.1.tgz"
+  },
+  "gitHead": "3016c1f595bf37b4ded95cfe6c1196a4b124bbe5",
+  "homepage": "https://github.com/SlexAxton/Jed#readme",
+  "keywords": [
+    "i18n",
+    "Jed",
+    "gettext",
+    "internationalization"
+  ],
+  "license": "MIT",
+  "main": "./jed",
+  "maintainers": [
+    {
+      "name": "slexaxton",
+      "email": "alexsexton@gmail.com"
+    }
+  ],
+  "name": "jed",
+  "optionalDependencies": {},
+  "publish_time": 1469173697176,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://SlexAxton@github.com/SlexAxton/Jed.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.1.1"
+}
