@@ -6,8 +6,10 @@ import { browserHistory } from 'react-router'
 import Store from './store'
 import {App} from 'restackx-core'
 
-const container = document.getElementById('react-view');
+
+const container = document.getElementById('container');
 render(
   <App store={Store} history={browserHistory} routes={routes}/>,
   container
 )
+//<IndexRoute component={App}/>

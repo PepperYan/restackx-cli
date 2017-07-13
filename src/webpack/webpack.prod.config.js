@@ -4,6 +4,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var makeConfig = require("./base.config.js").makeConfig;
 var path = require('path');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 var plugins = [];
 
@@ -20,8 +21,10 @@ plugins.push(new HtmlWebpackPlugin({
   template: `${cwd}/template.html`
 }));
 
-plugins.push(new ExtractTextPlugin("[name].css"))
-plugins.push(new webpack.optimize.UglifyJsPlugin());
+// plugins.push(new ExtractTextPlugin("[name].css"))
+plugins.push(new UglifyJsPlugin({
+  sourceMap:false
+}));
 
 var config = makeConfig({
   entry: project.entries,

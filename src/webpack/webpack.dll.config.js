@@ -6,8 +6,7 @@ module.exports = {
     // another with Angular and related libraries\
     vendors: ['react', 'react-dom', 'react-router', 'history',
       'react-addons-pure-render-mixin','react-iscroll',
-      'lodash', 'react-redux', 'redux', 'react-router-redux',
-      'redux-thunk', 'redux-undo', 'jquery',
+      'lodash','jquery',
       "moment","highlight.js","react-toastr","classnames",
       "react-swipe",'iscroll'
     ]

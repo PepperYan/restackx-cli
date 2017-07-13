@@ -5,10 +5,6 @@ import traverse from 'fs-tree-traverse'
 import _                         from 'lodash'
 import express                   from 'express'
 
-import React                     from 'react'
-
-import { Provider }              from 'react-redux';
-import { RouterContext, match }  from 'react-router';
 
 // import "css-modules-require-hook/preset"
 // import routes from '../src/js/routes'

@@ -10,7 +10,7 @@ const development = {
   routes: {
     '/*': {
       view: 'index',
-      scripts: ['vendors', 'index'],
+      scripts: ['index'],
       csses:['vendors']
     }
   },
