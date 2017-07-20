@@ -20,11 +20,20 @@ plugins.push(new HtmlWebpackPlugin({
   filename:`index.html`,//分模块文件夹
   template: `${cwd}/template.html`
 }));
-
+plugins.push(new webpack.LoaderOptionsPlugin({
+  minimize: true,
+  debug: false
+}))
 // plugins.push(new ExtractTextPlugin("[name].css"))
-plugins.push(new UglifyJsPlugin({
-  sourceMap:false
-}));
+// plugins.push(new UglifyJsPlugin({
+//   sourceMap: false
+// }));
+plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
+plugins.push(new webpack.optimize.UglifyJsPlugin({
+   compress: { warnings: false },
+   output: { comments: false }
+}))
+
 
 var config = makeConfig({
   entry: project.entries,
