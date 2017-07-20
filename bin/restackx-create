@@ -26,19 +26,19 @@ if( !fs.existsSync(prototypePath) ) {
        return console.error(err);
      }
 
-     var nodeModuleDest = prototypePath + "/node_modules"
-     if( !fs.existsSync(nodeModuleDest) ) {
-       console.log("installing dependencies...");
-       fs.mkdir(nodeModuleDest,function(moduleErr){
-         if(moduleErr){
-           return console.error(moduleErr);
-         }
-         ncp(nodeModules, nodeModuleDest, function(copyModuleErr){
-           if(copyModuleErr) return console.error(copyModuleErr);
-           console.log('done!');
-         })
-       })
-     }
+    //  var nodeModuleDest = prototypePath + "/node_modules"
+    //  if( !fs.existsSync(nodeModuleDest) ) {
+    //    console.log("installing dependencies...");
+    //    fs.mkdir(nodeModuleDest,function(moduleErr){
+    //      if(moduleErr){
+    //        return console.error(moduleErr);
+    //      }
+    //      ncp(nodeModules, nodeModuleDest, function(copyModuleErr){
+    //        if(copyModuleErr) return console.error(copyModuleErr);
+    //        console.log('done!');
+    //      })
+    //    })
+    //  }
 
     });
   })

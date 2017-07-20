@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, IndexRoute} from 'react-router'
 
-import App from '../modules/demo/App';
+import App from '../modules/demo/app';
 import NewComponent from '../modules/demo/newcomponent'
 import PageTwo from '../modules/demo/page2'
 
