@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 import PropTypes from 'prop-types'
 import _ from 'lodash'
-import SiderBar from '../../components/ui/framework/sider-bar'
-
 
 export default class App extends Component {
 
