@@ -14,23 +14,24 @@ function config(cwd,env){
   var less
   var css
   var scss
-  // if(env === 'production'){
-  //   less = {test: /\.less$/, loader:ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'less-loader']})}
-  //   css = {test: /\.css$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:'css-loader'})}
-  //   scss = {test: /\.scss$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'sass-loader']})}
-  // }else{
-  //   less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
-  //   css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
-  //   scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
-  // }
+  if(env === 'production'){
+    less = {test: /\.less$/, loader:ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'less-loader']})}
+    css = {test: /\.css$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:'css-loader'})}
+    scss = {test: /\.scss$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'sass-loader']})}
+  }else{
+    less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
+    css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
+    scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
+  }
+
   
-  less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
-  css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
-  scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
+  // less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
+  // css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
+  // scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
 
 
   return {
-    // cache:true,
+    cache:true,
     context: cwd,
     entry: {
     },
@@ -42,35 +43,44 @@ function config(cwd,env){
     },
     module: {
       rules: [
+        // 使用原生babel-loader
+        // {
+        //   test: /\.js[x]?$/,
+        //   loader: 'babel-loader?cacheDirectory=true&id=jsx',
+        //   exclude: /(node_modules|bower_components)/,
+        //   options: {
+        //     "presets": [
+        //       [
+        //         "es2015", {"modules":false }
+        //       ],
+        //       "stage-1",
+        //       "react"
+        //     ],
+        //     "plugins": [
+        //       "transform-decorators-legacy",
+        //       "transform-class-properties",
+        //       "transform-object-rest-spread",
+        //       "transform-decorators",
+        //       "transform-runtime",
+        //       "syntax-async-functions",
+        //       "transform-regenerator",
+        //       "transform-object-assign"
+        //     ],
+        //     "env": {
+        //       "development": {
+        //         "presets": ["react-hmre"]
+        //       }
+        //     }
+        //   }
+        // },
+
+        //替换happypack loader
         {
-          test: /\.jsx?$/,
-          loader: 'babel-loader?cacheDirectory=true',
+          test: /\.js[x]?$/,
+          loaders: [ 'happypack/loader?id=js' ],
           exclude: /(node_modules|bower_components)/,
-          options: {
-            "presets": [
-              [
-                "es2015", {"modules":false }
-              ],
-              "stage-1",
-              "react"
-            ],
-            "plugins": [
-              "transform-decorators-legacy",
-              "transform-class-properties",
-              "transform-object-rest-spread",
-              "transform-decorators",
-              "transform-runtime",
-              "syntax-async-functions",
-              "transform-regenerator",
-              "transform-object-assign"
-            ],
-            "env": {
-              "development": {
-                "presets": ["react-hmre"]
-              }
-            }
-          }
         },
+
         less,
         css,
         scss,
@@ -89,6 +99,7 @@ function config(cwd,env){
       }
     },
     plugins: [
+      new ExtractTextPlugin("[name].[hash].css"),
       new webpack.DefinePlugin({
         "process.env": {
           BROWSER: JSON.stringify(true),
@@ -96,14 +107,41 @@ function config(cwd,env){
         }
       }),
       new webpack.NoEmitOnErrorsPlugin(),
-      // new webpack.ResolverPlugin(
-      //   new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
-      // ),
-      // new HappyPack({
-      //   id: 'jsx',
-      //   threads: 13,
-      //   tempDir: `${cwd}/.happypack`,
-      // })
+
+      new HappyPack({
+        id:"js",
+        loaders:[
+          {
+            path:'babel-loader',
+            query:{
+              "presets": [
+                [
+                  "es2015", {"modules":false }
+                ],
+                "stage-1",
+                "react"
+              ],
+              "plugins": [
+                "transform-decorators-legacy",
+                "transform-class-properties",
+                "transform-object-rest-spread",
+                "transform-decorators",
+                "transform-runtime",
+                "syntax-async-functions",
+                "transform-regenerator",
+                "transform-object-assign"
+              ],
+              "env": {
+                "development": {
+                  "presets": ["react-hmre"]
+                }
+              },
+              cacheDirectory:true
+            }
+          }
+        ],
+        threads:13
+      })
     ]
   };
 }

@@ -24,7 +24,7 @@ plugins.push(new webpack.LoaderOptionsPlugin({
   minimize: true,
   debug: false
 }))
-// plugins.push(new ExtractTextPlugin("[name].css"))
+plugins.push(new ExtractTextPlugin("[name].css"))
 // plugins.push(new UglifyJsPlugin({
 //   sourceMap: false
 // }));
@@ -40,7 +40,7 @@ var config = makeConfig({
   output: {
     path: `${cwd}/dist`,
     publicPath: './',
-    filename:'[name].js'
+    filename:'[name].[hash].js'
   },
 
   plugins: plugins
