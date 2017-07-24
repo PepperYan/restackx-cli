@@ -107,7 +107,7 @@ function config(cwd,env){
         }
       }),
       new webpack.NoEmitOnErrorsPlugin(),
-
+      
       new HappyPack({
         id:"js",
         loaders:[
@@ -136,7 +136,7 @@ function config(cwd,env){
                   "presets": ["react-hmre"]
                 }
               },
-              cacheDirectory:true
+              "cacheDirectory":true
             }
           }
         ],
