@@ -35,14 +35,20 @@ module.exports = function(app, cwd, env){
   app.use('/lang', express.static(`${cwd}/static/lang`))
   // app.use('/vendors.bundle.js', express.static(`${cwd}/static/webpack-dll/vendors.bundle.js`))
   var project = require(`${cwd}/config/${env}`);
-  _.each(project.routes, function(v, path) {
-
-    app.get([path], function(req, res) {
-      // scripts = v.scripts.map(function(each){return `${each}.${req.params.lang}`})
-      var f = cwd+'/.temp/index.html';
-      res.sendFile(f);
-    });
+  //默认匹配全部
+  app.get("/*", function(req, res) {
+    var f = cwd+'/.temp/index.html';
+    res.sendFile(f);
   });
+
+  //屏蔽从配置读取
+  // _.each(project.routes, function(v, path) {
+    // app.get([path], function(req, res) {
+    //   // scripts = v.scripts.map(function(each){return `${each}.${req.params.lang}`})
+    //   var f = cwd+'/.temp/index.html';
+    //   res.sendFile(f);
+    // });
+  // });
 
 
 }
