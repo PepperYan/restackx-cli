@@ -1,6 +1,6 @@
 {
   "name": "restackx-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "cli tool for restackx",
   "bin": {
     "restackx": "./bin/restackx",
@@ -28,12 +28,7 @@
       "syntax-async-functions",
       "transform-regenerator",
       "transform-object-assign"
-    ],
-    "env": {
-      "development": {
-        "presets": ["react-hmre"]
-      }
-    }
+    ]
   },
   "author": "hibad",
   "license": "MIT",
@@ -88,6 +83,7 @@
     "postcss-less": "^1.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
     "react-redux": "^5.0.5",
     "react-router": "^4.1.1",
     "react-router-redux": "^4.0.8",
@@ -101,7 +97,7 @@
     "uglifyjs-webpack-plugin": "^0.4.6",
     "unzip": "^0.1.11",
     "url-loader": "^0.5.9",
-    "webpack": "^3.2.0",
+    "webpack": "^3.4.0",
     "webpack-dev-middleware": "^1.11.0",
     "webpack-dev-server": "^2.5.1",
     "webpack-hot-middleware": "^2.18.2"

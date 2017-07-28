@@ -77,7 +77,8 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
     var compiler = webpack(config);
     app.use(webpackDevMiddleware(compiler, {
       noInfo: true,
-      publicPath: "/",
+      publicPath: projectConfig.staticUrl + '/',
+      headers: { 'Access-Control-Allow-Origin': '*' },
       stats: { colors: true }
     }));
     app.use(webpackHotMiddleware(compiler, {

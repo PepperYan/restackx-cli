@@ -7,7 +7,12 @@ import {observer} from 'mobx-react'
 
 @withRouter
 @observer
-export default class NewComponent extends BaseComponent {
+export default class Page1 extends BaseComponent {
+
+  static contextTypes = {
+    store: PropTypes.object,
+    history: PropTypes.any
+  }
 
   static propTypes = {
 
@@ -15,13 +20,15 @@ export default class NewComponent extends BaseComponent {
 
   componentWillReceiveProps(nextProps){
     console.log("next");
+    console.log(nextProps)
   }
 
   componentWillMount(){
   }
 
   jump = () => {
-    this.props.router.push("/pagetwo")
+
+    this.props.history.push('/pagetwo')
   }
 
   onClick(){

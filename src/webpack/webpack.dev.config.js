@@ -15,7 +15,7 @@ module.exports = function (cwd, project) {
   var entries = _.mapValues(project.entries, function (v, k) {
     var path = project.staticUrl && project.staticUrl !== '' ? '?path=' + project.staticUrl + '/__webpack_hmr' : "";
     //这个v必须放最后,不然热部署会有问题
-    return ['webpack-hot-middleware/client' + path, 'webpack/hot/dev-server', v]; //['webpack-dev-server/client?http://localhost:3000/']
+    return ['webpack-hot-middleware/client' + path, 'webpack/hot/dev-server',  v]; //['webpack-dev-server/client?http://localhost:3000/']
   });
 
   var keys = _.keys(project.entries);

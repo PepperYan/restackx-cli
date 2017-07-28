@@ -1,13 +1,17 @@
 import React from 'react';
-import {Route, IndexRoute} from 'react-router'
+import {Route, Switch} from 'react-router-dom'
 
-import App from '../modules/demo/app';
-import NewComponent from '../modules/demo/newcomponent'
+import App from '../modules/demo/App';
+import Page1 from '../modules/demo/Page1'
 import PageTwo from '../modules/demo/page2'
 
 export default (
-  <Route path="/" component={App}>
-    <IndexRoute component={NewComponent}/>
-    <Route path="pagetwo" component={PageTwo}/>
+  <Route path="/">
+    <App>
+      <Switch>
+        <Route exact path="/" component={Page1}/>
+        <Route path="/pagetwo" component={PageTwo}/>
+      </Switch>
+    </App>
   </Route>
 );

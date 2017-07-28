@@ -27,8 +27,9 @@
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router": "^2.4.0",
-    "restackx-core": "0.0.3"
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "restackx-core": "0.1.0"
   },
   "devDependencies": {
     "ansi-to-html-umd": "^0.4.2",
@@ -47,7 +48,9 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
     "expect": "^1.6.0",
+    "happypack": "^4.0.0-beta.1",
     "karma": "^0.13.16",
     "karma-chrome-launcher": "^0.2.2",
     "karma-mocha": "^0.2.1",
@@ -55,11 +58,10 @@
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^1.7.0",
     "less-loader": "^2.2.2",
-    "style-loader": "^0.18.2",
-    "css-loader": "^0.28.4",
-    "happypack": "^4.0.0-beta.1",
     "mocha": "^2.3.4",
-    "webpack": "^3.2.0",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.0",
     "webpack-dev-server": "^2.5.1",
     "webpack-hot-middleware": "^2.18.2"
   }

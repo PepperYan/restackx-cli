@@ -12,6 +12,7 @@ class PageTwo extends BaseComponent {
 
 		return (
 			<div>
+				page2
 				{ this.context.store && this.context.store.todos.todos.map(function(item,index){
 					return <li key={index}>{item}</li>
 				})}
