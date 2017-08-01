@@ -24,12 +24,6 @@ function config(cwd,env){
     scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
   }
 
-  
-  // less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
-  // css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
-  // scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
-
-
   return {
 
     context: cwd,
@@ -44,42 +38,43 @@ function config(cwd,env){
     module: {
       rules: [
         // 使用原生babel-loader
-        {
-          test: /\.js[x]?$/,
-          loader: 'babel-loader?cacheDirectory=true&id=jsx',
-          exclude: /(node_modules|bower_components)/,
-          options: {
-            "presets": [
-              [
-                "es2015", {"modules":false }
-              ],
-              "stage-1",
-              "react"
-            ],
-            "plugins": [
-              "transform-decorators-legacy",
-              "transform-class-properties",
-              "transform-object-rest-spread",
-              "transform-decorators",
-              "transform-runtime",
-              "syntax-async-functions",
-              "transform-regenerator",
-              "transform-object-assign"
-            ],
-            "env": {
-              "development": {
-                "presets": ["react-hmre"]
-              }
-            }
-          }
-        },
-
-        //替换happypack loader
         // {
         //   test: /\.js[x]?$/,
-        //   loaders: [ 'happypack/loader?id=js' ],
+        //   loader: 'babel-loader?id=jsx',
         //   exclude: /(node_modules|bower_components)/,
+        //   options: {
+        //     "cacheDirectory":true,
+        //     "presets": [
+        //       [
+        //         "es2015", {"modules":false }
+        //       ],
+        //       "stage-1",
+        //       "react"
+        //     ],
+        //     "plugins": [
+        //       "transform-decorators-legacy",
+        //       "transform-class-properties",
+        //       "transform-object-rest-spread",
+        //       "transform-decorators",
+        //       "transform-runtime",
+        //       "syntax-async-functions",
+        //       "transform-regenerator",
+        //       "transform-object-assign"
+        //     ],
+        //     "env": {
+        //       "development": {
+        //         "presets": ["react-hmre"]
+        //       }
+        //     }
+        //   }
         // },
+
+        //替换happypack loader
+        {
+          test: /\.js[x]?$/,
+          loaders: [ 'happypack/loader?id=js' ],
+          exclude: /(node_modules|bower_components)/,
+        },
 
         less,
         css,
@@ -108,40 +103,40 @@ function config(cwd,env){
       }),
       new webpack.NoEmitOnErrorsPlugin(),
       
-      // new HappyPack({
-      //   id:"js",
-      //   loaders:[
-      //     {
-      //       path:'babel-loader',
-      //       query:{
-      //         "presets": [
-      //           [
-      //             "es2015", {"modules":false }
-      //           ],
-      //           "stage-1",
-      //           "react"
-      //         ],
-      //         "plugins": [
-      //           "transform-decorators-legacy",
-      //           "transform-class-properties",
-      //           "transform-object-rest-spread",
-      //           "transform-decorators",
-      //           "transform-runtime",
-      //           "syntax-async-functions",
-      //           "transform-regenerator",
-      //           "transform-object-assign",
-      //         ],
-      //         "cacheDirectory":true
-      //       },
-      //       "env": {
-      //         "development": {
-      //           "presets": ["react-hmre"]
-      //         }
-      //       }
-      //     }
-      //   ],
-      //   threads:13
-      // })
+      new HappyPack({
+        id:"js",
+        loaders:[
+          {
+            path:'babel-loader',
+            query:{
+              "presets": [
+                [
+                  "es2015", {"modules":false }
+                ],
+                "stage-1",
+                "react"
+              ],
+              "plugins": [
+                "transform-decorators-legacy",
+                "transform-class-properties",
+                "transform-object-rest-spread",
+                "transform-decorators",
+                "transform-runtime",
+                "syntax-async-functions",
+                "transform-regenerator",
+                "transform-object-assign",
+              ],
+              "cacheDirectory":true
+            },
+            "env": {
+              "development": {
+                "presets": ["react-hmre"]
+              }
+            }
+          }
+        ],
+        threads:10
+      })
     ]
   };
 }

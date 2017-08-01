@@ -36,6 +36,11 @@ const bootServer = () => {
 
 app.use(cookieParser());
 
+var projectConfig = require(`${cwd}/config/${env}`);
+if(projectConfig.proxies && projectConfig.proxies.length != 0){
+  require('./proxy')(app,projectConfig.proxies);
+}
+
 // serve web resources
 if (process.env.NODE_ENV == 'production' || env == 'prod') {
   // run in production mode
@@ -44,19 +49,13 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
   app.get("/", function(req, res) {
     res.sendFile(`${cwd}/dist/index.html`);
   })
-
-  var projectConfig = require(`${cwd}/config/${env}`);
-  if(projectConfig.proxies && projectConfig.proxies.length != 0){
-    require('./proxy')(app,projectConfig.proxies);
-  }
-
+ 
   bootServer();
 } else {
   // run in dev mode with webpack
   var webpack = require('webpack');
   var webpackDevMiddleware = require('webpack-dev-middleware');
   var webpackHotMiddleware = require('webpack-hot-middleware');
-  var projectConfig = require(`${cwd}/config/${env}`);
 
   //直接把外部类库暴露出去
   app.use('/', express.static(`${cwd}/static`));
@@ -69,10 +68,7 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
     } else {
       config = require(`../webpack/webpack.${env}.config`)(cwd, projectConfig);
     }
-
-    if(projectConfig.proxies && projectConfig.proxies.length != 0){
-      require('./proxy')(app,projectConfig.proxies);
-    }
+    
     console.error('using custom webpack config for devserver');
     var compiler = webpack(config);
     app.use(webpackDevMiddleware(compiler, {

@@ -10,4 +10,12 @@ render(
   <App store={Store} routes={routes}/>,
   container
 )
-//<IndexRoute component={App}/>
+
+if(module.hot){
+  module.hot.accept('./routes', () => {
+    render(
+      <App store={Store} routes={routes}/>,
+      container
+    )
+  });
+}
