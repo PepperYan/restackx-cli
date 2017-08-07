@@ -94,7 +94,7 @@ function config(cwd,env){
       }
     },
     plugins: [
-      new ExtractTextPlugin("[name].[hash].css"),
+      // new ExtractTextPlugin("[name].[hash].css"),
       new webpack.DefinePlugin({
         "process.env": {
           BROWSER: JSON.stringify(true),

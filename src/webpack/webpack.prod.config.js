@@ -24,7 +24,8 @@ plugins.push(new webpack.LoaderOptionsPlugin({
   minimize: true,
   debug: false
 }))
-plugins.push(new ExtractTextPlugin("[name].css"))
+
+plugins.push(new ExtractTextPlugin("[name].[hash].css"))
 // plugins.push(new UglifyJsPlugin({
 //   sourceMap: false
 // }));
