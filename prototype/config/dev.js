@@ -1,4 +1,4 @@
-const development = {
+module.exports = {
 
   staticUrl: "",
 
@@ -8,5 +8,3 @@ const development = {
   }
 
 }
-
-module.exports = development
