@@ -17,11 +17,11 @@ function config(cwd,env){
   if(env === 'production'){
     less = {test: /\.less$/, loader:ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'less-loader']})}
     css = {test: /\.css$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:'css-loader'})}
-    scss = {test: /\.scss$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'sass-loader']})}
+    scss = {test: /\.scss|sass$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'sass-loader']})}
   }else{
     less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};
     css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
-    scss = {test: /\.scss$/, use:[ 'style-loader','css-loader','sass-loader']};
+    scss = {test: /\.scss|sass$/, use:[ 'style-loader','css-loader','sass-loader']};
   }
 
   return {
@@ -94,7 +94,7 @@ function config(cwd,env){
       }
     },
     plugins: [
-      new ExtractTextPlugin("[name].[hash].css"),
+      // new ExtractTextPlugin("[name].[hash].css"),
       new webpack.DefinePlugin({
         "process.env": {
           BROWSER: JSON.stringify(true),
