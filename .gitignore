@@ -2,4 +2,4 @@
 /lib
 /.happypack
 *.tgz
-/.vscode
+/.*/
