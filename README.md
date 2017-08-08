@@ -1,10 +1,10 @@
 # Restackx-cli
 
-##简介
+## 简介
 restackx-cli是结合前端框架`restackx-core` 的脚手架
 
 
-##快速开始
+## 快速开始
 
 ```
 cd /项目存放目录
@@ -16,9 +16,9 @@ restackx run
 ```
 
 
-##详细使用方法
+## 详细使用方法
 
-###创建项目
+### 创建项目
 
 使用指令创建项目
 
@@ -31,9 +31,9 @@ restackx create
 restackx create -n helloworld 
 ```
 
-###运行项目
+### 运行项目
 
-####运行
+#### 运行
 
 ```
 #到项目目录下
@@ -47,7 +47,7 @@ restackx run -e prod
 ```
 
 
-####配置
+#### 配置
 
 ```
 
