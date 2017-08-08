@@ -32,7 +32,7 @@ module.exports = function (cwd, project) {
     },
     resolve: {
       alias: {
-        '@': path.resolve(cwd,'src')
+        '@': path.resolve(cwd,'/src')
       }
     },
     plugins: [

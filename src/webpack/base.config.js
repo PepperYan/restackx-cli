@@ -97,12 +97,11 @@ function config(cwd,env){
       // new ExtractTextPlugin("[name].[hash].css"),
       new webpack.DefinePlugin({
         "process.env": {
-          BROWSER: JSON.stringify(true),
           NODE_ENV: JSON.stringify( env || 'development' )
         }
       }),
       new webpack.NoEmitOnErrorsPlugin(),
-      
+      new webpack.optimize.ModuleConcatenationPlugin(),
       new HappyPack({
         id:"js",
         loaders:[

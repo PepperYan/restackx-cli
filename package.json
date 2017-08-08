@@ -1,6 +1,6 @@
 {
   "name": "restackx-cli",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "cli tool for restackx",
   "bin": {
     "restackx": "./bin/restackx",
