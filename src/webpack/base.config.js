@@ -101,7 +101,6 @@ function config(cwd,env){
         }
       }),
       new webpack.NoEmitOnErrorsPlugin(),
-      new webpack.optimize.ModuleConcatenationPlugin(),
       new HappyPack({
         id:"js",
         loaders:[
