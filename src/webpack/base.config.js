@@ -90,7 +90,7 @@ function config(cwd,env){
       modules: ['node_modules', 'bower_components'],
       extensions: [".js", '.jsx',".json"],
       alias: {
-
+        "@":path.resolve(cwd,'./src')
       }
     },
     plugins: [
