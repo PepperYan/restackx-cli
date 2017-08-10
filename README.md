@@ -123,6 +123,8 @@ const development = {
 
 }
 
+module.exports = development
+
 ```
 
 #### 默认配置支持项
