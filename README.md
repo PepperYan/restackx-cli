@@ -113,6 +113,7 @@ const development = {
   entries: {
     'index': `./src/js/app/index.jsx`,
   },
+  //配置cli代理api以及转发的目标url, 如下面例子会转发所有/api开头的url请求到localhost:3001
    proxies: [
     // {
     //   api: '/api',
