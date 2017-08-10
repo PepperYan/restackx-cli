@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom'
 
-import App from '../modules/demo/App';
-import Page1 from '../modules/demo/Page1'
-import PageTwo from '../modules/demo/Page2'
+import App from './demo/App';
+import Page1 from './demo/Page1'
+import PageTwo from './demo/Page2'
 
 export default (
   <Route path="/">

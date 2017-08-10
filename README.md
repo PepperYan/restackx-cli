@@ -3,13 +3,25 @@
 ## 简介
 restackx-cli是结合前端框架`restackx-core` 的脚手架
 
+## 安装
+在安装`restackx-cli`前, 请先安装`nodejs 6.0`以上版本 
+
+```
+npm i -g restackx-cli
+```
+
 
 ## 快速开始
 
 ```
 cd /项目存放目录
+
 restackx create
+
 cd /项目存放目录/restackx-prototype
+
+npm i
+
 restackx run
 
 #现在你可以尽情开发你的项目了!

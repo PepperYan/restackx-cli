@@ -4,7 +4,7 @@ module.exports = {
 
   // 描述前端有多少个entry
   entries: {
-    'index': `./src/js/app/index.jsx`,
+    'index': `./src/js/index.jsx`,
   }
 
 }
