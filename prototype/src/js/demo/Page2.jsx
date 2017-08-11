@@ -6,14 +6,14 @@ import {observer} from 'mobx-react'
 
 @inject()
 @observer
-class PageTwo extends BaseComponent {
+class PageTwo extends Component {
 
 	render() {
-
+		const 
 		return (
 			<div>
 				page2
-				{ this.props.todos && this.todos.todos.map(function(item,index){
+				{ this.props.todos && this.props.todos.todos.map(function(item,index){
 					return <li key={index}>{item}</li>
 				})}
 			</div>
