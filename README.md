@@ -3,6 +3,8 @@
 ## 简介
 restackx-cli是结合前端框架`restackx-core` 的脚手架
 
+[restackx-core文档](https://github.com/PepperYan/restackx-core)
+
 ## 安装
 在安装`restackx-cli`前, 请先安装`nodejs 6.0`以上版本 
 
