@@ -2,28 +2,16 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import _ from 'lodash'
 import {withRouter} from 'react-router'
-import {BaseComponent} from 'restackx-core'
+import {inject} from 'restackx-core'
 import {observer} from 'mobx-react'
 
 @withRouter
+@inject()
 @observer
-export default class Page1 extends BaseComponent {
-
-  static contextTypes = {
-    store: PropTypes.object,
-    history: PropTypes.any
-  }
+export default class Page1 extends Component {
 
   static propTypes = {
 
-  }
-
-  componentWillReceiveProps(nextProps){
-    console.log("next");
-    console.log(nextProps)
-  }
-
-  componentWillMount(){
   }
 
   jump = () => {
@@ -32,23 +20,22 @@ export default class Page1 extends BaseComponent {
   }
 
   onClick(){
-    this.context.store.todos.addTodo("hell");
+    this.props.todos.addTodo("hell");
   }
 
   onClick2(){
-    this.context.store.todos.changeTodo("yeah",1);
+    this.props.todos.changeTodo("yeah",1);
   }
 
 	render() {
-    // const todos = this.props.store? this.props.store.todos:[];
-    const {todos} = this.context.store
+    const {todos} = this.props.todos ||[]
 		return (
 			<div>
         <ul>
           <button onClick={this.jump.bind(this)}>jump1</button>
           <button onClick={this.onClick.bind(this)}>a</button>
           <button onClick={this.onClick2.bind(this)}>b</button>
-          { this.context.store && todos.todos.map(function(item,index){
+          { this.props.todos && todos.map(function(item,index){
             return <li key={index}>{item}</li>
           })}
         </ul>

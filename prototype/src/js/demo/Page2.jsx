@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import {BaseComponent} from 'restackx-core'
+import {inject} from 'restackx-core'
 import _ from 'lodash'
 import {observer} from 'mobx-react'
 
+@inject()
 @observer
 class PageTwo extends BaseComponent {
-
 
 	render() {
 
 		return (
 			<div>
 				page2
-				{ this.context.store && this.context.store.todos.todos.map(function(item,index){
+				{ this.props.todos && this.todos.todos.map(function(item,index){
 					return <li key={index}>{item}</li>
 				})}
 			</div>
