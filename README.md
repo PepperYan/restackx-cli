@@ -120,6 +120,10 @@ const development = {
     //   target: 'http://localhost:3001'
     // }
   ]
+  //同webpack externals, 可从cdn引入类库
+  externals:{
+    "jquery":'jQuery'
+  },
 
 }
 
