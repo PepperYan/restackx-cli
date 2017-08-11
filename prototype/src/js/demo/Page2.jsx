@@ -9,7 +9,6 @@ import {observer} from 'mobx-react'
 class PageTwo extends Component {
 
 	render() {
-		const 
 		return (
 			<div>
 				page2
