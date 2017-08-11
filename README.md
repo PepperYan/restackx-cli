@@ -34,7 +34,7 @@ restackx run
 
 使用指令创建项目
 
-```
+```shell
 cd /path/
 #在/path/目录下新建项目, 名为restackx-prototype
 restackx create  
@@ -47,7 +47,7 @@ restackx create -n helloworld
 
 #### 运行
 
-```
+```shell
 #到项目目录下
 cd /path/restackx-prototype
 
@@ -103,7 +103,7 @@ Usage: restackx [options] [command]
 #### 默认项配置
 以下是配置说明
 
-```
+```js
 
 const development = {
 
