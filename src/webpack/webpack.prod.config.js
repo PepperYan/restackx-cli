@@ -45,6 +45,6 @@ var config = makeConfig({
   },
 
   plugins: plugins
-}, cwd, "production")
+}, cwd, project, "production")
 
 module.exports =  config

@@ -49,5 +49,5 @@ module.exports = function (cwd, project) {
       }),
       new HtmlWebpackHarddiskPlugin()
     ]
-  }, cwd);
+  }, cwd, project);
 };

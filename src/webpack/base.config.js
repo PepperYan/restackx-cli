@@ -10,7 +10,7 @@ var HappyPack = require('happypack');
 
 
 //改成func是因为要指定happypack的缓存路径到项目目录
-function config(cwd,env){
+function config(cwd, project,env){
   var less
   var css
   var scss
@@ -23,6 +23,8 @@ function config(cwd,env){
     css = {test: /\.css$/, use:[ 'style-loader','css-loader']};
     scss = {test: /\.scss|sass$/, use:[ 'style-loader','css-loader','sass-loader']};
   }
+
+  var externals = project.externals || {}
 
   return {
 
@@ -93,6 +95,7 @@ function config(cwd,env){
         "@":path.resolve(cwd,'./src')
       }
     },
+    externals: externals,
     plugins: [
       // new ExtractTextPlugin("[name].[hash].css"),
       new webpack.DefinePlugin({
@@ -151,6 +154,6 @@ function merge(target, source) {
   return target
 }
 
-module.exports.makeConfig = function(newConfig,cwd, env) {
-  return merge(_.cloneDeep(config(cwd, env)), newConfig);
+module.exports.makeConfig = function(newConfig,cwd, project, env) {
+  return merge(_.cloneDeep(config(cwd, project, env)), newConfig);
 }
