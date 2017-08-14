@@ -1,9 +1,8 @@
 # Restackx-cli
 
 ## 简介
-restackx-cli是结合前端框架`restackx-core` 的脚手架
+restackx-cli是基于`React``mobx``webpack`的快速开发工具
 
-[restackx-core文档](https://github.com/PepperYan/restackx-core)
 
 ## 安装
 在安装`restackx-cli`前, 请先安装`nodejs 6.0`以上版本 
