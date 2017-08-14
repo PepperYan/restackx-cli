@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import _ from 'lodash'
 import {withRouter} from 'react-router'
-import {inject} from 'restackx-core'
-import {observer} from 'mobx-react'
+import {observer,inject} from 'mobx-react'
 
+
+@inject('todos')
 @withRouter
-@inject()
 @observer
 export default class Page1 extends Component {
 

@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import {inject} from 'restackx-core'
 import _ from 'lodash'
-import {observer} from 'mobx-react'
+import {observer,inject} from 'mobx-react'
 
-@inject()
+@inject("todos")
 @observer
 class PageTwo extends Component {
 
