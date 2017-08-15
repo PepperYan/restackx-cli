@@ -22,13 +22,13 @@
 
 ```
 
-###配置
+### 配置
 
-####webpack
+#### webpack
 *注意*
 当需要自定义**webpack**配置时, 需要添加webpack目录, 并且在目录下**必须**添加 `webpack.dev.config.js`以及`webpack.prod.config.js`作为配置加载.
 
-####cli配置
+#### cli配置
 默认提供两种环境的cli配置, 分别是`dev.js`以及`prod.js`,详细用法参考cli文档
 
 
