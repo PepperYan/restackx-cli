@@ -4,7 +4,7 @@
   "private": true,
   "description": "react-mobx-webpack-boilerplate",
   "scripts": {
-    "start": "npm run dev",
+    "start": "restackx run",
     "dev": "restackx run",
     "prod": "restackx run -e prod",
     "build": "restackx build",
