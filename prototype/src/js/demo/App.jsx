@@ -1,27 +1,28 @@
 import React, { Component } from 'react'
-
 import PropTypes from 'prop-types'
-import _ from 'lodash'
+import {withRouter} from 'react-router'
+import {observer,inject} from 'mobx-react'
 
+import LogoWithTitileImg from './restack-logo.png'
+import './app.less'
+
+
+@inject('hello')
+@withRouter
+@observer
 export default class App extends Component {
 
-	static propTypes ={
+  render() {
+    let { msg } = this.props.hello
 
-	}
-
-	onClickMenu(e) {
-	}
-
-	render() {
-
-		return (
-			<div>
-				<div className="content-wrapper" style={{minHeight: 916}}>
-					<section className="content">
-						{this.props.children}
-					</section>
-				</div>
-				</div>
-		)
-	}
+    return (
+      <div className="app">
+        <img className="logo" src={LogoWithTitileImg}/>
+        <div className="helloworld">
+          <h1>Welcome to Restackx for React</h1>
+          Let's begin in <code>demo/index.jsx</code>, change the <i>{msg}</i>.
+        </div>
+      </div>
+    )
+  }
 }
