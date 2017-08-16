@@ -21,7 +21,6 @@
   "dependencies": {
     "ansi-regex": "^3.0.0",
     "body-parser": "^1.14.2",
-    "history": "^1.17.0",
     "isomorphic-fetch": "^2.2.0",
     "less": "^2.5.3",
     "lodash": "^4.5.1",

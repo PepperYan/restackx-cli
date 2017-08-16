@@ -1,13 +1,13 @@
-import {observable, computed, reaction} from 'mobx'
+import {observable, computed, reaction, action} from 'mobx'
 
 
 export default class HelloStore{
   @observable msg = "world"
 
-  sayHi(name){
+  @action sayHi(name){
   }
 
-  changeMsg(msg){
+  @action changeMsg(msg){
     this.msg = msg
   }
 }
