@@ -79,8 +79,6 @@
     "moment": "^2.18.1",
     "mustache": "^2.3.0",
     "ncp": "^2.0.0",
-    "postcss-less": "^1.1.0",
-    "postcss-loader": "^2.0.6",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.4",
     "sass-loader": "^6.0.6",

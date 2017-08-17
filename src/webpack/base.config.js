@@ -16,7 +16,7 @@ function config(cwd, project,env){
   var scss
   if(env === 'production'){
     less = {test: /\.less$/, loader:ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'less-loader']})}
-    css = {test: /\.css$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:'css-loader'})}
+    css = {test: /\.css$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader']})}
     scss = {test: /\.scss|sass$/, loader: ExtractTextPlugin.extract({fallback:"style-loader",use:['css-loader', 'sass-loader']})}
   }else{
     less = {test: /\.less$/, use:[ 'style-loader','css-loader','less-loader']};

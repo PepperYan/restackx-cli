@@ -23,7 +23,7 @@ module.exports = function (cwd, project) {
 
   return makeConfig({
     // context: cwd,
-    devtool: "eval-source-map",
+    devtool: "cheap-module-eval-source-map",
     //为每个entry增加hot load
     entry: entries,
     output: {
