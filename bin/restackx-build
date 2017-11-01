@@ -73,25 +73,34 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
   var exec = require('child_process').exec;
   var cmd = 'node '+webpack+' -p --progress --profile --config '+config;
 
-  console.log("compiling production files...");
-  exec(cmd,{'env':{'NODE_ENV':'production','BABEL_ENV':'server'}}, function(error, stdout, stderr) {
-    // command output is in stdout
-    console.log(stdout)
-    console.error(stderr)
 
-    fs.exists(program.cwd+"/static", (exists) => {
-      if(exists){
-        //复制static到dist目录下
-        console.log('bundling static libs...');
-        fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
-          if (err) return console.error(err)
-          compressDist();
-        })
-      }else{
-        //直接压缩
+  console.log('compiling production files...')
+  var execSync = require('child_process').execSync
+
+  execSync(cmd, {
+    'env': {'NODE_ENV': 'production','BABEL_ENV': 'server'},
+    stdio: [0, 1, 2]
+  })
+
+  fs.exists(program.cwd+"/static", (exists) => {
+    if(exists){
+      //复制static到dist目录下
+      console.log('bundling static libs...');
+      fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
+        if (err) return console.error(err)
         compressDist();
-      }
-    })
-  });
+      })
+    }else{
+      //直接压缩
+      compressDist();
+    }
+  })
+  // exec(cmd,{'env':{'NODE_ENV':'production','BABEL_ENV':'server'}}, function(error, stdout, stderr) {
+  //   // command output is in stdout
+  //   console.log(stdout)
+  //   console.error(stderr)
+
+   
+  // });
 
 });
