@@ -76,8 +76,6 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
   }
 
   var actualConfig = require(config);
-  console.log(actualConfig)
-
   var compiler;
   try {
     compiler = webpack(actualConfig);
