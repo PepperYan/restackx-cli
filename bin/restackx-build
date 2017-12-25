@@ -7,6 +7,10 @@ var fse = require('fs-extra');
 var exec = require('child_process').exec;
 var execSync = require('child_process').execSync;
 
+
+var webpack = require('webpack');
+
+
 const distDir = program.cwd+"/dist"
 const happypackCache = program.cwd+"/.happypack"
 var deleteFolderRecursive = function(path) {
@@ -60,8 +64,7 @@ deleteFolderRecursive(happypackCache)
 
 //build production files
 console.log("building with production enviroment")
-var path2Config = program.cwd+ "/config/"+program.env
-var projectConfig = require(path2Config);
+var logger = require("../lib/utils/logger");
 fs.exists(program.cwd+"/config/webpack", (exists) => {
   var config;
   if (exists) {
@@ -72,39 +75,36 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
     config = __dirname+"/../lib/webpack/webpack.prod.config.js";
   }
 
-  //同步进行,暂时放到callback里
-  // var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
-  var webpack = __dirname+"/../node_modules/webpack/bin/webpack.js"
-  var cmd = 'node '+webpack+' -p --progress --profile --config '+config;
+  var actualConfig = require(config);
 
-
-  console.log('compiling production files...')
-  var execSync = require('child_process').execSync
-
-  execSync(cmd, {
-    'env': {'NODE_ENV': 'production','BABEL_ENV': 'server'},
-    stdio: [0, 1, 2]
-  })
-
-  fs.exists(program.cwd+"/static", (exists) => {
-    if(exists){
-      //复制static到dist目录下
-      console.log('bundling static libs...');
-      fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
-        if (err) return console.error(err)
-        // compressDist();
-      })
-    }else{
-      //直接压缩
-      // compressDist();
+  try {
+    var compiler = webpack(actualConfig);
+    logger.log("读取webpack配置")
+  } catch (err) {
+    if (err.name === 'WebpackOptionsValidationError') {
+    } else {
+      throw err
     }
-  })
-  // exec(cmd,{'env':{'NODE_ENV':'production','BABEL_ENV':'server'}}, function(error, stdout, stderr) {
-  //   // command output is in stdout
-  //   console.log(stdout)
-  //   console.error(stderr)
+  }
 
-   
-  // });
+  compiler.run((err, stats) => {
+    if (err) {
+      process.exitCode = 1
+      return console.error(err.stack)
+    }
+    if (stats.hasErrors() || stats.hasWarnings()) {
+      process.exitCode = 1
+      return console.error(stats.toString('errors-only'))
+    }
+    console.log(stats.toString({
+      chunks: false,
+      children: false,
+      modules: false,
+      colors: true
+    }))
+    console.log(`\n Compiled successfully.\n`)
+    console.log(`The dist folder is ready to be deployed.`)
+    console.log(`You may also serve it locally with a static server:\n`)
+  })
 
 });
