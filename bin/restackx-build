@@ -3,7 +3,9 @@
 //remove dir and files
 var program = require('./program');
 var fs = require('fs');
-var fse = require('fs-extra')
+var fse = require('fs-extra');
+var exec = require('child_process').exec;
+var execSync = require('child_process').execSync;
 
 const distDir = program.cwd+"/dist"
 const happypackCache = program.cwd+"/.happypack"
@@ -21,6 +23,9 @@ var deleteFolderRecursive = function(path) {
   }
 };
 
+/**
+ * @deprecated 可废弃?
+ */
 var compressDist = function(){
   console.log("zipping... with prod enviroment");
   var archiver = require('archiver');
@@ -69,8 +74,7 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
 
   //同步进行,暂时放到callback里
   // var config = __dirname+"/../lib/webpack/webpack.prod.config.js"
-  var webpack = __dirname+"/../node_modules/webpack/bin/webpack"
-  var exec = require('child_process').exec;
+  var webpack = __dirname+"/../node_modules/webpack/bin/webpack.js"
   var cmd = 'node '+webpack+' -p --progress --profile --config '+config;
 
 
@@ -88,11 +92,11 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
       console.log('bundling static libs...');
       fse.copy(program.cwd+'/static', program.cwd+'/dist', function (err) {
         if (err) return console.error(err)
-        compressDist();
+        // compressDist();
       })
     }else{
       //直接压缩
-      compressDist();
+      // compressDist();
     }
   })
   // exec(cmd,{'env':{'NODE_ENV':'production','BABEL_ENV':'server'}}, function(error, stdout, stderr) {
