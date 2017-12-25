@@ -72,27 +72,33 @@ fs.exists(program.cwd+"/config/webpack", (exists) => {
     config = program.cwd+"/config/webpack/webpack.prod.config";
     console.error('using custom webpack config for production build');
   } else {
-    config = __dirname+"/../lib/webpack/webpack.prod.config.js";
+    config = __dirname+"/../lib/webpack/webpack.prod.config";
   }
 
   var actualConfig = require(config);
+  console.log(actualConfig)
 
+  var compiler;
   try {
-    var compiler = webpack(actualConfig);
+    compiler = webpack(actualConfig);
     logger.log("读取webpack配置")
   } catch (err) {
     if (err.name === 'WebpackOptionsValidationError') {
+      logger.fatal(err.message)
     } else {
       throw err
     }
   }
 
   compiler.run((err, stats) => {
+    logger.log("编译")
+    
     if (err) {
+      logger.fatal(err)
       process.exitCode = 1
       return console.error(err.stack)
     }
-    if (stats.hasErrors() || stats.hasWarnings()) {
+    if (stats.hasErrors()) {
       process.exitCode = 1
       return console.error(stats.toString('errors-only'))
     }
