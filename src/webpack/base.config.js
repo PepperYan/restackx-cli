@@ -40,43 +40,43 @@ function config(cwd, project,env){
     module: {
       rules: [
         // 使用原生babel-loader
-        // {
-        //   test: /\.js[x]?$/,
-        //   loader: 'babel-loader?id=jsx',
-        //   exclude: /(node_modules|bower_components)/,
-        //   options: {
-        //     "cacheDirectory":true,
-        //     "presets": [
-        //       [
-        //         "es2015", {"modules":false }
-        //       ],
-        //       "stage-1",
-        //       "react"
-        //     ],
-        //     "plugins": [
-        //       "transform-decorators-legacy",
-        //       "transform-class-properties",
-        //       "transform-object-rest-spread",
-        //       "transform-decorators",
-        //       "transform-runtime",
-        //       "syntax-async-functions",
-        //       "transform-regenerator",
-        //       "transform-object-assign"
-        //     ],
-        //     "env": {
-        //       "development": {
-        //         "presets": ["react-hmre"]
-        //       }
-        //     }
-        //   }
-        // },
-
-        //替换happypack loader
         {
           test: /\.js[x]?$/,
-          loaders: [ 'happypack/loader?id=js' ],
+          loader: 'babel-loader?id=jsx',
           exclude: /(node_modules|bower_components)/,
+          options: {
+            "cacheDirectory":true,
+            "presets": [
+              [
+                "es2015", {"modules":false }
+              ],
+              "stage-1",
+              "react"
+            ],
+            "plugins": [
+              "transform-decorators-legacy",
+              "transform-class-properties",
+              "transform-object-rest-spread",
+              "transform-decorators",
+              "transform-runtime",
+              "syntax-async-functions",
+              "transform-regenerator",
+              "transform-object-assign"
+            ],
+            "env": {
+              "development": {
+                "presets": ["react-hmre"]
+              }
+            }
+          }
         },
+
+        //替换happypack loader
+        // {
+        //   test: /\.js[x]?$/,
+        //   loaders: [ 'happypack/loader?id=js' ],
+        //   exclude: /(node_modules|bower_components)/,
+        // },
 
         less,
         css,
@@ -104,40 +104,40 @@ function config(cwd, project,env){
         }
       }),
       new webpack.NoEmitOnErrorsPlugin(),
-      new HappyPack({
-        id:"js",
-        loaders:[
-          {
-            path:'babel-loader',
-            query:{
-              "presets": [
-                [
-                  "es2015", {"modules":false }
-                ],
-                "stage-1",
-                "react"
-              ],
-              "plugins": [
-                "transform-decorators-legacy",
-                "transform-class-properties",
-                "transform-object-rest-spread",
-                "transform-decorators",
-                "transform-runtime",
-                "syntax-async-functions",
-                "transform-regenerator",
-                "transform-object-assign",
-              ],
-              "cacheDirectory":true
-            },
-            "env": {
-              "development": {
-                "presets": ["react-hmre"]
-              }
-            }
-          }
-        ],
-        threads:10
-      })
+      // new HappyPack({
+      //   id:"js",
+      //   loaders:[
+      //     {
+      //       path:'babel-loader',
+      //       query:{
+      //         "presets": [
+      //           [
+      //             "es2015", {"modules":false }
+      //           ],
+      //           "stage-1",
+      //           "react"
+      //         ],
+      //         "plugins": [
+      //           "transform-decorators-legacy",
+      //           "transform-class-properties",
+      //           "transform-object-rest-spread",
+      //           "transform-decorators",
+      //           "transform-runtime",
+      //           "syntax-async-functions",
+      //           "transform-regenerator",
+      //           "transform-object-assign",
+      //         ],
+      //         "cacheDirectory":true
+      //       },
+      //       "env": {
+      //         "development": {
+      //           "presets": ["react-hmre"]
+      //         }
+      //       }
+      //     }
+      //   ],
+      //   threads:10
+      // })
     ]
   };
 }
@@ -145,11 +145,12 @@ function config(cwd, project,env){
 // merge webpack config options
 function merge(target, source) {
   // base props
-  target = Object.assign( {}, target, _.pick(source, ['devtool']) )
+  target = Object.assign( {}, target, _.pick(source, ['devtool', 'mode', 'target']) )
 
   target.entry = Object.assign({}, target.entry, source.entry)
   target.output = Object.assign({}, target.output, source.output)
   target.plugins = target.plugins.concat( source.plugins )
+
 
   return target
 }

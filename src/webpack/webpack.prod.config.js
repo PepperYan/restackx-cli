@@ -43,6 +43,7 @@ var config = makeConfig({
     publicPath: './',
     filename:'[name].[hash].js'
   },
+  mode:'production',
 
   plugins: plugins
 }, cwd, project, "production")

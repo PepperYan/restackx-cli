@@ -26,28 +26,23 @@ module.exports = function (cwd, project) {
     devtool: "cheap-module-eval-source-map",
     //为每个entry增加hot load
     entry: entries,
+    target: 'web',
+    mode:'development',
     output: {
       // 如果webpack-server的端口与app-server的端口不一样，hmr会使用这个路径作为前缀，加载热补丁
       publicPath: project.staticUrl + '/'
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
-      new webpack.optimize.CommonsChunkPlugin({
-        name: 'vendors',
-        filename: 'vendors.js',
-        // (Modules must be shared between 3 entries)
-        minChunks: 2
-        // (Only use between these entries)
-        // chunks: ["index", "kitchensink"]
-      }),
+      // new webpack.optimization.splitChunks({
+      //   chunks:'all'
+      // }),
       new HtmlWebpackPlugin({
-        alwaysWriteToDisk: true,
         chunks:keys,
         hash:true,
         filename:cwd+'/.temp/index.html',//分模块文件夹
         template: cwd+'/template.html'
       }),
-      new HtmlWebpackHarddiskPlugin()
     ]
   }, cwd, project);
 };

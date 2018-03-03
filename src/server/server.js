@@ -69,11 +69,11 @@ if (process.env.NODE_ENV == 'production' || env == 'prod') {
       config = require(`../webpack/webpack.${env}.config`)(cwd, projectConfig);
     }
     
-    console.error('using custom webpack config for devserver');
+    console.error('using webpack config for devserver');
     var compiler = webpack(config);
     app.use(webpackDevMiddleware(compiler, {
       noInfo: true,
-      publicPath: projectConfig.staticUrl + '/',
+      publicPath: config.publicPath,
       headers: { 'Access-Control-Allow-Origin': '*' },
       stats: { colors: true }
     }));
