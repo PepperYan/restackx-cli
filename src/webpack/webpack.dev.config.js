@@ -40,7 +40,7 @@ module.exports = function (cwd, project) {
       new HtmlWebpackPlugin({
         chunks:keys,
         hash:true,
-        filename:cwd+'/.temp/index.html',//分模块文件夹
+        // filename:cwd+'/.temp/index.html',//分模块文件夹
         template: cwd+'/template.html'
       }),
     ]
