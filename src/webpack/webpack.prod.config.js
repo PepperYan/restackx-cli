@@ -26,14 +26,11 @@ plugins.push(new webpack.LoaderOptionsPlugin({
 }))
 
 plugins.push(new ExtractTextPlugin("[name].[hash].css"))
-// plugins.push(new UglifyJsPlugin({
-//   sourceMap: false
-// }));
 plugins.push(new webpack.optimize.ModuleConcatenationPlugin())
-plugins.push(new webpack.optimize.UglifyJsPlugin({
-   compress: { warnings: false },
-   output: { comments: false }
-}))
+// plugins.push(new webpack.optimize.UglifyJsPlugin({
+//    compress: { warnings: false },
+//    output: { comments: false }
+// }))
 
 
 var config = makeConfig({
@@ -50,9 +47,10 @@ var config = makeConfig({
         sourceMap: true,
         uglifyOptions: {
             compress: {
-                inline: false,
+                inline: true,
             },
         },
+        parallel: true
       })
     ]
   },

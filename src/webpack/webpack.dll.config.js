@@ -4,12 +4,7 @@ module.exports = {
   entry: {
     // create two library bundles, one with jQuery and
     // another with Angular and related libraries\
-    vendors: ['react', 'react-dom', 'react-router', 'history',
-      'react-addons-pure-render-mixin','react-iscroll',
-      'lodash','jquery',
-      "moment","highlight.js","react-toastr","classnames",
-      "react-swipe",'iscroll'
-    ]
+    vendors: []
   },
 
   output: {
