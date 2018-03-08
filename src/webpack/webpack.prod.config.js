@@ -4,7 +4,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var makeConfig = require("./base.config.js").makeConfig;
 var path = require('path');
-var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 var plugins = [];
 
@@ -44,7 +44,18 @@ var config = makeConfig({
     filename:'[name].[hash].js'
   },
   mode:'production',
-
+  optimization:{
+    minimizer:[
+      new UglifyJsPlugin({
+        sourceMap: true,
+        uglifyOptions: {
+            compress: {
+                inline: false,
+            },
+        },
+      })
+    ]
+  },
   plugins: plugins
 }, cwd, project, "production")
 
